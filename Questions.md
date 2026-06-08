@@ -205,11 +205,9 @@ A\. Asiakkaan.
 B\. Taksinkuljettaja.   
 C\. Henkilökohtainen avustaja.
 
-**38\. Mika seuraavista pydratuolin kayttoa ja kiinnittamista koskevista**   
-**vaitteista pitaa paikkaansa?**  
+**38\. Mika seuraavista pydratuolin kayttoa ja kiinnittamista koskevista vaitteista pitaa paikkaansa?**  
 A\. Séhkopyoratuolia ei tarvitse kiinnittda ajoneuvoon.  
-B\. Asiakkaan ei tarvitse ajon aikana pyorétuolissa istuessa kéyttaa ajoneuvon  
-turvavyota.  
+B\. Asiakkaan ei tarvitse ajon aikana pyorétuolissa istuessa kéyttaa ajoneuvon turvavyota.  
 C\. Pyoratuoli tulee kiinnittaa siten, etté se estad ainoastaan sivusuuntaisen liikkeen.
 
 **39\. Mikä seuraavista pyörätuolin käyttöä ja kiinnittämistä koskevista väitteistä pitää paikkaansa?**   

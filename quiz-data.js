@@ -749,7 +749,7 @@ window.QUIZ_DATA = [
       },
       {
         "letter": "B",
-        "text": "Asiakkaan ei tarvitse ajon aikana pyorétuolissa istuessa kéyttaa ajoneuvon"
+        "text": "Asiakkaan ei tarvitse ajon aikana pyorétuolissa istuessa kéyttaa ajoneuvon turvavyota."
       },
       {
         "letter": "C",
