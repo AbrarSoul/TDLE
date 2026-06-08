@@ -221,11 +221,11 @@ window.QUIZ_DATA = [
   },
   {
     "id": 12,
-    "text": "Asiakkaana on henkil6 joka ei kykene kommunikoimaan kuljettajan kanssa, mité kuljettajalta vaaditaan?",
+    "text": "Asiakkaana on henkilö joka ei kykene kommunikoimaan kuljettajan kanssa, mitä kuljettajalta vaaditaan?",
     "options": [
       {
         "letter": "A",
-        "text": "Taksinkuljettajalta edellytetéan, etté asiakas paésee oikeaan ma"
+        "text": "Taksinkuljettajalta edellytetéan, etté asiakas paésee oikeaan määränpäähän"
       },
       {
         "letter": "B",
@@ -405,15 +405,15 @@ window.QUIZ_DATA = [
     "options": [
       {
         "letter": "A",
-        "text": "Kerrot asiakkaalle ettet voi ajaa ylinopeutta, koska asetettua nopeusrajoitusta ei"
+        "text": "Kerrot asiakkaalle ettet voi ajaa ylinopeutta, koska asetettua nopeusrajoitusta ei saa ylittää."
       },
       {
         "letter": "B",
-        "text": "Kerrot asiakkaalle, että voit ajaa ylinopeutta, jos asiakkaan kanssa on sovittu, että"
+        "text": "Kerrot asiakkaalle, että voit ajaa ylinopeutta, jos asiakkaan kanssa on sovittu, että hän"
       },
       {
         "letter": "C",
-        "text": "Kerrot asiakkaalle, että voi ajaa ylinopeutta, koska tieliikennelain mukaan ylinopeuden ajaminen on sallittua vain kiireellisissä sairaustapauksissa."
+        "text": "Kerrot asiakkaalle, ettet voi ajaa ylinopeutta, koska tieliikennelain mukaan ylinopeuden ajaminen on sallittua vain kiireellisissä sairaustapauksissa."
       }
     ],
     "correct": "A",
