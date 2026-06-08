@@ -57,9 +57,8 @@ A\. Otetaan asiakkaan lompakosta maksukortti ja veloitetaan kyyti lähimaksulla.
 B\. Kuljettajan tulee puheella ensin yrittää herätellä asiakasta ja tarvittaessa soittaa poliisi paikalle.   
 C\. Kirjoittaa asiakkaalle laskun ja sijoittaa sen asiakkaan taskuun. Asiakas tulee siirtää taksin ulkopuolelle heräilemään ja soittaa poliisi paikalle.
 
-**12\. Asiakkaana on henkil6 joka ei kykene kommunikoimaan kuljettajan**   
-**kanssa, mité kuljettajalta vaaditaan?**  
-A\. Taksinkuljettajalta edellytetéan, etté asiakas paésee oikeaan ma  
+**12\. Asiakkaana on henkilö joka ei kykene kommunikoimaan kuljettajan kanssa, mitä kuljettajalta vaaditaan?**  
+A\. Taksinkuljettajalta edellytetéan, etté asiakas paésee oikeaan määränpäähän  
 B\. Taksinkuljettajalta edellytetén asiakkaiden kanssa saman kielen osaamista  
 C\. Taksinkuljettajalta edellytetaan poikkeuslupaa kuljetuksen suorittamiseen
 
@@ -110,11 +109,10 @@ B\. Kuljettaja saa ajoneuvon liikkuessa puhua puhelimeen handsfree-laitetta käy
 C\. Jos taksissa ei ole asiakkaita, kuljettaja saa ajoneuvon liikkuessa puhua puhelimeen ilman handsfree-laitetta
 
 **21\. Miten toimit kun kyydissä oleva asiakas pyytää ajamaan ylinopeutta?**   
-A\. Kerrot asiakkaalle ettet voi ajaa ylinopeutta, koska asetettua nopeusrajoitusta ei   
-saa ylittää.   
-B\. Kerrot asiakkaalle, että voit ajaa ylinopeutta, jos asiakkaan kanssa on sovittu, että   
-hän ottaa vastattavakseen mahdolliset oikeudelliset seuraamukset.   
-C\. Kerrot asiakkaalle, että voi ajaa ylinopeutta, koska tieliikennelain mukaan ylinopeuden ajaminen on sallittua vain kiireellisissä sairaustapauksissa.
+A\. Kerrot asiakkaalle ettet voi ajaa ylinopeutta, koska asetettua nopeusrajoitusta ei saa ylittää.
+B\. Kerrot asiakkaalle, että voit ajaa ylinopeutta, jos asiakkaan kanssa on sovittu, että hän
+ottaa vastattavakseen mahdolliset oikeudelliset seuraamukset.
+C\. Kerrot asiakkaalle, ettet voi ajaa ylinopeutta, koska tieliikennelain mukaan ylinopeuden ajaminen on sallittua vain kiireellisissä sairaustapauksissa.
 
 **22\. Liikenteessä on poikkeusjärjestelyjä liikenneonnettomuuden vuoksi. Saat samaan aikaan keskenään ristiriitaisia toimintaohjeita kolmelta taholta, jotka eivät tiedä toisistaan. Kenellä on seuraavista on määräysvalta eli kenenohjeita sinun tulee noudattaa?**   
 A\. Liikennevirasto.   
