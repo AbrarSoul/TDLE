@@ -1,0 +1,8 @@
+{
+  "name": "taksi-practice-quiz",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/parse-quiz.js",
+    "start": "npx serve ."
+  }
+}

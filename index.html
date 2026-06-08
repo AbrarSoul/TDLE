@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taksi Practice Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 17h6M5 8l1.5 7h11L19 8H5zM7 8V6a2 2 0 012-2h6a2 2 0 012 2v2"/>
+            </svg>
+          </div>
+          <div>
+            <h1>Taksi Practice Quiz</h1>
+            <p class="subtitle" id="headerSubtitle">Select a quiz from the panel</p>
+          </div>
+        </div>
+        <div class="header-stats hidden" id="headerStats">
+          <span class="stat-pill"><strong id="currentNum">1</strong> / <span id="totalNum">50</span></span>
+          <span class="stat-pill score-pill">Score: <strong id="liveScore">0</strong></span>
+        </div>
+      </div>
+      <div class="progress-track hidden" id="progressTrack" aria-hidden="true">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Quiz selection">
+        <p class="sidebar-label">Quizzes</p>
+        <nav class="quiz-nav" id="quizNav"></nav>
+        <div class="sidebar-footer">
+          <p>150 questions total<br />50 per quiz</p>
+        </div>
+      </aside>
+
+      <main class="main">
+        <!-- Default welcome -->
+        <section class="card screen" id="welcomeScreen">
+          <div class="card-badge">Practice Mode</div>
+          <h2>Welcome</h2>
+          <p class="lead">
+            Choose a quiz from the left panel to get started. Each quiz contains 50 questions
+            from the Finnish taxi driver training material.
+          </p>
+          <ul class="feature-list">
+            <li>3 quizzes covering questions 1–150</li>
+            <li>One question at a time with instant feedback</li>
+            <li>Full score summary at the end of each quiz</li>
+          </ul>
+        </section>
+
+        <!-- Quiz intro screen -->
+        <section class="card screen hidden" id="introScreen">
+          <div class="card-badge" id="introBadge">Quiz 1</div>
+          <h2 id="introTitle">Start Quiz 1</h2>
+          <p class="lead" id="introLead"></p>
+          <ul class="feature-list">
+            <li>50 multiple-choice questions (A, B, or C)</li>
+            <li>Instant green / red feedback — explanations on demand</li>
+            <li>Review your score when you finish</li>
+          </ul>
+          <button class="btn btn-primary btn-lg" id="startBtn" type="button">Start Quiz</button>
+        </section>
+
+        <!-- Quiz screen -->
+        <section class="card screen hidden" id="quizScreen">
+          <div class="question-meta">
+            <span class="question-label"><span id="quizSetLabel">Quiz 1</span> &mdash; Question <span id="qLabel">1</span></span>
+          </div>
+          <h2 class="question-text" id="questionText"></h2>
+          <div class="options" id="optionsContainer" role="radiogroup" aria-label="Answer options"></div>
+          <div class="explanation-area hidden" id="explanationArea">
+            <button class="btn btn-explanation-toggle" id="explanationToggle" type="button" aria-expanded="false" aria-controls="explanationBox">
+              <span class="explanation-toggle-icon" aria-hidden="true">💡</span>
+              Show explanation
+            </button>
+            <div class="explanation-box hidden" id="explanationBox">
+              <div class="explanation-header">
+                <strong id="explanationTitle">Explanation</strong>
+              </div>
+              <p class="explanation-text" id="explanationText"></p>
+            </div>
+          </div>
+          <div class="quiz-actions">
+            <button class="btn btn-secondary" id="prevBtn" type="button" disabled>Previous</button>
+            <button class="btn btn-primary" id="nextBtn" type="button" disabled>Next Question</button>
+          </div>
+        </section>
+
+        <!-- Results screen -->
+        <section class="card screen hidden" id="resultsScreen">
+          <div class="results-icon" id="resultsIcon" aria-hidden="true"></div>
+          <h2 id="resultsTitle">Quiz Complete!</h2>
+          <p class="lead">Here's how you did:</p>
+          <div class="score-display">
+            <div class="score-ring">
+              <span class="score-value" id="finalScore">0</span>
+              <span class="score-divider">/</span>
+              <span class="score-total" id="finalTotal">50</span>
+            </div>
+            <p class="score-percent" id="scorePercent">0%</p>
+          </div>
+          <p class="results-message" id="resultsMessage"></p>
+          <div class="results-breakdown">
+            <div class="breakdown-item correct-stat">
+              <span class="breakdown-num" id="correctCount">0</span>
+              <span class="breakdown-label">Correct</span>
+            </div>
+            <div class="breakdown-item wrong-stat">
+              <span class="breakdown-num" id="wrongCount">0</span>
+              <span class="breakdown-label">Incorrect</span>
+            </div>
+          </div>
+          <div class="results-actions">
+            <button class="btn btn-secondary btn-lg" id="backToIntroBtn" type="button">Back to Quiz</button>
+            <button class="btn btn-primary btn-lg" id="restartBtn" type="button">Try Again</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <p>Taksi Practice Quiz &mdash; for study purposes</p>
+    </footer>
+  </div>
+
+  <!-- Feedback toast -->
+  <div class="toast hidden" id="toast" role="alert" aria-live="assertive">
+    <div class="toast-icon" id="toastIcon"></div>
+    <div class="toast-content">
+      <strong id="toastTitle"></strong>
+      <span id="toastMessage"></span>
+    </div>
+  </div>
+
+  <script src="quiz-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
