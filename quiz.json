@@ -1,4 +1,4 @@
-window.QUIZ_DATA = [
+[
   {
     "id": 1,
     "text": "Miksi sinun on pimeässä moottoritien pysähdyksessä on laitettava ajovalo päälle?",
@@ -273,7 +273,7 @@ window.QUIZ_DATA = [
       },
       {
         "letter": "C",
-        "text": "Koulu- ja päivähoitokuljetuksissa tulee aina käyttää ajoneuvoa, johon on asennettu"
+        "text": "Koulu- ja päivähoitokuljetuksissa tulee aina käyttää ajoneuvoa, johon on asennettu alkolukko"
       }
     ],
     "correct": "C",
@@ -489,11 +489,11 @@ window.QUIZ_DATA = [
       },
       {
         "letter": "B",
-        "text": "Nouset ajoneuvosta ja tiedustelet tarvitseeko hän apua liikkumisessa tai auton"
+        "text": "Nouset ajoneuvosta ja tiedustelet tarvitseeko hän apua liikkumisessa tai auton nousemisessa"
       },
       {
         "letter": "C",
-        "text": "Käsken asiakasta kiirehtimään autoon, jos noutopaikassa on erittäin vilkas"
+        "text": "Käsken asiakasta kiirehtimään autoon, jos noutopaikassa on erittäin vilkas ajoneuvoliikenne"
       }
     ],
     "correct": "B",
@@ -825,15 +825,15 @@ window.QUIZ_DATA = [
     "options": [
       {
         "letter": "A",
-        "text": "Totean asiakkaalle, että hän ei saa siirtyä pyörätuolista ajoneuvoon ilman kuljettajan apua."
+        "text": "Totean asiakkaalle, että hän ei saa siirtyä pyörätuolista ajoneuvoon ilman kuljettajan apua"
       },
       {
         "letter": "B",
-        "text": "Totean asiakkaalle, että hänellä on oikeus siirtyä itse pyörätuolista ajoneuvoon ja"
+        "text": "Totean asiakkaalle, että hänellä on oikeus siirtyä itse pyörätuolista ajoneuvoon ja tarvittaessa avustan häntä"
       },
       {
         "letter": "C",
-        "text": "Totean asiakkaalle, että pyörätuolissa saapuva asiakas ei saa istua ajoneuvon etupenkillä."
+        "text": "Totean asiakkaalle, että pyörätuolissa saapuva asiakas ei saa istua ajoneuvon etupenkillä"
       }
     ],
     "correct": "B",
@@ -2869,7 +2869,7 @@ window.QUIZ_DATA = [
       },
       {
         "letter": "B",
-        "text": "Taksinkuljettajan tulee varmistua, että asiakas pääsee sisälle hoitolaitokseen ja"
+        "text": "Taksinkuljettajan tulee varmistua, että asiakas pääsee sisälle hoitolaitokseen ja hoitohenkilökunta ottaa vastaan asiakkaan"
       },
       {
         "letter": "C",
@@ -2999,4 +2999,4 @@ window.QUIZ_DATA = [
     "correct": "B",
     "explanation": "Answer: B\n\nMain keyword: Image O → B\n\nImage question — correct option is B per answer key.\n\nCorrect answer: B"
   }
-];
+]

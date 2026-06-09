@@ -2,9 +2,9 @@
   const allQuestions = window.QUIZ_DATA || [];
 
   const QUIZ_SETS = [
-    { id: 1, title: 'Quiz 1', rangeStart: 1, rangeEnd: 50 },
-    { id: 2, title: 'Quiz 2', rangeStart: 51, rangeEnd: 100 },
-    { id: 3, title: 'Quiz 3', rangeStart: 101, rangeEnd: 150 },
+    { id: 1, title: 'Practice 1', rangeStart: 1, rangeEnd: 50 },
+    { id: 2, title: 'Practice 2', rangeStart: 51, rangeEnd: 100 },
+    { id: 3, title: 'Practice 3', rangeStart: 101, rangeEnd: 150 },
   ];
 
   let selectedSet = null;
@@ -124,7 +124,7 @@
     $('introBadge').textContent = selectedSet.title;
     $('introTitle').textContent = 'Start ' + selectedSet.title;
     $('introLead').textContent =
-      'This quiz covers questions ' +
+      'This practice covers questions ' +
       selectedSet.rangeStart +
       ' to ' +
       selectedSet.rangeEnd +
@@ -214,7 +214,7 @@
     explanationArea.classList.remove('explanation-correct', 'explanation-incorrect');
     explanationArea.classList.add(isCorrect ? 'explanation-correct' : 'explanation-incorrect');
     explanationTitle.textContent = isCorrect ? 'Correct — Explanation' : 'Explanation';
-    explanationText.textContent = q.explanation;
+    explanationText.innerHTML = formatExplanation(q.explanation);
     collapseExplanation();
   }
 
@@ -241,7 +241,7 @@
     explanationArea.classList.add('hidden');
     explanationArea.classList.remove('explanation-correct', 'explanation-incorrect');
     explanationBox.classList.add('hidden');
-    explanationText.textContent = '';
+    explanationText.innerHTML = '';
     explanationToggle.setAttribute('aria-expanded', 'false');
   }
 
@@ -354,7 +354,7 @@
     } else {
       icon.classList.add('poor');
       icon.textContent = '💪';
-      msg.textContent = 'Don\'t give up! Review the material and try this quiz again.';
+      msg.textContent = 'Don\'t give up! Review the material and try this practice again.';
     }
   }
 
@@ -362,6 +362,31 @@
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+  }
+
+  function isBoldExplanationLine(line) {
+    const trimmed = line.trim();
+    if (/^(Answer|Correct answer)\s*:/i.test(trimmed)) return true;
+    if (/^(Keyword|Main keyword|Important keyword|Secondary Keyword)\s*:/i.test(trimmed)) {
+      return true;
+    }
+    if (/^[\p{L}\d\- ]+\s*=\s*.+$/u.test(trimmed) && !/^(Logic|Rule|Necessary|Unnecessary)\b/i.test(trimmed)) {
+      return true;
+    }
+    return false;
+  }
+
+  function formatExplanation(text) {
+    return text
+      .split('\n')
+      .map(function (line) {
+        if (isBoldExplanationLine(line)) {
+          return '<strong>' + escapeHtml(line) + '</strong>';
+        }
+        const escaped = escapeHtml(line);
+        return escaped.replace(/&quot;([^&]+)&quot;/g, '<strong>&quot;$1&quot;</strong>');
+      })
+      .join('\n');
   }
 
   init();

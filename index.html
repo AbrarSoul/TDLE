@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Taksi Practice Quiz</title>
+  <title>Taksi Practice</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -20,8 +20,8 @@
             </svg>
           </div>
           <div>
-            <h1>Taksi Practice Quiz</h1>
-            <p class="subtitle" id="headerSubtitle">Select a quiz from the panel</p>
+            <h1>Taksi Practice</h1>
+            <p class="subtitle" id="headerSubtitle">Select a practice from the panel</p>
           </div>
         </div>
         <div class="header-stats hidden" id="headerStats">
@@ -35,11 +35,11 @@
     </header>
 
     <div class="layout">
-      <aside class="sidebar" aria-label="Quiz selection">
-        <p class="sidebar-label">Quizzes</p>
+      <aside class="sidebar" aria-label="Practice selection">
+        <p class="sidebar-label">Practices</p>
         <nav class="quiz-nav" id="quizNav"></nav>
         <div class="sidebar-footer">
-          <p>150 questions total<br />50 per quiz</p>
+          <p>150 questions total<br />50 per practice</p>
         </div>
       </aside>
 
@@ -49,33 +49,33 @@
           <div class="card-badge">Practice Mode</div>
           <h2>Welcome</h2>
           <p class="lead">
-            Choose a quiz from the left panel to get started. Each quiz contains 50 questions
+            Choose a practice from the left panel to get started. Each practice contains 50 questions
             from the Finnish taxi driver training material.
           </p>
           <ul class="feature-list">
-            <li>3 quizzes covering questions 1–150</li>
+            <li>3 practices covering questions 1–150</li>
             <li>One question at a time with instant feedback</li>
-            <li>Full score summary at the end of each quiz</li>
+            <li>Full score summary at the end of each practice</li>
           </ul>
         </section>
 
-        <!-- Quiz intro screen -->
+        <!-- Practice intro screen -->
         <section class="card screen hidden" id="introScreen">
-          <div class="card-badge" id="introBadge">Quiz 1</div>
-          <h2 id="introTitle">Start Quiz 1</h2>
+          <div class="card-badge" id="introBadge">Practice 1</div>
+          <h2 id="introTitle">Start Practice 1</h2>
           <p class="lead" id="introLead"></p>
           <ul class="feature-list">
             <li>50 multiple-choice questions (A, B, or C)</li>
             <li>Instant green / red feedback — explanations on demand</li>
             <li>Review your score when you finish</li>
           </ul>
-          <button class="btn btn-primary btn-lg" id="startBtn" type="button">Start Quiz</button>
+          <button class="btn btn-primary btn-lg" id="startBtn" type="button">Start Practice</button>
         </section>
 
-        <!-- Quiz screen -->
+        <!-- Practice screen -->
         <section class="card screen hidden" id="quizScreen">
           <div class="question-meta">
-            <span class="question-label"><span id="quizSetLabel">Quiz 1</span> &mdash; Question <span id="qLabel">1</span></span>
+            <span class="question-label"><span id="quizSetLabel">Practice 1</span> &mdash; Question <span id="qLabel">1</span></span>
           </div>
           <h2 class="question-text" id="questionText"></h2>
           <div class="options" id="optionsContainer" role="radiogroup" aria-label="Answer options"></div>
@@ -100,7 +100,7 @@
         <!-- Results screen -->
         <section class="card screen hidden" id="resultsScreen">
           <div class="results-icon" id="resultsIcon" aria-hidden="true"></div>
-          <h2 id="resultsTitle">Quiz Complete!</h2>
+          <h2 id="resultsTitle">Practice Complete!</h2>
           <p class="lead">Here's how you did:</p>
           <div class="score-display">
             <div class="score-ring">
@@ -122,7 +122,7 @@
             </div>
           </div>
           <div class="results-actions">
-            <button class="btn btn-secondary btn-lg" id="backToIntroBtn" type="button">Back to Quiz</button>
+            <button class="btn btn-secondary btn-lg" id="backToIntroBtn" type="button">Back to Practice</button>
             <button class="btn btn-primary btn-lg" id="restartBtn" type="button">Try Again</button>
           </div>
         </section>
@@ -130,7 +130,7 @@
     </div>
 
     <footer class="footer">
-      <p>Taksi Practice Quiz &mdash; for study purposes</p>
+      <p>Taksi Practice &mdash; for study purposes</p>
     </footer>
   </div>
 

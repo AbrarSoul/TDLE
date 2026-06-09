@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "answer": "A",
+    "keywords": "Jotta muut…..........",
+    "note": ""
+  },
+  {
+    "id": 2,
+    "answer": "B",
+    "keywords": "Hätäkeskus",
+    "note": "Answer is must when there is Hätäkeskus"
+  },
+  {
+    "id": 3,
+    "answer": "C",
+    "keywords": "Liikenteen valvojan",
+    "note": "always"
+  },
+  {
+    "id": 4,
+    "answer": "B",
+    "keywords": "Elviira itse",
+    "note": "Elviira itse is always anwer where available"
+  },
+  {
+    "id": 5,
+    "answer": "B",
+    "keywords": "Taksinkuljettaja",
+    "note": ""
+  },
+  {
+    "id": 6,
+    "answer": "A",
+    "keywords": "Huolehdit…........ koko matkan ajan",
+    "note": ""
+  },
+  {
+    "id": 7,
+    "answer": "C",
+    "keywords": "if answer has two Lasta voi then answer is Lapsi tulee",
+    "note": ""
+  },
+  {
+    "id": 8,
+    "answer": "B",
+    "keywords": "Puhelun soittaminen…............. välttämätön",
+    "note": ""
+  },
+  {
+    "id": 9,
+    "answer": "B",
+    "keywords": "Voit jatkaa matkaa….........paassyt sisatilaan",
+    "note": ""
+  },
+  {
+    "id": 10,
+    "answer": "A",
+    "keywords": "Jos paikka…..poistuminen",
+    "note": ""
+  },
+  {
+    "id": 11,
+    "answer": "B",
+    "keywords": "Kuljettajan tulee …..... poliisi paikalle",
+    "note": ""
+  },
+  {
+    "id": 12,
+    "answer": "A",
+    "keywords": "Taksinkuljettajalta ….......... määränpäähän",
+    "note": ""
+  },
+  {
+    "id": 13,
+    "answer": "A",
+    "keywords": "Sillä estetään…........",
+    "note": ""
+  },
+  {
+    "id": 14,
+    "answer": "C",
+    "keywords": "Koulu- ja päivähoitokuljetuksissa",
+    "note": ""
+  },
+  {
+    "id": 15,
+    "answer": "B",
+    "keywords": "….............roolin mukaisesti",
+    "note": ""
+  },
+  {
+    "id": 16,
+    "answer": "B",
+    "keywords": "Työnantajan",
+    "note": ""
+  },
+  {
+    "id": 17,
+    "answer": "B",
+    "keywords": "Koulu- ja päivähoitokuljetuksissa",
+    "note": "if question has alkolukko answer is always Koulu- ja päivähoitokuljetuksissa"
+  },
+  {
+    "id": 18,
+    "answer": "A",
+    "keywords": "start with Pysäytät end with kiinni",
+    "note": ""
+  },
+  {
+    "id": 19,
+    "answer": "C",
+    "keywords": "…............kyydin päätyttyä",
+    "note": "kyydin päätyttyä is the anwer it is available in option"
+  },
+  {
+    "id": 20,
+    "answer": "B",
+    "keywords": "Kuljettaja …............. välttämätöntä",
+    "note": ""
+  },
+  {
+    "id": 21,
+    "answer": "A",
+    "keywords": "Kerrot asiakkaalle …....... ei saa ylittää",
+    "note": ""
+  },
+  {
+    "id": 22,
+    "answer": "B",
+    "keywords": "Poliisi",
+    "note": "if question end with noudattaa then answer is always Pollisi"
+  },
+  {
+    "id": 23,
+    "answer": "C",
+    "keywords": "Taksinkuljettajan on hyvä kysyä asiakkaalta",
+    "note": ""
+  },
+  {
+    "id": 24,
+    "answer": "B",
+    "keywords": "Nakovammainen…..palata kyydissa",
+    "note": ""
+  },
+  {
+    "id": 25,
+    "answer": "B",
+    "keywords": "Nouset …........ nousemisessa.",
+    "note": ""
+  },
+  {
+    "id": 26,
+    "answer": "A",
+    "keywords": "Nouset autosta ja kerrot….......... asiakkaan jalkatilassa",
+    "note": ""
+  },
+  {
+    "id": 27,
+    "answer": "C",
+    "keywords": "Kuljettaan tulee käyttää turvavyötä",
+    "note": ""
+  },
+  {
+    "id": 28,
+    "answer": "B",
+    "keywords": "….....asiakan kansaa",
+    "note": ""
+  },
+  {
+    "id": 29,
+    "answer": "A",
+    "keywords": "…........asiakkaan kanssa…......",
+    "note": ""
+  },
+  {
+    "id": 30,
+    "answer": "C",
+    "keywords": "huolehtii",
+    "note": "if there is 3 kuljettaja at beginning then answer is with huolehtii"
+  },
+  {
+    "id": 31,
+    "answer": "B",
+    "keywords": "answer is the option where there is Kolhi",
+    "note": "Virat Kohli"
+  },
+  {
+    "id": 32,
+    "answer": "A",
+    "keywords": "0.1",
+    "note": "it is always answer where available"
+  },
+  {
+    "id": 33,
+    "answer": "C",
+    "keywords": "Helmi on oikeutettu vakiotaksiin",
+    "note": "small option is the answer when question start with Helmi"
+  },
+  {
+    "id": 34,
+    "answer": "C",
+    "keywords": "Neuvon …............ palvelunumeroon",
+    "note": ""
+  },
+  {
+    "id": 35,
+    "answer": "B",
+    "keywords": "if question has KELA-kyydista answer is Enintaan",
+    "note": ""
+  },
+  {
+    "id": 36,
+    "answer": "B",
+    "keywords": "Neuvon ….............. palvelunumeroon",
+    "note": ""
+  },
+  {
+    "id": 37,
+    "answer": "B",
+    "keywords": "Taksinkuljettaja",
+    "note": ""
+  },
+  {
+    "id": 38,
+    "answer": "B",
+    "keywords": "Asiakkaan ei …........... käyttää ajoneuvon turvavyötä.",
+    "note": ""
+  },
+  {
+    "id": 39,
+    "answer": "A",
+    "keywords": "rungosta",
+    "note": "answer is must when there is rungosta"
+  },
+  {
+    "id": 40,
+    "answer": "B",
+    "keywords": "Selvität",
+    "note": "answer is must when there is Selvität"
+  },
+  {
+    "id": 41,
+    "answer": "C",
+    "keywords": "Huolehdit asiakkaan …...... poliisin paikalle",
+    "note": ""
+  },
+  {
+    "id": 42,
+    "answer": "B",
+    "keywords": "Totean …........... häntä.",
+    "note": ""
+  },
+  {
+    "id": 43,
+    "answer": "A",
+    "keywords": "kysyt…......saunassa ajoneuvo on",
+    "note": ""
+  },
+  {
+    "id": 44,
+    "answer": "C",
+    "keywords": "Toimitat …....... toimistolle.",
+    "note": ""
+  },
+  {
+    "id": 45,
+    "answer": "C",
+    "keywords": "Kuljettajalla tulee …........ tarpeista",
+    "note": ""
+  },
+  {
+    "id": 46,
+    "answer": "B",
+    "keywords": "Annat asiakkaan",
+    "note": ""
+  },
+  {
+    "id": 47,
+    "answer": "B",
+    "keywords": "….............päättää aiheesta",
+    "note": ""
+  },
+  {
+    "id": 48,
+    "answer": "C",
+    "keywords": "…........varmistaa…...........vaatteet",
+    "note": "Answer is must when there is vaatteet"
+  },
+  {
+    "id": 49,
+    "answer": "B",
+    "keywords": "Soitan työnantajalle ja kerron tilanteesta",
+    "note": ""
+  },
+  {
+    "id": 50,
+    "answer": "A",
+    "keywords": "Taksinkuljettajan",
+    "note": ""
+  },
+  {
+    "id": 51,
+    "answer": "B",
+    "keywords": "…................asiakkaan kyytiin",
+    "note": ""
+  },
+  {
+    "id": 52,
+    "answer": "B",
+    "keywords": "…...............kielletty",
+    "note": ""
+  },
+  {
+    "id": 53,
+    "answer": "A",
+    "keywords": "Valitettavasti",
+    "note": "Answer is must when there is Valitettavasti"
+  },
+  {
+    "id": 54,
+    "answer": "C",
+    "keywords": "…..........suunnassa….............",
+    "note": "suunnassa is always answer if it is in any options"
+  },
+  {
+    "id": 55,
+    "answer": "A",
+    "keywords": "Huolehdit, …........... koko matkan ajan",
+    "note": ""
+  },
+  {
+    "id": 56,
+    "answer": "C",
+    "keywords": "Aina jos noudan",
+    "note": ""
+  },
+  {
+    "id": 57,
+    "answer": "B",
+    "keywords": "sinun tulee",
+    "note": ""
+  },
+  {
+    "id": 58,
+    "answer": "A",
+    "keywords": "Kutsun paikalle poliisin selvittämään asiaa",
+    "note": ""
+  },
+  {
+    "id": 59,
+    "answer": "B",
+    "keywords": "350",
+    "note": ""
+  },
+  {
+    "id": 60,
+    "answer": "C",
+    "keywords": "Rauhoittelet…...ystavallisesti",
+    "note": "Answer is must when there is Rauhoittelet"
+  },
+  {
+    "id": 61,
+    "answer": "C",
+    "keywords": "Rauhoittelet…...ystavallisesti",
+    "note": "Answer is must when there is Rauhoittelet"
+  },
+  {
+    "id": 62,
+    "answer": "B",
+    "keywords": "Pyydät lasta…........tätä…....",
+    "note": "tätä is the key word"
+  },
+  {
+    "id": 63,
+    "answer": "A",
+    "keywords": "Pyydät …........saako lapsi …...........",
+    "note": ""
+  },
+  {
+    "id": 64,
+    "answer": "C",
+    "keywords": "Sinun tulee….turvavyötä",
+    "note": ""
+  },
+  {
+    "id": 65,
+    "answer": "A",
+    "keywords": "taksinkuljetteja",
+    "note": ""
+  },
+  {
+    "id": 66,
+    "answer": "A",
+    "keywords": "sinun tulee poistua",
+    "note": ""
+  },
+  {
+    "id": 67,
+    "answer": "C",
+    "keywords": "Koiralla on tunnistevaljaat.",
+    "note": ""
+  },
+  {
+    "id": 68,
+    "answer": "B",
+    "keywords": "if answer start with lapsen then answer is only lapsen tulee istua",
+    "note": ""
+  },
+  {
+    "id": 69,
+    "answer": "A",
+    "keywords": "Hartiavyöllä, lantiovyöllä ja jalkavyöllä.",
+    "note": ""
+  },
+  {
+    "id": 70,
+    "answer": "A",
+    "keywords": "Pimeällä …. tulisi pitää …..........",
+    "note": ""
+  },
+  {
+    "id": 71,
+    "answer": "C",
+    "keywords": "Aina asiakasta",
+    "note": ""
+  },
+  {
+    "id": 72,
+    "answer": "A",
+    "keywords": "Tilaat",
+    "note": "Tilaat is must when it is available"
+  },
+  {
+    "id": 73,
+    "answer": "A",
+    "keywords": "Pidät asiakkaan tilanteen….........",
+    "note": ""
+  },
+  {
+    "id": 74,
+    "answer": "B",
+    "keywords": "135 cm",
+    "note": ""
+  },
+  {
+    "id": 75,
+    "answer": "C",
+    "keywords": "…......rungosta….......",
+    "note": "rungosta in option will be anwer always"
+  },
+  {
+    "id": 76,
+    "answer": "C",
+    "keywords": "Sinun tulee puuttua",
+    "note": ""
+  },
+  {
+    "id": 77,
+    "answer": "C",
+    "keywords": "Sinun tulee …...... saapuu paikalle",
+    "note": ""
+  },
+  {
+    "id": 78,
+    "answer": "C",
+    "keywords": "Takapenkillä etupenkin takana kuljettajan vieressä.",
+    "note": ""
+  },
+  {
+    "id": 79,
+    "answer": "C",
+    "keywords": "if option has three kerrot then answer is big option",
+    "note": ""
+  },
+  {
+    "id": 80,
+    "answer": "A",
+    "keywords": "Soitat …............ lähimmälle poliisiasemalle",
+    "note": ""
+  },
+  {
+    "id": 81,
+    "answer": "C",
+    "keywords": "Taksinkuljettajan on huolehdittava",
+    "note": ""
+  },
+  {
+    "id": 82,
+    "answer": "B",
+    "keywords": "Kuljettajan tulee ajaessaan aina…......",
+    "note": ""
+  },
+  {
+    "id": 83,
+    "answer": "B",
+    "keywords": "Kuitin…....pakollista",
+    "note": "When there is 3 Kuitin in the start of answer, solution is the sentence end with pakollista"
+  },
+  {
+    "id": 84,
+    "answer": "A",
+    "keywords": "Taksinkuljettajan….............. toimintaa",
+    "note": ""
+  },
+  {
+    "id": 85,
+    "answer": "C",
+    "keywords": "Huolehdit…......poliisin paikalle",
+    "note": ""
+  },
+  {
+    "id": 86,
+    "answer": "B",
+    "keywords": "if question has sairaalasta answer is Kuljettaja",
+    "note": ""
+  },
+  {
+    "id": 87,
+    "answer": "C",
+    "keywords": "Toimitat…....... löytötavaratoimistoon",
+    "note": ""
+  },
+  {
+    "id": 88,
+    "answer": "B",
+    "keywords": "Koekayttamalla",
+    "note": ""
+  },
+  {
+    "id": 89,
+    "answer": "B",
+    "keywords": "Koekäyttämällä nostinta",
+    "note": ""
+  },
+  {
+    "id": 90,
+    "answer": "A",
+    "keywords": "Ei saa, koska sähkömopoa",
+    "note": ""
+  },
+  {
+    "id": 91,
+    "answer": "B",
+    "keywords": "Lapsen tulee istua takapenkillä….....",
+    "note": "answer is must when there is takapenkillä"
+  },
+  {
+    "id": 92,
+    "answer": "B",
+    "keywords": "Kuljettaja…............. Kiinnittämisestä",
+    "note": ""
+  },
+  {
+    "id": 93,
+    "answer": "B",
+    "keywords": "Suosittelemalla …....... etuistuimelle",
+    "note": ""
+  },
+  {
+    "id": 94,
+    "answer": "C",
+    "keywords": "Silloin….........sopimus",
+    "note": ""
+  },
+  {
+    "id": 95,
+    "answer": "B",
+    "keywords": "Soitat…..hatanumeroon",
+    "note": ""
+  },
+  {
+    "id": 96,
+    "answer": "A",
+    "keywords": "ei yahtaan",
+    "note": ""
+  },
+  {
+    "id": 97,
+    "answer": "A",
+    "keywords": "Viisi vuotta",
+    "note": ""
+  },
+  {
+    "id": 98,
+    "answer": "B",
+    "keywords": "Viestintävirasto Traficom",
+    "note": ""
+  },
+  {
+    "id": 99,
+    "answer": "C",
+    "keywords": "Kyllä, sillä …..... Manner-Suomen alueella",
+    "note": ""
+  },
+  {
+    "id": 100,
+    "answer": "B",
+    "keywords": "Laillinen",
+    "note": ""
+  },
+  {
+    "id": 101,
+    "answer": "B",
+    "keywords": "14 if question has alle viisi vuotta",
+    "note": ""
+  },
+  {
+    "id": 102,
+    "answer": "B",
+    "keywords": "Kuljettajan tulee…........reitti",
+    "note": "answer is the option end with reitti always"
+  },
+  {
+    "id": 103,
+    "answer": "A",
+    "keywords": "asiakas",
+    "note": ""
+  },
+  {
+    "id": 104,
+    "answer": "B",
+    "keywords": "if question has koskeeko answer is kylla koskee",
+    "note": ""
+  },
+  {
+    "id": 105,
+    "answer": "C",
+    "keywords": "Kaikissa kuljetuksissa",
+    "note": ""
+  },
+  {
+    "id": 106,
+    "answer": "A",
+    "keywords": "manner-soumessa",
+    "note": ""
+  },
+  {
+    "id": 107,
+    "answer": "C",
+    "keywords": "…...........törkeään….........",
+    "note": ""
+  },
+  {
+    "id": 108,
+    "answer": "A",
+    "keywords": "Tyoaikaa on myos",
+    "note": ""
+  },
+  {
+    "id": 109,
+    "answer": "C",
+    "keywords": "tulee olla alkolukko",
+    "note": ""
+  },
+  {
+    "id": 110,
+    "answer": "B",
+    "keywords": "Kuljettajalla",
+    "note": "Kuljettajalla is always answer where it is available"
+  },
+  {
+    "id": 111,
+    "answer": "B",
+    "keywords": "Kerrot asiakkaalle",
+    "note": "Kerrot asiakkaalle is always anwer where it is avialable"
+  },
+  {
+    "id": 112,
+    "answer": "B",
+    "keywords": "….................määränpäähänsä",
+    "note": ""
+  },
+  {
+    "id": 113,
+    "answer": "C",
+    "keywords": "Taukojen pidetty ajankohta.",
+    "note": ""
+  },
+  {
+    "id": 114,
+    "answer": "C",
+    "keywords": "",
+    "note": ""
+  },
+  {
+    "id": 115,
+    "answer": "B",
+    "keywords": "Kerrot asiakkaalle….............reittia",
+    "note": ""
+  },
+  {
+    "id": 116,
+    "answer": "B",
+    "keywords": "Pyrkiä…......",
+    "note": "Pyrkiä is always anwer anywhere"
+  },
+  {
+    "id": 117,
+    "answer": "B",
+    "keywords": "Hengitysteiden avaaminen",
+    "note": ""
+  },
+  {
+    "id": 118,
+    "answer": "C",
+    "keywords": "Turvavyön käyttämättömyys",
+    "note": ""
+  },
+  {
+    "id": 119,
+    "answer": "C",
+    "keywords": "Viiden vuoden ajan.",
+    "note": ""
+  },
+  {
+    "id": 120,
+    "answer": "B",
+    "keywords": "Lääkärin",
+    "note": "Answer is must when there is Lääkärin"
+  },
+  {
+    "id": 121,
+    "answer": "B",
+    "keywords": "Poliisi",
+    "note": ""
+  },
+  {
+    "id": 122,
+    "answer": "C",
+    "keywords": "Vähintään yhden vuoden ajan",
+    "note": ""
+  },
+  {
+    "id": 123,
+    "answer": "C",
+    "keywords": "answer start with Annan is always anwer",
+    "note": ""
+  },
+  {
+    "id": 124,
+    "answer": "C",
+    "keywords": "Liikenne- ja viestintävirasto",
+    "note": "if question has myöntää then answer is always Liikenne ja Trafficom"
+  },
+  {
+    "id": 125,
+    "answer": "A",
+    "keywords": "11  ja 5.5",
+    "note": "always same 11 ja 5.5"
+  },
+  {
+    "id": 126,
+    "answer": "A",
+    "keywords": "työtä yarish !",
+    "note": ""
+  },
+  {
+    "id": 127,
+    "answer": "B",
+    "keywords": "Asiakkaalla on …... matkansa käteisellä ja yleisimmillä maksukorteilla",
+    "note": ""
+  },
+  {
+    "id": 128,
+    "answer": "C",
+    "keywords": "Question start with Laissa and answer end with taksinkuljettajaa",
+    "note": ""
+  },
+  {
+    "id": 129,
+    "answer": "B",
+    "keywords": "….............taksiluvan haltijaa",
+    "note": "Question starts with koskeeko"
+  },
+  {
+    "id": 130,
+    "answer": "C",
+    "keywords": "alle vouden….......B-loukan",
+    "note": "B-loukan is always answer if it is available in option"
+  },
+  {
+    "id": 131,
+    "answer": "B",
+    "keywords": "Kerrot asiakkaalle….......tasalla",
+    "note": ""
+  },
+  {
+    "id": 132,
+    "answer": "A",
+    "keywords": "65,00 €",
+    "note": ""
+  },
+  {
+    "id": 133,
+    "answer": "B",
+    "keywords": "ei saa",
+    "note": "always same"
+  },
+  {
+    "id": 134,
+    "answer": "A",
+    "keywords": "Turvavälin ….............turvallista",
+    "note": ""
+  },
+  {
+    "id": 135,
+    "answer": "C",
+    "keywords": "1 kuukausi.",
+    "note": ""
+  },
+  {
+    "id": 136,
+    "answer": "B",
+    "keywords": "15",
+    "note": "Always 15"
+  },
+  {
+    "id": 137,
+    "answer": "A",
+    "keywords": "135",
+    "note": ""
+  },
+  {
+    "id": 138,
+    "answer": "B",
+    "keywords": "Pitaa aina",
+    "note": ""
+  },
+  {
+    "id": 139,
+    "answer": "A",
+    "keywords": "…........huolehdittava asiakkaan…...........",
+    "note": ""
+  },
+  {
+    "id": 140,
+    "answer": "A",
+    "keywords": "Kuljettajan…..aina kayttaa turvavoyta",
+    "note": ""
+  },
+  {
+    "id": 141,
+    "answer": "C",
+    "keywords": "Kuitin …........... pakollista",
+    "note": ""
+  },
+  {
+    "id": 142,
+    "answer": "A",
+    "keywords": "Taksinkuljettajan …....... ennakoitava toisten …........ toimintaa",
+    "note": ""
+  },
+  {
+    "id": 143,
+    "answer": "B",
+    "keywords": "…..............valituksen",
+    "note": ""
+  },
+  {
+    "id": 144,
+    "answer": "B",
+    "keywords": "Taksinkuljettajan…....... ottaa vastaan asiakkaan",
+    "note": ""
+  },
+  {
+    "id": 145,
+    "answer": "A",
+    "keywords": "…...........reitin valinnassa",
+    "note": ""
+  },
+  {
+    "id": 146,
+    "answer": "B",
+    "keywords": "picture answer is always B",
+    "note": ""
+  },
+  {
+    "id": 147,
+    "answer": "B",
+    "keywords": "if picture has bus and taxi sign answer is always B",
+    "note": ""
+  },
+  {
+    "id": 148,
+    "answer": "A",
+    "keywords": "Kun olet mennossa",
+    "note": ""
+  },
+  {
+    "id": 149,
+    "answer": "B",
+    "keywords": "if picture has bus and taxi sign answer is always B",
+    "note": ""
+  },
+  {
+    "id": 150,
+    "answer": "B",
+    "keywords": "",
+    "note": ""
+  }
+]
