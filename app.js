@@ -2,6 +2,8 @@
   const allQuestions = window.QUIZ_DATA || [];
   const studyData = window.STUDY_DATA || {};
   const studyKeywords = window.STUDY_KEYWORDS || {};
+  const examPrepData = window.EXAM_PREP_DATA || {};
+  const examSetsRaw = window.EXAM_SETS_DATA || [];
 
   const QUESTION_BANK_END = allQuestions.length || 309;
 
@@ -103,7 +105,90 @@
     },
   ];
 
-  const ALL_SETS = PRACTICE_SETS.concat(STUDY_SETS);
+  const EXAM_PREP_SETS = [
+    {
+      id: 'exam-assisting',
+      title: 'Assisting Passengers',
+      dataKey: 'assisting_passengers',
+      kind: 'exam',
+      intro: {
+        lead:
+          'Practice {count} questions on assisting passengers and ensuring their safety — safe boarding and exit, intoxicated or unwell customers, and general passenger care.',
+        features: [
+          '{count} multiple-choice questions from the official exam topic area',
+          'Covers drop-off safety, emergencies, and passenger wellbeing',
+          'All questions on one page — answer in any order',
+        ],
+      },
+    },
+    {
+      id: 'exam-special-needs',
+      title: 'Special Needs',
+      dataKey: 'special_needs',
+      kind: 'exam',
+      intro: {
+        lead:
+          'Practice {count} questions on the special needs of different passenger groups — children, school transport, disabilities, KELA trips, and accessibility.',
+        features: [
+          '{count} multiple-choice questions from the official exam topic area',
+          'Seat belts, child restraints, wheelchairs, and guide dogs',
+          'All questions on one page — answer in any order',
+        ],
+      },
+    },
+    {
+      id: 'exam-customer-service',
+      title: 'Customer Service',
+      dataKey: 'customer_service',
+      kind: 'exam',
+      intro: {
+        lead:
+          'Practice {count} questions on customer service situations in taxi services — communication, payments, routes, complaints, and professional conduct.',
+        features: [
+          '{count} multiple-choice questions from the official exam topic area',
+          'Phone use, receipts, pricing, and handling difficult situations',
+          'All questions on one page — answer in any order',
+        ],
+      },
+    },
+    {
+      id: 'exam-traffic-safety',
+      title: 'Traffic Safety',
+      dataKey: 'traffic_safety',
+      kind: 'exam',
+      intro: {
+        lead:
+          'Practice {count} questions on factors affecting transport and traffic safety — traffic rules, licensing, working hours, vehicle checks, and defensive driving.',
+        features: [
+          '{count} multiple-choice questions from the official exam topic area',
+          'Signs, speed limits, alcohol rules, and legal requirements',
+          'All questions on one page — answer in any order',
+        ],
+      },
+    },
+  ];
+
+  const EXAM_SETS = examSetsRaw.map(function (set) {
+    return {
+      id: 'exam-quiz-' + set.id,
+      examId: set.id,
+      title: 'Quiz ' + set.id,
+      kind: 'exam-quiz',
+      passingCriteria: set.passingCriteria,
+      intro: {
+        lead:
+          'Full mock exam with {count} questions (15 + 15 + 10 + 10). Questions appear one at a time — answer each to move on. You need 38/50 overall and minimum scores in every section to pass.',
+        features: [
+          'Assisting passengers — 15 questions (12 required to pass)',
+          'Special needs — 15 questions (12 required to pass)',
+          'Customer service — 10 questions (7 required to pass)',
+          'Traffic safety — 10 questions (7 required to pass)',
+        ],
+      },
+    };
+  });
+
+  const ALL_SETS = PRACTICE_SETS.concat(STUDY_SETS, EXAM_PREP_SETS, EXAM_SETS);
 
   let selectedSet = null;
   let activeQuestions = [];
@@ -114,12 +199,19 @@
   let searchQuery = '';
   let keywordSearchQuery = '';
   let activeKeywordIndex = null;
+  let examQuestionIndex = 0;
+  let examAdvanceTimer = null;
+  let examTimerInterval = null;
+  let examDeadline = null;
+
+  const EXAM_DURATION_MS = 45 * 60 * 1000;
 
   const $ = (id) => document.getElementById(id);
 
   const welcomeScreen = $('welcomeScreen');
   const introScreen = $('introScreen');
   const quizScreen = $('quizScreen');
+  const examOverlay = $('examOverlay');
   const resultsScreen = $('resultsScreen');
   const headerStats = $('headerStats');
   const progressTrack = $('progressTrack');
@@ -136,7 +228,17 @@
   const toastMessage = $('toastMessage');
   const practiceNav = $('practiceNav');
   const studyNav = $('studyNav');
+  const examPrepNav = $('examPrepNav');
+  const examNav = $('examNav');
   const questionsList = $('questionsList');
+  const examQuestionArea = $('examQuestionArea');
+  const examQuizProgress = $('examQuizProgress');
+  const examTimer = $('examTimer');
+  const examPrevBtn = $('examPrevBtn');
+  const examNextBtn = $('examNextBtn');
+  const examQuestionMap = $('examQuestionMap');
+  const examPassBadge = $('examPassBadge');
+  const examSectionBreakdown = $('examSectionBreakdown');
   const imageLightbox = $('imageLightbox');
   const imageLightboxImg = $('imageLightboxImg');
   const imageLightboxBackdrop = $('imageLightboxBackdrop');
@@ -159,14 +261,37 @@
     if (set.kind === 'study') {
       return studyData[set.dataKey] || [];
     }
+    if (set.kind === 'exam') {
+      return examPrepData[set.dataKey] || [];
+    }
+    if (set.kind === 'exam-quiz') {
+      const examSet = examSetsRaw.find(function (item) {
+        return item.id === set.examId;
+      });
+      return examSet ? examSet.questions : [];
+    }
     return allQuestions.filter((q) => q.id >= set.rangeStart && q.id <= set.rangeEnd);
   }
 
   function getSetSubtitle(set, count) {
-    if (set.kind === 'study') {
+    if (set.kind === 'study' || set.kind === 'exam' || set.kind === 'exam-quiz') {
       return count + ' question' + (count === 1 ? '' : 's');
     }
     return 'Questions ' + set.rangeStart + '–' + set.rangeEnd;
+  }
+
+  function getModeLabel(set) {
+    if (set.kind === 'study') return 'Study';
+    if (set.kind === 'exam-quiz') return 'Exam';
+    if (set.kind === 'exam') return 'Exam Preparation';
+    return 'Question Bank';
+  }
+
+  function getNavItemClass(set) {
+    if (set.kind === 'study') return ' quiz-nav-item-study';
+    if (set.kind === 'exam-quiz') return ' quiz-nav-item-exam-quiz';
+    if (set.kind === 'exam') return ' quiz-nav-item-exam';
+    return '';
   }
 
   function getIntroVars(set, count) {
@@ -439,16 +564,71 @@
     }
   }
 
+  const SIDEBAR_SECTION_BY_KIND = {
+    practice: 'sidebarSectionPractice',
+    study: 'sidebarSectionStudy',
+    exam: 'sidebarSectionExamPrep',
+    'exam-quiz': 'sidebarSectionExam',
+  };
+
+  function scrollPageToTop() {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }
+
+  function setSidebarSectionOpen(sectionEl, isOpen) {
+    if (!sectionEl) return;
+    sectionEl.classList.toggle('is-open', isOpen);
+    const toggle = sectionEl.querySelector('.sidebar-section-toggle');
+    if (toggle) {
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+  }
+
+  function openSidebarSectionForSet(set) {
+    if (!set) return;
+    const sectionId = SIDEBAR_SECTION_BY_KIND[set.kind];
+    if (!sectionId) return;
+    setSidebarSectionOpen(document.getElementById(sectionId), true);
+  }
+
+  function initSidebarSections() {
+    document.querySelectorAll('.sidebar-section-toggle').forEach(function (toggle) {
+      toggle.addEventListener('click', function () {
+        const section = toggle.closest('.sidebar-section');
+        const willOpen = !section.classList.contains('is-open');
+        setSidebarSectionOpen(section, willOpen);
+        scrollPageToTop();
+      });
+    });
+  }
+
   function init() {
     renderQuizNav();
+    initSidebarSections();
     $('startBtn').addEventListener('click', beginQuiz);
     $('restartBtn').addEventListener('click', beginQuiz);
     $('backToIntroBtn').addEventListener('click', showIntro);
     finishBtn.addEventListener('click', showResults);
+    examPrevBtn.addEventListener('click', function () {
+      goToExamQuestion(examQuestionIndex - 1);
+    });
+    examNextBtn.addEventListener('click', function () {
+      const q = activeQuestions[examQuestionIndex];
+      const isLast = examQuestionIndex >= activeQuestions.length - 1;
+
+      if (isLast && q && answered[q.id]) {
+        showResults();
+        return;
+      }
+
+      if (!q || !answered[q.id]) return;
+      goToExamQuestion(examQuestionIndex + 1);
+    });
     questionSearch.addEventListener('input', onSearchInput);
     clearSearchBtn.addEventListener('click', clearSearch);
     keywordSearch.addEventListener('input', onKeywordSearchInput);
     questionsList.addEventListener('click', onQuestionImageClick);
+    examQuestionArea.addEventListener('click', onQuestionImageClick);
     imageLightboxBackdrop.addEventListener('click', closeImageLightbox);
     imageLightboxClose.addEventListener('click', closeImageLightbox);
     document.addEventListener('keydown', onDocumentKeydown);
@@ -510,21 +690,31 @@
   function renderQuizNav() {
     practiceNav.innerHTML = '';
     studyNav.innerHTML = '';
+    examPrepNav.innerHTML = '';
+    examNav.innerHTML = '';
 
     PRACTICE_SETS.forEach((set, index) => {
       practiceNav.appendChild(createNavItem(set, index + 1));
     });
 
     STUDY_SETS.forEach((set, index) => {
-      studyNav.appendChild(createNavItem(set, index + 1, true));
+      studyNav.appendChild(createNavItem(set, index + 1));
+    });
+
+    EXAM_PREP_SETS.forEach((set, index) => {
+      examPrepNav.appendChild(createNavItem(set, index + 1));
+    });
+
+    EXAM_SETS.forEach((set, index) => {
+      examNav.appendChild(createNavItem(set, index + 1));
     });
   }
 
-  function createNavItem(set, num, isStudy) {
+  function createNavItem(set, num) {
     const questions = getQuestionsForSet(set);
     const btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = 'quiz-nav-item' + (isStudy ? ' quiz-nav-item-study' : '');
+    btn.className = 'quiz-nav-item' + getNavItemClass(set);
     btn.dataset.setId = set.id;
 
     const best = bestScores[set.id];
@@ -550,7 +740,7 @@
   }
 
   function updateNavActive() {
-    [practiceNav, studyNav].forEach((nav) => {
+    [practiceNav, studyNav, examPrepNav, examNav].forEach((nav) => {
       nav.querySelectorAll('.quiz-nav-item').forEach((btn) => {
         btn.classList.toggle('active', selectedSet && btn.dataset.setId === selectedSet.id);
       });
@@ -564,20 +754,84 @@
     resultsScreen.classList.add('hidden');
   }
 
+  function enterExamMode() {
+    document.body.classList.add('exam-mode-active');
+    examOverlay.classList.remove('hidden');
+  }
+
+  function exitExamMode() {
+    stopExamTimer();
+    document.body.classList.remove('exam-mode-active');
+    examOverlay.classList.add('hidden');
+  }
+
+  function startExamTimer() {
+    stopExamTimer();
+    examDeadline = Date.now() + EXAM_DURATION_MS;
+    updateExamTimerDisplay();
+    examTimerInterval = setInterval(function () {
+      updateExamTimerDisplay();
+      if (Date.now() >= examDeadline) {
+        stopExamTimer();
+        showResults();
+      }
+    }, 1000);
+  }
+
+  function stopExamTimer() {
+    if (examTimerInterval) {
+      clearInterval(examTimerInterval);
+      examTimerInterval = null;
+    }
+    examDeadline = null;
+  }
+
+  function updateExamTimerDisplay() {
+    if (!examDeadline) return;
+    const remaining = Math.max(0, examDeadline - Date.now());
+    const mins = Math.floor(remaining / 60000);
+    const secs = Math.floor((remaining % 60000) / 1000);
+    examTimer.textContent =
+      String(mins).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
+    examTimer.classList.toggle('is-low', remaining > 0 && remaining <= 5 * 60 * 1000);
+    examTimer.classList.toggle('is-expired', remaining === 0);
+  }
+
+  function getExamAccessibleMaxIndex() {
+    for (let i = 0; i < activeQuestions.length; i++) {
+      if (!answered[activeQuestions[i].id]) {
+        return i;
+      }
+    }
+    return activeQuestions.length - 1;
+  }
+
+  function clearExamAdvanceTimer() {
+    if (examAdvanceTimer) {
+      clearTimeout(examAdvanceTimer);
+      examAdvanceTimer = null;
+    }
+  }
+
   function selectQuiz(setId) {
     selectedSet = ALL_SETS.find((s) => s.id === setId);
     if (!selectedSet) return;
 
+    clearExamAdvanceTimer();
     activeQuestions = getQuestionsForSet(selectedSet);
     score = 0;
     answered = {};
     searchQuery = '';
 
     updateNavActive();
+    openSidebarSectionForSet(selectedSet);
+    scrollPageToTop();
     showIntro();
   }
 
   function showIntro() {
+    clearExamAdvanceTimer();
+    exitExamMode();
     hideAllScreens();
     introScreen.classList.remove('hidden');
     headerStats.classList.add('hidden');
@@ -585,7 +839,7 @@
     progressFill.style.width = '0%';
 
     const count = activeQuestions.length;
-    const modeLabel = selectedSet.kind === 'study' ? 'Study' : 'Question Bank';
+    const modeLabel = getModeLabel(selectedSet);
     const subtitle = getSetSubtitle(selectedSet, count);
 
     headerSubtitle.textContent = selectedSet.title + ' — ' + subtitle;
@@ -611,9 +865,9 @@
     let lead = intro.lead;
 
     if (!lead) {
-      if (selectedSet.kind === 'study') {
+      if (selectedSet.kind === 'study' || selectedSet.kind === 'exam') {
         lead =
-          'This study section contains {count} focused question' +
+          'This section contains {count} focused question' +
           (count === 1 ? '' : 's') +
           '. All questions appear at once — scroll through and answer in any order.';
       } else {
@@ -627,10 +881,16 @@
 
     $('introLead').textContent = formatIntroText(lead, introVars);
     renderIntroFeatures(intro.features, introVars);
-    $('startBtn').textContent = 'Start ' + selectedSet.title;
+    $('startBtn').textContent =
+      selectedSet.kind === 'exam-quiz' ? 'Start Exam' : 'Start ' + selectedSet.title;
   }
 
   function beginQuiz() {
+    if (selectedSet && selectedSet.kind === 'exam-quiz') {
+      beginExamQuiz();
+      return;
+    }
+
     score = 0;
     answered = {};
     searchQuery = '';
@@ -652,82 +912,303 @@
     updateProgress();
   }
 
+
+  function beginExamQuiz() {
+    clearExamAdvanceTimer();
+    score = 0;
+    answered = {};
+    examQuestionIndex = 0;
+
+    hideAllScreens();
+    enterExamMode();
+    startExamTimer();
+    renderExamQuestion();
+  }
+
+  function goToExamQuestion(index) {
+    if (index < 0 || index >= activeQuestions.length) return;
+    if (index > getExamAccessibleMaxIndex()) return;
+    examQuestionIndex = index;
+    renderExamQuestion();
+  }
+
+  function updateExamNavButtons() {
+    const total = activeQuestions.length;
+    const q = activeQuestions[examQuestionIndex];
+    const currentAnswered = Boolean(q && answered[q.id]);
+    const isLast = examQuestionIndex === total - 1;
+
+    examPrevBtn.disabled = examQuestionIndex === 0;
+
+    if (isLast && currentAnswered) {
+      examNextBtn.textContent = 'Esittää ›';
+      examNextBtn.disabled = false;
+    } else {
+      examNextBtn.textContent = 'Seuraava ›';
+      examNextBtn.disabled = !currentAnswered;
+    }
+  }
+
+  function renderExamQuestionNav() {
+    const maxAccessible = getExamAccessibleMaxIndex();
+
+    examQuestionMap.innerHTML = '';
+    activeQuestions.forEach(function (q, i) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'exam-quiz-nav-box';
+      btn.textContent = i + 1;
+      btn.setAttribute('aria-label', 'Kysymys ' + (i + 1));
+
+      if (i === examQuestionIndex) {
+        btn.classList.add('is-current');
+        btn.setAttribute('aria-current', 'step');
+      }
+
+      if (i > maxAccessible) {
+        btn.disabled = true;
+        btn.classList.add('is-future');
+      } else {
+        btn.addEventListener('click', function () {
+          goToExamQuestion(i);
+        });
+      }
+
+      examQuestionMap.appendChild(btn);
+    });
+
+    updateExamNavButtons();
+
+    const current = examQuestionMap.querySelector('.is-current');
+    if (current) {
+      current.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
+  }
+
+  function renderExamQuestion() {
+    const q = activeQuestions[examQuestionIndex];
+    if (!q) return;
+
+    const total = activeQuestions.length;
+    const currentNum = examQuestionIndex + 1;
+    examQuizProgress.textContent = currentNum + ' / ' + total;
+
+    examQuestionArea.innerHTML = '';
+    const card = buildQuestionCard(q, function (letter) {
+      selectExamAnswer(q, letter, card);
+    });
+    examQuestionArea.appendChild(card);
+    renderExamQuestionNav();
+  }
+
+  function buildQuestionCard(q, onSelect) {
+    const card = document.createElement('article');
+    card.className = 'question-card';
+    card.id = 'question-' + q.id;
+    card.dataset.questionId = q.id;
+
+    const record = answered[q.id];
+    const isExamQuiz = selectedSet && selectedSet.kind === 'exam-quiz';
+
+    const questionLabelMarkup = isExamQuiz
+      ? ''
+      : '<span class="question-label">Question <span>' + q.id + '</span></span>';
+
+    const metaMarkup = isExamQuiz
+      ? ''
+      : '<div class="question-meta">' + questionLabelMarkup + '</div>';
+
+    const imageMarkup = q.image
+      ? '<figure class="question-image-wrap">' +
+        '<button type="button" class="question-image-btn" title="Click to enlarge" aria-label="Enlarge image for question ' +
+        q.id +
+        '">' +
+        '<img class="question-image" src="' +
+        escapeHtml(q.image) +
+        '" alt="Illustration for question ' +
+        q.id +
+        '" loading="lazy" decoding="async" />' +
+        '</button>' +
+        '</figure>'
+      : '';
+
+    card.innerHTML =
+      metaMarkup +
+      '<h2 class="question-text">' + escapeHtml(q.text) + '</h2>' +
+      imageMarkup +
+      '<div class="options" role="radiogroup" aria-label="Answer options for question ' + q.id + '"></div>' +
+      '<div class="explanation-area hidden">' +
+      '<button class="btn btn-explanation-toggle" type="button" aria-expanded="false">' +
+      '<span class="explanation-toggle-icon" aria-hidden="true">💡</span> Show explanation' +
+      '</button>' +
+      '<div class="explanation-box hidden">' +
+      '<div class="explanation-header"><strong class="explanation-title">Explanation</strong></div>' +
+      '<p class="explanation-text"></p>' +
+      '</div>' +
+      '</div>';
+
+    const optionsContainer = card.querySelector('.options');
+
+    q.options.forEach(function (opt) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'option';
+      btn.dataset.letter = opt.letter;
+      btn.setAttribute('role', 'radio');
+      btn.setAttribute('aria-checked', 'false');
+
+      if (record) {
+        if (!isExamQuiz) {
+          btn.classList.add('locked');
+        }
+        if (record.selected === opt.letter) {
+          if (isExamQuiz) {
+            btn.classList.add('selected');
+            btn.setAttribute('aria-checked', 'true');
+          } else {
+            btn.classList.add(record.correct ? 'correct' : 'incorrect');
+          }
+        } else if (!isExamQuiz && opt.letter === q.correct) {
+          btn.classList.add('reveal-correct');
+        }
+      }
+
+      btn.innerHTML =
+        '<span class="option-letter">' + opt.letter + '</span>' +
+        '<span class="option-text">' + escapeHtml(opt.text) + '</span>';
+
+      if (onSelect && (!record || isExamQuiz)) {
+        btn.addEventListener('click', function () {
+          onSelect(opt.letter);
+        });
+      }
+
+      optionsContainer.appendChild(btn);
+    });
+
+    if (record && hasExplanation(q) && selectedSet.kind !== 'exam-quiz') {
+      setupExplanationControls(card, q, record.correct);
+    }
+
+    return card;
+  }
+
+  function recalculateExamScore() {
+    score = 0;
+    activeQuestions.forEach(function (question) {
+      const record = answered[question.id];
+      if (record && record.correct) {
+        score++;
+      }
+    });
+    liveScore.textContent = score;
+  }
+
+  function selectExamAnswer(q, letter, card) {
+    const previous = answered[q.id];
+    if (previous && previous.selected === letter) return;
+
+    answered[q.id] = { selected: letter, correct: letter === q.correct };
+    recalculateExamScore();
+
+    const optionsContainer = card.querySelector('.options');
+    optionsContainer.querySelectorAll('.option').forEach(function (btn) {
+      btn.classList.remove('selected');
+      btn.setAttribute('aria-checked', 'false');
+      if (btn.dataset.letter === letter) {
+        btn.classList.add('selected');
+        btn.setAttribute('aria-checked', 'true');
+      }
+    });
+
+    renderExamQuestionNav();
+  }
+
+  function computeExamResults() {
+    const criteria = selectedSet.passingCriteria;
+    const sectionScores = {};
+
+    criteria.sections.forEach(function (section) {
+      sectionScores[section.key] = {
+        title: section.title,
+        correct: 0,
+        total: section.total,
+        required: section.required,
+        passed: false,
+      };
+    });
+
+    activeQuestions.forEach(function (q) {
+      const record = answered[q.id];
+      if (record && record.correct && q.section && sectionScores[q.section]) {
+        sectionScores[q.section].correct++;
+      }
+    });
+
+    Object.keys(sectionScores).forEach(function (key) {
+      const section = sectionScores[key];
+      section.passed = section.correct >= section.required;
+    });
+
+    const overallCorrect = score;
+    const overallPass = overallCorrect >= criteria.overall.required;
+    const sectionsPass = criteria.sections.every(function (section) {
+      return sectionScores[section.key].passed;
+    });
+
+    return {
+      sectionScores: sectionScores,
+      overallCorrect: overallCorrect,
+      overallTotal: criteria.overall.total,
+      overallRequired: criteria.overall.required,
+      overallPass: overallPass,
+      sectionsPass: sectionsPass,
+      passed: overallPass && sectionsPass,
+    };
+  }
+
+  function renderExamSectionBreakdown(examResults) {
+    const criteria = selectedSet.passingCriteria;
+    let html = '<h3 class="exam-section-breakdown-title">Section results</h3><ul class="exam-section-list">';
+
+    criteria.sections.forEach(function (section) {
+      const result = examResults.sectionScores[section.key];
+      html +=
+        '<li class="exam-section-item' +
+        (result.passed ? ' is-pass' : ' is-fail') +
+        '">' +
+        '<div class="exam-section-item-head">' +
+        '<span class="exam-section-item-title">' +
+        escapeHtml(section.title) +
+        '</span>' +
+        '<span class="exam-section-item-score">' +
+        result.correct +
+        '/' +
+        result.total +
+        '</span>' +
+        '</div>' +
+        '<p class="exam-section-item-required">Required: ' +
+        section.required +
+        '/' +
+        section.total +
+        ' — ' +
+        (result.passed ? 'Passed' : 'Not passed') +
+        '</p>' +
+        '</li>';
+    });
+
+    html += '</ul>';
+    examSectionBreakdown.innerHTML = html;
+    examSectionBreakdown.classList.remove('hidden');
+  }
+
   function renderAllQuestions() {
     questionsList.innerHTML = '';
 
-    activeQuestions.forEach((q) => {
-      const card = document.createElement('article');
-      card.className = 'question-card';
-      card.id = 'question-' + q.id;
-      card.dataset.questionId = q.id;
-
-      const record = answered[q.id];
-
-      const imageMarkup = q.image
-        ? '<figure class="question-image-wrap">' +
-          '<button type="button" class="question-image-btn" title="Click to enlarge" aria-label="Enlarge image for question ' +
-          q.id +
-          '">' +
-          '<img class="question-image" src="' +
-          escapeHtml(q.image) +
-          '" alt="Illustration for question ' +
-          q.id +
-          '" loading="lazy" decoding="async" />' +
-          '</button>' +
-          '</figure>'
-        : '';
-
-      card.innerHTML =
-        '<div class="question-meta">' +
-        '<span class="question-label">Question <span>' + q.id + '</span></span>' +
-        '</div>' +
-        '<h2 class="question-text">' + escapeHtml(q.text) + '</h2>' +
-        imageMarkup +
-        '<div class="options" role="radiogroup" aria-label="Answer options for question ' + q.id + '"></div>' +
-        '<div class="explanation-area hidden">' +
-        '<button class="btn btn-explanation-toggle" type="button" aria-expanded="false">' +
-        '<span class="explanation-toggle-icon" aria-hidden="true">💡</span> Show explanation' +
-        '</button>' +
-        '<div class="explanation-box hidden">' +
-        '<div class="explanation-header"><strong class="explanation-title">Explanation</strong></div>' +
-        '<p class="explanation-text"></p>' +
-        '</div>' +
-        '</div>';
-
-      const optionsContainer = card.querySelector('.options');
-
-      q.options.forEach((opt) => {
-        const btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'option';
-        btn.dataset.letter = opt.letter;
-        btn.setAttribute('role', 'radio');
-        btn.setAttribute('aria-checked', 'false');
-
-        if (record) {
-          btn.classList.add('locked');
-          if (record.selected === opt.letter) {
-            btn.classList.add(record.correct ? 'correct' : 'incorrect');
-          } else if (opt.letter === q.correct) {
-            btn.classList.add('reveal-correct');
-          }
-        }
-
-        btn.innerHTML =
-          '<span class="option-letter">' + opt.letter + '</span>' +
-          '<span class="option-text">' + escapeHtml(opt.text) + '</span>';
-
-        if (!record) {
-          btn.addEventListener('click', () => selectAnswer(q, opt.letter, card));
-        }
-
-        optionsContainer.appendChild(btn);
+    activeQuestions.forEach(function (q) {
+      const card = buildQuestionCard(q, function (letter) {
+        selectAnswer(q, letter, card);
       });
-
-      if (record && hasExplanation(q)) {
-        setupExplanationControls(card, q, record.correct);
-      }
-
       questionsList.appendChild(card);
     });
   }
@@ -963,16 +1444,23 @@
   }
 
   function showResults() {
+    clearExamAdvanceTimer();
+    const wasExamQuiz = selectedSet && selectedSet.kind === 'exam-quiz';
+    if (wasExamQuiz) {
+      exitExamMode();
+    }
     hideAllScreens();
     resultsScreen.classList.remove('hidden');
     progressFill.style.width = '100%';
     headerStats.classList.add('hidden');
+    progressTrack.classList.add('hidden');
     headerSubtitle.textContent = selectedSet.title + ' — completed';
 
     const total = activeQuestions.length;
     const correct = score;
     const wrong = total - correct;
     const pct = total ? Math.round((correct / total) * 100) : 0;
+    const isExamQuiz = selectedSet.kind === 'exam-quiz';
 
     if (bestScores[selectedSet.id] === undefined || correct > bestScores[selectedSet.id]) {
       bestScores[selectedSet.id] = correct;
@@ -990,6 +1478,54 @@
     const icon = $('resultsIcon');
     const msg = $('resultsMessage');
     icon.className = 'results-icon';
+
+    examPassBadge.classList.add('hidden');
+    examSectionBreakdown.classList.add('hidden');
+    examSectionBreakdown.innerHTML = '';
+
+    if (isExamQuiz) {
+      const examResults = computeExamResults();
+      renderExamSectionBreakdown(examResults);
+
+      examPassBadge.classList.remove('hidden');
+      examPassBadge.className = 'exam-pass-badge ' + (examResults.passed ? 'is-pass' : 'is-fail');
+      examPassBadge.textContent = examResults.passed ? 'Exam passed' : 'Exam not passed';
+
+      if (examResults.passed) {
+        icon.classList.add('excellent');
+        icon.textContent = '🏆';
+        msg.textContent =
+          'Congratulations! You met the overall requirement (' +
+          examResults.overallRequired +
+          '/' +
+          examResults.overallTotal +
+          ') and passed every section.';
+      } else if (examResults.overallPass && !examResults.sectionsPass) {
+        icon.classList.add('fair');
+        icon.textContent = '📚';
+        msg.textContent =
+          'Your overall score was high enough, but one or more sections did not reach the required minimum. Review those topics and try again.';
+      } else if (!examResults.overallPass && examResults.sectionsPass) {
+        icon.classList.add('fair');
+        icon.textContent = '📚';
+        msg.textContent =
+          'You passed every section, but your overall score was below ' +
+          examResults.overallRequired +
+          '/' +
+          examResults.overallTotal +
+          '. Keep practicing and try again.';
+      } else {
+        icon.classList.add('poor');
+        icon.textContent = '💪';
+        msg.textContent =
+          'You need ' +
+          examResults.overallRequired +
+          '/' +
+          examResults.overallTotal +
+          ' overall and the section minimums to pass. Review your weak areas and try again.';
+      }
+      return;
+    }
 
     if (pct >= 90) {
       icon.classList.add('excellent');

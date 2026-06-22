@@ -9,6 +9,7 @@ const fs = require('fs');
 const path = require('path');
 
 const root = path.join(__dirname, '..');
+const categoriesDir = path.join(root, 'Que Categories');
 const questions = JSON.parse(fs.readFileSync(path.join(root, 'quiz.json'), 'utf8'));
 
 const CATEGORIES = {
@@ -382,7 +383,7 @@ if (sum !== total) {
 
 for (const [key, meta] of Object.entries(CATEGORIES)) {
   const list = buckets[key].sort((a, b) => a.id - b.id);
-  const outPath = path.join(root, meta.file);
+  const outPath = path.join(categoriesDir, meta.file);
   fs.writeFileSync(outPath, JSON.stringify(list, null, 2) + '\n', 'utf8');
   console.log(`${meta.file}: ${list.length} questions`);
 }

@@ -1,0 +1,2100 @@
+{
+  "id": 1,
+  "title": "Final Exam Quiz Set 1",
+  "passingCriteria": {
+    "overall": {
+      "total": 50,
+      "required": 38
+    },
+    "sections": [
+      {
+        "key": "assisting_passengers",
+        "title": "Assisting passengers and ensuring their safety",
+        "total": 15,
+        "required": 12
+      },
+      {
+        "key": "special_needs",
+        "title": "Special needs of different passenger groups",
+        "total": 15,
+        "required": 12
+      },
+      {
+        "key": "customer_service",
+        "title": "Customer service situations in taxi services",
+        "total": 10,
+        "required": 7
+      },
+      {
+        "key": "traffic_safety",
+        "title": "Factors affecting transport and traffic safety",
+        "total": 10,
+        "required": 7
+      }
+    ]
+  },
+  "sections": {
+    "assisting_passengers": [
+      {
+        "id": 1,
+        "text": "Asiakas on nauttinut alkoholia ja lähtee hoiperrellen kotiovelle pakkasessa (-30 °C). Mitä teet?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Varmistat, että asiakas pääsee sisälle kotiovesta."
+          },
+          {
+            "letter": "B",
+            "text": "Asiakas ei ole enää vastuullasi autosta poistuttuaan."
+          },
+          {
+            "letter": "C",
+            "text": "Puhallutat asiakkaan ja viet poliisille, jos yli 0,5 ‰."
+          }
+        ],
+        "correct": "A",
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "text": "Mitä seuraavista on oikein, kun asiakas ei suostu käyttämään turvavyötä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Voit aloittaa ajon, jos matka on lyhyt"
+          },
+          {
+            "letter": "B",
+            "text": "Sinun tulee kieltäytyä kuljettamasta."
+          },
+          {
+            "letter": "C",
+            "text": "Vastuu on täysin asiakkaalla, joten voit jatkaa ajoa normaallsti"
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: sinun tulee\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: B"
+      },
+      {
+        "id": 3,
+        "text": "Mitä sinun tulee toimia saattaessasi kotiinsa asiakasta, joka ei kykene huolehtimaan itsestään, ja sovittu avustaja ei ole vastaanottamassa häntä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Sinun tulee aina viedä asiakas takaisin lähtopaikkaansa"
+          },
+          {
+            "letter": "B",
+            "text": "Sinä voit jättää asiakkaan esimerkiksi asiakkaan naapurin luokse."
+          },
+          {
+            "letter": "C",
+            "text": "Sinun tulee odottaa asiakkaan kanssa, kunnes avustaja saapuu paikalle."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nKeyword: Sinun tulee saapuu paikalle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+      },
+      {
+        "id": 4,
+        "text": "Taksin tolpasta tulee kyytiin päihtynyt asiakas, joka ei pysty kertomaan osoitettaan tai määränpäätään. Miten kuljettajan tulee toimia?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kieltäydyt häntä kuljettamasta."
+          },
+          {
+            "letter": "B",
+            "text": "Jätät asiakkaan lähimmälle pysäkille tai kadulle ja jatkat työvuoroasi."
+          },
+          {
+            "letter": "C",
+            "text": "Huolehdit asiakkaan turvallisuudesta, yrität selvittää määränpään ja tarvittaessa soitat poliisin paikalle."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nMain keyword: Huolehdit\nImportant keyword: turvallisuudesta\n\nIntoxicated customer without address — ensure safety, find destination, police if needed.\n\nCorrect answer: C"
+      },
+      {
+        "id": 5,
+        "text": "Mikä seuraavista on turvallisuustekijä, kun autossa kuljetetaan lemmikkieläimiä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Lemmikkieläimet voivat matkustaa taksissa ilman erityisiä toimenpiteitä."
+          },
+          {
+            "letter": "B",
+            "text": "Lemmikkieläimet tulee sijoittaa ajoneuvon takakonttiin tai käyttää niille tarkoitettua matkustuskoria tai -häkkiä."
+          },
+          {
+            "letter": "C",
+            "text": "Lemmikkieläimet voivat istua matkustajan sylissä."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nCorrect answer: B"
+      },
+      {
+        "id": 6,
+        "text": "Miten toimit, jos asiakas tarvitsee apua matkatavaroiden kanssa ja sinulla on kiire seuraavaan tilaukseen?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Pyydät asiakasta kantamaan matkatavaransa itse."
+          },
+          {
+            "letter": "B",
+            "text": "Avustat asiakasta matkatavaroiden kanssa ja ilmoitat seuraavalle asiakkaalle mahdollisesta viiveestä."
+          },
+          {
+            "letter": "C",
+            "text": "Jätät matkatavarat turvallisen paikan ulkopuolelle ja jatkat matkaa."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nCorrect answer: B"
+      },
+      {
+        "id": 7,
+        "text": "Mikä seuraavista on paras tapa kiinnittää kyydissä oleva asiakas, kun hän on paareilla selinmakuulla?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Hartiavyöllä, lantiovyöllä ja jalkavyöllä."
+          },
+          {
+            "letter": "B",
+            "text": "Hartiavyöllä ja lantiovyöllä."
+          },
+          {
+            "letter": "C",
+            "text": "Lantiovyöllä ja jalkavyöllä."
+          }
+        ],
+        "correct": "A",
+        "explanation": "Answer: A\n\nKeyword: Hartiavyöllä, lantiovyöllä ja jalkavyöllä\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+      },
+      {
+        "id": 8,
+        "text": "Mikä on oikea tapa toimia, kun asiakas pyytää pysähtymään paikassa, jossa pysähtyminen on kielletty?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Asiakas voi aina päättää pysähtymispaikan."
+          },
+          {
+            "letter": "B",
+            "text": "Et voi pysähtyä paikkaan, jossa pysähtyminen on kielletty."
+          },
+          {
+            "letter": "C",
+            "text": "Pysähtymissäännöistä voi perustellusta syystä poiketa."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: kielletty\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+      },
+      {
+        "id": 9,
+        "text": "Mikä seuraavista on paras tapa toimia, jos asiakas ei voi käyttää turvavyötä siitä syystä, että turvavyöt ovat liian lyhyet?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Tilaat asiakkaalle toisen taksin, jossa asiakasta on turvallisempi kuljettaa."
+          },
+          {
+            "letter": "B",
+            "text": "Annat asiakkaan matkustaa ilman turvavyötä."
+          },
+          {
+            "letter": "C",
+            "text": "Jatkat turvavyön pituutta jatkopalalla, joka sinun tulee pitää aina mukana autossa."
+          }
+        ],
+        "correct": "A",
+        "explanation": "Answer: A\n\nKeyword: Tilaat\n\nNote: Tilaat is must when it is available\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: A"
+      },
+      {
+        "id": 10,
+        "text": "Mikä on oikea toimintatapa, jos asiakas haluaa avata ikkunoita ajon aikana?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kieltäydyt aina avaamasta ikkunoita."
+          },
+          {
+            "letter": "B",
+            "text": "Sallit ikkunoiden avaamisen, jos se ei vaikuta muiden matkustajien mukavuuteen ja turvallisuuteen."
+          },
+          {
+            "letter": "C",
+            "text": "Avaat ikkunat automaattisesti ilman asiakkaan pyyntöä."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nCorrect answer: B"
+      },
+      {
+        "id": 11,
+        "text": "Olet ottanut asiakkaan kyytiin paikkakuntasi taksiasemalta. Olette ajaneet hyvän matkaa, kun taksin puhelin soi. Huomaat, että handsfree-laite on jäänyt kotiin. Mitä teet?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Vastaan puhelimeen normaalisti pahoittelen asiakkaalle puhelimen aiheuttamaa häiriöstä ja vastaan sitten puheluun."
+          },
+          {
+            "letter": "B",
+            "text": "Pysähdyn tienvarteen, jotta voin kirjoittaa ylös välttämättömiä tietoja. Voin pitää taksimittarin päällä."
+          },
+          {
+            "letter": "C",
+            "text": "Pahoittelen asiakkaalle puhelimen aiheuttamaa häiriötä enkä vastaa siihen; soitan takaisin kyydin päätyttyä."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nMain keyword: enkä vastaa\nImportant keyword: kyydin päätyttyä\n\nNote: kyydin päätyttyä is the anwer it is available in option\n\nWithout handsfree, apologise and call back after the ride ends.\n\nCorrect answer: C"
+      },
+      {
+        "id": 12,
+        "text": "Asiakkaanasi oleva kiireinen herra Möttönen pyytää sinua pysähtymään hyvin vilkkaasti liikennöidyllä paikkaan, jotta hän voi jäädä pois. Mikä seuraavista tilannetta koskevista väittämistä on oikean?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Herra mättösellä on oikeus valita pysähtymispaikka, sillä hän maksaa kyydistä."
+          },
+          {
+            "letter": "B",
+            "text": "Herra mättösellä on velvollisuus maksaa mahdollinen sakkomaksu. mikäli hän on pyytänyt pysähtymään kielletyssä paikassa."
+          },
+          {
+            "letter": "C",
+            "text": "Asiakkaan turvallinen autoon tulo ja poistaminen on aina kuljettajan sinun vastuullesi, joten jos pysähtymispaikka on sellaiseksi, ettei herra mättönen voi siinä poistua, etsit paremmin paikan."
+          }
+        ],
+        "correct": "C",
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "text": "Kuka on vastuussa paareilla olevan asiakkaan turvavöistä, jonka olet noutanut sairaalasta?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Asiakas itse"
+          },
+          {
+            "letter": "B",
+            "text": "Kuljettaja"
+          },
+          {
+            "letter": "C",
+            "text": "Sairaanhoitaja"
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: Kuljettaja = driver\n\nTrigger rule: if question has sairaalasta answer is Kuljettaja\n\nCorrect answer: B"
+      },
+      {
+        "id": 14,
+        "text": "Mikä seuraavista on paras toimintatapa, jos matkustaja ei suostu kiinnittämään turvavyötä terveydelliseen syyhyn vedoten?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Sinun tulee pakottaa asiakas käyttämään turvavyötä."
+          },
+          {
+            "letter": "B",
+            "text": "Sinun tulee pyytää häntä esittämään syytä koskeva lääkäritodistus."
+          },
+          {
+            "letter": "C",
+            "text": "Sinun tulee kieltäytyä kuljettamasta häntä, mikäli hän ei käytä turvavyötä."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nKeyword: Sinun tulee turvavyötä\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+      },
+      {
+        "id": 15,
+        "text": "Mitä teet, jos asiakas on aggressiivinen?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Jatkat matkaa ja toivot, että asiakas rauhoittuu."
+          },
+          {
+            "letter": "B",
+            "text": "Pysähdyt turvalliseen paikkaan ja pyydät asiakasta poistumaan."
+          },
+          {
+            "letter": "C",
+            "text": "Soitat poliisille ja odotat heidän saapumistaan."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nCorrect answer: B"
+      }
+    ],
+    "special_needs": [
+      {
+        "id": 16,
+        "text": "Kuinka sinun tulisi auttaa vanhusta taksiin nousemisessa ja sieltä poistumisessa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Tarjoa kätesi tukena."
+          },
+          {
+            "letter": "B",
+            "text": "Pysy autossa ja anna heidän selviytyä itse."
+          },
+          {
+            "letter": "C",
+            "text": "Kysy tarvitsevatko he apua ja auta, jos he suostuvat."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nCorrect answer: C"
+      },
+      {
+        "id": 17,
+        "text": "Miten pyörätuoli on kiinnitettävä, kun matkustaja istuu matkan ajan pyörätuolissa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Pyörätuoli kiinnitetään auton turvavyöllä ja sen jarrut laitetaan päälle."
+          },
+          {
+            "letter": "B",
+            "text": "Pyörätuolin kiinnitystapa on asiakkaan päätettävissä."
+          },
+          {
+            "letter": "C",
+            "text": "Pyörätuoli kiinnitetään tuolin rungosta neljästä eri pisteestä ja tuolin jarrut laitetaan päälle."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nKeyword: rungosta\nMain keyword: pyörätuoli = wheelchair\n\nNote: rungosta in option will be anwer always\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+      },
+      {
+        "id": 18,
+        "text": "Miten kuljettajan tulee toimia, kun pyörätuolissa olevan asiakkaan vaatteet ovat jääneet siten, että asiakkaalla on epämiellyttävä istua ja hän pyytää apua korjaamiseksi?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kuljettajan tehtävä ei ole suoristaa asiakkaan vaatteita eikä muutoinkaan"
+          },
+          {
+            "letter": "B",
+            "text": "Kuljettaja saa ainoastaan kehottaa asiakasta itse suoristamaan vaatteet, koska kuljettaja ei saa oikaista asiakkaan vaatteita asiakkaan pyynnöstä huolimatta."
+          },
+          {
+            "letter": "C",
+            "text": "Kuljettajan tehtävä on varmistaa, että asiakkaalla on mukava olla ja tarvittaessa"
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nKeyword: varmistaa vaatteet\nMain keyword: Kuljettaja = driver\n\nNote: Answer is must when there is vaatteet\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C"
+      },
+      {
+        "id": 19,
+        "text": "Alkolukko on pakollinen varuste autoissa, jolla suoritetaan koulun tai päivähoitokuljetuksia, Aalkolukko säädetään siten, että ajoneuvon käynnistyminen estyy, jos kuljettajan uloshengitysilman Alkoholipitoisuus on?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "0.10 milligrammaa alkoholia litrassa uloshengitysilmaa tai enemmän."
+          },
+          {
+            "letter": "B",
+            "text": "0.50 milligrammaa uloshengitysilmaa tai enemmän."
+          },
+          {
+            "letter": "C",
+            "text": "yli 0 uloshengitysilmaa tai enemmän"
+          }
+        ],
+        "correct": "A",
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "text": "Kun liikuntavammaisella asiakkaalla on avustaja, miten toimit?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Keskustelet vain avustajan kanssa."
+          },
+          {
+            "letter": "B",
+            "text": "Keskustelet aina asiakkaan kanssa."
+          },
+          {
+            "letter": "C",
+            "text": "Pyydät kirjalliset ohjeet."
+          }
+        ],
+        "correct": "B",
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "text": "Miten varmistaa asiakkaan turvallinen saapuminen määränpäähän, jos hänellä on liikuntarajoitteita?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Varmista, että asiakas pääsee turvallisesti ulos autosta."
+          },
+          {
+            "letter": "B",
+            "text": "Anna asiakkaan selviytyä itse."
+          },
+          {
+            "letter": "C",
+            "text": "Kysy asiakkaalta, tarvitseko hän apua."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nCorrect answer: C"
+      },
+      {
+        "id": 22,
+        "text": "Mihin 120cm pituinen lapsi on taksissa sijoitettava, jos lasten turvalaitetta ei ole käytettävissä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Lapsen voi laittaa istumaan mille tahansa istuimelle, jos hänellä on turvavyö kiinnitettynä."
+          },
+          {
+            "letter": "B",
+            "text": "Lapsen tulee istua takapenkillä käyttäen turvavyötä."
+          },
+          {
+            "letter": "C",
+            "text": "Lapsen voi antaa itse valita istumapaikkansa."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: turvavyötä = seat belt\n\nTrigger rule: if answer start with lapsen then answer is only lapsen tulee istua\n\nCorrect answer: B"
+      },
+      {
+        "id": 23,
+        "text": "Missä asiakkaan tulee istua autossa turvallisuuden vuoksi?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Etupenkin kuljettajan vieressä."
+          },
+          {
+            "letter": "B",
+            "text": "Takapenkillä kuljettajan vieressä."
+          },
+          {
+            "letter": "C",
+            "text": "Takapenkillä etupenkin takana kuljettajan vieressä."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nKeyword: Takapenkillä etupenkin takana kuljettajan vieressä\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+      },
+      {
+        "id": 24,
+        "text": "Miten tulee toimia, kun tulee hyvin iäkkään hitaasti liikkuvan asiakkaan vilkas liikenteestä paikasta?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Avustan häntä ottamalla käsivarresta kiinni kysymättä asiakkaalta tarvitseeko hän apua"
+          },
+          {
+            "letter": "B",
+            "text": "Pyydän asiakkaalta kiirehtimään autoon, koska kaupan edessä on vilkas liikenne"
+          },
+          {
+            "letter": "C",
+            "text": "Nouset ajoneuvosta ja tiedustelet tarvitseeko hän apua."
+          }
+        ],
+        "correct": "C",
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "text": "Miten voit parantaa kommunikointia kuulovammaisen matkustajan kanssa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "En mitenkään."
+          },
+          {
+            "letter": "B",
+            "text": "Suosittelemalla asiakasta istumaan etuistuimelle."
+          },
+          {
+            "letter": "C",
+            "text": "Suosittelemalla asiakasta istumaan takapenkillä."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: Suosittelemalla etuistuimelle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+      },
+      {
+        "id": 26,
+        "text": "Miten toimit, kun olet noutamassa asiakasta ja hän haluaa itse siirtyä pyörätuolista taksin etuistuimelle?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Totean asiakkaalle, että hän ei saa siirtyä pyörätuolista ajoneuvoon ilman kuljettajan apua"
+          },
+          {
+            "letter": "B",
+            "text": "Totean asiakkaalle, että hänellä on oikeus siirtyä itse pyörätuolista ajoneuvoon ja tarvittaessa avustan häntä"
+          },
+          {
+            "letter": "C",
+            "text": "Totean asiakkaalle, että pyörätuolissa saapuva asiakas ei saa istua ajoneuvon etupenkillä"
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: Totean häntä\nMain keyword: itse = self / themselves\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B"
+      },
+      {
+        "id": 27,
+        "text": "Miten toimia, kun pyörätuoliasiakas haluaa itse siirtyä autoon?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Asiakas ei voi koskaan siirtyä ilman kuljettajaa."
+          },
+          {
+            "letter": "B",
+            "text": "Asiakas voi siirtyä itse, kuljettaja avustaa tarvittaessa."
+          },
+          {
+            "letter": "C",
+            "text": "Kuljettaja voi vain odottaa sivussa."
+          }
+        ],
+        "correct": "B",
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "text": "Mitä sinun tulee toimia, jos havaitset koulukuljetuksen aikana oppilaiden välistä kiusaamista?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Sinun tulee poistaa kiusaajat autosta ja ilmoittaa asiasta oppilaiden vanhemmille."
+          },
+          {
+            "letter": "B",
+            "text": "Sinun ei tule puuttua kiusaamistilanteeseen lainkaan, mutta sinun tulee ilmoittaa asiasta oppilaitokseen."
+          },
+          {
+            "letter": "C",
+            "text": "Sinun tulee puuttua asiaan ja keskustella osapuolten kanssa ja ilmoittaa asiasta oppilaitokseen."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nKeyword: Sinun tulee puuttua\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+      },
+      {
+        "id": 29,
+        "text": "Mikä väite ei pidä paikkaansa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Pyörätuoli on kiinnitettävä rungosta."
+          },
+          {
+            "letter": "B",
+            "text": "Sisäkäyttöön tarkoitettua pyörätuolia ei tarvitse kiinnittää, jos matka < 1 km."
+          },
+          {
+            "letter": "C",
+            "text": "Asiakas päättää itse kiinnitetäänkö pyörätuoli."
+          }
+        ],
+        "correct": "A",
+        "explanation": ""
+      },
+      {
+        "id": 30,
+        "text": "Koulukuljetuksia hoitava taksinkuljettaja on lapsen elämässä tärkeä aikuinen. Mitä on hyvä muistaa turvavyön käytöstä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kuljettajan ei tarvitse käyttää turvavyötä."
+          },
+          {
+            "letter": "B",
+            "text": "Myös kuljettaja tulee käyttää turvavyötä."
+          },
+          {
+            "letter": "C",
+            "text": "Takapenkillä matkustavan ei tarvitse käyttää turvavyötä."
+          }
+        ],
+        "correct": "B",
+        "explanation": ""
+      }
+    ],
+    "customer_service": [
+      {
+        "id": 31,
+        "text": "Milloin saat pysäyttää taksin maksulliselle pysäköintipaikalle maksua suorittamatta?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Et koskaan."
+          },
+          {
+            "letter": "B",
+            "text": "Vain liikkumisesteistä asiakasta kyytiin ottaessasi tai kyydistä jättäessäsi."
+          },
+          {
+            "letter": "C",
+            "text": "Aina asiakasta kyytiin ottaessasi tai kyydistä jättäessäsi."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nKeyword: Aina asiakasta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+      },
+      {
+        "id": 32,
+        "text": "Mitä taksinkuljettajana voit tehdä, kun kyydissä olevalla asiakkaalla on kiire ja liikenne on ruuhkaa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "En välitä, koska en voi asialle mitään."
+          },
+          {
+            "letter": "B",
+            "text": "Kerrot asiakkaalle tilanteen ja pidät hänet ajan tasalla."
+          },
+          {
+            "letter": "C",
+            "text": "Ajat ylinopeutta ja jos asiakas maksaa sakot."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: Kerrot asiakkaalle tasalla\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+      },
+      {
+        "id": 33,
+        "text": "Mikä seuraavista on oikein, kun kuljettaja käyttää viestimiä ajon aikana?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kuljettaja saa käyttää viestimiä ajon aikana, jos se on välttämätöntä."
+          },
+          {
+            "letter": "B",
+            "text": "Kuljettaja saa käyttää viestimiä ajon aikana handsfree-laitetta käyttäen."
+          },
+          {
+            "letter": "C",
+            "text": "Kuljettaja ei saa käyttää viestimiä ajon aikana."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nCorrect answer: B"
+      },
+      {
+        "id": 34,
+        "text": "Milloin asiakkaalle pitää antaa kuitti taksimatkasta?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Jos kyyti tilattiin sovelluksella."
+          },
+          {
+            "letter": "B",
+            "text": "Jos hinta on kiinteä."
+          },
+          {
+            "letter": "C",
+            "text": "Aina kyydistä on annettava kuitti."
+          }
+        ],
+        "correct": "C",
+        "explanation": ""
+      },
+      {
+        "id": 35,
+        "text": "Millä maksuvälineillä asiakas saa maksaa taksimatkansa taksiasemalta otetussa kyydissä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Vain käteisellä."
+          },
+          {
+            "letter": "B",
+            "text": "Kuljettaja päättää."
+          },
+          {
+            "letter": "C",
+            "text": "Käteisellä ja yleisimmillä maksukorteilla."
+          }
+        ],
+        "correct": "C",
+        "explanation": ""
+      },
+      {
+        "id": 36,
+        "text": "Mikä seuraavista hyvää viestimien käyttöön liittyvää asiakaspalvelua?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kuljettaja voi lähettää viestejä, jos puhelin on äänettömällä"
+          },
+          {
+            "letter": "B",
+            "text": "Puhelun soittaminen, jos se kuljetuksen suorittamiseksi on välttämätön"
+          },
+          {
+            "letter": "C",
+            "text": "Kuljettaja voi puhua henkilökohtaisia puheluita, jos asiakas"
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nMain keyword: Puhelun soittaminen = making a phone call\nImportant keyword: välttämätön = necessary\n\nThe question is not about casual conversations.\n\nRule: A driver may make a phone call only when it is necessary (välttämätön) for the task or situation.\n\nNecessary call = allowed.\nUnnecessary conversation = not allowed.\n\nCorrect answer: B"
+      },
+      {
+        "id": 37,
+        "text": "Mikä seuraavista on oikein liittyen taksipalveluun?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kuitin tarjoaminen asiakkaalle on lisämaksullinen palvelu."
+          },
+          {
+            "letter": "B",
+            "text": "Kuitin tarjoaminen asiakkaalle on vapaaehtoista."
+          },
+          {
+            "letter": "C",
+            "text": "Kuitin tarjoaminen asiakkaalle on pakollista."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nMain keyword: pakollista\n\nReceipt is mandatory (pakollista), not voluntary (vapaaehtoista).\n\nCorrect answer: C"
+      },
+      {
+        "id": 38,
+        "text": "Milloin tarvitsee asiakkaalle tarjota kuitti taksikyydistä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Jos kyyti on tilattu applikaatiolla"
+          },
+          {
+            "letter": "B",
+            "text": "Jos taksin hinta on kiintiö"
+          },
+          {
+            "letter": "C",
+            "text": "Kyydistä on annettava kuitti"
+          }
+        ],
+        "correct": "C",
+        "explanation": ""
+      },
+      {
+        "id": 39,
+        "text": "Mikä seuraavista väittämistä taksinkuljettajan velvollisuuksista on oikein?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Alle 135 cm pituinen lapsi tarvitsee aina turvalaitteen matkustaessaan taksissa."
+          },
+          {
+            "letter": "B",
+            "text": "Lapsi voi matkustaa taksissa ilman turvalaitetta, kunhan istuu takapenkillä ja on turvavöissä."
+          },
+          {
+            "letter": "C",
+            "text": "Alle 3-vuotias istuu aina etupenkillä."
+          }
+        ],
+        "correct": "A",
+        "explanation": "Answer: A\n\nCorrect answer: A"
+      },
+      {
+        "id": 40,
+        "text": "Mikä seuraavista on hyvää asiakaspalvelua viestimien käytössä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kuljettaja voi lähettää viestejä, jos puhelin on äänettömällä."
+          },
+          {
+            "letter": "B",
+            "text": "Kuljettaja ei käytä viestimiä ajon aikana."
+          },
+          {
+            "letter": "C",
+            "text": "Kuljettaja voi käyttää viestimiä vain pysähtyneenä."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nCorrect answer: C"
+      }
+    ],
+    "traffic_safety": [
+      {
+        "id": 41,
+        "text": "Ennakoivan ajotavan tärkein tavoite on?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Osata toimia onnettomuuden sattuessa."
+          },
+          {
+            "letter": "B",
+            "text": "Olla valmis vaaratilanteissa."
+          },
+          {
+            "letter": "C",
+            "text": "Pyrkiä ajamaan niin, ettei jouduta vaara- tai onnettomuustilanteisiin."
+          }
+        ],
+        "correct": "C",
+        "explanation": ""
+      },
+      {
+        "id": 42,
+        "text": "Mitä oheinen keltainen lisäkilpi (linja-auton kuva) tarkoittaa liikennemerkin  yhteydessä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Merkki ei koske linja-autoja."
+          },
+          {
+            "letter": "B",
+            "text": "Merkki koskee vain linja-autoja tai joukkoliikennettä."
+          },
+          {
+            "letter": "C",
+            "text": "Linja-autopysäkki on poistettu käytöstä."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nCorrect answer: B",
+        "image": "Image/image2.png"
+      },
+      {
+        "id": 43,
+        "text": "Mikä seuraavista kuljettajan työaikaa koskevista väittämistä ei pidä paikkaansa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Työaikaa on myös kuljettajan työpäivän aikana pitämä kahden tunnin tauko."
+          },
+          {
+            "letter": "B",
+            "text": "Taksinkuljettajan vuorokautinen työaika saa olla enimmillään 11 tuntia 24 tunnin"
+          },
+          {
+            "letter": "C",
+            "text": "Työaikaa on varsinaisen ajotyön lisäksi taksiasemalla oloaika ja auton siivoaminen."
+          }
+        ],
+        "correct": "A",
+        "explanation": "Answer: A\n\nKeyword: Tyoaikaa on myos\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+      },
+      {
+        "id": 44,
+        "text": "Liikenteessä on poikkeusjärjestelyjä liikenneonnettomuuden vuoksi. Saat samaan aikaan keskenään ristiriitaisia toimintaohjeita kolmelta taholta, jotka eivät tiedä toisistaan. Kenellä on seuraavista on määräysvalta eli kenenohjeita sinun tulee noudattaa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Liikennevirasto."
+          },
+          {
+            "letter": "B",
+            "text": "Poliisi."
+          },
+          {
+            "letter": "C",
+            "text": "Työnantajasi."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nMain keyword: Poliisi\n\nNote: if question end with noudattaa then answer is always Pollisi\n\nPolice have authority (määräysvalta) when traffic instructions conflict.\n\nCorrect answer: B"
+      },
+      {
+        "id": 45,
+        "text": "Missä tilanteissa kuljettajan nimi pitää olla esillä taksissa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Vain ennakkotilausajoissa."
+          },
+          {
+            "letter": "B",
+            "text": "Kaikissa kuljetuksissa."
+          },
+          {
+            "letter": "C",
+            "text": "Vain koulu- ja päiväkotikuljetuksissa."
+          }
+        ],
+        "correct": "B",
+        "explanation": ""
+      },
+      {
+        "id": 46,
+        "text": "Saako taksinkuljettaja työskennellä yhtäjaksoisesti 15 tuntia?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kyllä, jos työtä ei voida muulla tavoin tarkoituksenmukaisesti järjestää."
+          },
+          {
+            "letter": "B",
+            "text": "Kyllä, jos työnantaja kuuluu taksiyritysten liittoon."
+          },
+          {
+            "letter": "C",
+            "text": "Kyllä, jos kuljettaja itse haluaa."
+          }
+        ],
+        "correct": "A",
+        "explanation": "Answer: A\n\nKeyword: työtä yarish !\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+      },
+      {
+        "id": 47,
+        "text": "Mikä seuraavista lisää eniten taksinkuljettajan loukkaantumisriskiä liikenteessä?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Ajoneuvon huono tekninen kunto."
+          },
+          {
+            "letter": "B",
+            "text": "Aggressiivisesti käyttäytyvät asiakkaat."
+          },
+          {
+            "letter": "C",
+            "text": "Turvavyön käyttämättömyys."
+          }
+        ],
+        "correct": "C",
+        "explanation": "Answer: C\n\nKeyword: Turvavyön käyttämättömyys\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+      },
+      {
+        "id": 48,
+        "text": "Mikä on peruste ajoluvan peruuttamiselle?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Kuljettaja ei ole työskennellyt kolmeen vuoteen."
+          },
+          {
+            "letter": "B",
+            "text": "Alueen taksiyrittäjät suosittelevat peruuttamista."
+          },
+          {
+            "letter": "C",
+            "text": "Kuljettaja on syyllistynyt törkeään liikenneturvallisuuden vaarantamiseen."
+          }
+        ],
+        "correct": "C",
+        "explanation": ""
+      },
+      {
+        "id": 49,
+        "text": "Mitä teet, jos huomaat ajon aikana ajoneuvon mittariston varoitusvalon syttyvän?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Jatkat ajoa, jos ajoneuvo tuntuu toimivan normaalisti."
+          },
+          {
+            "letter": "B",
+            "text": "Pysäytät ajoneuvon turvalliseen paikkaan ja tarkistat varoituksen syyn."
+          },
+          {
+            "letter": "C",
+            "text": "Ohitat varoitusvalon, jos et ole varma sen merkityksestä."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nCorrect answer: B"
+      },
+      {
+        "id": 50,
+        "text": "Koskeeko työaikalaki taksinkuljettajaa?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Ei koske missään tilanteissa."
+          },
+          {
+            "letter": "B",
+            "text": "Kyllä koskee."
+          },
+          {
+            "letter": "C",
+            "text": "Ei koske, jos siitä on sovittu työnantajan kanssa."
+          }
+        ],
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: Kyllä koskee.\n\nTrigger rule: if question has koskeeko answer is kylla koskee\n\nCorrect answer: B"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Asiakas on nauttinut alkoholia ja lähtee hoiperrellen kotiovelle pakkasessa (-30 °C). Mitä teet?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Varmistat, että asiakas pääsee sisälle kotiovesta."
+        },
+        {
+          "letter": "B",
+          "text": "Asiakas ei ole enää vastuullasi autosta poistuttuaan."
+        },
+        {
+          "letter": "C",
+          "text": "Puhallutat asiakkaan ja viet poliisille, jos yli 0,5 ‰."
+        }
+      ],
+      "correct": "A",
+      "explanation": "",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 2,
+      "text": "Mitä seuraavista on oikein, kun asiakas ei suostu käyttämään turvavyötä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Voit aloittaa ajon, jos matka on lyhyt"
+        },
+        {
+          "letter": "B",
+          "text": "Sinun tulee kieltäytyä kuljettamasta."
+        },
+        {
+          "letter": "C",
+          "text": "Vastuu on täysin asiakkaalla, joten voit jatkaa ajoa normaallsti"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: sinun tulee\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: B",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 3,
+      "text": "Mitä sinun tulee toimia saattaessasi kotiinsa asiakasta, joka ei kykene huolehtimaan itsestään, ja sovittu avustaja ei ole vastaanottamassa häntä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sinun tulee aina viedä asiakas takaisin lähtopaikkaansa"
+        },
+        {
+          "letter": "B",
+          "text": "Sinä voit jättää asiakkaan esimerkiksi asiakkaan naapurin luokse."
+        },
+        {
+          "letter": "C",
+          "text": "Sinun tulee odottaa asiakkaan kanssa, kunnes avustaja saapuu paikalle."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Sinun tulee saapuu paikalle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 4,
+      "text": "Taksin tolpasta tulee kyytiin päihtynyt asiakas, joka ei pysty kertomaan osoitettaan tai määränpäätään. Miten kuljettajan tulee toimia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kieltäydyt häntä kuljettamasta."
+        },
+        {
+          "letter": "B",
+          "text": "Jätät asiakkaan lähimmälle pysäkille tai kadulle ja jatkat työvuoroasi."
+        },
+        {
+          "letter": "C",
+          "text": "Huolehdit asiakkaan turvallisuudesta, yrität selvittää määränpään ja tarvittaessa soitat poliisin paikalle."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nMain keyword: Huolehdit\nImportant keyword: turvallisuudesta\n\nIntoxicated customer without address — ensure safety, find destination, police if needed.\n\nCorrect answer: C",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 5,
+      "text": "Mikä seuraavista on turvallisuustekijä, kun autossa kuljetetaan lemmikkieläimiä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lemmikkieläimet voivat matkustaa taksissa ilman erityisiä toimenpiteitä."
+        },
+        {
+          "letter": "B",
+          "text": "Lemmikkieläimet tulee sijoittaa ajoneuvon takakonttiin tai käyttää niille tarkoitettua matkustuskoria tai -häkkiä."
+        },
+        {
+          "letter": "C",
+          "text": "Lemmikkieläimet voivat istua matkustajan sylissä."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nCorrect answer: B",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 6,
+      "text": "Miten toimit, jos asiakas tarvitsee apua matkatavaroiden kanssa ja sinulla on kiire seuraavaan tilaukseen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pyydät asiakasta kantamaan matkatavaransa itse."
+        },
+        {
+          "letter": "B",
+          "text": "Avustat asiakasta matkatavaroiden kanssa ja ilmoitat seuraavalle asiakkaalle mahdollisesta viiveestä."
+        },
+        {
+          "letter": "C",
+          "text": "Jätät matkatavarat turvallisen paikan ulkopuolelle ja jatkat matkaa."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nCorrect answer: B",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 7,
+      "text": "Mikä seuraavista on paras tapa kiinnittää kyydissä oleva asiakas, kun hän on paareilla selinmakuulla?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hartiavyöllä, lantiovyöllä ja jalkavyöllä."
+        },
+        {
+          "letter": "B",
+          "text": "Hartiavyöllä ja lantiovyöllä."
+        },
+        {
+          "letter": "C",
+          "text": "Lantiovyöllä ja jalkavyöllä."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: Hartiavyöllä, lantiovyöllä ja jalkavyöllä\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 8,
+      "text": "Mikä on oikea tapa toimia, kun asiakas pyytää pysähtymään paikassa, jossa pysähtyminen on kielletty?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Asiakas voi aina päättää pysähtymispaikan."
+        },
+        {
+          "letter": "B",
+          "text": "Et voi pysähtyä paikkaan, jossa pysähtyminen on kielletty."
+        },
+        {
+          "letter": "C",
+          "text": "Pysähtymissäännöistä voi perustellusta syystä poiketa."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: kielletty\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 9,
+      "text": "Mikä seuraavista on paras tapa toimia, jos asiakas ei voi käyttää turvavyötä siitä syystä, että turvavyöt ovat liian lyhyet?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tilaat asiakkaalle toisen taksin, jossa asiakasta on turvallisempi kuljettaa."
+        },
+        {
+          "letter": "B",
+          "text": "Annat asiakkaan matkustaa ilman turvavyötä."
+        },
+        {
+          "letter": "C",
+          "text": "Jatkat turvavyön pituutta jatkopalalla, joka sinun tulee pitää aina mukana autossa."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: Tilaat\n\nNote: Tilaat is must when it is available\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: A",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 10,
+      "text": "Mikä on oikea toimintatapa, jos asiakas haluaa avata ikkunoita ajon aikana?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kieltäydyt aina avaamasta ikkunoita."
+        },
+        {
+          "letter": "B",
+          "text": "Sallit ikkunoiden avaamisen, jos se ei vaikuta muiden matkustajien mukavuuteen ja turvallisuuteen."
+        },
+        {
+          "letter": "C",
+          "text": "Avaat ikkunat automaattisesti ilman asiakkaan pyyntöä."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nCorrect answer: B",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 11,
+      "text": "Olet ottanut asiakkaan kyytiin paikkakuntasi taksiasemalta. Olette ajaneet hyvän matkaa, kun taksin puhelin soi. Huomaat, että handsfree-laite on jäänyt kotiin. Mitä teet?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vastaan puhelimeen normaalisti pahoittelen asiakkaalle puhelimen aiheuttamaa häiriöstä ja vastaan sitten puheluun."
+        },
+        {
+          "letter": "B",
+          "text": "Pysähdyn tienvarteen, jotta voin kirjoittaa ylös välttämättömiä tietoja. Voin pitää taksimittarin päällä."
+        },
+        {
+          "letter": "C",
+          "text": "Pahoittelen asiakkaalle puhelimen aiheuttamaa häiriötä enkä vastaa siihen; soitan takaisin kyydin päätyttyä."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nMain keyword: enkä vastaa\nImportant keyword: kyydin päätyttyä\n\nNote: kyydin päätyttyä is the anwer it is available in option\n\nWithout handsfree, apologise and call back after the ride ends.\n\nCorrect answer: C",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 12,
+      "text": "Asiakkaanasi oleva kiireinen herra Möttönen pyytää sinua pysähtymään hyvin vilkkaasti liikennöidyllä paikkaan, jotta hän voi jäädä pois. Mikä seuraavista tilannetta koskevista väittämistä on oikean?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Herra mättösellä on oikeus valita pysähtymispaikka, sillä hän maksaa kyydistä."
+        },
+        {
+          "letter": "B",
+          "text": "Herra mättösellä on velvollisuus maksaa mahdollinen sakkomaksu. mikäli hän on pyytänyt pysähtymään kielletyssä paikassa."
+        },
+        {
+          "letter": "C",
+          "text": "Asiakkaan turvallinen autoon tulo ja poistaminen on aina kuljettajan sinun vastuullesi, joten jos pysähtymispaikka on sellaiseksi, ettei herra mättönen voi siinä poistua, etsit paremmin paikan."
+        }
+      ],
+      "correct": "C",
+      "explanation": "",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 13,
+      "text": "Kuka on vastuussa paareilla olevan asiakkaan turvavöistä, jonka olet noutanut sairaalasta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Asiakas itse"
+        },
+        {
+          "letter": "B",
+          "text": "Kuljettaja"
+        },
+        {
+          "letter": "C",
+          "text": "Sairaanhoitaja"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Kuljettaja = driver\n\nTrigger rule: if question has sairaalasta answer is Kuljettaja\n\nCorrect answer: B",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 14,
+      "text": "Mikä seuraavista on paras toimintatapa, jos matkustaja ei suostu kiinnittämään turvavyötä terveydelliseen syyhyn vedoten?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sinun tulee pakottaa asiakas käyttämään turvavyötä."
+        },
+        {
+          "letter": "B",
+          "text": "Sinun tulee pyytää häntä esittämään syytä koskeva lääkäritodistus."
+        },
+        {
+          "letter": "C",
+          "text": "Sinun tulee kieltäytyä kuljettamasta häntä, mikäli hän ei käytä turvavyötä."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Sinun tulee turvavyötä\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 15,
+      "text": "Mitä teet, jos asiakas on aggressiivinen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jatkat matkaa ja toivot, että asiakas rauhoittuu."
+        },
+        {
+          "letter": "B",
+          "text": "Pysähdyt turvalliseen paikkaan ja pyydät asiakasta poistumaan."
+        },
+        {
+          "letter": "C",
+          "text": "Soitat poliisille ja odotat heidän saapumistaan."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nCorrect answer: B",
+      "section": "assisting_passengers"
+    },
+    {
+      "id": 16,
+      "text": "Kuinka sinun tulisi auttaa vanhusta taksiin nousemisessa ja sieltä poistumisessa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tarjoa kätesi tukena."
+        },
+        {
+          "letter": "B",
+          "text": "Pysy autossa ja anna heidän selviytyä itse."
+        },
+        {
+          "letter": "C",
+          "text": "Kysy tarvitsevatko he apua ja auta, jos he suostuvat."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nCorrect answer: C",
+      "section": "special_needs"
+    },
+    {
+      "id": 17,
+      "text": "Miten pyörätuoli on kiinnitettävä, kun matkustaja istuu matkan ajan pyörätuolissa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pyörätuoli kiinnitetään auton turvavyöllä ja sen jarrut laitetaan päälle."
+        },
+        {
+          "letter": "B",
+          "text": "Pyörätuolin kiinnitystapa on asiakkaan päätettävissä."
+        },
+        {
+          "letter": "C",
+          "text": "Pyörätuoli kiinnitetään tuolin rungosta neljästä eri pisteestä ja tuolin jarrut laitetaan päälle."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: rungosta\nMain keyword: pyörätuoli = wheelchair\n\nNote: rungosta in option will be anwer always\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C",
+      "section": "special_needs"
+    },
+    {
+      "id": 18,
+      "text": "Miten kuljettajan tulee toimia, kun pyörätuolissa olevan asiakkaan vaatteet ovat jääneet siten, että asiakkaalla on epämiellyttävä istua ja hän pyytää apua korjaamiseksi?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kuljettajan tehtävä ei ole suoristaa asiakkaan vaatteita eikä muutoinkaan"
+        },
+        {
+          "letter": "B",
+          "text": "Kuljettaja saa ainoastaan kehottaa asiakasta itse suoristamaan vaatteet, koska kuljettaja ei saa oikaista asiakkaan vaatteita asiakkaan pyynnöstä huolimatta."
+        },
+        {
+          "letter": "C",
+          "text": "Kuljettajan tehtävä on varmistaa, että asiakkaalla on mukava olla ja tarvittaessa"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: varmistaa vaatteet\nMain keyword: Kuljettaja = driver\n\nNote: Answer is must when there is vaatteet\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C",
+      "section": "special_needs"
+    },
+    {
+      "id": 19,
+      "text": "Alkolukko on pakollinen varuste autoissa, jolla suoritetaan koulun tai päivähoitokuljetuksia, Aalkolukko säädetään siten, että ajoneuvon käynnistyminen estyy, jos kuljettajan uloshengitysilman Alkoholipitoisuus on?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0.10 milligrammaa alkoholia litrassa uloshengitysilmaa tai enemmän."
+        },
+        {
+          "letter": "B",
+          "text": "0.50 milligrammaa uloshengitysilmaa tai enemmän."
+        },
+        {
+          "letter": "C",
+          "text": "yli 0 uloshengitysilmaa tai enemmän"
+        }
+      ],
+      "correct": "A",
+      "explanation": "",
+      "section": "special_needs"
+    },
+    {
+      "id": 20,
+      "text": "Kun liikuntavammaisella asiakkaalla on avustaja, miten toimit?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keskustelet vain avustajan kanssa."
+        },
+        {
+          "letter": "B",
+          "text": "Keskustelet aina asiakkaan kanssa."
+        },
+        {
+          "letter": "C",
+          "text": "Pyydät kirjalliset ohjeet."
+        }
+      ],
+      "correct": "B",
+      "explanation": "",
+      "section": "special_needs"
+    },
+    {
+      "id": 21,
+      "text": "Miten varmistaa asiakkaan turvallinen saapuminen määränpäähän, jos hänellä on liikuntarajoitteita?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Varmista, että asiakas pääsee turvallisesti ulos autosta."
+        },
+        {
+          "letter": "B",
+          "text": "Anna asiakkaan selviytyä itse."
+        },
+        {
+          "letter": "C",
+          "text": "Kysy asiakkaalta, tarvitseko hän apua."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nCorrect answer: C",
+      "section": "special_needs"
+    },
+    {
+      "id": 22,
+      "text": "Mihin 120cm pituinen lapsi on taksissa sijoitettava, jos lasten turvalaitetta ei ole käytettävissä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lapsen voi laittaa istumaan mille tahansa istuimelle, jos hänellä on turvavyö kiinnitettynä."
+        },
+        {
+          "letter": "B",
+          "text": "Lapsen tulee istua takapenkillä käyttäen turvavyötä."
+        },
+        {
+          "letter": "C",
+          "text": "Lapsen voi antaa itse valita istumapaikkansa."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: turvavyötä = seat belt\n\nTrigger rule: if answer start with lapsen then answer is only lapsen tulee istua\n\nCorrect answer: B",
+      "section": "special_needs"
+    },
+    {
+      "id": 23,
+      "text": "Missä asiakkaan tulee istua autossa turvallisuuden vuoksi?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Etupenkin kuljettajan vieressä."
+        },
+        {
+          "letter": "B",
+          "text": "Takapenkillä kuljettajan vieressä."
+        },
+        {
+          "letter": "C",
+          "text": "Takapenkillä etupenkin takana kuljettajan vieressä."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Takapenkillä etupenkin takana kuljettajan vieressä\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C",
+      "section": "special_needs"
+    },
+    {
+      "id": 24,
+      "text": "Miten tulee toimia, kun tulee hyvin iäkkään hitaasti liikkuvan asiakkaan vilkas liikenteestä paikasta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Avustan häntä ottamalla käsivarresta kiinni kysymättä asiakkaalta tarvitseeko hän apua"
+        },
+        {
+          "letter": "B",
+          "text": "Pyydän asiakkaalta kiirehtimään autoon, koska kaupan edessä on vilkas liikenne"
+        },
+        {
+          "letter": "C",
+          "text": "Nouset ajoneuvosta ja tiedustelet tarvitseeko hän apua."
+        }
+      ],
+      "correct": "C",
+      "explanation": "",
+      "section": "special_needs"
+    },
+    {
+      "id": 25,
+      "text": "Miten voit parantaa kommunikointia kuulovammaisen matkustajan kanssa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "En mitenkään."
+        },
+        {
+          "letter": "B",
+          "text": "Suosittelemalla asiakasta istumaan etuistuimelle."
+        },
+        {
+          "letter": "C",
+          "text": "Suosittelemalla asiakasta istumaan takapenkillä."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Suosittelemalla etuistuimelle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "section": "special_needs"
+    },
+    {
+      "id": 26,
+      "text": "Miten toimit, kun olet noutamassa asiakasta ja hän haluaa itse siirtyä pyörätuolista taksin etuistuimelle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Totean asiakkaalle, että hän ei saa siirtyä pyörätuolista ajoneuvoon ilman kuljettajan apua"
+        },
+        {
+          "letter": "B",
+          "text": "Totean asiakkaalle, että hänellä on oikeus siirtyä itse pyörätuolista ajoneuvoon ja tarvittaessa avustan häntä"
+        },
+        {
+          "letter": "C",
+          "text": "Totean asiakkaalle, että pyörätuolissa saapuva asiakas ei saa istua ajoneuvon etupenkillä"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Totean häntä\nMain keyword: itse = self / themselves\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B",
+      "section": "special_needs"
+    },
+    {
+      "id": 27,
+      "text": "Miten toimia, kun pyörätuoliasiakas haluaa itse siirtyä autoon?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Asiakas ei voi koskaan siirtyä ilman kuljettajaa."
+        },
+        {
+          "letter": "B",
+          "text": "Asiakas voi siirtyä itse, kuljettaja avustaa tarvittaessa."
+        },
+        {
+          "letter": "C",
+          "text": "Kuljettaja voi vain odottaa sivussa."
+        }
+      ],
+      "correct": "B",
+      "explanation": "",
+      "section": "special_needs"
+    },
+    {
+      "id": 28,
+      "text": "Mitä sinun tulee toimia, jos havaitset koulukuljetuksen aikana oppilaiden välistä kiusaamista?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sinun tulee poistaa kiusaajat autosta ja ilmoittaa asiasta oppilaiden vanhemmille."
+        },
+        {
+          "letter": "B",
+          "text": "Sinun ei tule puuttua kiusaamistilanteeseen lainkaan, mutta sinun tulee ilmoittaa asiasta oppilaitokseen."
+        },
+        {
+          "letter": "C",
+          "text": "Sinun tulee puuttua asiaan ja keskustella osapuolten kanssa ja ilmoittaa asiasta oppilaitokseen."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Sinun tulee puuttua\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C",
+      "section": "special_needs"
+    },
+    {
+      "id": 29,
+      "text": "Mikä väite ei pidä paikkaansa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pyörätuoli on kiinnitettävä rungosta."
+        },
+        {
+          "letter": "B",
+          "text": "Sisäkäyttöön tarkoitettua pyörätuolia ei tarvitse kiinnittää, jos matka < 1 km."
+        },
+        {
+          "letter": "C",
+          "text": "Asiakas päättää itse kiinnitetäänkö pyörätuoli."
+        }
+      ],
+      "correct": "A",
+      "explanation": "",
+      "section": "special_needs"
+    },
+    {
+      "id": 30,
+      "text": "Koulukuljetuksia hoitava taksinkuljettaja on lapsen elämässä tärkeä aikuinen. Mitä on hyvä muistaa turvavyön käytöstä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kuljettajan ei tarvitse käyttää turvavyötä."
+        },
+        {
+          "letter": "B",
+          "text": "Myös kuljettaja tulee käyttää turvavyötä."
+        },
+        {
+          "letter": "C",
+          "text": "Takapenkillä matkustavan ei tarvitse käyttää turvavyötä."
+        }
+      ],
+      "correct": "B",
+      "explanation": "",
+      "section": "special_needs"
+    },
+    {
+      "id": 31,
+      "text": "Milloin saat pysäyttää taksin maksulliselle pysäköintipaikalle maksua suorittamatta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Et koskaan."
+        },
+        {
+          "letter": "B",
+          "text": "Vain liikkumisesteistä asiakasta kyytiin ottaessasi tai kyydistä jättäessäsi."
+        },
+        {
+          "letter": "C",
+          "text": "Aina asiakasta kyytiin ottaessasi tai kyydistä jättäessäsi."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Aina asiakasta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C",
+      "section": "customer_service"
+    },
+    {
+      "id": 32,
+      "text": "Mitä taksinkuljettajana voit tehdä, kun kyydissä olevalla asiakkaalla on kiire ja liikenne on ruuhkaa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "En välitä, koska en voi asialle mitään."
+        },
+        {
+          "letter": "B",
+          "text": "Kerrot asiakkaalle tilanteen ja pidät hänet ajan tasalla."
+        },
+        {
+          "letter": "C",
+          "text": "Ajat ylinopeutta ja jos asiakas maksaa sakot."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Kerrot asiakkaalle tasalla\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "section": "customer_service"
+    },
+    {
+      "id": 33,
+      "text": "Mikä seuraavista on oikein, kun kuljettaja käyttää viestimiä ajon aikana?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kuljettaja saa käyttää viestimiä ajon aikana, jos se on välttämätöntä."
+        },
+        {
+          "letter": "B",
+          "text": "Kuljettaja saa käyttää viestimiä ajon aikana handsfree-laitetta käyttäen."
+        },
+        {
+          "letter": "C",
+          "text": "Kuljettaja ei saa käyttää viestimiä ajon aikana."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nCorrect answer: B",
+      "section": "customer_service"
+    },
+    {
+      "id": 34,
+      "text": "Milloin asiakkaalle pitää antaa kuitti taksimatkasta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jos kyyti tilattiin sovelluksella."
+        },
+        {
+          "letter": "B",
+          "text": "Jos hinta on kiinteä."
+        },
+        {
+          "letter": "C",
+          "text": "Aina kyydistä on annettava kuitti."
+        }
+      ],
+      "correct": "C",
+      "explanation": "",
+      "section": "customer_service"
+    },
+    {
+      "id": 35,
+      "text": "Millä maksuvälineillä asiakas saa maksaa taksimatkansa taksiasemalta otetussa kyydissä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vain käteisellä."
+        },
+        {
+          "letter": "B",
+          "text": "Kuljettaja päättää."
+        },
+        {
+          "letter": "C",
+          "text": "Käteisellä ja yleisimmillä maksukorteilla."
+        }
+      ],
+      "correct": "C",
+      "explanation": "",
+      "section": "customer_service"
+    },
+    {
+      "id": 36,
+      "text": "Mikä seuraavista hyvää viestimien käyttöön liittyvää asiakaspalvelua?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kuljettaja voi lähettää viestejä, jos puhelin on äänettömällä"
+        },
+        {
+          "letter": "B",
+          "text": "Puhelun soittaminen, jos se kuljetuksen suorittamiseksi on välttämätön"
+        },
+        {
+          "letter": "C",
+          "text": "Kuljettaja voi puhua henkilökohtaisia puheluita, jos asiakas"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nMain keyword: Puhelun soittaminen = making a phone call\nImportant keyword: välttämätön = necessary\n\nThe question is not about casual conversations.\n\nRule: A driver may make a phone call only when it is necessary (välttämätön) for the task or situation.\n\nNecessary call = allowed.\nUnnecessary conversation = not allowed.\n\nCorrect answer: B",
+      "section": "customer_service"
+    },
+    {
+      "id": 37,
+      "text": "Mikä seuraavista on oikein liittyen taksipalveluun?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kuitin tarjoaminen asiakkaalle on lisämaksullinen palvelu."
+        },
+        {
+          "letter": "B",
+          "text": "Kuitin tarjoaminen asiakkaalle on vapaaehtoista."
+        },
+        {
+          "letter": "C",
+          "text": "Kuitin tarjoaminen asiakkaalle on pakollista."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nMain keyword: pakollista\n\nReceipt is mandatory (pakollista), not voluntary (vapaaehtoista).\n\nCorrect answer: C",
+      "section": "customer_service"
+    },
+    {
+      "id": 38,
+      "text": "Milloin tarvitsee asiakkaalle tarjota kuitti taksikyydistä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jos kyyti on tilattu applikaatiolla"
+        },
+        {
+          "letter": "B",
+          "text": "Jos taksin hinta on kiintiö"
+        },
+        {
+          "letter": "C",
+          "text": "Kyydistä on annettava kuitti"
+        }
+      ],
+      "correct": "C",
+      "explanation": "",
+      "section": "customer_service"
+    },
+    {
+      "id": 39,
+      "text": "Mikä seuraavista väittämistä taksinkuljettajan velvollisuuksista on oikein?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alle 135 cm pituinen lapsi tarvitsee aina turvalaitteen matkustaessaan taksissa."
+        },
+        {
+          "letter": "B",
+          "text": "Lapsi voi matkustaa taksissa ilman turvalaitetta, kunhan istuu takapenkillä ja on turvavöissä."
+        },
+        {
+          "letter": "C",
+          "text": "Alle 3-vuotias istuu aina etupenkillä."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nCorrect answer: A",
+      "section": "customer_service"
+    },
+    {
+      "id": 40,
+      "text": "Mikä seuraavista on hyvää asiakaspalvelua viestimien käytössä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kuljettaja voi lähettää viestejä, jos puhelin on äänettömällä."
+        },
+        {
+          "letter": "B",
+          "text": "Kuljettaja ei käytä viestimiä ajon aikana."
+        },
+        {
+          "letter": "C",
+          "text": "Kuljettaja voi käyttää viestimiä vain pysähtyneenä."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nCorrect answer: C",
+      "section": "customer_service"
+    },
+    {
+      "id": 41,
+      "text": "Ennakoivan ajotavan tärkein tavoite on?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osata toimia onnettomuuden sattuessa."
+        },
+        {
+          "letter": "B",
+          "text": "Olla valmis vaaratilanteissa."
+        },
+        {
+          "letter": "C",
+          "text": "Pyrkiä ajamaan niin, ettei jouduta vaara- tai onnettomuustilanteisiin."
+        }
+      ],
+      "correct": "C",
+      "explanation": "",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 42,
+      "text": "Mitä oheinen keltainen lisäkilpi (linja-auton kuva) tarkoittaa liikennemerkin  yhteydessä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Merkki ei koske linja-autoja."
+        },
+        {
+          "letter": "B",
+          "text": "Merkki koskee vain linja-autoja tai joukkoliikennettä."
+        },
+        {
+          "letter": "C",
+          "text": "Linja-autopysäkki on poistettu käytöstä."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nCorrect answer: B",
+      "image": "Image/image2.png",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 43,
+      "text": "Mikä seuraavista kuljettajan työaikaa koskevista väittämistä ei pidä paikkaansa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Työaikaa on myös kuljettajan työpäivän aikana pitämä kahden tunnin tauko."
+        },
+        {
+          "letter": "B",
+          "text": "Taksinkuljettajan vuorokautinen työaika saa olla enimmillään 11 tuntia 24 tunnin"
+        },
+        {
+          "letter": "C",
+          "text": "Työaikaa on varsinaisen ajotyön lisäksi taksiasemalla oloaika ja auton siivoaminen."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: Tyoaikaa on myos\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 44,
+      "text": "Liikenteessä on poikkeusjärjestelyjä liikenneonnettomuuden vuoksi. Saat samaan aikaan keskenään ristiriitaisia toimintaohjeita kolmelta taholta, jotka eivät tiedä toisistaan. Kenellä on seuraavista on määräysvalta eli kenenohjeita sinun tulee noudattaa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Liikennevirasto."
+        },
+        {
+          "letter": "B",
+          "text": "Poliisi."
+        },
+        {
+          "letter": "C",
+          "text": "Työnantajasi."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nMain keyword: Poliisi\n\nNote: if question end with noudattaa then answer is always Pollisi\n\nPolice have authority (määräysvalta) when traffic instructions conflict.\n\nCorrect answer: B",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 45,
+      "text": "Missä tilanteissa kuljettajan nimi pitää olla esillä taksissa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vain ennakkotilausajoissa."
+        },
+        {
+          "letter": "B",
+          "text": "Kaikissa kuljetuksissa."
+        },
+        {
+          "letter": "C",
+          "text": "Vain koulu- ja päiväkotikuljetuksissa."
+        }
+      ],
+      "correct": "B",
+      "explanation": "",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 46,
+      "text": "Saako taksinkuljettaja työskennellä yhtäjaksoisesti 15 tuntia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kyllä, jos työtä ei voida muulla tavoin tarkoituksenmukaisesti järjestää."
+        },
+        {
+          "letter": "B",
+          "text": "Kyllä, jos työnantaja kuuluu taksiyritysten liittoon."
+        },
+        {
+          "letter": "C",
+          "text": "Kyllä, jos kuljettaja itse haluaa."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: työtä yarish !\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 47,
+      "text": "Mikä seuraavista lisää eniten taksinkuljettajan loukkaantumisriskiä liikenteessä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ajoneuvon huono tekninen kunto."
+        },
+        {
+          "letter": "B",
+          "text": "Aggressiivisesti käyttäytyvät asiakkaat."
+        },
+        {
+          "letter": "C",
+          "text": "Turvavyön käyttämättömyys."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Turvavyön käyttämättömyys\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 48,
+      "text": "Mikä on peruste ajoluvan peruuttamiselle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kuljettaja ei ole työskennellyt kolmeen vuoteen."
+        },
+        {
+          "letter": "B",
+          "text": "Alueen taksiyrittäjät suosittelevat peruuttamista."
+        },
+        {
+          "letter": "C",
+          "text": "Kuljettaja on syyllistynyt törkeään liikenneturvallisuuden vaarantamiseen."
+        }
+      ],
+      "correct": "C",
+      "explanation": "",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 49,
+      "text": "Mitä teet, jos huomaat ajon aikana ajoneuvon mittariston varoitusvalon syttyvän?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jatkat ajoa, jos ajoneuvo tuntuu toimivan normaalisti."
+        },
+        {
+          "letter": "B",
+          "text": "Pysäytät ajoneuvon turvalliseen paikkaan ja tarkistat varoituksen syyn."
+        },
+        {
+          "letter": "C",
+          "text": "Ohitat varoitusvalon, jos et ole varma sen merkityksestä."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nCorrect answer: B",
+      "section": "traffic_safety"
+    },
+    {
+      "id": 50,
+      "text": "Koskeeko työaikalaki taksinkuljettajaa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ei koske missään tilanteissa."
+        },
+        {
+          "letter": "B",
+          "text": "Kyllä koskee."
+        },
+        {
+          "letter": "C",
+          "text": "Ei koske, jos siitä on sovittu työnantajan kanssa."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Kyllä koskee.\n\nTrigger rule: if question has koskeeko answer is kylla koskee\n\nCorrect answer: B",
+      "section": "traffic_safety"
+    }
+  ]
+}

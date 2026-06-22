@@ -21,7 +21,7 @@
           </div>
           <div>
             <h1>Taksi Practice</h1>
-            <p class="subtitle" id="headerSubtitle">Select a question bank or study section</p>
+            <p class="subtitle" id="headerSubtitle">Select a question bank, study section, or exam topic</p>
           </div>
         </div>
         <div class="header-stats hidden" id="headerStats">
@@ -36,10 +36,62 @@
 
     <div class="layout">
       <aside class="sidebar" aria-label="Quiz selection">
-        <p class="sidebar-label">Question Bank</p>
-        <nav class="quiz-nav" id="practiceNav"></nav>
-        <p class="sidebar-label sidebar-label-study">Study</p>
-        <nav class="quiz-nav" id="studyNav"></nav>
+        <div class="sidebar-section" id="sidebarSectionPractice">
+          <button
+            type="button"
+            class="sidebar-section-toggle"
+            id="sidebarTogglePractice"
+            aria-expanded="false"
+            aria-controls="practiceNav"
+          >
+            <span class="sidebar-section-title">Question Bank</span>
+            <span class="sidebar-section-chevron" aria-hidden="true"></span>
+          </button>
+          <nav class="quiz-nav sidebar-section-panel" id="practiceNav"></nav>
+        </div>
+
+        <div class="sidebar-section" id="sidebarSectionStudy">
+          <button
+            type="button"
+            class="sidebar-section-toggle"
+            id="sidebarToggleStudy"
+            aria-expanded="false"
+            aria-controls="studyNav"
+          >
+            <span class="sidebar-section-title">Study</span>
+            <span class="sidebar-section-chevron" aria-hidden="true"></span>
+          </button>
+          <nav class="quiz-nav sidebar-section-panel" id="studyNav"></nav>
+        </div>
+
+        <div class="sidebar-section" id="sidebarSectionExamPrep">
+          <button
+            type="button"
+            class="sidebar-section-toggle"
+            id="sidebarToggleExamPrep"
+            aria-expanded="false"
+            aria-controls="examPrepNav"
+          >
+            <span class="sidebar-section-title">Exam Preparation</span>
+            <span class="sidebar-section-chevron" aria-hidden="true"></span>
+          </button>
+          <nav class="quiz-nav sidebar-section-panel" id="examPrepNav"></nav>
+        </div>
+
+        <div class="sidebar-section" id="sidebarSectionExam">
+          <button
+            type="button"
+            class="sidebar-section-toggle"
+            id="sidebarToggleExam"
+            aria-expanded="false"
+            aria-controls="examNav"
+          >
+            <span class="sidebar-section-title">Exam</span>
+            <span class="sidebar-section-chevron" aria-hidden="true"></span>
+          </button>
+          <nav class="quiz-nav sidebar-section-panel" id="examNav"></nav>
+        </div>
+
         <div class="sidebar-footer">
           <p>309 questions total</p>
         </div>
@@ -51,11 +103,13 @@
           <div class="card-badge">Question Bank</div>
           <h2>Welcome</h2>
           <p class="lead">
-            Choose the question bank or a study section from the left panel to get started.
+            Choose the question bank, a study section, or an exam topic from the left panel to get started.
           </p>
           <ul class="feature-list">
-            <li>309 questions in one question bank (1-309)</li>
-            <li>5 study sections for focused review</li>
+            <li>309 questions in one question bank (1–309)</li>
+            <li>5 study sections for focused keyword review</li>
+            <li>4 exam preparation topics matching the official test areas</li>
+            <li>8 full mock exams — one question at a time with scored results</li>
             <li>All questions visible — scroll and answer in any order</li>
             <li>Full score summary at the end of each session</li>
           </ul>
@@ -140,6 +194,8 @@
               <span class="breakdown-label">Incorrect</span>
             </div>
           </div>
+          <div class="exam-pass-badge hidden" id="examPassBadge"></div>
+          <div class="exam-section-breakdown hidden" id="examSectionBreakdown"></div>
           <div class="results-actions">
             <button class="btn btn-secondary btn-lg" id="backToIntroBtn" type="button">Back</button>
             <button class="btn btn-primary btn-lg" id="restartBtn" type="button">Try Again</button>
@@ -151,6 +207,26 @@
     <footer class="footer">
       <p>Taksi Practice &mdash; for study purposes</p>
     </footer>
+  </div>
+
+  <!-- Full-screen exam overlay -->
+  <div class="exam-overlay hidden" id="examOverlay" role="dialog" aria-modal="true" aria-label="Exam">
+    <div class="exam-overlay-shell">
+      <header class="exam-overlay-header">
+        <span class="exam-quiz-progress-text" id="examQuizProgress">1 / 50</span>
+        <span class="exam-timer" id="examTimer" aria-live="polite">45:00</span>
+      </header>
+      <main class="exam-overlay-main">
+        <div class="exam-question-area" id="examQuestionArea" aria-live="polite"></div>
+      </main>
+      <footer class="exam-overlay-footer">
+        <nav class="exam-quiz-nav" id="examQuizNav" aria-label="Exam question navigation">
+          <button class="exam-quiz-nav-btn" id="examPrevBtn" type="button" disabled>‹ Edellinen</button>
+          <div class="exam-quiz-nav-map" id="examQuestionMap"></div>
+          <button class="exam-quiz-nav-btn exam-quiz-nav-btn-next" id="examNextBtn" type="button" disabled>Seuraava ›</button>
+        </nav>
+      </footer>
+    </div>
   </div>
 
   <!-- Feedback toast -->
@@ -173,6 +249,8 @@
 
   <script src="quiz-data.js"></script>
   <script src="study-data.js"></script>
+  <script src="exam-data.js"></script>
+  <script src="exam-sets-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
