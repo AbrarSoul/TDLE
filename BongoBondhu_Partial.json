@@ -1,0 +1,502 @@
+[
+  {
+    "id": 6,
+    "text": "Miten toimit, kun kyytiisi tulee 14-vuotias lapsi, joka toteaa huoltajan antaneen hänelle luvan matkustaa ilman turvavyötä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Huolehdit, että lapsi käyttää turvavyötä koko matkan ajan."
+      },
+      {
+        "letter": "B",
+        "text": "Annat lapsen matkustaa kiinnittämättä turvavyötä, jos huoltaja on huolehtinut lapsen istumaan."
+      },
+      {
+        "letter": "C",
+        "text": "Annat lapsen matkustaa kiinnittämättä turvavyötä, koska taksissa saa kuka tahansa matkustaa ilman turvavyötä"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nHuolehdit = Take care / Help\n\nIn 55, Huolehdit duibar ase. Jei option e \"huolehdit\" er sathe \"koko matkan ajan\" ase oita ans\n\nCorrect answer: A"
+  },
+  {
+    "id": 28,
+    "text": "Liikuntavammaisella asiakkaalla saattaa olla mukanaan avustaja. Miten toimit tällöin?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Keskustelet aina vain avustajan kanssa"
+      },
+      {
+        "letter": "B",
+        "text": "Keskustelet aina asiakkaan kanssa"
+      },
+      {
+        "letter": "C",
+        "text": "Pyydät kirjalliset ohjeet kuinka tulee toimia"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nasiakkaan kanssa = with the customer\n\nException is 21 (3 kerrot), 45 (asiakkan tarpeista).. baki shob jaygay \"asiakkaan kanssa\" dekha matro ans\n\nCorrect answer: B"
+  },
+  {
+    "id": 29,
+    "text": "Miten toimit, kun liikuntarajoitteisella asiakkaalla on mukanaan avustaja?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pyrit ensisijaisesti keskustelemaan asiakkaan kanssa kuljetukseen liittyvistä"
+      },
+      {
+        "letter": "B",
+        "text": "Pyrit ensisijaisesti keskustelemaan avustajan kanssa kuljetukseen liittyvistä"
+      },
+      {
+        "letter": "C",
+        "text": "Pyydät avustajalta aina kirjalliset ohjeet siitä miten kuljetuksessa asiakasta."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nasiakkaan kanssa = with the customer\n\nException is 21 (3 kerrot), 45 (asiakkan tarpeista).. baki shob jaygay \"asiakkaan kanssa\" dekha matro ans\n\nCorrect answer: A"
+  },
+  {
+    "id": 31,
+    "text": "Miten toimit, kun asiakas saa epileptisen kohtauksen kuljetuksen aikana?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pysäytät ajoneuvon turvalliseen paikkaan ja pidät tiukasti kiinni asiakkaasta, jotta hän ei satuttaisi itseään kouristuskohtauksen aikana. Kun kouristukset vähentyvät, käännät henkilön kylkiasentoon."
+      },
+      {
+        "letter": "B",
+        "text": "Pysäytät ajoneuvon turvalliseen paikkaan ja huolehdit ettei asiakas kolhi päätään, mutta et pyri estämään kouristusliikkeitä. Kun kouristukset vähentyvät, käännät henkilön kylkiasentoon."
+      },
+      {
+        "letter": "C",
+        "text": "Jatkat ajamista ja pidät toisella kädellä asiakasta paikoillaan, koska epileptinen"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nHuolehdit = Take care / Help\n\nIn 55, Huolehdit duibar ase. Jei option e \"huolehdit\" er sathe \"koko matkan ajan\" ase oita ans\n\nCorrect answer: B"
+  },
+  {
+    "id": 37,
+    "text": "Kenen vastuulla on pyörätuolin huolellinen kiinnittäminen taksiin, kun asiakkaalla on mukana henkilökohtainen avustaja?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asiakkaan."
+      },
+      {
+        "letter": "B",
+        "text": "Taksinkuljettaja."
+      },
+      {
+        "letter": "C",
+        "text": "Henkilökohtainen avustaja."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nTaksinkuljettaja = Taxi driver\n\nexcept age related matters\n\nCorrect answer: B"
+  },
+  {
+    "id": 41,
+    "text": "Taksin tolpasta tulee kyytiin päihtynyt asiakas, joka ei pysty kertomaan osoitettaan tai määränpäätään. Miten kuljettajan tulee toimia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kieltäydyt häntä kuljettamasta."
+      },
+      {
+        "letter": "B",
+        "text": "Jätät asiakkaan lähimmälle pysäkille tai kadulle ja jatkat työvuoroasi."
+      },
+      {
+        "letter": "C",
+        "text": "Huolehdit asiakkaan turvallisuudesta, yrität selvittää määränpään ja tarvittaessa soitat poliisin paikalle."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nHuolehdit = Take care / Help\n\nIn 55, Huolehdit duibar ase. Jei option e \"huolehdit\" er sathe \"koko matkan ajan\" ase oita ans\n\nCorrect answer: C"
+  },
+  {
+    "id": 42,
+    "text": "Miten toimit, kun olet noutamassa asiakasta ja hän haluaa itse siirtyä pyörätuolista taksin etuistuimelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Totean asiakkaalle, että hän ei saa siirtyä pyörätuolista ajoneuvoon ilman kuljettajan apua"
+      },
+      {
+        "letter": "B",
+        "text": "Totean asiakkaalle, että hänellä on oikeus siirtyä itse pyörätuolista ajoneuvoon ja tarvittaessa avustan häntä"
+      },
+      {
+        "letter": "C",
+        "text": "Totean asiakkaalle, että pyörätuolissa saapuva asiakas ei saa istua ajoneuvon etupenkillä"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nhäntä = her/him\n\nonly jodi kono option er last e thake\n\nCorrect answer: B"
+  },
+  {
+    "id": 48,
+    "text": "Miten kuljettajan tulee toimia, kun pyörätuolissa olevan asiakkaan vaatteet ovat jääneet siten, että asiakkaalla on epämiellyttävä istua ja hän pyytää apua korjaamiseksi?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajan tehtävä ei ole suoristaa asiakkaan vaatteita eikä muutoinkaan"
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettaja saa ainoastaan kehottaa asiakasta itse suoristamaan vaatteet, koska kuljettaja ei saa oikaista asiakkaan vaatteita asiakkaan pyynnöstä huolimatta."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan tehtävä on varmistaa, että asiakkaalla on mukava olla ja tarvittaessa"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nvarmistaa = ensure\n\nonly option e thakle\n\nCorrect answer: C"
+  },
+  {
+    "id": 51,
+    "text": "Miten toimit, kun saavut noutamaan asiakasta ja huomaat hänen odottavan pysähtymiskieltomerkin vaikutusalueella?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Et voi pysähtyä, joten poistut paikalta ilman asiakasta ja hylkäät kyydin."
+      },
+      {
+        "letter": "B",
+        "text": "Pysäytät autosi sallittuun paikkaan ja käyt tarvittaessa kävellen ohjaamaan asiakkaan kyytiin."
+      },
+      {
+        "letter": "C",
+        "text": "Otat asiakkaan kyytiin, koska taksikuljetus on poikkeus, joten kieltomerkki ei koske"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nasiakkaan kyytiin = pick up customer\n\n\"asiakkaan kyytiin\" 2 jaygay ase.. jei question er option e eta last e thakbe oita e answer\n\nCorrect answer: B"
+  },
+  {
+    "id": 55,
+    "text": "Miten kuljettajan tulee toimia, kun lapsi on kyydissa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Huolehdit, että lapsilla on turvavyö kiinni koko matkan ajan."
+      },
+      {
+        "letter": "B",
+        "text": "Huolehdit, että lapsilla on virvokkeita mukana."
+      },
+      {
+        "letter": "C",
+        "text": "Ei ole kuljettajan vastuulla, käyttääkö lapsi turvavyötä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nHuolehdit = Take care / Help\n\nIn 55, Huolehdit duibar ase. Jei option e \"huolehdit\" er sathe \"koko matkan ajan\" ase oita ans\n\nCorrect answer: A"
+  },
+  {
+    "id": 65,
+    "text": "Kenen tulee varmistaa, että liikuntarajoitteinen asiakas pääsee taksin kyytiin ja myös pois?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taksinkuljettaja"
+      },
+      {
+        "letter": "B",
+        "text": "Asiakas"
+      },
+      {
+        "letter": "C",
+        "text": "Asiakkaan avustaja"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nTaksinkuljettaja = Taxi driver\n\nexcept age related matters\n\nCorrect answer: A"
+  },
+  {
+    "id": 77,
+    "text": "Mitä sinun tulee toimia saattaessasi kotiinsa asiakasta, joka ei kykene huolehtimaan itsestään, ja sovittu avustaja ei ole vastaanottamassa häntä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sinun tulee aina viedä asiakas takaisin lähtopaikkaansa"
+      },
+      {
+        "letter": "B",
+        "text": "Sinä voit jättää asiakkaan esimerkiksi asiakkaan naapurin luokse."
+      },
+      {
+        "letter": "C",
+        "text": "Sinun tulee odottaa asiakkaan kanssa, kunnes avustaja saapuu paikalle."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nasiakkaan kanssa = with the customer\n\nException is 21 (3 kerrot), 45 (asiakkan tarpeista).. baki shob jaygay \"asiakkaan kanssa\" dekha matro ans\n\nCorrect answer: C"
+  },
+  {
+    "id": 78,
+    "text": "Missä asiakkaan tulee istua autossa turvallisuuden vuoksi?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Etupenkin kuljettajan vieressä."
+      },
+      {
+        "letter": "B",
+        "text": "Takapenkillä kuljettajan vieressä."
+      },
+      {
+        "letter": "C",
+        "text": "Takapenkillä etupenkin takana kuljettajan vieressä."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nTakapenkillä, takana = In the back seat, behind\n\njekhane \"Takapenkillä\" ar \"takana\" eksathe thake shekhane etai answer\n\nCorrect answer: C"
+  },
+  {
+    "id": 80,
+    "text": "Jos asiakas on erittäin humalassa, mitä teet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Soitat poliisille tai viet hänet lähimmälle poliisiasemalle."
+      },
+      {
+        "letter": "B",
+        "text": "Pidät hänet autossa ja odotat, että hän selviää."
+      },
+      {
+        "letter": "C",
+        "text": "Jätät hänet pois autosta."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nsoitat = you call\n\n95 e \"soitat\" ase duibar.. ekta option e \"soitat\" and \"hätänumeroon\" duita e ase.. ar duita e BB word.. so etai ans\n\nCorrect answer: A"
+  },
+  {
+    "id": 82,
+    "text": "Missä tilanteessa kuljettajan ei tarvitse käyttää turvavyötä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajan ei tarvitse käyttää turvavyötä yöaikaan ajaessa asiakkaan ollessa kyydissä."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan tulee ajaessaan aina käyttää turvavyötä."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan ei tarvitse käyttää turvavyötä koulukyyttejä ajaessaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nMissä tilanteessa = In what situation\n\nquestion er shuru te ei keyword thakle positive option ta ans hobe\n\nCorrect answer: B"
+  },
+  {
+    "id": 85,
+    "text": "Taksin tolpasta tulee kyytiin päihtynyt asiakas, joka ei pysty kertomaan osoitettaan tai määränpäätään. Miten kuljettajan tulee toimia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kieltäydyt häntä kuljettamasta."
+      },
+      {
+        "letter": "B",
+        "text": "Jätät asiakkaan lähimmälle pysäkille tai kadulle ja jatkat työvuoroasi."
+      },
+      {
+        "letter": "C",
+        "text": "Huolehdit asiakkaan turvallisuudesta, yrität selvittää määränpään ja tarvittaessa soitat poliisin paikalle."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nHuolehdit = Take care / Help\n\nIn 55, Huolehdit duibar ase. Jei option e \"huolehdit\" er sathe \"koko matkan ajan\" ase oita ans\n\nCorrect answer: C"
+  },
+  {
+    "id": 86,
+    "text": "Kuka on vastuussa paareilla olevan asiakkaan turvavöistä, jonka olet noutanut sairaalasta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asiakas itse"
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettaja"
+      },
+      {
+        "letter": "C",
+        "text": "Sairaanhoitaja"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nsairaalasta = hospital\n\nquestion er last e \"sairaalasta\" thakle \"kuljettaja\" hobe ans\n\nCorrect answer: B"
+  },
+  {
+    "id": 94,
+    "text": "Milloin taksiliikenteessä saa ajaa ilman taksivalaisinta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kaikissa ajoissa."
+      },
+      {
+        "letter": "B",
+        "text": "Aina silloin, kun ajo alkaa muualta kuin taksiasema-alueelta."
+      },
+      {
+        "letter": "C",
+        "text": "Silloin, jos kyseessä on sopimusajo, josta on tehty kirjallinen sopimus."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nSilloin = then\n\n\"Sillion\" jokhn shobar first e thakbe tokhn eta ans\n\nCorrect answer: C"
+  },
+  {
+    "id": 95,
+    "text": "Olet viemässä asiakasta sairaalasta kotiin. Yhtäkkiä huomaat ulosajaneen auton. Säikähdät tilannetta ja aiot pysähtyä, mutta takapenkillä istuva asiakas vaatii, että viet hänet välittömästi kotiin.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Viet asiakkaan kotiin ja palaat sen jälkeen tapahtumapaikalle."
+      },
+      {
+        "letter": "B",
+        "text": "Soitat yleiseen hätänumeroon."
+      },
+      {
+        "letter": "C",
+        "text": "Pysähdyt tapahtumapaikalle ja soitat hätänumeroon."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nsoitat = you call\n\n95 e \"soitat\" ase duibar.. ekta option e \"soitat\" and \"hätänumeroon\" duita e ase.. ar duita e BB word.. so etai ans\n\nCorrect answer: B"
+  },
+  {
+    "id": 112,
+    "text": "Mitä tarkoittaa taksinkuljettajalla vaadittava riittävä kielitaito?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Se tarkoittaa sitä, että kuljettajan on pitänyt suorittaa kansalaisuuden kielikoe."
+      },
+      {
+        "letter": "B",
+        "text": "Se tarkoittaa sitä, että kuljettaja kykenee kommunikoimaan asiakkaan kanssa siten, että asiakas pääsee turvallisesti oikeaan määränpäähänsä."
+      },
+      {
+        "letter": "C",
+        "text": "Se tarkoittaa sitä, että kuljettaja pystyy keskustelemaan asiakkaan kanssa sujuvasti päivän tapahtumista."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nasiakkaan kanssa = with the customer\n\nException is 21 (3 kerrot), 45 (asiakkan tarpeista).. baki shob jaygay \"asiakkaan kanssa\" dekha matro ans\n\nCorrect answer: B"
+  },
+  {
+    "id": 126,
+    "text": "Saako taksinkuljettaja työskennellä yhtäjaksoisesti 15 tuntia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kyllä, jos työtä ei voida muulla tavoin tarkoituksenmukaisesti järjestää."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, jos työnantaja kuuluu taksiyritysten liittoon."
+      },
+      {
+        "letter": "C",
+        "text": "Kyllä, jos kuljettaja itse haluaa."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\ntyötä, järjestää = work, arrange\n\nquestion e 15-tuinta thakle\n\nCorrect answer: A"
+  },
+  {
+    "id": 128,
+    "text": "Laissa liikenteen palveluista on lueteltu erilaisia laatuvaatimuksia. Mikä seuraavista vaihtoehdoista pitää paikkansa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Laatuvaatimukset koskevat ainoastaan niitä yrittäjiä, joilla on enemmän kuin kaksi työntekijää vakituisesti."
+      },
+      {
+        "letter": "B",
+        "text": "Laatuvaatimukset koskevat ainoastaan taksiluvan haltijaa."
+      },
+      {
+        "letter": "C",
+        "text": "Laatuvaatimukset koskevat jokaista taksinkuljettajaa."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nTaksinkuljettajaa = Taxi driver\n\nException 58.. \"Taksinkuljettajaa\" is not ans there\n\nCorrect answer: C"
+  },
+  {
+    "id": 129,
+    "text": "Koskeeko liikenteen palveluista annettu laki (laatuvaatimukset) taksiyrittäjää?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Laatuvaatimukset koskevat ainoastaan taksiluvan haltijaa."
+      },
+      {
+        "letter": "B",
+        "text": "Laatuvaatimukset koskevat jokaista taksinkuljettajaa."
+      },
+      {
+        "letter": "C",
+        "text": "Laatuvaatimukset koskevat ainoastaan niitä yrittäjiä, joilla on enemmän kuin kaksi työntekijää."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nTaksinkuljettajaa = Taxi driver\n\nException 58.. \"Taksinkuljettajaa\" is not ans there\n\nCorrect answer: B"
+  },
+  {
+    "id": 133,
+    "text": "Saako taksinkuljettaja käyttää puhelinta ajon aikana siten, että pitää puhelimen kädessä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Saa"
+      },
+      {
+        "letter": "B",
+        "text": "Ei saa"
+      },
+      {
+        "letter": "C",
+        "text": "Saa, jos ei ole asiakas kyydissä."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nEi saa = ofcourse not\n\njokhn \"Ei saa\" eka thakbe, or agey pore keu nai.. tokhn etai answer\n\nCorrect answer: B"
+  },
+  {
+    "id": 140,
+    "text": "Missä tilanteissa kuljettajan ei tarvitse käyttää turvavyötä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajan tulee ajaessaan aina käyttää turvavyötä."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan ei tarvitse käyttää turvavyötä yöaikaan ajaessa asiakkaan ollessa kyydissä."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan ei tarvitse käyttää turvavyötä koulukyyttejä ajaessaan."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nMissä tilanteissa = In what situation\n\nquestion er shuru te ei keyword thakle positive option ta ans hobe\n\nCorrect answer: A"
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "id": 146,
+    "text": "Edessäsi näkyy oheinen liikennemerkki (linja-autokaista, jonka yhteydessä  TAKSI-lisäkilpi). Saako taksilla ajaa tällä kaistalla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei, kaista on varattu pelkästään linja-autoille."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, lisäkilpi sallii myös taksin käyttää kaistaa."
+      },
+      {
+        "letter": "C",
+        "text": "Vain ruuhka-aikojen ulkopuolella."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image1.png"
+  },
+  {
+    "id": 147,
+    "text": "Mitä oheinen keltainen lisäkilpi (linja-auton kuva) tarkoittaa liikennemerkin  yhteydessä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Merkki ei koske linja-autoja."
+      },
+      {
+        "letter": "B",
+        "text": "Merkki koskee vain linja-autoja tai joukkoliikennettä."
+      },
+      {
+        "letter": "C",
+        "text": "Linja-autopysäkki on poistettu käytöstä."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image2.png"
+  },
+  {
+    "id": 148,
+    "text": "Pitääkö taksivalaisimen olla esillä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pitää vain silloin, kun taksin valaisin on poistettu."
+      },
+      {
+        "letter": "B",
+        "text": "Pitää aina."
+      },
+      {
+        "letter": "C",
+        "text": "Ei koskaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image3.png"
+  },
+  {
+    "id": 149,
+    "text": "Mitä oheinen varoitusmerkki tarkoittaa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tietöitä."
+      },
+      {
+        "letter": "B",
+        "text": "Töyssy (epätasainen tie / hidastetöyssy)."
+      },
+      {
+        "letter": "C",
+        "text": "Liukas ajorata."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image4.png"
+  },
+  {
+    "id": 150,
+    "text": "Ajaessasi taksia, saatko ajaa ajoneuvon kyseisen liikennemerkin  (moottorikäyttöisellä ajoneuvolla ajo kielletty) vaikutusalueelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aina ajaessani taksia."
+      },
+      {
+        "letter": "B",
+        "text": "Vain jos asiakkaalla on painavia matkatavaroita."
+      },
+      {
+        "letter": "C",
+        "text": "Aina jos noudan tai tuon asiakkaan."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nCorrect answer: C",
+    "image": "Image/image5.png"
+  },
+  {
+    "id": 151,
+    "text": "Mitä oheinen liikennemerkki tarkoittaa (yhdistetty pyörätie ja jalkakäytävä,  rinnakkain)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pyöräilijöille ja jalankulkijoille on omat, viivalla erotetut osansa."
+      },
+      {
+        "letter": "B",
+        "text": "Tie on tarkoitettu vain pyöräilijöille."
+      },
+      {
+        "letter": "C",
+        "text": "Tie on tarkoitettu vain jalankulkijoille."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image6.png"
+  },
+  {
+    "id": 152,
+    "text": "Kuva on otettu taksin sisältä moottoritiellä toisen ajoneuvon perässä  ajettaessa. Mikä seuraavista on oikein turvavälistä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Riittävä turvaväli edellä ajavaan parantaa turvallisuutta ja antaa aikaa reagoida."
+      },
+      {
+        "letter": "B",
+        "text": "Turvavälin pitäminen on tarpeetonta moottoritiellä."
+      },
+      {
+        "letter": "C",
+        "text": "Mitä pienempi turvaväli, sitä turvallisempaa ajaminen on."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image7.png"
+  },
+  {
+    "id": 153,
+    "text": "Milloin saat ajaa taksilla oheisella liikennemerkillä (moottoriajoneuvolla ajo kielletty)  merkityllä kadulla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kun olet menossa kadun varrella olevalle kiinteistölle."
+      },
+      {
+        "letter": "B",
+        "text": "Taksilla on läpiajo-oikeus."
+      },
+      {
+        "letter": "C",
+        "text": "Et koskaan."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image8.png"
+  },
+  {
+    "id": 154,
+    "text": "Ajaessasi taksia saatko ajaa ajoneuvon kyseisen liikennemerkin vaikutusalueelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aina ajaessani taksia."
+      },
+      {
+        "letter": "B",
+        "text": "Vain jos asiakkaalla on painavia matkatavaroita."
+      },
+      {
+        "letter": "C",
+        "text": "Aina jos nouden tai tuon asiakkaan."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nCorrect answer: C",
+    "image": "Image/image9.png"
+  },
+  {
+    "id": 155,
+    "text": "Pitääkö taksivalaisimen olla esillä? [laadittu epäselvän kuvan perusteella]",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pitää vain silloin, kun taksin valaisin on poistettu."
+      },
+      {
+        "letter": "B",
+        "text": "Pitää aina."
+      },
+      {
+        "letter": "C",
+        "text": "Ei koskaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image10.png"
+  },
+  {
+    "id": 156,
+    "text": "Pitääkö taksivalaisimen olla esillä? [laadittu kuvan/vastauksen perusteella]",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pitää vain silloin, kun taksin valaisin on poistettu."
+      },
+      {
+        "letter": "B",
+        "text": "Pitää aina."
+      },
+      {
+        "letter": "C",
+        "text": "Ei koskaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image11.png"
+  },
+  {
+    "id": 157,
+    "text": "Edessäsi näkyy oheinen liikennemerkki (linja-autokaista, jonka yhteydessä TAKSI-lisäkilpi). Saako taksilla ajaa tällä kaistalla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei, kaista on varattu pelkästään linja-autoille."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, lisäkilpi sallii myös taksin käyttää kaistaa."
+      },
+      {
+        "letter": "C",
+        "text": "Vain ruuhka-aikojen ulkopuolella."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image12.png"
+  },
+  {
+    "id": 158,
+    "text": "Paljonko ohjeisen hinnaston mukaan on sunnuntaina ajettavan yhden henkilön  kyydin kokonaishinta, kun matkan pituus on 20 km ja matka-aika on 30 minuuttia, eikä  kiinteää hintaa sovita? [laadittu kuvan perusteella]",
+    "options": [
+      {
+        "letter": "A",
+        "text": "65,00 €"
+      },
+      {
+        "letter": "B",
+        "text": "74,00 €"
+      },
+      {
+        "letter": "C",
+        "text": "83,00 €"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image13.png"
+  }
+]

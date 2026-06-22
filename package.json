@@ -2,7 +2,7 @@
   "name": "taksi-practice-quiz",
   "private": true,
   "scripts": {
-    "build": "node scripts/build-quiz.js",
+    "build": "node scripts/build-quiz.js && node scripts/build-solid.js && node scripts/generate-keywords.js && node scripts/build-study.js",
     "start": "npx serve ."
   }
 }

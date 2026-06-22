@@ -76,6 +76,12 @@ for (const q of questions) {
   if (typeof q.explanation !== 'string') {
     fail(`Question ${q.id}: "explanation" must be a string.`);
   }
+
+  if (q.image !== undefined) {
+    if (typeof q.image !== 'string' || !q.image.trim()) {
+      fail(`Question ${q.id}: "image" must be a non-empty string when provided.`);
+    }
+  }
 }
 
 questions.sort((a, b) => a.id - b.id);

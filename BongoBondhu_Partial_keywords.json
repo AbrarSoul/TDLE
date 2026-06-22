@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "asiakkaan kanssa",
+    "english": "with the customer",
+    "description": "Exception is 21 (3 kerrot), 45 (asiakkan tarpeista).. baki shob jaygay \"asiakkaan kanssa\" dekha matro ans",
+    "questionIds": [
+      28,
+      29,
+      77,
+      112
+    ]
+  },
+  {
+    "keyword": "asiakkaan kyytiin",
+    "english": "pick up customer",
+    "description": "\"asiakkaan kyytiin\" 2 jaygay ase.. jei question er option e eta last e thakbe oita e answer",
+    "questionIds": [
+      51
+    ]
+  },
+  {
+    "keyword": "Ei saa",
+    "english": "ofcourse not",
+    "description": "jokhn \"Ei saa\" eka thakbe, or agey pore keu nai.. tokhn etai answer",
+    "questionIds": [
+      133
+    ]
+  },
+  {
+    "keyword": "häntä",
+    "english": "her/him",
+    "description": "only jodi kono option er last e thake",
+    "questionIds": [
+      42
+    ]
+  },
+  {
+    "keyword": "Huolehdit",
+    "english": "Take care / Help",
+    "description": "In 55, Huolehdit duibar ase. Jei option e \"huolehdit\" er sathe \"koko matkan ajan\" ase oita ans",
+    "questionIds": [
+      6,
+      31,
+      41,
+      55,
+      85
+    ]
+  },
+  {
+    "keyword": "Missä tilanteessa",
+    "english": "In what situation",
+    "description": "question er shuru te ei keyword thakle positive option ta ans hobe",
+    "questionIds": [
+      82
+    ]
+  },
+  {
+    "keyword": "Missä tilanteissa",
+    "english": "In what situation",
+    "description": "question er shuru te ei keyword thakle positive option ta ans hobe",
+    "questionIds": [
+      140
+    ]
+  },
+  {
+    "keyword": "sairaalasta",
+    "english": "hospital",
+    "description": "question er last e \"sairaalasta\" thakle \"kuljettaja\" hobe ans",
+    "questionIds": [
+      86
+    ]
+  },
+  {
+    "keyword": "Silloin",
+    "english": "then",
+    "description": "\"Sillion\" jokhn shobar first e thakbe tokhn eta ans",
+    "questionIds": [
+      94
+    ]
+  },
+  {
+    "keyword": "soitat",
+    "english": "you call",
+    "description": "95 e \"soitat\" ase duibar.. ekta option e \"soitat\" and \"hätänumeroon\" duita e ase.. ar duita e BB word.. so etai ans",
+    "questionIds": [
+      80,
+      95
+    ]
+  },
+  {
+    "keyword": "Takapenkillä, takana",
+    "english": "In the back seat, behind",
+    "description": "jekhane \"Takapenkillä\" ar \"takana\" eksathe thake shekhane etai answer",
+    "questionIds": [
+      78
+    ]
+  },
+  {
+    "keyword": "Taksinkuljettaja",
+    "english": "Taxi driver",
+    "description": "except age related matters",
+    "questionIds": [
+      37,
+      65
+    ]
+  },
+  {
+    "keyword": "Taksinkuljettajaa",
+    "english": "Taxi driver",
+    "description": "Exception 58.. \"Taksinkuljettajaa\" is not ans there",
+    "questionIds": [
+      128,
+      129
+    ]
+  },
+  {
+    "keyword": "työtä, järjestää",
+    "english": "work, arrange",
+    "description": "question e 15-tuinta thakle",
+    "questionIds": [
+      126
+    ]
+  },
+  {
+    "keyword": "varmistaa",
+    "english": "ensure",
+    "description": "only option e thakle",
+    "questionIds": [
+      48
+    ]
+  }
+]

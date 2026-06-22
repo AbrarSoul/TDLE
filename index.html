@@ -21,11 +21,11 @@
           </div>
           <div>
             <h1>Taksi Practice</h1>
-            <p class="subtitle" id="headerSubtitle">Select a practice from the panel</p>
+            <p class="subtitle" id="headerSubtitle">Select a question bank or study section</p>
           </div>
         </div>
         <div class="header-stats hidden" id="headerStats">
-          <span class="stat-pill"><strong id="currentNum">1</strong> / <span id="totalNum">50</span></span>
+          <span class="stat-pill">Answered: <strong id="answeredNum">0</strong> / <span id="totalNum">50</span></span>
           <span class="stat-pill score-pill">Score: <strong id="liveScore">0</strong></span>
         </div>
       </div>
@@ -35,72 +35,91 @@
     </header>
 
     <div class="layout">
-      <aside class="sidebar" aria-label="Practice selection">
-        <p class="sidebar-label">Practices</p>
-        <nav class="quiz-nav" id="quizNav"></nav>
+      <aside class="sidebar" aria-label="Quiz selection">
+        <p class="sidebar-label">Question Bank</p>
+        <nav class="quiz-nav" id="practiceNav"></nav>
+        <p class="sidebar-label sidebar-label-study">Study</p>
+        <nav class="quiz-nav" id="studyNav"></nav>
         <div class="sidebar-footer">
-          <p>150 questions total<br />50 per practice</p>
+          <p>309 questions total</p>
         </div>
       </aside>
 
       <main class="main">
         <!-- Default welcome -->
         <section class="card screen" id="welcomeScreen">
-          <div class="card-badge">Practice Mode</div>
+          <div class="card-badge">Question Bank</div>
           <h2>Welcome</h2>
           <p class="lead">
-            Choose a practice from the left panel to get started. Each practice contains 50 questions
-            from the Finnish taxi driver training material.
+            Choose the question bank or a study section from the left panel to get started.
           </p>
           <ul class="feature-list">
-            <li>3 practices covering questions 1–150</li>
-            <li>One question at a time with instant feedback</li>
-            <li>Full score summary at the end of each practice</li>
+            <li>309 questions in one question bank (1-309)</li>
+            <li>5 study sections for focused review</li>
+            <li>All questions visible — scroll and answer in any order</li>
+            <li>Full score summary at the end of each session</li>
           </ul>
         </section>
 
         <!-- Practice intro screen -->
         <section class="card screen hidden" id="introScreen">
-          <div class="card-badge" id="introBadge">Practice 1</div>
-          <h2 id="introTitle">Start Practice 1</h2>
+          <div class="card-badge" id="introBadge">Question Bank</div>
+          <h2 id="introTitle">Start Question Bank</h2>
           <p class="lead" id="introLead"></p>
-          <ul class="feature-list">
-            <li>50 multiple-choice questions (A, B, or C)</li>
-            <li>Instant green / red feedback — explanations on demand</li>
-            <li>Review your score when you finish</li>
-          </ul>
-          <button class="btn btn-primary btn-lg" id="startBtn" type="button">Start Practice</button>
+          <div class="intro-keywords hidden" id="introKeywordsPanel">
+            <div class="intro-keywords-header">
+              <div class="intro-keywords-title-row">
+                <h3>Keywords</h3>
+                <span class="keyword-total-badge" id="keywordTotalBadge"></span>
+              </div>
+              <p class="intro-keywords-hint">Click a keyword to expand and view its related questions.</p>
+              <div class="keyword-search-wrap">
+                <input
+                  type="search"
+                  id="keywordSearch"
+                  class="keyword-search-input"
+                  placeholder="Filter keywords…"
+                  autocomplete="off"
+                  aria-label="Filter keywords"
+                />
+              </div>
+            </div>
+            <div class="keyword-list" id="keywordChips" role="list"></div>
+            <p class="keyword-empty hidden" id="keywordEmptyState">No keywords match your filter.</p>
+          </div>
+          <ul class="feature-list hidden" id="introFeatureList"></ul>
+          <button class="btn btn-primary btn-lg" id="startBtn" type="button">Start Questions</button>
         </section>
 
         <!-- Practice screen -->
-        <section class="card screen hidden" id="quizScreen">
-          <div class="question-meta">
-            <span class="question-label"><span id="quizSetLabel">Practice 1</span> &mdash; Question <span id="qLabel">1</span></span>
-          </div>
-          <h2 class="question-text" id="questionText"></h2>
-          <div class="options" id="optionsContainer" role="radiogroup" aria-label="Answer options"></div>
-          <div class="explanation-area hidden" id="explanationArea">
-            <button class="btn btn-explanation-toggle" id="explanationToggle" type="button" aria-expanded="false" aria-controls="explanationBox">
-              <span class="explanation-toggle-icon" aria-hidden="true">💡</span>
-              Show explanation
-            </button>
-            <div class="explanation-box hidden" id="explanationBox">
-              <div class="explanation-header">
-                <strong id="explanationTitle">Explanation</strong>
-              </div>
-              <p class="explanation-text" id="explanationText"></p>
+        <section class="card screen quiz-screen hidden" id="quizScreen">
+          <div class="quiz-toolbar">
+            <div class="quiz-toolbar-top">
+              <span class="question-label" id="quizSetLabel">Questions (1-309)</span>
+              <span class="search-result-count hidden" id="searchResultCount"></span>
+            </div>
+            <div class="search-bar">
+              <input
+                type="search"
+                id="questionSearch"
+                class="search-input"
+                placeholder="Search by question number or keyword…"
+                autocomplete="off"
+                aria-label="Search questions by number or keyword"
+              />
+              <button class="btn btn-secondary btn-sm hidden" id="clearSearchBtn" type="button">Clear</button>
             </div>
           </div>
-          <div class="quiz-actions">
-            <button class="btn btn-secondary" id="prevBtn" type="button" disabled>Previous</button>
-            <button class="btn btn-primary" id="nextBtn" type="button" disabled>Next Question</button>
+          <div class="questions-list" id="questionsList" aria-live="polite"></div>
+          <div class="quiz-screen-footer">
+            <button class="btn btn-primary btn-lg" id="finishBtn" type="button" disabled>See Results</button>
           </div>
         </section>
 
         <!-- Results screen -->
         <section class="card screen hidden" id="resultsScreen">
           <div class="results-icon" id="resultsIcon" aria-hidden="true"></div>
-          <h2 id="resultsTitle">Practice Complete!</h2>
+          <h2 id="resultsTitle">Question Bank Complete!</h2>
           <p class="lead">Here's how you did:</p>
           <div class="score-display">
             <div class="score-ring">
@@ -122,7 +141,7 @@
             </div>
           </div>
           <div class="results-actions">
-            <button class="btn btn-secondary btn-lg" id="backToIntroBtn" type="button">Back to Practice</button>
+            <button class="btn btn-secondary btn-lg" id="backToIntroBtn" type="button">Back</button>
             <button class="btn btn-primary btn-lg" id="restartBtn" type="button">Try Again</button>
           </div>
         </section>
@@ -143,7 +162,17 @@
     </div>
   </div>
 
+  <!-- Image lightbox -->
+  <div class="image-lightbox hidden" id="imageLightbox" role="dialog" aria-modal="true" aria-label="Enlarged image">
+    <button class="image-lightbox-backdrop" id="imageLightboxBackdrop" type="button" aria-label="Close enlarged image"></button>
+    <div class="image-lightbox-dialog">
+      <button class="image-lightbox-close" id="imageLightboxClose" type="button" aria-label="Close">&times;</button>
+      <img class="image-lightbox-img" id="imageLightboxImg" alt="" />
+    </div>
+  </div>
+
   <script src="quiz-data.js"></script>
+  <script src="study-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

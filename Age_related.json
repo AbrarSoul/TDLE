@@ -1,0 +1,762 @@
+[
+  {
+    "id": 4,
+    "text": "17-vuotias Elviira kulkee viikoittain yksin tanssiharrastuksestaan kotiin Kuopion keskustasta pientaloalueelle. Kuka vastaa turvavyön käytöstä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettaja"
+      },
+      {
+        "letter": "B",
+        "text": "Elviira itse"
+      },
+      {
+        "letter": "C",
+        "text": "Taksiassa turvavyön käyttö on aina vapaaehtoista, joten turvavyötä ei tarvitse laittaa kiinni"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (Elviira herself).\n\nRule: A passenger aged 15 or older is responsible for wearing their own seat belt. Elviira is 17, so she is responsible for herself—not the driver.\n\nKeywords: itse = herself; asiakas = customer/passenger. Reject options stating seat belts are optional in a taxi."
+  },
+  {
+    "id": 5,
+    "text": "Kuka vastaa asiakkaan turvavyön käytöstä kun 14-vuotias Anna kulkee viikoittain yksin tanssiharrastuksestaan kotiin Kuopion keskustasta läheiselle pientaloalueelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anna itse"
+      },
+      {
+        "letter": "B",
+        "text": "Taksinkuljettaja"
+      },
+      {
+        "letter": "C",
+        "text": "Taksissa asiakkaan turvavyön käyttö on aina vapaaehtoista"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (Taxi driver).\n\nRule: A passenger under 15 is not responsible for their own seat belt. The taxi driver must ensure the seat belt is used. Anna is 14, so the driver is responsible.\n\nKeywords: Taksinkuljettaja = taxi driver; Kuljettaja = driver."
+  },
+  {
+    "id": 6,
+    "text": "Miten toimit, kun kyytiisi tulee 14-vuotias lapsi, joka toteaa huoltajan antaneen hänelle luvan matkustaa ilman turvavyötä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Huolehdit, että lapsi käyttää turvavyötä koko matkan ajan."
+      },
+      {
+        "letter": "B",
+        "text": "Annat lapsen matkustaa kiinnittämättä turvavyötä, jos huoltaja on huolehtinut lapsen istumaan."
+      },
+      {
+        "letter": "C",
+        "text": "Annat lapsen matkustaa kiinnittämättä turvavyötä, koska taksissa saa kuka tahansa matkustaa ilman turvavyötä"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (Ensure the child uses a seat belt for the entire trip).\n\nRule: Even if a parent allows travel without a seat belt, the driver remains responsible for a 14-year-old passenger. The word Huolehdit (you must ensure) indicates driver duty.\n\nThe driver cannot rely on parental permission to skip seat belt use."
+  },
+  {
+    "id": 7,
+    "text": "Miten alle 3-vuotias lasta tulee kuljettaa taksissa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lasta voi kuljettaa ilman turvalaitetta, kunhan istuu takapenkillä turvavyöhön kytkettynä"
+      },
+      {
+        "letter": "B",
+        "text": "Lasta voi kuljettaa täysi-ikäisen matkustajan sylissä takapenkillä"
+      },
+      {
+        "letter": "C",
+        "text": "Lapsi tulee kuljettaa aina asianmukaisessa turvalaitteessa"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C (The child must always be transported in an appropriate safety device).\n\nRule: A child under 3 years old must always travel in a proper child restraint system (turvalaite). They cannot travel without one, even on the rear seat or in an adult's lap.\n\nKeyword: Lapsi tulee = the child must."
+  },
+  {
+    "id": 18,
+    "text": "Kuinka sinun tulee toimia, jos ilman aikuista matkustava alle 15-vuotias lapsi irrottaa turvavyönsä matkan aikana eikä suostu kiinnittämään sitä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pysäytät ajoneuvon ja keskustelet asiasta. Jatkat matkaa vasta sitten, kun lapsen turvavyö on kiinni."
+      },
+      {
+        "letter": "B",
+        "text": "Pysäytät ajoneuvon ja varoitat lasta, että poistat hänet autosta, ellei hän kiinnitä"
+      },
+      {
+        "letter": "C",
+        "text": "Annat lapsen matkustaa ilman turvavyötä ja ilmoitat asiasta hänen huoltajalleen."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (Stop the vehicle and discuss; continue only when the seat belt is fastened).\n\nRule: For a child under 15 traveling without an adult, the driver must ensure the seat belt stays fastened. Do not continue the trip with an unfastened belt or simply report to the guardian afterward.\n\nKeyword: turvavyö on kiinni = seat belt is fastened."
+  },
+  {
+    "id": 33,
+    "text": "Helmi on vaikeavammainen 8-vuotias tyttö, joka käy viikoittain kuntoutuksessa eräässä hoitolaitoksessa. Hän käyttää pyörätuolia eikä pysty liikkumaan itsenäisesti lainkaan. Hänen äitinsä on kuullut, että Helmillä olisi oikeus saada Kelan korvaama vakiotaksi, jolloin häntä kuljettaisi oman yrittäjän palveluksessa olevat kuljettajat. Helmin äiti tiedustelee sinulta,onko tämä mahdollista. Miten vastaat hänelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Helmillä ei ole oikeutta vakiotaksiin, sillä siihen ovat oikeutettuja vain vanhukset ja työssä käyvät vaikeavammaiset aikuiset."
+      },
+      {
+        "letter": "B",
+        "text": "Helmi on oikeutettu vakiotaksiin vain, jos hänen äitinsä kulkee matkat hänen"
+      },
+      {
+        "letter": "C",
+        "text": "Helmi on oikeutettu vakiotaksiin."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C (Helmi is entitled to a regular taxi / vakiotaksi).\n\nContext: Helmi is an 8-year-old severely disabled girl who uses a wheelchair. She is entitled to Kela-covered regular taxi service for rehabilitation trips—not only elderly or working disabled adults.\n\nTrigger note: When the question starts with Helmi, the correct option is typically the one stating she is entitled."
+  },
+  {
+    "id": 40,
+    "text": "Voitko toimia vakiotaksinkuljettajana säännöllisissä kuntoutukseen liittyvissä matkoissa, kun matkustajana on pyörätuolia käyttävä 15-vuotias lapsi?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "En voi toimia vakiotaksinkuljettajana, koska lapsella ei ole oikeutta vakiotaksiin."
+      },
+      {
+        "letter": "B",
+        "text": "Selvität työnantajalta voinko toimia vakio taksinkuljettajana."
+      },
+      {
+        "letter": "C",
+        "text": "Voin toimia vakiotaksinkuljettajana huoltajan valtuutuksella."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (Check with your employer whether you can act as a regular taxi driver).\n\nContext: A 15-year-old wheelchair user on regular rehabilitation trips may have taxi rights, but whether you as a driver can serve as their assigned regular driver is an employer/work arrangement question—check with the employer.\n\nKeyword: Selvität = you clarify/check."
+  },
+  {
+    "id": 55,
+    "text": "Miten kuljettajan tulee toimia, kun lapsi on kyydissa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Huolehdit, että lapsilla on turvavyö kiinni koko matkan ajan."
+      },
+      {
+        "letter": "B",
+        "text": "Huolehdit, että lapsilla on virvokkeita mukana."
+      },
+      {
+        "letter": "C",
+        "text": "Ei ole kuljettajan vastuulla, käyttääkö lapsi turvavyötä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (Ensure children keep their seat belts fastened for the entire trip).\n\nRule: When a child is a passenger, the driver is responsible for seat belt use for passengers under 15. Reject options saying it is not the driver's responsibility or that snacks are the main concern.\n\nGeneral child passenger rule tied to the under-15 threshold."
+  },
+  {
+    "id": 62,
+    "text": "Mikä seuraavista on riskittömin toimintatapa, kun olet jättämässä yksinään matkustavaa noin 10-vuotiasta lasta taksista kerrostalokotiinsa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jätät lapsen kotiinsa ilmoittamansa kerrostalon pihalle ja annat hänen mennä"
+      },
+      {
+        "letter": "B",
+        "text": "Pyydät lasta soittamaan huoltajalleen ja pyytämään tätä tulemaan lasta vastaan kerrostalon pihalle."
+      },
+      {
+        "letter": "C",
+        "text": "Pyydät jotakin kerrostalon pihalla olevaa aikuista huolehtimaan, että lapsi menee"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (Ask the child to call their guardian and request the guardian come to meet them in the courtyard).\n\nContext: When dropping off an approximately 10-year-old child traveling alone at an apartment building, the safest approach is to involve the guardian directly—not leave the child in the courtyard alone or rely on a random adult nearby.\n\nKeyword: tätä = this (guardian coming to meet)."
+  },
+  {
+    "id": 63,
+    "text": "Mikä seuraavista on suositeltavin toimintatapa,jos noin 10-vuotias lapsi tulee yksinään kyytiisi ja sanoo olevansa menossa kaverinsa luokse?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pyydät lapselta hänen huoltajansa puhelinnumeroa ja kysyt huoltajalta, saako lapsi matkustaa yksinään."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljetat lapsen hänen ilmoittamaansa määränpäähän kysymättä hänen huoltajaltaan lupaa."
+      },
+      {
+        "letter": "C",
+        "text": "Kieltäydyt kuljettamasta lasta ja pyydät kohteliaasti häntä poistumaan ajoneuvosta."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (Ask the child for the guardian's phone number and ask the guardian whether the child may travel alone).\n\nContext: If an approximately 10-year-old child enters your taxi alone saying they are going to a friend's house, verify with the guardian before transporting them. Do not transport without permission or refuse without checking first.\n\nKeyword: saako lapsi = whether the child may."
+  },
+  {
+    "id": 68,
+    "text": "Mihin 120cm pituinen lapsi on taksissa sijoitettava, jos lasten turvalaitetta ei ole käytettävissä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lapsen voi laittaa istumaan mille tahansa istuimelle, jos hänellä on turvavyö kiinnitettynä."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsen tulee istua takapenkillä käyttäen turvavyötä."
+      },
+      {
+        "letter": "C",
+        "text": "Lapsen voi antaa itse valita istumapaikkansa."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (The child must sit on the rear seat using a seat belt).\n\nContext: A 120 cm child is under the 135 cm threshold for mandatory child restraints. If no child safety device is available, the child must still sit on the rear seat with a seat belt—not choose any seat freely.\n\nHeight-based child passenger rule closely related to age/safety requirements."
+  },
+  {
+    "id": 74,
+    "text": "Mitä seuraavassa kolme väittämää koskien taksinkuljettajan velvollisuuksia. Mikä niistä on oikein?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajan tulee huolehtia, että alle 3-vuotias lapsi istuu etupenkillä, kun hänellä on käytössä turvalaite."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan tulee huolehtia, että alle 135 cm:n pituinen lapsi tarvitsee aina hyväksytyn turvalaitteen matkustaessaan taksissa."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan tulee huolehtia, että yli 3-vuotias lapsi matkustaa ilman turvalaitetta, kun hän istuu takapenkillä ja on turvavöissä."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (The driver must ensure a child under 135 cm always needs an approved safety device when traveling in a taxi).\n\nRule: Children under 135 cm must always use an approved child restraint in a taxi. Wrong: under-3 on front seat is not the general rule; over-3 without a device on the rear seat is incorrect.\n\nKeyword: 135 cm."
+  },
+  {
+    "id": 81,
+    "text": "Mikä seuraavista on oikein koskien yksin matkustavan alle 15-vuotiaan asiakkaan turvavyön käyttöä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asiakas itse huolehtii turvavyön käytöstä."
+      },
+      {
+        "letter": "B",
+        "text": "Jos kyse ei ole koulukyydistä, kuljettajan ei tarvitse huolehtia asiakkaan turvavyön käytöstä."
+      },
+      {
+        "letter": "C",
+        "text": "Taksinkuljettajan on huolehdittava asiakkaan turvavyön käytöstä."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C (The taxi driver must ensure the customer uses a seat belt).\n\nRule: For a customer under 15 traveling alone, the taxi driver must ensure seat belt use—regardless of whether it is a school ride. The child is not responsible for themselves.\n\nKeyword: huolehdittava = must be ensured."
+  },
+  {
+    "id": 90,
+    "text": "Saako yli 15 vuotias asiakas matkustaa isossa esteettömässä ajoneuvossa siten, että hän pyörätuolin sijaan istuu nelipyöräisessä sähkömopossa (senioriskootteri)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei saa, koska sähkömopoa ei ole tarkoitettu asiakkaan kuljettamiseen taksissa."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä saa, jos sähkömopo on sijoitettu siten, että asiakas matkustaa selkä"
+      },
+      {
+        "letter": "C",
+        "text": "Kyllä saa, jos kuljettaja huolehtii asiakkaan sähkömopon oikeaoppisesta kiinnittämisestä ajoneuvoon."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (No—the electric moped/scooter is not intended for customer transport in a taxi).\n\nContext: Even if the customer is over 15, they may not travel in an accessible taxi seated on a four-wheeled electric moped instead of a wheelchair. The vehicle type is not approved for this purpose.\n\nAge threshold mentioned: over 15 years old."
+  },
+  {
+    "id": 91,
+    "text": "Mikä seuraavista on turvallisin tapa kuljettaa lapsia taksilla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lapsen tulee istua etuistuimella turvaistuimessa."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsen tulee istua takapenkillä turvaistuimessa."
+      },
+      {
+        "letter": "C",
+        "text": "Lapsen tulee istua vanhemman sylissä."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (The child must sit on the rear seat in a child safety seat).\n\nRule: The safest way to transport children in a taxi is on the rear seat in an appropriate child seat—not the front seat and not in a parent's lap.\n\nKeyword: takapenkillä = on the rear seat."
+  },
+  {
+    "id": 92,
+    "text": "Sinulle tulee kyytiin äiti, jolla on alle kolmevuotias lapsi mukana ja oma turvalaite. Kenellä on vastuu kiinnittää lapsi asianmukaisesti?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asiakkaan omia turvalaitteita ei saa käyttää taksissa."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettaja on vastuussa turvalaitteen kiinnittämisestä."
+      },
+      {
+        "letter": "C",
+        "text": "Lapsen huoltajalla on vastuu turvalaitteen kiinnittämisestä."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (The driver is responsible for fastening the safety device).\n\nRule: When a mother brings a child under three with their own child restraint, the taxi driver—not the guardian alone—is responsible for properly securing the child in the device. Customer-owned devices may be used.\n\nKeyword: Kiinnittämisestä = fastening/securing."
+  },
+  {
+    "id": 103,
+    "text": "Kuka vastaa 15 vuotta täyttäneen turvavyön käytöstä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asiakas."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettaja."
+      },
+      {
+        "letter": "C",
+        "text": "Taksissa turvavyön käyttö on aina vapaaehtoista, joten turvavyöstä ei tarvitse"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (The customer).\n\nRule: A passenger who has turned 15 (15 vuotta täyttäneen) is responsible for their own seat belt—not the driver. Reject options saying seat belts are optional in a taxi.\n\nImportant distinction: täyttäneen (has turned/completed 15) → customer responsibility; compare with Q139 for 15-vuotias wording."
+  },
+  {
+    "id": 136,
+    "text": "Mihin asti yksin matkustavan lapsen turvavyön käytöstä vastuu on kuljettajalla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "12 ikävuoteen asti"
+      },
+      {
+        "letter": "B",
+        "text": "15 ikävuoteen asti"
+      },
+      {
+        "letter": "C",
+        "text": "18 ikävuoteen asti"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (Until age 15 / 15 ikävuoteen asti).\n\nRule: The driver is responsible for a child traveling alone using a seat belt until the child reaches age 15—not 12 or 18.\n\nNote: Always 15 in this exam material."
+  },
+  {
+    "id": 137,
+    "text": "Taksin kyytiin tulee hyvin erilaisia asiakkaita, silloin tällöin kyytiin on tulossa myös lapsia. Mitä on hyvä muistaa, kun kuljetetaan taksilla lapsia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alle 135 cm:n pituinen lapsi tarvitsee aina turvalaitteen matkustaessaan autossa."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsi voi matkustaa taksissa ilman turvalaitetta, kunhan istuu takapenkillä ja turvavyö on kiinnitettynä."
+      },
+      {
+        "letter": "C",
+        "text": "Alle 3-vuotias lapsi ei saa matkustaa taksissa ilman huoltajansa kirjallista"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (A child under 135 cm always needs a safety device when traveling in a vehicle).\n\nRule: Height-based child restraint requirement—under 135 cm always needs a turvalaite. A rear seat with seat belt alone is not enough; under-3 does not require only a written guardian permission in the way option C suggests.\n\nKeyword: 135 cm."
+  },
+  {
+    "id": 139,
+    "text": "Mikä seuraavista on oikein koskien yksin matkustavan 15-vuotiaan asiakkaan turvavyön käytöstä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taksinkuljettajan on huolehdittava asiakkaan turvavyön käytöstä."
+      },
+      {
+        "letter": "B",
+        "text": "Asiakas itse huolehtii turvavyön käytöstä."
+      },
+      {
+        "letter": "C",
+        "text": "Jos kyse ei ole koulukyydistä, kuljettajan ei tarvitse huolehtia asiakkaan turvavyön käytöstä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (The taxi driver must ensure seat belt use)—per this question set's answer key.\n\nNuance: Wording matters in Finnish. 15-vuotias (15-year-old) traveling alone → answer key selects driver responsibility (huolehdittava). 15 vuotta täyttäneen (has turned 15) → customer responsibility (Q103). Always match the exact age phrasing in the question."
+  },
+  {
+    "id": 162,
+    "text": "Seuraavassa on kolme väittämää koskien taksinkuljettajan velvollisuuksia. Mikä niistä mielestäsi on oikein?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alle 135 cm:n pituinen lapsi tarvitsee aina turvalaitteen matkustaessaan taksissa."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsi voi matkustaa taksissa ilman turvalaitetta, kunhan istuu takapenkillä ja on turvavöissä."
+      },
+      {
+        "letter": "C",
+        "text": "Alle 3 vuotias istuu aina etupenkillä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (A child under 135 cm always needs a safety device in a taxi).\n\nRule: Same as Q74 — children under 135 cm must use an approved child restraint. A rear seat with seat belt alone is not sufficient.\n\nKeyword: 135 cm."
+  },
+  {
+    "id": 165,
+    "text": "Kuinka toimit, kun tilausosoitteeseen saapuessasi huomaat yhden matkustaja on kolmevuotias lapsi ja autossasi ei ole hänelle sopivaa turvalaitetta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pahoittelet asiakkaille ettet voi ottaa heitä kyytiin ja ehdotat, että tilaat turvalaitteilla varustetun ajoneuvon asiakkaalle."
+      },
+      {
+        "letter": "B",
+        "text": "Toivotat asiakkaat tervetulleeksi takaisin, mutta lapsi tulee istua ilman turvalaitetta etupenkillä turvavöissä."
+      },
+      {
+        "letter": "C",
+        "text": "Toivotat asiakkaat tervetulleeksi taksiin, mutta lapsi tulee istua ilman turvalaitett"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (Apologise and suggest ordering a vehicle with a suitable child restraint).\n\nRule: A 3-year-old cannot travel without an appropriate turvalaite. You must not take the trip without proper equipment.\n\nKeyword: turvalaite."
+  },
+  {
+    "id": 179,
+    "text": "Helmi on vaikeavammainen 8 vuotias tyttö, joka käy viikoittain kuntoutuksessa läheisessä hoitolaitoksessa. Hän käyttää pyörätuolia eikä pysty liikkumaan itsenäisesti lainkaan.Hänen äitinsä on kuullut, että Helmillä olisi oikeus saada itselleen kansaneläkelaitoksen (kela) korvaamana vakiotaksi, jollain häntä kuljettaisi saman yrittäjän palveluksessa olevat kuljettajat, Helmi äiti tiedustelee sinulta, onko tämä mahdollista, miten vastaat hänelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Helmilla ei ole oikeutta vakiotaksi, sillä siihen ovat oikeutettu vain vanhukset ja työssä käyvät vaikeavammaiset aikuiset."
+      },
+      {
+        "letter": "B",
+        "text": "Helmillä on oikeutettu vakiotaksiin vain jos hänen äitinsä kulkee matkat hänen kanssaan."
+      },
+      {
+        "letter": "C",
+        "text": "Helmi on oikeutettu vakiotaksiin"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C (Helmi is entitled to a regular taxi / vakiotaksi).\n\nContext: Same as Q33 — an 8-year-old severely disabled child using a wheelchair is entitled to Kela-covered regular taxi service for rehabilitation trips.\n\nKeyword: oikeus vakiotaksiin."
+  },
+  {
+    "id": 185,
+    "text": "Taksisi kyytiin tulee 10 vuotias Elina, joka ilmoittaa, ettei haluaa käyttää turvavyötä, sillä se tuntuu epämiellyttävältä ja hän kertoo, äiti on antanut hänelle luvan matkustaa ilman turvavyön kiinnittämistä, Mitä teet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lapsen huoltajat voivat päättää, että Elina voi matkustaa ilman turvavyötä, joten Elina ei tarvitse laittaa turvavyötä."
+      },
+      {
+        "letter": "B",
+        "text": "Taksissa voi matkustaa ilman turvavyötä, joten Elina ei tarvitse laittaa turvavyötä."
+      },
+      {
+        "letter": "C",
+        "text": "Huolehdit, että Elina kiinnittää turvavyötä. Yksin matkustava lapsi pitää taksissa aina turvavyötä."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C (Ensure Elina fastens her seat belt).\n\nRule: Same as Q6 — a 10-year-old traveling alone must use a seat belt. Parental permission does not override the driver duty for under-15 passengers.\n\nKeyword: Huolehdit / turvavyö."
+  },
+  {
+    "id": 191,
+    "text": "Mikä seuraavista väittämistä taksinkuljettajan velvollisuuksista on oikein?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alle 135 cm pituinen lapsi tarvitsee aina turvalaitteen matkustaessaan taksissa."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsi voi matkustaa taksissa ilman turvalaitetta, kunhan istuu takapenkillä ja on turvavöissä."
+      },
+      {
+        "letter": "C",
+        "text": "Alle 3-vuotias istuu aina etupenkillä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A"
+  },
+  {
+    "id": 202,
+    "text": "Miten varmistat, että lapsiasiakkaat ovat turvallisesti kiinnitettyinä ajoneuvoon?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lapsilla ei tarvitse olla turvavöitä lyhyillä matkoilla."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsen turvaistuimen käyttö on vapaaehtoista."
+      },
+      {
+        "letter": "C",
+        "text": "Käytän aina asianmukaista lasten turvaistuinta ja varmistan, että turvavyöt ovat oikein kiinnitetty."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nCorrect answer: C"
+  },
+  {
+    "id": 217,
+    "text": "Mikä seuraavista taksinkuljettajan velvollisuuksista on oikein?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alle 135 cm pituinen lapsi tarvitsee aina turvalaitteen."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsi voi matkustaa ilman turvalaitetta takapenkillä turvavöissä."
+      },
+      {
+        "letter": "C",
+        "text": "Alle 3-vuotias istuu aina etupenkillä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A"
+  },
+  {
+    "id": 218,
+    "text": "Kuka vastaa turvavyön käytöstä, kun 17-vuotias matkustaa yksin?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettaja"
+      },
+      {
+        "letter": "B",
+        "text": "Matkustaja itse"
+      },
+      {
+        "letter": "C",
+        "text": "Turvavyön käyttö on vapaaehtoista taksissa."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 219,
+    "text": "Mitä teet, kun kolmevuotias lapsi on asiakkaana ja autossasi ei ole turvalaitetta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pahoittelet ja ehdotat toisen ajoneuvon tilaamista."
+      },
+      {
+        "letter": "B",
+        "text": "Otat asiakkaat kyytiin, mutta lapsi istuu ilman turvalaitetta etupenkillä turvavöissä."
+      },
+      {
+        "letter": "C",
+        "text": "Otat asiakkaat kyytiin, mutta lapsi istuu ilman turvalaitetta."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A"
+  },
+  {
+    "id": 223,
+    "text": "Miten alle 3-vuotiasta lasta tulisi kuljettaa taksissa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lasta voi kuljettaa ilman turvalaitetta, kunhan hän istuu takapenkillä turvavöissä."
+      },
+      {
+        "letter": "B",
+        "text": "Lasta voi kuljettaa aikuisen matkustajan sylissä takapenkillä."
+      },
+      {
+        "letter": "C",
+        "text": "Lapsi tulee aina kuljettaa asianmukaisessa turvalaitteessa."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nCorrect answer: C"
+  },
+  {
+    "id": 224,
+    "text": "Mikä on oikein alle 135 cm pituisen lapsen matkustamisessa taksissa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lapsi tarvitsee aina turvalaitteen."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsi voi matkustaa ilman turvalaitetta, kunhan istuu takapenkillä turvavöissä."
+      },
+      {
+        "letter": "C",
+        "text": "Alle 3-vuotias lapsi istuu aina etupenkillä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A"
+  },
+  {
+    "id": 228,
+    "text": "Miten toimia, kun tilausosoitteeseen saapuessasi huomaat, että yksi matkustajista on 3 - vuotias lapsi ja autossasi ei ole sopivaa turvalaitetta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pahoittele ja ehdota turvalaitteella varustetun ajoneuvon tilaamista."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsi tulee istua ilman turvalaitetta etupenkillä turvavöissä."
+      },
+      {
+        "letter": "C",
+        "text": "Ota matkustajat kyytiin ja anna lapsen istua takapenkillä ilman turvalaitetta."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A"
+  },
+  {
+    "id": 254,
+    "text": "17 - vuotias Elviira matkustaa yksin. Kuka vastaa turvavyön käytöstä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettaja"
+      },
+      {
+        "letter": "B",
+        "text": "Elviira itse"
+      },
+      {
+        "letter": "C",
+        "text": "Turvavyö on vapaaehtoinen taksissa"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (Elviira herself).\n\nRule: Same as Q4 — a 17-year-old is responsible for their own seat belt.\n\nKeyword: itse."
+  },
+  {
+    "id": 256,
+    "text": "Kun tilausosoitteeseen saapuessasi huomaat asiakkaan olevan 3-vuotias lapsi eikä sinulla ole turvalaitetta, mitä teet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pahoittelet, et voi ottaa kyytiin → tilaat turvalaitteella varustetun auton."
+      },
+      {
+        "letter": "B",
+        "text": "Otat kyytiin, lapsi etupenkille ilman turvalaitetta."
+      },
+      {
+        "letter": "C",
+        "text": "Otat kyytiin, lapsi takapenkille ilman turvalaitetta."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (Apologise and arrange a vehicle with a child restraint).\n\nRule: Cannot transport a 3-year-old without a suitable turvalaite.\n\nKeyword: turvalaite."
+  },
+  {
+    "id": 271,
+    "text": "Helmi, 8-vuotias liikuntavammainen, käyttää pyörätuolia. Onko hänellä oikeus vakiotaksiin Kela-korvauksella?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei, vain aikuisilla on oikeus."
+      },
+      {
+        "letter": "B",
+        "text": "Vain jos äiti matkustaa mukana."
+      },
+      {
+        "letter": "C",
+        "text": "Kyllä, Helmi on oikeutettu vakiotaksiin."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C (Helmi is entitled to vakiotaksi with Kela compensation).\n\nContext: Same as Q33 — disabled 8-year-old wheelchair user entitled to regular taxi service.\n\nKeyword: oikeus vakiotaksiin."
+  },
+  {
+    "id": 275,
+    "text": "10 - vuotias Elina ei halua käyttää turvavyötä, ja äiti on antanut luvan. Mitä teet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Huoltajat voivat päättää → ei tarvita turvavyötä."
+      },
+      {
+        "letter": "B",
+        "text": "Taksissa voi matkustaa ilman turvavyötä."
+      },
+      {
+        "letter": "C",
+        "text": "Varmistat, että Elina kiinnittää turvavyön, koska yksin matkustava lapsi käyttää aina turvavyötä."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C (Ensure Elina uses her seat belt).\n\nRule: Same as Q185/Q6 — driver must ensure seat belt use for a 10-year-old, regardless of mother permission.\n\nKeyword: turvavyö."
+  },
+  {
+    "id": 285,
+    "text": "Mikä seuraavista väittämistä on oikein?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alle 135 cm lapsi tarvitsee aina turvalaitteen."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsi voi matkustaa ilman turvalaitetta takapenkillä."
+      },
+      {
+        "letter": "C",
+        "text": "Alle 3-vuotias ei saa matkustaa ilman huoltajan kirjallista lupaa."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A (A child under 135 cm always needs a safety device).\n\nRule: Standard 135 cm child restraint rule.\n\nKeyword: 135 cm."
+  },
+  {
+    "id": 287,
+    "text": "Kuka vastaa turvavyön käytöstä 15 vuotta täyttäneellä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettaja"
+      },
+      {
+        "letter": "B",
+        "text": "Asiakas itse"
+      },
+      {
+        "letter": "C",
+        "text": "Turvavyö on vapaaehtoinen taksissa"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B (The customer themselves).\n\nRule: Same as Q103 — a passenger who has turned 15 is responsible for their own seat belt.\n\nKeyword: itse / täyttäneellä."
+  }
+]

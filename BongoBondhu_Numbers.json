@@ -1,0 +1,434 @@
+[
+  {
+    "id": 32,
+    "text": "Alkolukko on pakollinen varuste autoissa, jolla suoritetaan koulu-tai päivähoitokuljetuksia. Alkolukko säädetään siten, että ajoneuvon käynnistyminen estyy, jos kuljettajan uloshengitysilman alkoholipitoisuus on?",
+    "text_en": "An alcohol interlock is a mandatory device in vehicles used for school or daycare transport. The interlock is set so that the vehicle cannot be started if the driver's breath alcohol concentration is?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.10 milligrammaa alkoholia litrassa uloshengitysilmaa tai enemmän.",
+        "text_en": "0.10 milligrams of alcohol per litre of exhaled air or more."
+      },
+      {
+        "letter": "B",
+        "text": "0.0 milligrammaa uloshengitysilmaa tai enemmän.",
+        "text_en": "0.0 milligrams of exhaled air or more."
+      },
+      {
+        "letter": "C",
+        "text": "Uloshengitysilmaa tai enemmän",
+        "text_en": "Exhaled air or more."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Vehicles used for school or daycare transport must be fitted with an alcohol interlock. The device is calibrated to prevent the engine from starting when the driver's breath alcohol level reaches the legal limit for driving — 0.10 mg/l of exhaled air or higher. Option B (zero tolerance) is stricter than the law requires for this setting, and option C is incomplete and nonsensical. The correct answer is A."
+  },
+  {
+    "id": 59,
+    "text": "Paljonko siivouslisämaksua asiakas joutuu maksamaan, jos sotkee auton?",
+    "text_en": "How much cleaning surcharge must a customer pay if they soil the taxi?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "550 €",
+        "text_en": "550 €"
+      },
+      {
+        "letter": "B",
+        "text": "350 €",
+        "text_en": "350 €"
+      },
+      {
+        "letter": "C",
+        "text": "450 €",
+        "text_en": "450 €"
+      }
+    ],
+    "correct": "B",
+    "explanation": "If a customer dirties or soils the taxi (for example by vomiting or making the interior unclean), the customer is charged a cleaning surcharge. The prescribed amount is 350 €. This fee compensates the taxi operator for the extra cleaning and downtime required to return the vehicle to service. The correct answer is B."
+  },
+  {
+    "id": 74,
+    "text": "Mitä seuraavassa kolme väittämää koskien taksinkuljettajan velvollisuuksia. Mikä niistä on oikein?",
+    "text_en": "The following are three statements about a taxi driver's duties. Which one is correct?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajan tulee huolehtia, että alle 3-vuotias lapsi istuu etupenkillä, kun hänellä on käytössä turvalaite.",
+        "text_en": "The driver must ensure that a child under 3 years old sits in the front seat when using a child restraint device."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan tulee huolehtia, että alle 135 cm:n pituinen lapsi tarvitsee aina hyväksytyn turvalaitteen matkustaessaan taksissa.",
+        "text_en": "The driver must ensure that a child under 135 cm in height always needs an approved child restraint device when travelling in a taxi."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan tulee huolehtia, että yli 3-vuotias lapsi matkustaa ilman turvalaitetta, kun hän istuu takapenkillä ja on turvavöissä.",
+        "text_en": "The driver must ensure that a child over 3 years old travels without a child restraint device when sitting in the back seat with a seat belt."
+      }
+    ],
+    "correct": "B",
+    "explanation": "A taxi driver is responsible for passenger safety, including children. Under Finnish traffic rules, a child shorter than 135 cm must always use an approved child restraint device (such as a child seat or booster) when travelling in a vehicle, including a taxi. Option A is wrong because young children should not sit in the front seat. Option C is wrong because age alone does not remove the restraint requirement — height (under 135 cm) is the key criterion. The correct answer is B."
+  },
+  {
+    "id": 114,
+    "text": "Yleinen hätänumero on?",
+    "text_en": "What is the general emergency number?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "119",
+        "text_en": "119"
+      },
+      {
+        "letter": "B",
+        "text": "118",
+        "text_en": "118"
+      },
+      {
+        "letter": "C",
+        "text": "112",
+        "text_en": "112"
+      }
+    ],
+    "correct": "C",
+    "explanation": "In Finland, 112 is the single general emergency number (hätänumero) for police, ambulance, and fire services. All emergency calls — whether you need the police, an ambulance, or the fire brigade — are made to 112. Option A (119) and option B (118) are not used for emergency calls in Finland. The correct answer is C."
+  },
+  {
+    "id": 125,
+    "text": "Aino on aloittanut työvuoronsa 5.30. Hän on aina ollut aamuvirkku ihminen ja lähtee mielellään töihin aikaisin. Hänen aamunsakoostuu lähinnä muiden aamuvirkkujen kuljettamisesta työpaikalle. Noin puoli kahdeksan aikaan hän aloittaa koululaisten kuljetukset. Aamu kuluu mielenkiintoisissa monipuolisissa tehtävissä yleensä erittäin nopeasti. Milloin Ainon on pidettävä ensimmäinen tauko?",
+    "text_en": "Aino started her work shift at 5:30. She has always been a morning person and likes to start work early. Her morning consists mainly of driving other early risers to their workplaces. Around 7:30 she begins schoolchildren transport. The morning usually passes very quickly in varied and interesting tasks. When must Aino take her first break?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Viimeistään klo 11, sillä kuljettajan yhtämittainen työaika saa olla 5,5 tuntia.",
+        "text_en": "By 11:00 at the latest, because a driver's continuous working time may not exceed 5.5 hours."
+      },
+      {
+        "letter": "B",
+        "text": "Sitten kun hän tuntee itsensä väsyneeksi. Työaikalaki määrittelee, että tarkkailee jaksamistaan ja tauottaa työpäivänsä tarpeen mukaan.",
+        "text_en": "Whenever she feels tired. The Working Time Act states that she should monitor her stamina and take breaks as needed."
+      },
+      {
+        "letter": "C",
+        "text": "Viimeistään klo 10, sillä kuljettajan yhtämittainen työaika saa olla 4,5 tuntia.",
+        "text_en": "By 10:00 at the latest, because a driver's continuous working time may not exceed 4.5 hours."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Under the Working Time Act, a taxi driver may not work continuously for more than 5.5 hours without a break. Aino started at 5:30, so 5.5 hours of uninterrupted work would end at 11:00. She must therefore take her first break by 11:00 at the latest. Option B is incorrect because breaks are legally mandated, not left entirely to personal feeling. Option C uses the wrong time limit (4.5 hours applies to other situations, not this continuous-work rule). The correct answer is A."
+  },
+  {
+    "id": 132,
+    "text": "Asiakas viedään sunnuntaina 25 km ja aikaa kuluu 30 min. Mikä hinta veloitat asiakkaalta?",
+    "text_en": "On a Sunday, a customer is driven 25 km and the trip takes 30 minutes. What price do you charge the customer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "65,00 €",
+        "text_en": "65.00 €"
+      },
+      {
+        "letter": "B",
+        "text": "85,00 €",
+        "text_en": "85.00 €"
+      },
+      {
+        "letter": "C",
+        "text": "75,00 €",
+        "text_en": "75.00 €"
+      }
+    ],
+    "correct": "A",
+    "explanation": "This is a tariff calculation question. The trip takes place on a Sunday (a higher-rate day), covers 25 km, and lasts 30 minutes. Applying the applicable taxi fare table for a Sunday trip of this distance and duration, the total charge is 65.00 €. Options B (85.00 €) and C (75.00 €) do not match the correct tariff for this scenario. The correct answer is A."
+  },
+  {
+    "id": 136,
+    "text": "Mihin asti yksin matkustavan lapsen turvavyön käytöstä vastuu on kuljettajalla?",
+    "text_en": "Until what age is the driver responsible for ensuring a child travelling alone uses a seat belt?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "12 ikävuoteen asti",
+        "text_en": "Until 12 years of age"
+      },
+      {
+        "letter": "B",
+        "text": "15 ikävuoteen asti",
+        "text_en": "Until 15 years of age"
+      },
+      {
+        "letter": "C",
+        "text": "18 ikävuoteen asti",
+        "text_en": "Until 18 years of age"
+      }
+    ],
+    "correct": "B",
+    "explanation": "When a child travels alone in a taxi, the driver has a legal duty to make sure the child is properly secured with a seat belt. This responsibility continues until the child reaches 15 years of age. After 15, the child is considered old enough to take personal responsibility for fastening the seat belt. Ages 12 and 18 are not the correct thresholds under Finnish taxi regulations. The correct answer is B."
+  },
+  {
+    "id": 137,
+    "text": "Taksin kyytiin tulee hyvin erilaisia asiakkaita, silloin tällöin kyytiin on tulossa myös lapsia. Mitä on hyvä muistaa, kun kuljetetaan taksilla lapsia?",
+    "text_en": "Many different customers use taxis, and sometimes children are among the passengers. What is important to remember when transporting children by taxi?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alle 135 cm:n pituinen lapsi tarvitsee aina turvalaitteen matkustaessaan autossa.",
+        "text_en": "A child under 135 cm in height always needs a child restraint device when travelling in a car."
+      },
+      {
+        "letter": "B",
+        "text": "Lapsi voi matkustaa taksissa ilman turvalaitetta, kunhan istuu takapenkillä ja turvavyö on kiinnitettynä.",
+        "text_en": "A child can travel in a taxi without a child restraint device as long as they sit in the back seat with the seat belt fastened."
+      },
+      {
+        "letter": "C",
+        "text": "Alle 3-vuotias lapsi ei saa matkustaa taksissa ilman huoltajansa kirjallista",
+        "text_en": "A child under 3 years old may not travel in a taxi without their guardian's written permission."
+      }
+    ],
+    "correct": "A",
+    "explanation": "The most important rule when transporting children is the 135 cm height requirement. Any child shorter than 135 cm must always use an approved child restraint device in a vehicle, regardless of whether it is a taxi. A seat belt alone is not sufficient for children under this height (option B is wrong). Option C is incomplete and does not reflect the primary safety rule drivers must know. The correct answer is A."
+  },
+  {
+    "id": 158,
+    "text": "Paljonko ohjeisen hinnaston mukaan on sunnuntaina ajettavan yhden henkilön  kyydin kokonaishinta, kun matkan pituus on 20 km ja matka-aika on 30 minuuttia, eikä  kiinteää hintaa sovita? [laadittu kuvan perusteella]",
+    "options": [
+      {
+        "letter": "A",
+        "text": "65,00 €"
+      },
+      {
+        "letter": "B",
+        "text": "74,00 €"
+      },
+      {
+        "letter": "C",
+        "text": "83,00 €"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A"
+  },
+  {
+    "id": 173,
+    "text": "Alkolukko on pakollinen varuste autoissa, jolla suoritetaan koulun tai päivähoitokuljetuksia, Aalkolukko säädetään siten, että ajoneuvon käynnistyminen estyy, jos kuljettajan uloshengitysilman Alkoholipitoisuus on?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.10 milligrammaa alkoholia litrassa uloshengitysilmaa tai enemmän."
+      },
+      {
+        "letter": "B",
+        "text": "0.50 milligrammaa uloshengitysilmaa tai enemmän."
+      },
+      {
+        "letter": "C",
+        "text": "yli 0 uloshengitysilmaa tai enemmän"
+      }
+    ],
+    "correct": "A",
+    "explanation": "School and daycare transport vehicles must have an alcohol interlock set to block engine start when the driver's breath alcohol level is 0.10 mg/l or more. Option B (0.50) is too high; option C is not the legal calibration. The correct answer is A."
+  },
+  {
+    "id": 180,
+    "text": "Asiakas on tilannut kela-kyytinsä keskitetystä tilausvälitysnumerosta. asiakas maksaa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Koko matkan hinnan."
+      },
+      {
+        "letter": "B",
+        "text": "Enintään omavastuun 50 euroa."
+      },
+      {
+        "letter": "C",
+        "text": "Enintään omavastuun 25 euroa."
+      }
+    ],
+    "correct": "C",
+    "explanation": "For a Kela trip ordered through the central booking number, the customer pays at most the personal copayment (omavastuu) of 25 € — not the full fare and not 50 €. The correct answer is C."
+  },
+  {
+    "id": 188,
+    "text": "Kalle kuljettaja on ajanut opintojensa ohella Ismo isännälle neljä vuoden ajan. nyt hän on valmistanut opinnoissaan ja aikoo muuttaa toiselle paikkakunnalle, joten hän päättää työsuhteensa Ismo isäntään. kuinka on kallen irtisanomisaika?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "14 päivää, sillä työsuhde on kestänyt alle viisi vuotta."
+      },
+      {
+        "letter": "B",
+        "text": "1 kuukausi, sillä työsuhde on yli vuoden, mutta alle viisi vuotta."
+      },
+      {
+        "letter": "C",
+        "text": "Kalle voi lopettaa työnsä, sitten kun Ismo löytää itselleen uuden kuljettajan"
+      }
+    ],
+    "correct": "B",
+    "explanation": "When employment has lasted more than one year but less than five years, the notice period is one month. Four years with Ismo falls in this range. 14 days applies to shorter employment; waiting until a replacement is found is not correct. The correct answer is B."
+  },
+  {
+    "id": 197,
+    "text": "Mikä seuraavista väittämistä on oikein taksinkuljettajan työaikojen suhteen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettaja saa työskennellä yhtäjaksoisesti 15 tuntia, jos hän itse haluaa."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan yhtämittainen työaika saa olla enintään 5,5 tuntia."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan yhtämittainen työaika saa olla enintään 4,5 tuntia."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 264,
+    "text": "Alkolukko estää auton käynnistymisen, jos uloshengitysilmassa on:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.10 mg/l tai enemmän."
+      },
+      {
+        "letter": "B",
+        "text": "0.50 mg/l tai enemmän."
+      },
+      {
+        "letter": "C",
+        "text": "Yli 0 mg/l."
+      }
+    ],
+    "correct": "A",
+    "explanation": "The alcohol interlock prevents starting the vehicle when breath alcohol is 0.10 mg/l or more — the same threshold as Q32. The correct answer is A."
+  },
+  {
+    "id": 280,
+    "text": "Kuinka paljon taksissa saa enintään ylittää istuinpaikkaluvun, jos kyseessä ei ole koulu- ja päiväkotikuljetus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei yhtään"
+      },
+      {
+        "letter": "B",
+        "text": "Enintään 30 %"
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan harkinnan mukaan"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Outside school and daycare transport, you may not exceed the vehicle's registered seat capacity at all — not by 30 % and not at the driver's discretion. The correct answer is A (Ei yhtään)."
+  },
+  {
+    "id": 284,
+    "text": "Kallen työsuhde on kestänyt yli vuoden mutta alle 5 vuotta. Mikä on hänen irtisanomisaikansa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "14 päivää"
+      },
+      {
+        "letter": "B",
+        "text": "1 kuukausi"
+      },
+      {
+        "letter": "C",
+        "text": "Kunnes työnantaja löytää uuden kuljettajan"
+      }
+    ],
+    "correct": "B",
+    "explanation": "When employment has lasted more than one year but under five years, the notice period is one month. The correct answer is B."
+  },
+  {
+    "id": 290,
+    "text": "Mikä työaikaa koskeva väite ei pidä paikkaansa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vuorokautinen työaika max 11 h / 24 h."
+      },
+      {
+        "letter": "B",
+        "text": "Työaikaan kuuluu myös taksiasemalla olo ja auton siivoaminen."
+      },
+      {
+        "letter": "C",
+        "text": "Työaikaan ei lasketa työpäivän kahden tunnin taukoa."
+      }
+    ],
+    "correct": "A",
+    "explanation": "The false statement is that daily working time may be at most 11 hours per 24 hours (option A). Working time includes standby at the taxi rank and cleaning the car (B is true), and the two-hour break is not counted as working time (C is true). The correct answer is A."
+  },
+  {
+    "id": 302,
+    "text": "Kuinka pitkään B-ajokortti pitää olla ollut voimassa, ennen kuin voi saada taksiajoluvan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vähintään 1 vuoden"
+      },
+      {
+        "letter": "B",
+        "text": "Vähintään 3 vuotta"
+      },
+      {
+        "letter": "C",
+        "text": "Vähintään 5 vuotta"
+      }
+    ],
+    "correct": "B",
+    "explanation": "A category B driving licence must have been valid for at least 3 years before you can obtain a taxi driving licence. One year and five years are not the correct minimum. The correct answer is B."
+  },
+  {
+    "id": 305,
+    "text": "Aino aloitti työvuoron klo 5:30. Milloin hänen on viimeistään pidettävä ensimmäinen tauko?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kun tuntee itsensä väsyneeksi."
+      },
+      {
+        "letter": "B",
+        "text": "Viimeistään klo 11 (5,5 h yhtäjaksoista työaikaa)."
+      },
+      {
+        "letter": "C",
+        "text": "Viimeistään klo 10 (4,5 h yhtäjaksoista työaikaa)."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Aino started at 5:30. Continuous work may not exceed 5.5 hours, so the first break must be taken by 11:00 at the latest. The correct answer is B."
+  },
+  {
+    "id": 306,
+    "text": "Saako taksinkuljettaja työskennellä yhtäjaksoisesti 15 tuntia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kyllä, jos muuta järjestelyä ei ole."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, jos kuljettaja haluaa."
+      },
+      {
+        "letter": "C",
+        "text": "Ei saa."
+      }
+    ],
+    "correct": "C",
+    "explanation": "A taxi driver may not work continuously for 15 hours. The correct answer is C (Ei saa)."
+  }
+]
