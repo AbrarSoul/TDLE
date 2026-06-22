@@ -307,13 +307,13 @@
 
       const heading = document.createElement('span');
       heading.className = 'keyword-list-heading';
-      heading.textContent = entry.keyword;
+      heading.innerHTML = highlightSearchTerm(entry.keyword, keywordSearchQuery);
       summary.appendChild(heading);
 
       if (entry.english && entry.english.trim()) {
         const english = document.createElement('span');
         english.className = 'keyword-list-english';
-        english.textContent = entry.english;
+        english.innerHTML = highlightSearchTerm(entry.english, keywordSearchQuery);
         summary.appendChild(english);
       }
 
@@ -324,7 +324,7 @@
         entry.questionIds.forEach(function (id) {
           const pill = document.createElement('span');
           pill.className = 'keyword-question-pill';
-          pill.textContent = 'Q' + id;
+          pill.innerHTML = highlightSearchTerm('Q' + id, keywordSearchQuery);
           questions.appendChild(pill);
         });
 
@@ -353,10 +353,10 @@
     let html = '';
 
     if (entry.description && entry.description.trim()) {
-      html +=
-        '<div class="keyword-panel-description">' +
-        formatKeywordDescription(entry.description) +
-        '</div>';
+      const descriptionHtml = keywordSearchQuery
+        ? highlightSearchMultiline(entry.description, keywordSearchQuery)
+        : formatKeywordDescription(entry.description);
+      html += '<div class="keyword-panel-description">' + descriptionHtml + '</div>';
     }
 
     if (entry.questionIds && entry.questionIds.length) {
@@ -389,7 +389,7 @@
       q.id +
       '</p>' +
       '<p class="keyword-question-preview-text">' +
-      escapeHtml(q.text) +
+      (keywordSearchQuery ? highlightSearchTerm(q.text, keywordSearchQuery) : escapeHtml(q.text)) +
       '</p>';
 
     if (q.image) {
@@ -414,7 +414,7 @@
         escapeHtml(opt.letter) +
         '</span>' +
         '<span class="keyword-question-preview-option-text">' +
-        escapeHtml(opt.text) +
+        (keywordSearchQuery ? highlightSearchTerm(opt.text, keywordSearchQuery) : escapeHtml(opt.text)) +
         '</span>' +
         '</li>';
     });
@@ -849,6 +849,55 @@
     questionSearch.focus();
   }
 
+  function updateQuestionCardHighlights(card, q, query) {
+    const trimmed = (query || '').trim();
+    const questionTextEl = card.querySelector('.question-text');
+    const questionIdEl = card.querySelector('.question-label span');
+    const qNum = parseQuestionNumber(trimmed);
+
+    if (!trimmed) {
+      questionTextEl.textContent = q.text;
+      if (questionIdEl) questionIdEl.textContent = q.id;
+      card.querySelectorAll('.option').forEach(function (btn) {
+        const opt = q.options.find(function (o) {
+          return o.letter === btn.dataset.letter;
+        });
+        if (opt) btn.querySelector('.option-text').textContent = opt.text;
+      });
+      return;
+    }
+
+    if (qNum !== null) {
+      questionTextEl.textContent = q.text;
+      if (questionIdEl) {
+        questionIdEl.innerHTML =
+          q.id === qNum
+            ? '<mark class="search-term-highlight">' + q.id + '</mark>'
+            : String(q.id);
+      }
+      card.querySelectorAll('.option').forEach(function (btn) {
+        const opt = q.options.find(function (o) {
+          return o.letter === btn.dataset.letter;
+        });
+        if (opt) btn.querySelector('.option-text').textContent = opt.text;
+      });
+      return;
+    }
+
+    questionTextEl.innerHTML = highlightSearchTerm(q.text, trimmed);
+    if (questionIdEl) {
+      questionIdEl.innerHTML = highlightSearchTerm(String(q.id), trimmed);
+    }
+    card.querySelectorAll('.option').forEach(function (btn) {
+      const opt = q.options.find(function (o) {
+        return o.letter === btn.dataset.letter;
+      });
+      if (opt) {
+        btn.querySelector('.option-text').innerHTML = highlightSearchTerm(opt.text, trimmed);
+      }
+    });
+  }
+
   function applySearch() {
     const cards = questionsList.querySelectorAll('.question-card');
     let visibleCount = 0;
@@ -863,6 +912,10 @@
 
       card.classList.toggle('hidden', !matches);
       card.classList.remove('search-highlight');
+
+      if (q) {
+        updateQuestionCardHighlights(card, q, matches ? searchQuery : '');
+      }
 
       if (matches) {
         visibleCount++;
@@ -961,6 +1014,43 @@
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+  }
+
+  function escapeRegExp(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function highlightSearchTerm(text, query) {
+    if (text == null || text === '') return '';
+    if (!query || !query.trim()) return escapeHtml(String(text));
+
+    const pattern = escapeRegExp(query.trim());
+    const re = new RegExp(pattern, 'gi');
+    let result = '';
+    let lastIndex = 0;
+    let match;
+
+    while ((match = re.exec(String(text))) !== null) {
+      result += escapeHtml(String(text).slice(lastIndex, match.index));
+      result += '<mark class="search-term-highlight">' + escapeHtml(match[0]) + '</mark>';
+      lastIndex = match.index + match[0].length;
+      if (match[0].length === 0) {
+        re.lastIndex++;
+      }
+    }
+
+    result += escapeHtml(String(text).slice(lastIndex));
+    return result;
+  }
+
+  function highlightSearchMultiline(text, query) {
+    if (!text) return '';
+    return text
+      .split('\n')
+      .map(function (line) {
+        return highlightSearchTerm(line, query);
+      })
+      .join('<br>');
   }
 
   function isBoldExplanationLine(line) {

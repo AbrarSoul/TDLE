@@ -2636,8 +2636,9 @@
         "text": "75,00 €"
       }
     ],
-    "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: 65,00 €\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "correct": "C",
+    "explanation": "Answer: A\n\nKeyword: 65,00 €\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+    "image": "Image/image13.png"
   },
   {
     "id": 133,
@@ -6049,7 +6050,7 @@
         "text": "Vähintään 5 vuotta"
       }
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": ""
   },
   {

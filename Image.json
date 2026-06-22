@@ -1,5 +1,26 @@
 [
   {
+    "id": 132,
+    "text": "Asiakas viedään sunnuntaina 25 km ja aikaa kuluu 30 min. Mikä hinta veloitat asiakkaalta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "65,00 €"
+      },
+      {
+        "letter": "B",
+        "text": "85,00 €"
+      },
+      {
+        "letter": "C",
+        "text": "75,00 €"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: A\n\nKeyword: 65,00 €\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+    "image": "Image/image13.png"
+  },
+  {
     "id": 146,
     "text": "Edessäsi näkyy oheinen liikennemerkki (linja-autokaista, jonka yhteydessä  TAKSI-lisäkilpi). Saako taksilla ajaa tällä kaistalla?",
     "options": [

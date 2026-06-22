@@ -271,6 +271,207 @@
       ],
       "english": "about safety",
       "description": "\"turvallisuudesta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 2,
+      "keyword": "rauhallisesti ja ystävällisesti",
+      "questionIds": [
+        60,
+        61
+      ],
+      "english": "calmly and kindly",
+      "description": "\"rauhallisesti ja ystävällisesti\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 2,
+      "keyword": "tulee olla alkolukko",
+      "questionIds": [
+        109,
+        291
+      ],
+      "english": "must have an alcohol interlock",
+      "description": "\"tulee olla alkolukko\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 2,
+      "keyword": "kieltäytyä kuljettamasta",
+      "questionIds": [
+        57,
+        64
+      ],
+      "english": "refuse to transport",
+      "description": "\"kieltäytyä kuljettamasta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Aina asiakasta",
+      "questionIds": [
+        71
+      ],
+      "english": "always when (with) the customer",
+      "description": "\"Aina asiakasta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Annan asiakkaan",
+      "questionIds": [
+        123
+      ],
+      "english": "I let the customer",
+      "description": "\"Annan asiakkaan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "auttaa matkustajaa",
+      "questionIds": [
+        66
+      ],
+      "english": "help the passenger",
+      "description": "\"auttaa matkustajaa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "B-luokan",
+      "questionIds": [
+        130
+      ],
+      "english": "class B (driving licence)",
+      "description": "\"B-luokan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "jotta muut",
+      "questionIds": [
+        1
+      ],
+      "english": "so that others",
+      "description": "\"jotta muut\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Koiralla on tunnistevaljaat",
+      "questionIds": [
+        67
+      ],
+      "english": "the dog has an identification harness",
+      "description": "\"Koiralla on tunnistevaljaat\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Kyllä koskee",
+      "questionIds": [
+        104
+      ],
+      "english": "yes, it applies",
+      "description": "\"Kyllä koskee\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "lasta vastaan",
+      "questionIds": [
+        62
+      ],
+      "english": "to meet the child",
+      "description": "\"lasta vastaan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Liikenteen valvojan",
+      "questionIds": [
+        3
+      ],
+      "english": "traffic controller's",
+      "description": "\"Liikenteen valvojan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Manner-Suomen",
+      "questionIds": [
+        99
+      ],
+      "english": "Mainland Finland's",
+      "description": "\"Manner-Suomen\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Manner-Suomessa",
+      "questionIds": [
+        106
+      ],
+      "english": "in Mainland Finland",
+      "description": "\"Manner-Suomessa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "on kiinni",
+      "questionIds": [
+        18
+      ],
+      "english": "is fastened / is secured",
+      "description": "\"on kiinni\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "pidetty ajankohta",
+      "questionIds": [
+        113
+      ],
+      "english": "scheduled time (of breaks)",
+      "description": "\"pidetty ajankohta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "reitin valinnassa",
+      "questionIds": [
+        145
+      ],
+      "english": "in route selection",
+      "description": "\"reitin valinnassa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "roolin mukaisesti",
+      "questionIds": [
+        15
+      ],
+      "english": "in accordance with the role",
+      "description": "\"roolin mukaisesti\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "selvittämään asiaa",
+      "questionIds": [
+        58
+      ],
+      "english": "to clarify / investigate the matter",
+      "description": "\"selvittämään asiaa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Sillä estetään",
+      "questionIds": [
+        13
+      ],
+      "english": "it prevents (vehicle movement)",
+      "description": "\"Sillä estetään\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "tulisi pitää",
+      "questionIds": [
+        70
+      ],
+      "english": "should keep (on)",
+      "description": "\"tulisi pitää\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Turvavyön käyttämättömyys",
+      "questionIds": [
+        118
+      ],
+      "english": "not wearing a seat belt",
+      "description": "\"Turvavyön käyttämättömyys\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
     }
   ],
   "correctOnlyWords": [
@@ -816,6 +1017,79 @@
       ],
       "english": "I call / calling",
       "description": "\"soitan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 2,
+      "word": "suunnassa",
+      "questionIds": [
+        43,
+        54
+      ],
+      "english": "in which direction",
+      "description": "\"suunnassa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "word": "auttamaan",
+      "questionIds": [
+        23
+      ],
+      "english": "to help",
+      "description": "\"auttamaan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "word": "hakemasta",
+      "questionIds": [
+        53
+      ],
+      "english": "fetching / picking up (for someone)",
+      "description": "\"hakemasta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "word": "hätäkeskus",
+      "questionIds": [
+        2
+      ],
+      "english": "emergency response center",
+      "description": "\"hätäkeskus\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "word": "pelätä",
+      "questionIds": [
+        24
+      ],
+      "english": "to fear",
+      "description": "\"pelätä\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "word": "poistuminen",
+      "questionIds": [
+        10
+      ],
+      "english": "exiting the vehicle",
+      "description": "\"poistuminen\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "word": "selvität",
+      "questionIds": [
+        40
+      ],
+      "english": "you find out / clarify",
+      "description": "\"selvität\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "word": "sisätilaan",
+      "questionIds": [
+        9
+      ],
+      "english": "indoors / inside",
+      "description": "\"sisätilaan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
     }
   ]
 }

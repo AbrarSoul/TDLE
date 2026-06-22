@@ -140,8 +140,9 @@
         "text_en": "75.00 €"
       }
     ],
-    "correct": "A",
-    "explanation": "This is a tariff calculation question. The trip takes place on a Sunday (a higher-rate day), covers 25 km, and lasts 30 minutes. Applying the applicable taxi fare table for a Sunday trip of this distance and duration, the total charge is 65.00 €. Options B (85.00 €) and C (75.00 €) do not match the correct tariff for this scenario. The correct answer is A."
+    "correct": "C",
+    "explanation": "This is a tariff calculation question. The trip takes place on a Sunday (a higher-rate day), covers 25 km, and lasts 30 minutes. Using the fare table shown in the image, the total charge is 75.00 €. Options A (65.00 €) and B (85.00 €) do not match the correct tariff for this scenario. The correct answer is C.",
+    "image": "Image/image13.png"
   },
   {
     "id": 136,
@@ -388,8 +389,8 @@
         "text": "Vähintään 5 vuotta"
       }
     ],
-    "correct": "B",
-    "explanation": "A category B driving licence must have been valid for at least 3 years before you can obtain a taxi driving licence. One year and five years are not the correct minimum. The correct answer is B."
+    "correct": "A",
+    "explanation": "A category B driving licence must have been valid for at least 1 year before you can obtain a taxi driving licence. Three years and five years are not the correct minimum. The correct answer is A."
   },
   {
     "id": 305,

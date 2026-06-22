@@ -1,6 +1,66 @@
 window.STUDY_DATA = {
   "solid": [
     {
+      "id": 1,
+      "text": "Miksi sinun on pimeässä moottoritien pysähdyksessä on laitettava ajovalo päälle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jotta muut tienkäyttäjät näkee pysähtyneen ajoneuvosi"
+        },
+        {
+          "letter": "B",
+          "text": "Havaitset paremmin tiealueella liikkuvat villieläimet"
+        },
+        {
+          "letter": "C",
+          "text": "Pysäköinti- tai lähivalot kuluttavat vähemmän virtaa kuin lähivalot"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: ajovalo = headlight\nMain keyword: jotta muut = so that others\n\nThe question is about using the headlight when the vehicle is stopped. The phrase \"jotta muut\" indicates the purpose: so that other road users can see your stopped vehicle.\n\nLogic:\nStopped vehicle → turn on the headlight → other road users can see the vehicle.\n\nCorrect answer: A"
+    },
+    {
+      "id": 2,
+      "text": "Miksi avun hälyttämiseen onnettomuus paikalle kannattaa käyttää 112 suomi -mobiilisovellusta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hätäpuhelu menee sillä nopeammin"
+        },
+        {
+          "letter": "B",
+          "text": "Hätäkeskus saa sen kautta automaattisesti tiedon onnettomuus sijainnista"
+        },
+        {
+          "letter": "C",
+          "text": "Soittaminen sen kautta on halvempi"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: 112 = emergency number\nMain keyword: Hätäkeskus = Emergency Response Center\nImportant keyword: sijainti = location\n\nDo not confuse:\nHätäkeskus = Emergency Response Center\nHätäpuhelu = Emergency call\n\nThe question refers to calling 112. When an emergency call is made, the Emergency Response Center can automatically determine the caller's location (sijainti).\n\nCorrect answer: B"
+    },
+    {
+      "id": 3,
+      "text": "Kenen antamia laitteille emoistatyksiä tulee noudattaa, kun reitillä on liikenneonnettomuuden vuoksi esillä ristiriitoista liikenneopastuksia.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Traficomin"
+        },
+        {
+          "letter": "B",
+          "text": "Tietyömaan urakoitsijan"
+        },
+        {
+          "letter": "C",
+          "text": "Liikenteen valvojan"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nMain keyword: Liikenteen valvojan = Traffic Controller / Traffic Supervisor\nImportant keyword: ristiriitoista = conflicting\n\nThe question describes a situation where traffic signals and instructions are conflicting.\n\nRule: When there is a conflict between traffic lights and a traffic controller's instructions, you must follow the traffic controller.\n\nCorrect answer: C"
+    },
+    {
       "id": 7,
       "text": "Miten alle 3-vuotias lasta tulee kuljettaa taksissa?",
       "options": [
@@ -41,6 +101,26 @@ window.STUDY_DATA = {
       "explanation": "Answer: B\n\nMain keyword: Puhelun soittaminen = making a phone call\nImportant keyword: välttämätön = necessary\n\nThe question is not about casual conversations.\n\nRule: A driver may make a phone call only when it is necessary (välttämätön) for the task or situation.\n\nNecessary call = allowed.\nUnnecessary conversation = not allowed.\n\nCorrect answer: B"
     },
     {
+      "id": 9,
+      "text": "Mikä seuraavista on oikein, kun ulkona on pakkasta ja jätät asiakkaan hänen ilmoittamaan osoitteeseen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Voit jatkaa matkaa, kun asiakas on poistunut taksista"
+        },
+        {
+          "letter": "B",
+          "text": "Voit jatkaa matkaa, kun olet varmistunut, että asiakas on päässyt sisätilaan"
+        },
+        {
+          "letter": "C",
+          "text": "Voit jatkaa matkaa, kun asiakas on päässyt pihalle"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: pakkasta = freezing weather / below zero\nMain keyword: sisätilaan = indoors / inside\n\nThe situation concerns passenger safety during freezing weather.\n\nRule: When it is freezing outside, the driver may leave only after ensuring that the customer has safely entered inside the building/home.\n\nCorrect answer: B"
+    },
+    {
       "id": 10,
       "text": "Asiakas pyytää sinua pysähtymään vilkkaasti liikennöidyillä tiellä, jotta hän voi jäädä pois kyydistä. Mikä seuraavista tilanteesta koskevista väittämistä on oikein?",
       "options": [
@@ -61,6 +141,26 @@ window.STUDY_DATA = {
       "explanation": "Answer: A\n\nKeyword: pysähtymään = to stop\n\nThe customer wants the taxi to stop somewhere.\n\nSeveral options mention safety, so focus on the main keywords:\nturvallinen = safe\ntoisen = another\n\nThe first option emphasizes safety twice, including a negative condition.\n\nLogic: If the requested stopping place is not safe, the driver should stop at another safe location nearby.\n\nRule: Safety always comes first.\n\nCorrect answer: A"
     },
     {
+      "id": 13,
+      "text": "Miksi alkolukko vaaditaan pakollisena varusteena kunnan tilaamissa koulu-ja päivähoitokuljetuksissa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sillä estetään ajoneuvon liikkuminen, jos kuljettaja on nauttinut alkoholia."
+        },
+        {
+          "letter": "B",
+          "text": "Se on tarkoitettu ainoastaan työnantajan seurantavälineeksi kuljettajan alkoholin käytöstä"
+        },
+        {
+          "letter": "C",
+          "text": "Sillä poliisi tarkistaa liikenteen valvonnassa kuljettajan ajokunnon."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nMain keyword: estetään\nImportant keyword: alkoholia\nImportant keyword: Kuljettaja = driver\n\nAlkolukko prevents the vehicle from moving if the driver has consumed alcohol.\n\nCorrect answer: A"
+    },
+    {
       "id": 15,
       "text": "Mikä seuraavista on oikein liittyen taksinkuljettajan toimintaan koulu-ja päivähoitokuljetuksissa?",
       "options": [
@@ -79,6 +179,26 @@ window.STUDY_DATA = {
       ],
       "correct": "B",
       "explanation": "Answer: B\n\nMain keyword: vastuullisen kuljettajan\n\nDriver must behave as a responsible professional in school/daycare transport.\n\nCorrect answer: B"
+    },
+    {
+      "id": 18,
+      "text": "Kuinka sinun tulee toimia, jos ilman aikuista matkustava alle 15-vuotias lapsi irrottaa turvavyönsä matkan aikana eikä suostu kiinnittämään sitä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pysäytät ajoneuvon ja keskustelet asiasta. Jatkat matkaa vasta sitten, kun lapsen turvavyö on kiinni."
+        },
+        {
+          "letter": "B",
+          "text": "Pysäytät ajoneuvon ja varoitat lasta, että poistat hänet autosta, ellei hän kiinnitä"
+        },
+        {
+          "letter": "C",
+          "text": "Annat lapsen matkustaa ilman turvavyötä ja ilmoitat asiasta hänen huoltajalleen."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nMain keyword: turvavyö on kiinni\n\nStop and discuss; continue only when the child's seat belt is fastened.\n\nCorrect answer: A"
     },
     {
       "id": 19,
@@ -139,6 +259,26 @@ window.STUDY_DATA = {
       ],
       "correct": "C",
       "explanation": "Answer: C\n\nMain keyword: kysyä asiakkaalta\nMain keyword: Taksinkuljettaja = taxi driver\n\nAsk the visually impaired customer how to help before assisting.\n\nCorrect answer: C"
+    },
+    {
+      "id": 24,
+      "text": "Mitä erityistä sinun tulee ottaa huomioon kuljettaessasi näkövammaista asiakasta",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vaadit, että näkövammaisella asiakkaalla on avustaja mukana."
+        },
+        {
+          "letter": "B",
+          "text": "Näkövammainen asiakas ei välttämättä tiedosta mitä kuljetuksen aikana tapahtuu, joten hän voi pelätä kyydissä."
+        },
+        {
+          "letter": "C",
+          "text": "Näkövammainen asiakas ei välttämättä tiedosta mitä kuljetuksen aikana tapahtuu, joten hän ei pelkää kyydissä."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nMain keyword: pelätä\nMain keyword: Asiakas = customer\nImportant keyword: näkövamma = visually impaired\n\nBlind customer may not know what happens during the ride and may fear. Pick pelätä, not ei pelkää.\n\nCorrect answer: B"
     },
     {
       "id": 25,
@@ -301,6 +441,26 @@ window.STUDY_DATA = {
       "explanation": "Answer: A\n\nMain keyword: rungosta\nMain keyword: pyörätuoli = wheelchair\n\nNote: answer is must when there is rungosta\n\nWheelchair must be secured from the frame (rungosta).\n\nCorrect answer: A"
     },
     {
+      "id": 40,
+      "text": "Voitko toimia vakiotaksinkuljettajana säännöllisissä kuntoutukseen liittyvissä matkoissa, kun matkustajana on pyörätuolia käyttävä 15-vuotias lapsi?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "En voi toimia vakiotaksinkuljettajana, koska lapsella ei ole oikeutta vakiotaksiin."
+        },
+        {
+          "letter": "B",
+          "text": "Selvität työnantajalta voinko toimia vakio taksinkuljettajana."
+        },
+        {
+          "letter": "C",
+          "text": "Voin toimia vakiotaksinkuljettajana huoltajan valtuutuksella."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Selvität\n\nNote: answer is must when there is Selvität\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B"
+    },
+    {
       "id": 41,
       "text": "Taksin tolpasta tulee kyytiin päihtynyt asiakas, joka ei pysty kertomaan osoitettaan tai määränpäätään. Miten kuljettajan tulee toimia?",
       "options": [
@@ -319,6 +479,26 @@ window.STUDY_DATA = {
       ],
       "correct": "C",
       "explanation": "Answer: C\n\nMain keyword: Huolehdit\nImportant keyword: määränpään\n\nEnsure safety, find destination, call police if needed.\n\nCorrect answer: C"
+    },
+    {
+      "id": 43,
+      "text": "Mikä seuraavista vaihtoehdoista on oikea kuljettajan toimintatapa, kun taksin kyytiin on tulossa näkövammainen asiakas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kysyt asiakkaalta, miten häntä voi parhaiten auttaa ja kerrot missä suunnassa ajoneuvo on."
+        },
+        {
+          "letter": "B",
+          "text": "Kysyt asiakkaalta kuinka lujalla äänellä hänen kanssaan tulee kommunikoida."
+        },
+        {
+          "letter": "C",
+          "text": "Kuljettajan tehtäviin ei kuulu asiakkaan erityistarpeiden huomioiminen."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: kysyt saunassa ajoneuvo on\nMain keyword: asiakkaalta = the customer\nImportant keyword: Kerrot = you tell\n\nVisually impaired customer — ask how to help before acting.\n\nCorrect answer: A"
     },
     {
       "id": 46,
@@ -461,6 +641,166 @@ window.STUDY_DATA = {
       "explanation": "Answer: C\n\nKeyword: Aina jos noudan\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
     },
     {
+      "id": 57,
+      "text": "Mitä seuraavista on oikein, kun asiakas ei suostu käyttämään turvavyötä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Voit aloittaa ajon, jos matka on lyhyt"
+        },
+        {
+          "letter": "B",
+          "text": "Sinun tulee kieltäytyä kuljettamasta."
+        },
+        {
+          "letter": "C",
+          "text": "Vastuu on täysin asiakkaalla, joten voit jatkaa ajoa normaallsti"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: sinun tulee\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: B"
+    },
+    {
+      "id": 58,
+      "text": "Miten toimit, kun maksuhetkellä asiakas on haluton maksamaan matkaansa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kutsun paikalle poliisin selvittämään asiaa."
+        },
+        {
+          "letter": "B",
+          "text": "Kutsun paikalle mahdollisimman monta muuta taksinkuljettajaa selvittämään"
+        },
+        {
+          "letter": "C",
+          "text": "Otan asiakkaalta väkisin arvoesineen maksun pantiksi."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: Kutsun paikalle poliisin selvittämään asiaa\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: A"
+    },
+    {
+      "id": 60,
+      "text": "Kuinka sinun tulee toimia, jos taksissasi matkustava asiakas käyttäytyy aggressiivisesti?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Käsket häntä huutamalla käyttäytymään rauhallisesti."
+        },
+        {
+          "letter": "B",
+          "text": "Käyttäydyt kuin et huomaisikaan hänen aggressiivisuuttaan."
+        },
+        {
+          "letter": "C",
+          "text": "Rauhoittelet häntä puhumalla hänelle rauhallisesti ja ystävällisesti."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Rauhoittelet ystavallisesti\n\nNote: Answer is must when there is Rauhoittelet\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: C"
+    },
+    {
+      "id": 61,
+      "text": "Miten sinun tulee toimia, jos taksissasi matkustava asiakas käyttäytyy aggressiivisesti sinua kohtaan?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Käsket häntä huutamalla käyttäytymään rauhallisesti."
+        },
+        {
+          "letter": "B",
+          "text": "Käyttäydyt kuin et huomaisikaan hänen aggressiivisuuttaan."
+        },
+        {
+          "letter": "C",
+          "text": "Rauhoittelet häntä puhumalla hänelle rauhallisesti ja ystävällisesti."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Rauhoittelet ystavallisesti\n\nNote: Answer is must when there is Rauhoittelet\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    },
+    {
+      "id": 62,
+      "text": "Mikä seuraavista on riskittömin toimintatapa, kun olet jättämässä yksinään matkustavaa noin 10-vuotiasta lasta taksista kerrostalokotiinsa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jätät lapsen kotiinsa ilmoittamansa kerrostalon pihalle ja annat hänen mennä"
+        },
+        {
+          "letter": "B",
+          "text": "Pyydät lasta soittamaan huoltajalleen ja pyytämään tätä tulemaan lasta vastaan kerrostalon pihalle."
+        },
+        {
+          "letter": "C",
+          "text": "Pyydät jotakin kerrostalon pihalla olevaa aikuista huolehtimaan, että lapsi menee"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Pyydät lasta tätä\n\nNote: tätä is the key word\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    },
+    {
+      "id": 64,
+      "text": "Mikä seuraavista on paras toimintatapa, jos matkustaja ei suostu kiinnittämään turvavyötä terveydelliseen syyhyn vedoten?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sinun tulee pakottaa asiakas käyttämään turvavyötä."
+        },
+        {
+          "letter": "B",
+          "text": "Sinun tulee pyytää häntä esittämään syytä koskeva lääkäritodistus."
+        },
+        {
+          "letter": "C",
+          "text": "Sinun tulee kieltäytyä kuljettamasta häntä, mikäli hän ei käytä turvavyötä."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Sinun tulee turvavyötä\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+    },
+    {
+      "id": 66,
+      "text": "Mitä taksinkuljettajan tulisi pattaa huomioon matkustajaa kyytiin ottaessaan?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sinun tulee poistua autosta ja auttaa matkustajaa tarvittaessa."
+        },
+        {
+          "letter": "B",
+          "text": "Sinun tulee tarvittaessa avustaa matkustajaa."
+        },
+        {
+          "letter": "C",
+          "text": "Ei mitään, koska kuljettajan vastuu ei ulotu taksin ulkopuolelle."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: sinun tulee poistua\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    },
+    {
+      "id": 67,
+      "text": "Mistä tunnistat, että asiakkaan mukana oleva koira on työkoira?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Koira on vapaana."
+        },
+        {
+          "letter": "B",
+          "text": "Koiralla on heijastin."
+        },
+        {
+          "letter": "C",
+          "text": "Koiralla on tunnistevaljaat."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Koiralla on tunnistevaljaat\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    },
+    {
       "id": 68,
       "text": "Mihin 120cm pituinen lapsi on taksissa sijoitettava, jos lasten turvalaitetta ei ole käytettävissä?",
       "options": [
@@ -479,6 +819,46 @@ window.STUDY_DATA = {
       ],
       "correct": "B",
       "explanation": "Answer: B\n\nKeyword: turvavyötä = seat belt\n\nTrigger rule: if answer start with lapsen then answer is only lapsen tulee istua\n\nCorrect answer: B"
+    },
+    {
+      "id": 70,
+      "text": "Mitä sinun tulee ottaa huomioon kuuron asiakkaan kanssa ennen liikkeellelähtöä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pimeällä autossa tulisi pitää sisävalot päällä kommunikointitilanteissa."
+        },
+        {
+          "letter": "B",
+          "text": "Pimeällä asiakkaille pitää puhua kovemmalla äänellä kuin valoisalla."
+        },
+        {
+          "letter": "C",
+          "text": "Pimeällä kommunikointi on mahdotonta, joten sitä ei kannata yrittää lainkaan."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: Pimeällä tulisi pitää\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    },
+    {
+      "id": 71,
+      "text": "Milloin saat pysäyttää taksin maksulliselle pysäköintipaikalle maksua suorittamatta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Et koskaan."
+        },
+        {
+          "letter": "B",
+          "text": "Vain liikkumisesteistä asiakasta kyytiin ottaessasi tai kyydistä jättäessäsi."
+        },
+        {
+          "letter": "C",
+          "text": "Aina asiakasta kyytiin ottaessasi tai kyydistä jättäessäsi."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Aina asiakasta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
     },
     {
       "id": 72,
@@ -721,6 +1101,26 @@ window.STUDY_DATA = {
       "explanation": "Answer: B\n\nKeyword: Viestintävirasto Traficom\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
     },
     {
+      "id": 99,
+      "text": "Aulis on hankkinut itselleen taksinkuljettajan ajoluvan kolme vuotta sitten. Ajoluvan asemapaikka on Vantaa. Aulis on kuitenkin muuttamassa Jyväskylään ja onkin jo löytänyt itselleen uuden työnantajan uudesta kaupungistaan.Aulis aloittaa työskentelyn tällä jyväskyläläisellä työnantajalla?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ei, sillä taksinkuljettajan ajolupa on voimassa vain kaksi vuotta."
+        },
+        {
+          "letter": "B",
+          "text": "Kyllä, mutta suoritettuaan hyväksytysti Jyväskylän paikallistuntemuksen ja haettuaan ajoluvan kelpoisuusalueen laajentamista Liikenne- ja viestintävirasto Traficomilta."
+        },
+        {
+          "letter": "C",
+          "text": "Kyllä, sillä taksinkuljettajan ajolupa on voimassa koko Manner-Suomen alueella."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Kyllä, sillä Manner-Suomen alueella\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    },
+    {
       "id": 100,
       "text": "Missä seuraavista tilanteista kuljettaja voi kieltäytyä kyydistä?",
       "options": [
@@ -761,6 +1161,26 @@ window.STUDY_DATA = {
       "explanation": "Answer: B\n\nKeyword: Kuljettajan tulee reitti\n\nNote: answer is the option end with reitti always\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
     },
     {
+      "id": 104,
+      "text": "Koskeeko työaikalaki taksinkuljettajaa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ei koske missään tilanteissa."
+        },
+        {
+          "letter": "B",
+          "text": "Kyllä koskee."
+        },
+        {
+          "letter": "C",
+          "text": "Ei koske, jos siitä on sovittu työnantajan kanssa."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Kyllä koskee.\n\nTrigger rule: if question has koskeeko answer is kylla koskee\n\nCorrect answer: B"
+    },
+    {
       "id": 105,
       "text": "Missä seuraavista tilanteista taksissa tulee olla kuljettajan nimi esillä?",
       "options": [
@@ -779,6 +1199,26 @@ window.STUDY_DATA = {
       ],
       "correct": "C",
       "explanation": "Answer: C\n\nKeyword: Kaikissa kuljetuksissa\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+    },
+    {
+      "id": 106,
+      "text": "Millä alueella taksinkuljettajan ajolupa on voimassa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Manner-Suomessa."
+        },
+        {
+          "letter": "B",
+          "text": "Kuljettajan pääasiallisessa asuinkunnassa."
+        },
+        {
+          "letter": "C",
+          "text": "Euroopan unionin alueella."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: manner-soumessa\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
     },
     {
       "id": 107,
@@ -861,6 +1301,26 @@ window.STUDY_DATA = {
       "explanation": "Answer: B\n\nKeyword: määränpäähänsä\nMain keyword: Kuljettaja = driver\nImportant keyword: Asiakas = customer\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
     },
     {
+      "id": 113,
+      "text": "Jokaisen työsuhteessa olevan taksinkuljettajan velvollisuus on täyttää kuljettajan ajopäiväkirja. Mitä ajopäiväkirjaan muun muassa merkitään?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tauot ja niiden aikana nautittu ravinto."
+        },
+        {
+          "letter": "B",
+          "text": "Työvuoron aikana nautittu ravinto."
+        },
+        {
+          "letter": "C",
+          "text": "Taukojen pidetty ajankohta."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Taukojen pidetty ajankohta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    },
+    {
       "id": 116,
       "text": "Ennakoivassa ajotavassa tärkeintä on?",
       "options": [
@@ -901,6 +1361,26 @@ window.STUDY_DATA = {
       "explanation": "Answer: B\n\nKeyword: Hengitysteiden avaaminen\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
     },
     {
+      "id": 118,
+      "text": "Mikä seuraavista lisää eniten taksinkuljettajan loukkaantumisriskiä liikenteessä?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ajoneuvon huono tekninen kunto."
+        },
+        {
+          "letter": "B",
+          "text": "Aggressiivisesti käyttäytyvät asiakkaat."
+        },
+        {
+          "letter": "C",
+          "text": "Turvavyön käyttämättömyys."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Turvavyön käyttämättömyys\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+    },
+    {
       "id": 120,
       "text": "Taksinkuljettajan ajolupaa hakevan henkilön on täytettävä tietyt terveysvaatimukset. Terveysvaatimusten täyttyminen osoitetaan?",
       "options": [
@@ -919,6 +1399,26 @@ window.STUDY_DATA = {
       ],
       "correct": "B",
       "explanation": "Answer: B\n\nKeyword: Lääkärin\n\nNote: Answer is must when there is Lääkärin\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    },
+    {
+      "id": 123,
+      "text": "Miten toimit, kun kyytiin tulee asiakas, joka ilmoittaa ettei hän halua keskustella?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kuljettajan tulee osoittaa asiakkaalle, että hänellä on huono vuorovaikutus eikä"
+        },
+        {
+          "letter": "B",
+          "text": "Kuljettaja yrittää keskustella koko matkan ajan, sillä taksinkuljettaja huolehtii keskustelun ylläpitämisestä."
+        },
+        {
+          "letter": "C",
+          "text": "Annan asiakkaan olla rauhassa kyydissä ja ainoastaan pyydän reittiin liittyviä"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Annan asiakkaan olla rauhassa kyydissä ja ainoastaan pyydän...\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: C"
     },
     {
       "id": 128,
@@ -959,6 +1459,26 @@ window.STUDY_DATA = {
       ],
       "correct": "B",
       "explanation": "Answer: B\n\nKeyword: taksiluvan haltijaa\n\nNote: Question starts with koskeeko\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    },
+    {
+      "id": 130,
+      "text": "Mikä seuraavista voi olla esteenä Taksinkuljettajan ajoluvan myöntämiselle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yli kolme vuotta kestänyt työttömyys."
+        },
+        {
+          "letter": "B",
+          "text": "Toisen asteen koulutuksen suorittamatta jättäminen."
+        },
+        {
+          "letter": "C",
+          "text": "Alle vuoden voimassa ollut B-luokan ajo-oikeus."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: alle vouden B-loukan\n\nNote: B-loukan is always answer if it is available in option\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
     },
     {
       "id": 137,
@@ -1079,6 +1599,26 @@ window.STUDY_DATA = {
       ],
       "correct": "B",
       "explanation": "Answer: B\n\nKeyword: valituksen\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    },
+    {
+      "id": 145,
+      "text": "Mikä seuraavista on oikein,kun kyydissä olevan asiakkaan kohteeseen on valittavana useampi reitti?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Asiakas saa valita reitin, mutta kuljettajan tulee neuvoa tarkoituksenmukaisimman reitin valinnassa."
+        },
+        {
+          "letter": "B",
+          "text": "Kuljettajan tulee aina ajaa navigaattorin osoittamaa reittiä."
+        },
+        {
+          "letter": "C",
+          "text": "Kuljettaja valitsee aina edullisimman reitin."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Answer: A\n\nKeyword: reitin valinnassa\nMain keyword: Asiakas = customer\n\nPick the legally correct, safest, and most professional option.\n\nCorrect answer: A"
     },
     {
       "id": 150,
@@ -3928,8 +4468,9 @@ window.STUDY_DATA = {
           "text_en": "75.00 €"
         }
       ],
-      "correct": "A",
-      "explanation": "This is a tariff calculation question. The trip takes place on a Sunday (a higher-rate day), covers 25 km, and lasts 30 minutes. Applying the applicable taxi fare table for a Sunday trip of this distance and duration, the total charge is 65.00 €. Options B (85.00 €) and C (75.00 €) do not match the correct tariff for this scenario. The correct answer is A."
+      "correct": "C",
+      "explanation": "This is a tariff calculation question. The trip takes place on a Sunday (a higher-rate day), covers 25 km, and lasts 30 minutes. Using the fare table shown in the image, the total charge is 75.00 €. Options A (65.00 €) and B (85.00 €) do not match the correct tariff for this scenario. The correct answer is C.",
+      "image": "Image/image13.png"
     },
     {
       "id": 136,
@@ -4176,8 +4717,8 @@ window.STUDY_DATA = {
           "text": "Vähintään 5 vuotta"
         }
       ],
-      "correct": "B",
-      "explanation": "A category B driving licence must have been valid for at least 3 years before you can obtain a taxi driving licence. One year and five years are not the correct minimum. The correct answer is B."
+      "correct": "A",
+      "explanation": "A category B driving licence must have been valid for at least 1 year before you can obtain a taxi driving licence. Three years and five years are not the correct minimum. The correct answer is A."
     },
     {
       "id": 305,
@@ -4221,6 +4762,27 @@ window.STUDY_DATA = {
     }
   ],
   "image": [
+    {
+      "id": 132,
+      "text": "Asiakas viedään sunnuntaina 25 km ja aikaa kuluu 30 min. Mikä hinta veloitat asiakkaalta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "65,00 €"
+        },
+        {
+          "letter": "B",
+          "text": "85,00 €"
+        },
+        {
+          "letter": "C",
+          "text": "75,00 €"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Answer: A\n\nKeyword: 65,00 €\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+      "image": "Image/image13.png"
+    },
     {
       "id": 146,
       "text": "Edessäsi näkyy oheinen liikennemerkki (linja-autokaista, jonka yhteydessä  TAKSI-lisäkilpi). Saako taksilla ajaa tällä kaistalla?",
@@ -4509,6 +5071,14 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "Aina asiakasta",
+      "english": "always when (with) the customer",
+      "description": "\"Aina asiakasta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        71
+      ]
+    },
+    {
       "keyword": "Aina jos noudan",
       "english": "Always if I pick up",
       "description": "\"Aina jos noudan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -4542,6 +5112,14 @@ window.STUDY_KEYWORDS = {
       "questionIds": [
         160,
         195
+      ]
+    },
+    {
+      "keyword": "Annan asiakkaan",
+      "english": "I let the customer",
+      "description": "\"Annan asiakkaan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        123
       ]
     },
     {
@@ -4584,6 +5162,22 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "auttaa matkustajaa",
+      "english": "help the passenger",
+      "description": "\"auttaa matkustajaa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        66
+      ]
+    },
+    {
+      "keyword": "auttamaan",
+      "english": "to help",
+      "description": "\"auttamaan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        23
+      ]
+    },
+    {
       "keyword": "avaaminen",
       "english": "opening",
       "description": "\"avaaminen\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -4599,6 +5193,14 @@ window.STUDY_KEYWORDS = {
       "questionIds": [
         46,
         209
+      ]
+    },
+    {
+      "keyword": "B-luokan",
+      "english": "class B (driving licence)",
+      "description": "\"B-luokan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        130
       ]
     },
     {
@@ -4659,6 +5261,14 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "hakemasta",
+      "english": "fetching / picking up (for someone)",
+      "description": "\"hakemasta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        53
+      ]
+    },
+    {
       "keyword": "heikentää",
       "english": "impairs",
       "description": "\"heikentää\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -4703,6 +5313,14 @@ window.STUDY_KEYWORDS = {
       "questionIds": [
         19,
         260
+      ]
+    },
+    {
+      "keyword": "hätäkeskus",
+      "english": "emergency response center",
+      "description": "\"hätäkeskus\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        2
       ]
     },
     {
@@ -4753,12 +5371,29 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "jotta muut",
+      "english": "so that others",
+      "description": "\"jotta muut\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        1
+      ]
+    },
+    {
       "keyword": "Kaikissa kuljetuksissa",
       "english": "In all transports",
       "description": "\"Kaikissa kuljetuksissa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
       "questionIds": [
         105,
         288
+      ]
+    },
+    {
+      "keyword": "kieltäytyä kuljettamasta",
+      "english": "refuse to transport",
+      "description": "\"kieltäytyä kuljettamasta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        57,
+        64
       ]
     },
     {
@@ -4782,6 +5417,14 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "Koiralla on tunnistevaljaat",
+      "english": "the dog has an identification harness",
+      "description": "\"Koiralla on tunnistevaljaat\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        67
+      ]
+    },
+    {
       "keyword": "kolhi",
       "english": "Kolhi (trigger word in options)",
       "description": "\"kolhi\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -4797,6 +5440,14 @@ window.STUDY_KEYWORDS = {
       "questionIds": [
         186,
         277
+      ]
+    },
+    {
+      "keyword": "Kyllä koskee",
+      "english": "yes, it applies",
+      "description": "\"Kyllä koskee\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        104
       ]
     },
     {
@@ -4860,12 +5511,44 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "lasta vastaan",
+      "english": "to meet the child",
+      "description": "\"lasta vastaan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        62
+      ]
+    },
+    {
+      "keyword": "Liikenteen valvojan",
+      "english": "traffic controller's",
+      "description": "\"Liikenteen valvojan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        3
+      ]
+    },
+    {
       "keyword": "Lääkärin",
       "english": "doctor's / by doctor",
       "description": "\"Lääkärin\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
       "questionIds": [
         120,
         300
+      ]
+    },
+    {
+      "keyword": "Manner-Suomen",
+      "english": "Mainland Finland's",
+      "description": "\"Manner-Suomen\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        99
+      ]
+    },
+    {
+      "keyword": "Manner-Suomessa",
+      "english": "in Mainland Finland",
+      "description": "\"Manner-Suomessa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        106
       ]
     },
     {
@@ -4929,6 +5612,14 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "on kiinni",
+      "english": "is fastened / is secured",
+      "description": "\"on kiinni\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        18
+      ]
+    },
+    {
       "keyword": "pakollista",
       "english": "mandatory",
       "description": "\"pakollista\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -4948,6 +5639,22 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "pelätä",
+      "english": "to fear",
+      "description": "\"pelätä\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        24
+      ]
+    },
+    {
+      "keyword": "pidetty ajankohta",
+      "english": "scheduled time (of breaks)",
+      "description": "\"pidetty ajankohta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        113
+      ]
+    },
+    {
       "keyword": "pisteestä",
       "english": "from a point",
       "description": "\"pisteestä\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -4956,6 +5663,14 @@ window.STUDY_KEYWORDS = {
         167,
         227,
         258
+      ]
+    },
+    {
+      "keyword": "poistuminen",
+      "english": "exiting the vehicle",
+      "description": "\"poistuminen\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        10
       ]
     },
     {
@@ -4996,6 +5711,31 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "rauhallisesti ja ystävällisesti",
+      "english": "calmly and kindly",
+      "description": "\"rauhallisesti ja ystävällisesti\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        60,
+        61
+      ]
+    },
+    {
+      "keyword": "reitin valinnassa",
+      "english": "in route selection",
+      "description": "\"reitin valinnassa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        145
+      ]
+    },
+    {
+      "keyword": "roolin mukaisesti",
+      "english": "in accordance with the role",
+      "description": "\"roolin mukaisesti\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        15
+      ]
+    },
+    {
       "keyword": "rungosta",
       "english": "from the frame (wheelchair frame)",
       "description": "\"rungosta\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -5005,6 +5745,38 @@ window.STUDY_KEYWORDS = {
         167,
         257,
         258
+      ]
+    },
+    {
+      "keyword": "selvittämään asiaa",
+      "english": "to clarify / investigate the matter",
+      "description": "\"selvittämään asiaa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        58
+      ]
+    },
+    {
+      "keyword": "selvität",
+      "english": "you find out / clarify",
+      "description": "\"selvität\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        40
+      ]
+    },
+    {
+      "keyword": "Sillä estetään",
+      "english": "it prevents (vehicle movement)",
+      "description": "\"Sillä estetään\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        13
+      ]
+    },
+    {
+      "keyword": "sisätilaan",
+      "english": "indoors / inside",
+      "description": "\"sisätilaan\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        9
       ]
     },
     {
@@ -5025,6 +5797,15 @@ window.STUDY_KEYWORDS = {
         20,
         164,
         253
+      ]
+    },
+    {
+      "keyword": "suunnassa",
+      "english": "in which direction",
+      "description": "\"suunnassa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        43,
+        54
       ]
     },
     {
@@ -5070,6 +5851,23 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
+      "keyword": "tulee olla alkolukko",
+      "english": "must have an alcohol interlock",
+      "description": "\"tulee olla alkolukko\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        109,
+        291
+      ]
+    },
+    {
+      "keyword": "tulisi pitää",
+      "english": "should keep (on)",
+      "description": "\"tulisi pitää\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        70
+      ]
+    },
+    {
       "keyword": "turvalaitteessa",
       "english": "in a safety device",
       "description": "\"turvalaitteessa\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -5085,6 +5883,14 @@ window.STUDY_KEYWORDS = {
       "questionIds": [
         41,
         85
+      ]
+    },
+    {
+      "keyword": "Turvavyön käyttämättömyys",
+      "english": "not wearing a seat belt",
+      "description": "\"Turvavyön käyttämättömyys\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        118
       ]
     },
     {

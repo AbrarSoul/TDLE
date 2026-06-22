@@ -1,0 +1,1774 @@
+[
+  {
+    "id": 1,
+    "text": "Miksi sinun on pimeässä moottoritien pysähdyksessä on laitettava ajovalo päälle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jotta muut tienkäyttäjät näkee pysähtyneen ajoneuvosi"
+      },
+      {
+        "letter": "B",
+        "text": "Havaitset paremmin tiealueella liikkuvat villieläimet"
+      },
+      {
+        "letter": "C",
+        "text": "Pysäköinti- tai lähivalot kuluttavat vähemmän virtaa kuin lähivalot"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: ajovalo = headlight\nMain keyword: jotta muut = so that others\n\nThe question is about using the headlight when the vehicle is stopped. The phrase \"jotta muut\" indicates the purpose: so that other road users can see your stopped vehicle.\n\nLogic:\nStopped vehicle → turn on the headlight → other road users can see the vehicle.\n\nCorrect answer: A"
+  },
+  {
+    "id": 2,
+    "text": "Miksi avun hälyttämiseen onnettomuus paikalle kannattaa käyttää 112 suomi -mobiilisovellusta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hätäpuhelu menee sillä nopeammin"
+      },
+      {
+        "letter": "B",
+        "text": "Hätäkeskus saa sen kautta automaattisesti tiedon onnettomuus sijainnista"
+      },
+      {
+        "letter": "C",
+        "text": "Soittaminen sen kautta on halvempi"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: 112 = emergency number\nMain keyword: Hätäkeskus = Emergency Response Center\nImportant keyword: sijainti = location\n\nDo not confuse:\nHätäkeskus = Emergency Response Center\nHätäpuhelu = Emergency call\n\nThe question refers to calling 112. When an emergency call is made, the Emergency Response Center can automatically determine the caller's location (sijainti).\n\nCorrect answer: B"
+  },
+  {
+    "id": 3,
+    "text": "Kenen antamia laitteille emoistatyksiä tulee noudattaa, kun reitillä on liikenneonnettomuuden vuoksi esillä ristiriitoista liikenneopastuksia.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Traficomin"
+      },
+      {
+        "letter": "B",
+        "text": "Tietyömaan urakoitsijan"
+      },
+      {
+        "letter": "C",
+        "text": "Liikenteen valvojan"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nMain keyword: Liikenteen valvojan = Traffic Controller / Traffic Supervisor\nImportant keyword: ristiriitoista = conflicting\n\nThe question describes a situation where traffic signals and instructions are conflicting.\n\nRule: When there is a conflict between traffic lights and a traffic controller's instructions, you must follow the traffic controller.\n\nCorrect answer: C"
+  },
+  {
+    "id": 22,
+    "text": "Liikenteessä on poikkeusjärjestelyjä liikenneonnettomuuden vuoksi. Saat samaan aikaan keskenään ristiriitaisia toimintaohjeita kolmelta taholta, jotka eivät tiedä toisistaan. Kenellä on seuraavista on määräysvalta eli kenenohjeita sinun tulee noudattaa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Liikennevirasto."
+      },
+      {
+        "letter": "B",
+        "text": "Poliisi."
+      },
+      {
+        "letter": "C",
+        "text": "Työnantajasi."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nMain keyword: Poliisi\n\nNote: if question end with noudattaa then answer is always Pollisi\n\nPolice have authority (määräysvalta) when traffic instructions conflict.\n\nCorrect answer: B"
+  },
+  {
+    "id": 50,
+    "text": "Kenen vastuu on varmistaa, että mukana on liikennelupa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taksinkuljettajan"
+      },
+      {
+        "letter": "B",
+        "text": "Taksiliikenneluvan haltija"
+      },
+      {
+        "letter": "C",
+        "text": "Ei kukaan, koska luvan mukana pitämistä ei vaadita"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: Taksinkuljettajan\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: A"
+  },
+  {
+    "id": 56,
+    "text": "Ajaessasi taksia, saatko ajaa ajoneuvon kyseisen liikennemerkin vaikutusalueelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aina ajaessani taksia."
+      },
+      {
+        "letter": "B",
+        "text": "Vain jos asiakkaalla on painavia matkatavaroita."
+      },
+      {
+        "letter": "C",
+        "text": "Aina jos noudan tai tuon asiakkaan."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Aina jos noudan\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 82,
+    "text": "Missä tilanteessa kuljettajan ei tarvitse käyttää turvavyötä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajan ei tarvitse käyttää turvavyötä yöaikaan ajaessa asiakkaan ollessa kyydissä."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan tulee ajaessaan aina käyttää turvavyötä."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan ei tarvitse käyttää turvavyötä koulukyyttejä ajaessaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nMain keyword: aina käyttää turvavyötä\nMain keyword: Kuljettaja = driver\n\nReverse question: driver must ALWAYS wear seat belt. Pick aina, reject ei tarvitse.\n\nCorrect answer: B"
+  },
+  {
+    "id": 84,
+    "text": "Millä tavoin taksinkuljettajan tulee toimia liikenteeä jotta hän täyttää tienkäyttäjän ennakointivelvollisuuden?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taksinkuljettajan on tienkäyttäjänä ennakoitava toisten tienkäyttäjien toimintaa."
+      },
+      {
+        "letter": "B",
+        "text": "Taksinkuljettajan on tienkäyttäjänä käytettävä vain moottorijarrutusta liikenteessä."
+      },
+      {
+        "letter": "C",
+        "text": "Taksinkuljettajan on tienkäyttäjänä ammattinsa kautta keskittyttävä vain asiakaspalveluun."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nMain keyword: ennakoitava\nMain keyword: Taksinkuljettaja = taxi driver\n\nDriver must anticipate other road users' behaviour.\n\nCorrect answer: A"
+  },
+  {
+    "id": 94,
+    "text": "Milloin taksiliikenteessä saa ajaa ilman taksivalaisinta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kaikissa ajoissa."
+      },
+      {
+        "letter": "B",
+        "text": "Aina silloin, kun ajo alkaa muualta kuin taksiasema-alueelta."
+      },
+      {
+        "letter": "C",
+        "text": "Silloin, jos kyseessä on sopimusajo, josta on tehty kirjallinen sopimus."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Silloin sopimus\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 95,
+    "text": "Olet viemässä asiakasta sairaalasta kotiin. Yhtäkkiä huomaat ulosajaneen auton. Säikähdät tilannetta ja aiot pysähtyä, mutta takapenkillä istuva asiakas vaatii, että viet hänet välittömästi kotiin.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Viet asiakkaan kotiin ja palaat sen jälkeen tapahtumapaikalle."
+      },
+      {
+        "letter": "B",
+        "text": "Soitat yleiseen hätänumeroon."
+      },
+      {
+        "letter": "C",
+        "text": "Pysähdyt tapahtumapaikalle ja soitat hätänumeroon."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: Soitat hatanumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+  },
+  {
+    "id": 96,
+    "text": "Kuinka paljon taksissa saa enintään ylittää ajoneuvon istuinpaikkaluvun mukaisen henkilömäärän, jos kyseessä ei ole koulu- ja päivähoitokuljetus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei yhtään."
+      },
+      {
+        "letter": "B",
+        "text": "Ylitys saa olla enintään 60%."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan oman harkinnan mukaan voi päättää, kuinka paljon voi ylittää."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: ei yahtaan\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: A"
+  },
+  {
+    "id": 97,
+    "text": "Kuinka pitkään taksinkuljettajan ajolupa on enintään voimassa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Viisi vuotta"
+      },
+      {
+        "letter": "B",
+        "text": "Viisitoista vuotta"
+      },
+      {
+        "letter": "C",
+        "text": "Toistaiseksi"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: Viisi vuotta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+  },
+  {
+    "id": 98,
+    "text": "Taksinkuljettajan ajoluvan myöntää:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ELY-keskus liikenne"
+      },
+      {
+        "letter": "B",
+        "text": "Viestintävirasto Traficom"
+      },
+      {
+        "letter": "C",
+        "text": "Poliisi"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: Viestintävirasto Traficom\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+  },
+  {
+    "id": 99,
+    "text": "Aulis on hankkinut itselleen taksinkuljettajan ajoluvan kolme vuotta sitten. Ajoluvan asemapaikka on Vantaa. Aulis on kuitenkin muuttamassa Jyväskylään ja onkin jo löytänyt itselleen uuden työnantajan uudesta kaupungistaan.Aulis aloittaa työskentelyn tällä jyväskyläläisellä työnantajalla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei, sillä taksinkuljettajan ajolupa on voimassa vain kaksi vuotta."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, mutta suoritettuaan hyväksytysti Jyväskylän paikallistuntemuksen ja haettuaan ajoluvan kelpoisuusalueen laajentamista Liikenne- ja viestintävirasto Traficomilta."
+      },
+      {
+        "letter": "C",
+        "text": "Kyllä, sillä taksinkuljettajan ajolupa on voimassa koko Manner-Suomen alueella."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Kyllä, sillä Manner-Suomen alueella\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 101,
+    "text": "Kuinka kauan taksinkuljettajan irtisanomisaika on, kun työsuhde on kestänyt alle viisi vuotta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "7 päivää"
+      },
+      {
+        "letter": "B",
+        "text": "14 päivää"
+      },
+      {
+        "letter": "C",
+        "text": "1 kuukausi"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: 14 if question has alle viisi vuotta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+  },
+  {
+    "id": 104,
+    "text": "Koskeeko työaikalaki taksinkuljettajaa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei koske missään tilanteissa."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä koskee."
+      },
+      {
+        "letter": "C",
+        "text": "Ei koske, jos siitä on sovittu työnantajan kanssa."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: Kyllä koskee.\n\nTrigger rule: if question has koskeeko answer is kylla koskee\n\nCorrect answer: B"
+  },
+  {
+    "id": 105,
+    "text": "Missä seuraavista tilanteista taksissa tulee olla kuljettajan nimi esillä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vain koulu- ja päivähoitokuljetuksissa."
+      },
+      {
+        "letter": "B",
+        "text": "Vain ennakkotilauskuljetuksissa."
+      },
+      {
+        "letter": "C",
+        "text": "Kaikissa kuljetuksissa."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Kaikissa kuljetuksissa\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+  },
+  {
+    "id": 106,
+    "text": "Millä alueella taksinkuljettajan ajolupa on voimassa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Manner-Suomessa."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan pääasiallisessa asuinkunnassa."
+      },
+      {
+        "letter": "C",
+        "text": "Euroopan unionin alueella."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: manner-soumessa\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+  },
+  {
+    "id": 107,
+    "text": "Mikä seuraavista on peruste taksinkuljettajan ajoluvan peruuttamiselle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alueella toimivat taksinkuljettajat ja taksiyrittäjät suosittelevat ajoluvan peruuttamista."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettaja ei ole työskennellyt viimeisen kolmen vuoden aikana taksinkuljettajana."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettaja on syyllistynyt törkeään liikenneturvallisuuden vaarantamiseen."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: törkeään\nMain keyword: Kuljettaja = driver\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 108,
+    "text": "Mikä seuraavista kuljettajan työaikaa koskevista väittämistä ei pidä paikkaansa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Työaikaa on myös kuljettajan työpäivän aikana pitämä kahden tunnin tauko."
+      },
+      {
+        "letter": "B",
+        "text": "Taksinkuljettajan vuorokautinen työaika saa olla enimmillään 11 tuntia 24 tunnin"
+      },
+      {
+        "letter": "C",
+        "text": "Työaikaa on varsinaisen ajotyön lisäksi taksiasemalla oloaika ja auton siivoaminen."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: Tyoaikaa on myos\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+  },
+  {
+    "id": 109,
+    "text": "Mika seuraavista vaittamista on virheellinen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajalla tulee olla aina mukana taksinkuljettajan ajolupa."
+      },
+      {
+        "letter": "B",
+        "text": "Ajoneuvo tulee olla rekisterdity luvanvaraiseen liikenteeseen."
+      },
+      {
+        "letter": "C",
+        "text": "Jokaisessa taksissa tulee olla alkolukko."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: tulee olla alkolukko\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+  },
+  {
+    "id": 110,
+    "text": "Kenellä on vastuu työvuorossa käytettävän taksin liikennekelpoisuudesta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Katsastajalla."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajalla."
+      },
+      {
+        "letter": "C",
+        "text": "Taksintarkastajalla."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: Kuljettajalla\n\nNote: Kuljettajalla is always answer where it is available\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: B"
+  },
+  {
+    "id": 113,
+    "text": "Jokaisen työsuhteessa olevan taksinkuljettajan velvollisuus on täyttää kuljettajan ajopäiväkirja. Mitä ajopäiväkirjaan muun muassa merkitään?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tauot ja niiden aikana nautittu ravinto."
+      },
+      {
+        "letter": "B",
+        "text": "Työvuoron aikana nautittu ravinto."
+      },
+      {
+        "letter": "C",
+        "text": "Taukojen pidetty ajankohta."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Taukojen pidetty ajankohta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 114,
+    "text": "Yleinen hätänumero on?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "119"
+      },
+      {
+        "letter": "B",
+        "text": "118"
+      },
+      {
+        "letter": "C",
+        "text": "112"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nMain keyword: 112\n\n112 is the general emergency number (hätänumero) in Finland.\n\nCorrect answer: C"
+  },
+  {
+    "id": 116,
+    "text": "Ennakoivassa ajotavassa tärkeintä on?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taitoa toimia oikein vaaratilanteessa onnettomuuden välttämiseksi."
+      },
+      {
+        "letter": "B",
+        "text": "Pyrkiä ajamaan niin, että ei joudu vaara- eikä onnettomuustilanteeseen."
+      },
+      {
+        "letter": "C",
+        "text": "Osata toimia oikein onnettomuuden sattuessa."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: Pyrkiä\n\nNote: Pyrkiä is always anwer anywhere\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+  },
+  {
+    "id": 117,
+    "text": "Ajat melkein vilkasliikenteistä valtatietä kohti taksiasemaa. Yhtäkkiä huomaat kaukana edellä polkupyöräilijän horjahtavan, kaatuvan ja jäävän maahan makaamaan keskelle tietä liikkumattomana. Mikä on ensimmäinen ensiaputoimenpiteesi?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Polkupyöräilijän siirtäminen turvallisempaan paikkaan."
+      },
+      {
+        "letter": "B",
+        "text": "Hengitysteiden avaaminen."
+      },
+      {
+        "letter": "C",
+        "text": "Polkupyöräilijän tutkiminen mahdollisten murtumien ja verenvuotojen havaitsemiseksi."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: Hengitysteiden avaaminen\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+  },
+  {
+    "id": 118,
+    "text": "Mikä seuraavista lisää eniten taksinkuljettajan loukkaantumisriskiä liikenteessä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ajoneuvon huono tekninen kunto."
+      },
+      {
+        "letter": "B",
+        "text": "Aggressiivisesti käyttäytyvät asiakkaat."
+      },
+      {
+        "letter": "C",
+        "text": "Turvavyön käyttämättömyys."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Turvavyön käyttämättömyys\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+  },
+  {
+    "id": 119,
+    "text": "Kuinka kauan rattijuopumukseen syyllistynyt ei voi hakea taksiajolupaa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kolmen vuoden ajan."
+      },
+      {
+        "letter": "B",
+        "text": "Vuoden ajan."
+      },
+      {
+        "letter": "C",
+        "text": "Viiden vuoden ajan."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Viiden vuoden ajan\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 120,
+    "text": "Taksinkuljettajan ajolupaa hakevan henkilön on täytettävä tietyt terveysvaatimukset. Terveysvaatimusten täyttyminen osoitetaan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Terveydentilaa ei tarvitse todentaa millään tavalla."
+      },
+      {
+        "letter": "B",
+        "text": "Lääkärin tarkastuksella ja siitä saatavalla todistuksella taksinkuljettajan ajolupaa hakiessa."
+      },
+      {
+        "letter": "C",
+        "text": "Omalla kirjallisella terveydentilaa koskevalla raportilla."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: Lääkärin\n\nNote: Answer is must when there is Lääkärin\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+  },
+  {
+    "id": 121,
+    "text": "Taksinkuljettajan ajoluvan voi peruuttaa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taksin paikallisyhdistys."
+      },
+      {
+        "letter": "B",
+        "text": "Poliisi."
+      },
+      {
+        "letter": "C",
+        "text": "Liikenne- ja viestintävirasto."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: Poliisi\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+  },
+  {
+    "id": 122,
+    "text": "Kuinka pitkään B-luokan ajooikeuden on pitänyt olla, jotta taksinkuljettajan ajolupa voidaan myöntää?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vähintään kolmen vuoden ajan."
+      },
+      {
+        "letter": "B",
+        "text": "Vähintään viiden vuoden ajan."
+      },
+      {
+        "letter": "C",
+        "text": "Vähintään yhden vuoden ajan."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Vähintään yhden vuoden ajan\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 124,
+    "text": "Mikä viranomainen myöntää taksinkuljettajan ajoluvan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TE-toimisto."
+      },
+      {
+        "letter": "B",
+        "text": "Poliisi."
+      },
+      {
+        "letter": "C",
+        "text": "Liikenne- ja viestintävirasto."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Liikenne- ja viestintävirasto\n\nNote: if question has myöntää then answer is always Liikenne ja Trafficom\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 125,
+    "text": "Aino on aloittanut työvuoronsa 5.30. Hän on aina ollut aamuvirkku ihminen ja lähtee mielellään töihin aikaisin. Hänen aamunsakoostuu lähinnä muiden aamuvirkkujen kuljettamisesta työpaikalle. Noin puoli kahdeksan aikaan hän aloittaa koululaisten kuljetukset. Aamu kuluu mielenkiintoisissa monipuolisissa tehtävissä yleensä erittäin nopeasti. Milloin Ainon on pidettävä ensimmäinen tauko?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Viimeistään klo 11, sillä kuljettajan yhtämittainen työaika saa olla 5,5 tuntia."
+      },
+      {
+        "letter": "B",
+        "text": "Sitten kun hän tuntee itsensä väsyneeksi. Työaikalaki määrittelee, että tarkkailee jaksamistaan ja tauottaa työpäivänsä tarpeen mukaan."
+      },
+      {
+        "letter": "C",
+        "text": "Viimeistään klo 10, sillä kuljettajan yhtämittainen työaika saa olla 4,5 tuntia."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: 11 ja 5 5\n\nNote: always same 11 ja 5.5\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: A"
+  },
+  {
+    "id": 126,
+    "text": "Saako taksinkuljettaja työskennellä yhtäjaksoisesti 15 tuntia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kyllä, jos työtä ei voida muulla tavoin tarkoituksenmukaisesti järjestää."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, jos työnantaja kuuluu taksiyritysten liittoon."
+      },
+      {
+        "letter": "C",
+        "text": "Kyllä, jos kuljettaja itse haluaa."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: työtä yarish !\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+  },
+  {
+    "id": 128,
+    "text": "Laissa liikenteen palveluista on lueteltu erilaisia laatuvaatimuksia. Mikä seuraavista vaihtoehdoista pitää paikkansa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Laatuvaatimukset koskevat ainoastaan niitä yrittäjiä, joilla on enemmän kuin kaksi työntekijää vakituisesti."
+      },
+      {
+        "letter": "B",
+        "text": "Laatuvaatimukset koskevat ainoastaan taksiluvan haltijaa."
+      },
+      {
+        "letter": "C",
+        "text": "Laatuvaatimukset koskevat jokaista taksinkuljettajaa."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Question start with Laissa and answer end with taksinkuljettajaa\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 129,
+    "text": "Koskeeko liikenteen palveluista annettu laki (laatuvaatimukset) taksiyrittäjää?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Laatuvaatimukset koskevat ainoastaan taksiluvan haltijaa."
+      },
+      {
+        "letter": "B",
+        "text": "Laatuvaatimukset koskevat jokaista taksinkuljettajaa."
+      },
+      {
+        "letter": "C",
+        "text": "Laatuvaatimukset koskevat ainoastaan niitä yrittäjiä, joilla on enemmän kuin kaksi työntekijää."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nKeyword: taksiluvan haltijaa\n\nNote: Question starts with koskeeko\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+  },
+  {
+    "id": 130,
+    "text": "Mikä seuraavista voi olla esteenä Taksinkuljettajan ajoluvan myöntämiselle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yli kolme vuotta kestänyt työttömyys."
+      },
+      {
+        "letter": "B",
+        "text": "Toisen asteen koulutuksen suorittamatta jättäminen."
+      },
+      {
+        "letter": "C",
+        "text": "Alle vuoden voimassa ollut B-luokan ajo-oikeus."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: alle vouden B-loukan\n\nNote: B-loukan is always answer if it is available in option\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+  },
+  {
+    "id": 134,
+    "text": "Miksi on tärkeää pitää turvaväli edellä ajoneuvoon?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Turvavälin pitäminen edellä ajoneuvoon on turvallista."
+      },
+      {
+        "letter": "B",
+        "text": "Turvavälin pitäminen on turhaa."
+      },
+      {
+        "letter": "C",
+        "text": "Turvavälin pitäminen edellä ajoneuvoon on merkityksetöntä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nKeyword: Turvavälin turvallista\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+  },
+  {
+    "id": 135,
+    "text": "Kuinka kauan taksinkuljettajan irtisanomisaika on, kun työsuhde on kestänyt yli viisi vuotta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "7 päivää."
+      },
+      {
+        "letter": "B",
+        "text": "14 päivää."
+      },
+      {
+        "letter": "C",
+        "text": "1 kuukausi."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: 1 kuukausi\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+  },
+  {
+    "id": 138,
+    "text": "30 Minute Picture 30 min",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pitää vain silloin, kun taksin valaisin on poistettu."
+      },
+      {
+        "letter": "B",
+        "text": "Pitää aina."
+      },
+      {
+        "letter": "C",
+        "text": "Ei koskaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nMain keyword: Pitää aina\n\nTaxi sign/light rules — always on unless specified otherwise in the question context.\n\nCorrect answer: B"
+  },
+  {
+    "id": 140,
+    "text": "Missä tilanteissa kuljettajan ei tarvitse käyttää turvavyötä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajan tulee ajaessaan aina käyttää turvavyötä."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan ei tarvitse käyttää turvavyötä yöaikaan ajaessa asiakkaan ollessa kyydissä."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan ei tarvitse käyttää turvavyötä koulukyyttejä ajaessaan."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nMain keyword: aina käyttää turvavyötä\nMain keyword: Kuljettaja = driver\n\nReverse question: driver always wears seat belt — no exemption.\n\nCorrect answer: A"
+  },
+  {
+    "id": 142,
+    "text": "Millä tavoin taksinkuljettajan tulee toimia liikenteessä, jotta hän täyttää tienkäyttäjän ennakointivelvollisuuden?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taksinkuljettajan on tienkäyttäjänä ennakoitava toisten tienkäyttäjien toimintaa."
+      },
+      {
+        "letter": "B",
+        "text": "Taksinkuljettajan on tienkäyttäjänä ammattinsa kautta keskittyttävä vain asiakaspalveluun."
+      },
+      {
+        "letter": "C",
+        "text": "Taksinkuljettajan on tienkäyttäjänä käytettävä vain moottorijarrutusta liikenteessä."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nMain keyword: ennakoitava\nMain keyword: Taksinkuljettaja = taxi driver\n\nDriver must anticipate other road users as part of duty of care.\n\nCorrect answer: A"
+  },
+  {
+    "id": 146,
+    "text": "Edessäsi näkyy oheinen liikennemerkki (linja-autokaista, jonka yhteydessä  TAKSI-lisäkilpi). Saako taksilla ajaa tällä kaistalla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei, kaista on varattu pelkästään linja-autoille."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, lisäkilpi sallii myös taksin käyttää kaistaa."
+      },
+      {
+        "letter": "C",
+        "text": "Vain ruuhka-aikojen ulkopuolella."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image1.png"
+  },
+  {
+    "id": 147,
+    "text": "Mitä oheinen keltainen lisäkilpi (linja-auton kuva) tarkoittaa liikennemerkin  yhteydessä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Merkki ei koske linja-autoja."
+      },
+      {
+        "letter": "B",
+        "text": "Merkki koskee vain linja-autoja tai joukkoliikennettä."
+      },
+      {
+        "letter": "C",
+        "text": "Linja-autopysäkki on poistettu käytöstä."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image2.png"
+  },
+  {
+    "id": 148,
+    "text": "Pitääkö taksivalaisimen olla esillä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pitää vain silloin, kun taksin valaisin on poistettu."
+      },
+      {
+        "letter": "B",
+        "text": "Pitää aina."
+      },
+      {
+        "letter": "C",
+        "text": "Ei koskaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image3.png"
+  },
+  {
+    "id": 149,
+    "text": "Mitä oheinen varoitusmerkki tarkoittaa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tietöitä."
+      },
+      {
+        "letter": "B",
+        "text": "Töyssy (epätasainen tie / hidastetöyssy)."
+      },
+      {
+        "letter": "C",
+        "text": "Liukas ajorata."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image4.png"
+  },
+  {
+    "id": 150,
+    "text": "Ajaessasi taksia, saatko ajaa ajoneuvon kyseisen liikennemerkin  (moottorikäyttöisellä ajoneuvolla ajo kielletty) vaikutusalueelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aina ajaessani taksia."
+      },
+      {
+        "letter": "B",
+        "text": "Vain jos asiakkaalla on painavia matkatavaroita."
+      },
+      {
+        "letter": "C",
+        "text": "Aina jos noudan tai tuon asiakkaan."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nCorrect answer: C",
+    "image": "Image/image5.png"
+  },
+  {
+    "id": 151,
+    "text": "Mitä oheinen liikennemerkki tarkoittaa (yhdistetty pyörätie ja jalkakäytävä,  rinnakkain)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pyöräilijöille ja jalankulkijoille on omat, viivalla erotetut osansa."
+      },
+      {
+        "letter": "B",
+        "text": "Tie on tarkoitettu vain pyöräilijöille."
+      },
+      {
+        "letter": "C",
+        "text": "Tie on tarkoitettu vain jalankulkijoille."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image6.png"
+  },
+  {
+    "id": 152,
+    "text": "Kuva on otettu taksin sisältä moottoritiellä toisen ajoneuvon perässä  ajettaessa. Mikä seuraavista on oikein turvavälistä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Riittävä turvaväli edellä ajavaan parantaa turvallisuutta ja antaa aikaa reagoida."
+      },
+      {
+        "letter": "B",
+        "text": "Turvavälin pitäminen on tarpeetonta moottoritiellä."
+      },
+      {
+        "letter": "C",
+        "text": "Mitä pienempi turvaväli, sitä turvallisempaa ajaminen on."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image7.png"
+  },
+  {
+    "id": 153,
+    "text": "Milloin saat ajaa taksilla oheisella liikennemerkillä (moottoriajoneuvolla ajo kielletty)  merkityllä kadulla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kun olet menossa kadun varrella olevalle kiinteistölle."
+      },
+      {
+        "letter": "B",
+        "text": "Taksilla on läpiajo-oikeus."
+      },
+      {
+        "letter": "C",
+        "text": "Et koskaan."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image8.png"
+  },
+  {
+    "id": 154,
+    "text": "Ajaessasi taksia saatko ajaa ajoneuvon kyseisen liikennemerkin vaikutusalueelle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aina ajaessani taksia."
+      },
+      {
+        "letter": "B",
+        "text": "Vain jos asiakkaalla on painavia matkatavaroita."
+      },
+      {
+        "letter": "C",
+        "text": "Aina jos nouden tai tuon asiakkaan."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nCorrect answer: C",
+    "image": "Image/image9.png"
+  },
+  {
+    "id": 155,
+    "text": "Pitääkö taksivalaisimen olla esillä? [laadittu epäselvän kuvan perusteella]",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pitää vain silloin, kun taksin valaisin on poistettu."
+      },
+      {
+        "letter": "B",
+        "text": "Pitää aina."
+      },
+      {
+        "letter": "C",
+        "text": "Ei koskaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image10.png"
+  },
+  {
+    "id": 156,
+    "text": "Pitääkö taksivalaisimen olla esillä? [laadittu kuvan/vastauksen perusteella]",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pitää vain silloin, kun taksin valaisin on poistettu."
+      },
+      {
+        "letter": "B",
+        "text": "Pitää aina."
+      },
+      {
+        "letter": "C",
+        "text": "Ei koskaan."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B",
+    "image": "Image/image11.png"
+  },
+  {
+    "id": 157,
+    "text": "Edessäsi näkyy oheinen liikennemerkki (linja-autokaista, jonka yhteydessä TAKSI-lisäkilpi). Saako taksilla ajaa tällä kaistalla?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei, kaista on varattu pelkästään linja-autoille."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, lisäkilpi sallii myös taksin käyttää kaistaa."
+      },
+      {
+        "letter": "C",
+        "text": "Vain ruuhka-aikojen ulkopuolella."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A",
+    "image": "Image/image12.png"
+  },
+  {
+    "id": 160,
+    "text": "Mikä seuraavista vaihtoehdoista on oikein?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taksiluvan haltija on oikeus poikkeustapauksessa ohittaa kuljettajan alkolukon käyttövelvollisuus."
+      },
+      {
+        "letter": "B",
+        "text": "Alkoholi ei tule nauttia ennen ajovuoroa, koska nautittu alkoholi aiheuttaa aina väsymystä ja heikentää ajokykyä."
+      },
+      {
+        "letter": "C",
+        "text": "Jos kuljettaja ei saa puhalluksen jälkeen ajoneuvoa käyntiin, kuljettaja voi aina vaihtaa sellaiseen ajoneuvoon jossa ei ole alkolukkoa."
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 181,
+    "text": "olet viemässä tuttua asiakasta paikalliseen elokuvateatteriin, kun yhtäkkiä huomaat, että asiakas saa kouristuskohtauksen asiakas on sinulle entuudestaan tuttu joten tiedät asiakkaan sairastavan epilaspi. Mikä on ensimmäinen ensiaputoimenpiteesi?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pidän tiukasti kiinni asiakkaasta, jotta hän ei satuttaisi itseään kouristuskohtauksen aikana."
+      },
+      {
+        "letter": "B",
+        "text": "Huolehdit, että asiakas ei kolhi päätään, mutta et pyri estämään kuoristusliikkeita kun kouristukset vähentyvät käännät henkilö kylkiasentoon."
+      },
+      {
+        "letter": "C",
+        "text": "Jatkat normaalisti matkaa, koska aikataulusi on tiukka ja arvelet että kohtauksen Menevän ohi."
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 189,
+    "text": "Milloin taksissa tulee olla alkolukko?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aina, kun suoritetaan kunnan tilaamia koulu-ja päivähoitokuljetuksiin."
+      },
+      {
+        "letter": "B",
+        "text": "Aina, kun asiakas otetaan kyytiin ilman ennakkotilausta."
+      },
+      {
+        "letter": "C",
+        "text": "Vain jos kuljettajalla on taksinkuljettajan ajoluvassa alkolukko vastaava erityisehto."
+      }
+    ],
+    "correct": "A",
+    "explanation": ""
+  },
+  {
+    "id": 195,
+    "text": "Mikä seuraavista väittämistä on oikein, kun kuljettaja käyttää alkoholia ennen työvuoroa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alkoholia voi nauttia, jos se ei vaikuta ajokykyyn."
+      },
+      {
+        "letter": "B",
+        "text": "Alkoholi aiheuttaa aina väsymystä ja heikentää ajokykyä, joten sitä ei tule nauttia ennen työvuoroa."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettaja voi vaihtaa ajoneuvoon, jossa ei ole alkolukkoa."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 197,
+    "text": "Mikä seuraavista väittämistä on oikein taksinkuljettajan työaikojen suhteen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettaja saa työskennellä yhtäjaksoisesti 15 tuntia, jos hän itse haluaa."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajan yhtämittainen työaika saa olla enintään 5,5 tuntia."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan yhtämittainen työaika saa olla enintään 4,5 tuntia."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 198,
+    "text": "Mikä seuraavista on oikein liikenteen poikkeusjärjestelyissä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Noudata aina liikenteenohjaajan ohjeita."
+      },
+      {
+        "letter": "B",
+        "text": "Noudata poliisin ohjeita, jos liikenteenohjaajaa ei ole paikalla."
+      },
+      {
+        "letter": "C",
+        "text": "Noudata omia arvioitasi, jos ohjeita ei ole saatavilla."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 200,
+    "text": "Miten toimit, kun ajoneuvon rengas puhkeaa kesken ajon?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jatkat matkaa hitaasti."
+      },
+      {
+        "letter": "B",
+        "text": "Pysähdyt turvalliseen paikkaan ja vaihdat renkaan."
+      },
+      {
+        "letter": "C",
+        "text": "Soitat huoltopalveluun ja odotat apua."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 211,
+    "text": "Miten varmistat ajoneuvon kunnon ennen ajovuoron alkamista?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Varmistat vain, että polttoainetta on riittävästi."
+      },
+      {
+        "letter": "B",
+        "text": "Tarkistat vain renkaiden ilmanpaineet."
+      },
+      {
+        "letter": "C",
+        "text": "Tarkistat ajoneuvon yleiskunnon, kuten renkaat, valot, jarrut ja muut turvallisuustekijät."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\nCorrect answer: C"
+  },
+  {
+    "id": 216,
+    "text": "Liikenteessä on poikkeusjärjestelyjä onnettomuuden vuoksi. Kenellä on määräysvalta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Liikennevirasto"
+      },
+      {
+        "letter": "B",
+        "text": "Poliisi"
+      },
+      {
+        "letter": "C",
+        "text": "Työnantaja"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 238,
+    "text": "Kuinka tarkistat ajoneuvon ennen ajovuoron alkamista varmistaaksesi sen turvallisuuden?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tarkistat renkaiden ilmanpaineet, jarrujen toiminnan ja valojen kunnon."
+      },
+      {
+        "letter": "B",
+        "text": "Tarkistat vain polttoaineen määrän."
+      },
+      {
+        "letter": "C",
+        "text": "Varmistat, että ajoneuvo on pesty."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Answer: A\n\nCorrect answer: A"
+  },
+  {
+    "id": 241,
+    "text": "Kuinka usein ajoneuvon ensiapuvälineet tulee tarkistaa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vain vuosihuollon yhteydessä."
+      },
+      {
+        "letter": "B",
+        "text": "Säännöllisesti, vähintään kerran kuukaudessa."
+      },
+      {
+        "letter": "C",
+        "text": "Ainoastaan silloin, kun niitä käytetään."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 243,
+    "text": "Mitä teet, jos huomaat ajon aikana ajoneuvon mittariston varoitusvalon syttyvän?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jatkat ajoa, jos ajoneuvo tuntuu toimivan normaalisti."
+      },
+      {
+        "letter": "B",
+        "text": "Pysäytät ajoneuvon turvalliseen paikkaan ja tarkistat varoituksen syyn."
+      },
+      {
+        "letter": "C",
+        "text": "Ohitat varoitusvalon, jos et ole varma sen merkityksestä."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 251,
+    "text": "Miten taksinkuljettaja voi parantaa ajoturvallisuutta talvella?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Käyttämällä aina kesärenkaita."
+      },
+      {
+        "letter": "B",
+        "text": "Varmistamalla, että ajoneuvossa on talvirenkaat ja ajamalla hitaammin."
+      },
+      {
+        "letter": "C",
+        "text": "Pysäköimällä ajoneuvo sisätiloihin."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Answer: B\n\nCorrect answer: B"
+  },
+  {
+    "id": 252,
+    "text": "Liikenneonnettomuuden vuoksi on poikkeusjärjestelyt ja saat ristiriitaisia ohjeita kolmelta taholta. Kenen ohjeita noudatat?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Liikennevirasto"
+      },
+      {
+        "letter": "B",
+        "text": "Poliisi"
+      },
+      {
+        "letter": "C",
+        "text": "Työnantaja"
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 280,
+    "text": "Kuinka paljon taksissa saa enintään ylittää istuinpaikkaluvun, jos kyseessä ei ole koulu- ja päiväkotikuljetus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei yhtään"
+      },
+      {
+        "letter": "B",
+        "text": "Enintään 30 %"
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettajan harkinnan mukaan"
+      }
+    ],
+    "correct": "A",
+    "explanation": ""
+  },
+  {
+    "id": 281,
+    "text": "Kuka myöntää taksinkuljettajan ajoluvan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ELY-keskus"
+      },
+      {
+        "letter": "B",
+        "text": "Liikenne- ja viestintävirasto (Traficom)"
+      },
+      {
+        "letter": "C",
+        "text": "Poliisi"
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 282,
+    "text": "Aulis sai taksinkuljettajan ajoluvan Vantaalla, mutta muuttaa Jyväskylään. Voiko hän aloittaa siellä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ei, lupa on vain 2 vuotta voimassa."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, mutta vasta paikallistuntemuskokeen jälkeen ja haettuaan luvan laajennusta."
+      },
+      {
+        "letter": "C",
+        "text": "Kyllä, lupa on voimassa koko Manner-Suomessa."
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 283,
+    "text": "Missä tilanteessa kuljettaja voi kieltäytyä kyydistä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jos kyyti suuntautuu toiselle liikennealueelle."
+      },
+      {
+        "letter": "B",
+        "text": "Jos laillinen työaika ylittyisi."
+      },
+      {
+        "letter": "C",
+        "text": "Jos asiakas menee toisen kunnan alueelle."
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 284,
+    "text": "Kallen työsuhde on kestänyt yli vuoden mutta alle 5 vuotta. Mikä on hänen irtisanomisaikansa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "14 päivää"
+      },
+      {
+        "letter": "B",
+        "text": "1 kuukausi"
+      },
+      {
+        "letter": "C",
+        "text": "Kunnes työnantaja löytää uuden kuljettajan"
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 288,
+    "text": "Missä tilanteissa kuljettajan nimi pitää olla esillä taksissa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vain ennakkotilausajoissa."
+      },
+      {
+        "letter": "B",
+        "text": "Kaikissa kuljetuksissa."
+      },
+      {
+        "letter": "C",
+        "text": "Vain koulu- ja päiväkotikuljetuksissa."
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 289,
+    "text": "Mikä on peruste ajoluvan peruuttamiselle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettaja ei ole työskennellyt kolmeen vuoteen."
+      },
+      {
+        "letter": "B",
+        "text": "Alueen taksiyrittäjät suosittelevat peruuttamista."
+      },
+      {
+        "letter": "C",
+        "text": "Kuljettaja on syyllistynyt törkeään liikenneturvallisuuden vaarantamiseen."
+      }
+    ],
+    "correct": "C",
+    "explanation": ""
+  },
+  {
+    "id": 290,
+    "text": "Mikä työaikaa koskeva väite ei pidä paikkaansa?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vuorokautinen työaika max 11 h / 24 h."
+      },
+      {
+        "letter": "B",
+        "text": "Työaikaan kuuluu myös taksiasemalla olo ja auton siivoaminen."
+      },
+      {
+        "letter": "C",
+        "text": "Työaikaan ei lasketa työpäivän kahden tunnin taukoa."
+      }
+    ],
+    "correct": "A",
+    "explanation": ""
+  },
+  {
+    "id": 291,
+    "text": "Mikä väittämä on virheellinen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ajoneuvon tulee olla rekisteröity luvanvaraiseen liikenteeseen."
+      },
+      {
+        "letter": "B",
+        "text": "Kuljettajalla pitää aina olla ajolupa mukana."
+      },
+      {
+        "letter": "C",
+        "text": "Jokaisessa taksissa tulee olla alkolukko."
+      }
+    ],
+    "correct": "C",
+    "explanation": ""
+  },
+  {
+    "id": 293,
+    "text": "Kenen vastuulla on työvuorossa käytettävän taksin liikennekelpoisuus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kuljettajan."
+      },
+      {
+        "letter": "B",
+        "text": "Taksintarkastajan."
+      },
+      {
+        "letter": "C",
+        "text": "Katsastajan."
+      }
+    ],
+    "correct": "A",
+    "explanation": ""
+  },
+  {
+    "id": 296,
+    "text": "Mitä kuljettajan ajopäiväkirjaan merkitään?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Työvuoron aloitus ja tauot."
+      },
+      {
+        "letter": "B",
+        "text": "Tauot ja niiden aikana nautittu ravinto."
+      },
+      {
+        "letter": "C",
+        "text": "Lyhyt selvitys työssä tapahtuneista ongelmista."
+      }
+    ],
+    "correct": "A",
+    "explanation": ""
+  },
+  {
+    "id": 298,
+    "text": "Ennakoivan ajotavan tärkein tavoite on?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Osata toimia onnettomuuden sattuessa."
+      },
+      {
+        "letter": "B",
+        "text": "Olla valmis vaaratilanteissa."
+      },
+      {
+        "letter": "C",
+        "text": "Pyrkiä ajamaan niin, ettei jouduta vaara- tai onnettomuustilanteisiin."
+      }
+    ],
+    "correct": "C",
+    "explanation": ""
+  },
+  {
+    "id": 299,
+    "text": "Polkupyöräilijä kaatuu edessäsi ja jää liikkumattomana tielle. Mikä on ensimmäinen ensiaputoimenpide?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hengitysteiden avaaminen."
+      },
+      {
+        "letter": "B",
+        "text": "Tutkia murtumia."
+      },
+      {
+        "letter": "C",
+        "text": "Siirtää turvallisempaan paikkaan."
+      }
+    ],
+    "correct": "A",
+    "explanation": ""
+  },
+  {
+    "id": 300,
+    "text": "Miten taksinkuljettajaksi hakevan terveysvaatimukset osoitetaan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lääkärintodistuksella."
+      },
+      {
+        "letter": "B",
+        "text": "Omalla kirjallisella raportilla."
+      },
+      {
+        "letter": "C",
+        "text": "Ei tarvitse osoittaa."
+      }
+    ],
+    "correct": "A",
+    "explanation": ""
+  },
+  {
+    "id": 301,
+    "text": "Kuka voi peruuttaa taksinkuljettajan ajoluvan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Poliisi"
+      },
+      {
+        "letter": "B",
+        "text": "Taksin paikallisyhdistys"
+      },
+      {
+        "letter": "C",
+        "text": "Liikenne- ja viestintävirasto (Traficom)"
+      }
+    ],
+    "correct": "C",
+    "explanation": ""
+  },
+  {
+    "id": 302,
+    "text": "Kuinka pitkään B-ajokortti pitää olla ollut voimassa, ennen kuin voi saada taksiajoluvan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vähintään 1 vuoden"
+      },
+      {
+        "letter": "B",
+        "text": "Vähintään 3 vuotta"
+      },
+      {
+        "letter": "C",
+        "text": "Vähintään 5 vuotta"
+      }
+    ],
+    "correct": "A",
+    "explanation": ""
+  },
+  {
+    "id": 304,
+    "text": "Kuka myöntää taksinkuljettajan ajoluvan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Poliisi"
+      },
+      {
+        "letter": "B",
+        "text": "Liikenne- ja viestintävirasto (Traficom)"
+      },
+      {
+        "letter": "C",
+        "text": "TE-toimisto"
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 305,
+    "text": "Aino aloitti työvuoron klo 5:30. Milloin hänen on viimeistään pidettävä ensimmäinen tauko?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kun tuntee itsensä väsyneeksi."
+      },
+      {
+        "letter": "B",
+        "text": "Viimeistään klo 11 (5,5 h yhtäjaksoista työaikaa)."
+      },
+      {
+        "letter": "C",
+        "text": "Viimeistään klo 10 (4,5 h yhtäjaksoista työaikaa)."
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  },
+  {
+    "id": 306,
+    "text": "Saako taksinkuljettaja työskennellä yhtäjaksoisesti 15 tuntia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kyllä, jos muuta järjestelyä ei ole."
+      },
+      {
+        "letter": "B",
+        "text": "Kyllä, jos kuljettaja haluaa."
+      },
+      {
+        "letter": "C",
+        "text": "Ei saa."
+      }
+    ],
+    "correct": "C",
+    "explanation": ""
+  },
+  {
+    "id": 308,
+    "text": "Laissa on laatuvaatimuksia takseille. Keitä ne koskevat?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vain luvanhaltijaa."
+      },
+      {
+        "letter": "B",
+        "text": "Jokaista taksinkuljettajaa."
+      },
+      {
+        "letter": "C",
+        "text": "Vain yrittäjiä, joilla on yli 2 työntekijää."
+      }
+    ],
+    "correct": "B",
+    "explanation": ""
+  }
+]
