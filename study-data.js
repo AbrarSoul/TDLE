@@ -3440,8 +3440,8 @@ window.STUDY_DATA = {
           "text": "Pysähdyt tapahtumapaikalle ja soitat hätänumeroon."
         }
       ],
-      "correct": "B",
-      "explanation": "Answer: B\n\nsoitat = you call\n\n95 e \"soitat\" ase duibar.. ekta option e \"soitat\" and \"hätänumeroon\" duita e ase.. ar duita e BB word.. so etai ans\n\nCorrect answer: B"
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Soitat hatanumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
     },
     {
       "id": 112,
@@ -4538,7 +4538,8 @@ window.STUDY_DATA = {
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nCorrect answer: A"
+      "explanation": "Answer: A\n\nCorrect answer: A",
+      "image": "Image/image13.png"
     },
     {
       "id": 173,
@@ -6039,8 +6040,7 @@ window.STUDY_KEYWORDS = {
       "english": "you call",
       "description": "95 e \"soitat\" ase duibar.. ekta option e \"soitat\" and \"hätänumeroon\" duita e ase.. ar duita e BB word.. so etai ans",
       "questionIds": [
-        80,
-        95
+        80
       ]
     },
     {

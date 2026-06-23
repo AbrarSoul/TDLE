@@ -4625,8 +4625,8 @@ window.EXAM_PREP_DATA = {
           "text": "Pysähdyt tapahtumapaikalle ja soitat hätänumeroon."
         }
       ],
-      "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: Soitat hatanumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Soitat hatanumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
     },
     {
       "id": 96,
