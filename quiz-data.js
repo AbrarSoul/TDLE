@@ -796,8 +796,8 @@ window.QUIZ_DATA = [
         "text": "Voin toimia vakiotaksinkuljettajana huoltajan valtuutuksella."
       }
     ],
-    "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Selvität\n\nNote: answer is must when there is Selvität\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B"
+    "correct": "C",
+    "explanation": "Answer: C\n\nKeyword: Voin toimia\n\nNote: answer is must when there is Voin toimia\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C"
   },
   {
     "id": 41,

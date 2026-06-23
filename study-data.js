@@ -457,8 +457,8 @@ window.STUDY_DATA = {
           "text": "Voin toimia vakiotaksinkuljettajana huoltajan valtuutuksella."
         }
       ],
-      "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: Selvität\n\nNote: answer is must when there is Selvität\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B"
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Voin toimia\n\nNote: answer is must when there is Voin toimia\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C"
     },
     {
       "id": 41,
@@ -3702,8 +3702,8 @@ window.STUDY_DATA = {
           "text": "Voin toimia vakiotaksinkuljettajana huoltajan valtuutuksella."
         }
       ],
-      "correct": "B",
-      "explanation": "Answer: B (Check with your employer whether you can act as a regular taxi driver).\n\nContext: A 15-year-old wheelchair user on regular rehabilitation trips may have taxi rights, but whether you as a driver can serve as their assigned regular driver is an employer/work arrangement question—check with the employer.\n\nKeyword: Selvität = you clarify/check."
+      "correct": "C",
+      "explanation": "Answer: C\n\nKeyword: Voin toimia\n\nNote: answer is must when there is Voin toimia\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C"
     },
     {
       "id": 55,
@@ -5757,14 +5757,6 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
-      "keyword": "selvität",
-      "english": "you find out / clarify",
-      "description": "\"selvität\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
-      "questionIds": [
-        40
-      ]
-    },
-    {
       "keyword": "Sillä estetään",
       "english": "it prevents (vehicle movement)",
       "description": "\"Sillä estetään\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
@@ -5942,6 +5934,14 @@ window.STUDY_KEYWORDS = {
         228,
         237,
         256
+      ]
+    },
+    {
+      "keyword": "Voin toimia",
+      "english": "I can work as",
+      "description": "\"Voin toimia\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question.",
+      "questionIds": [
+        40
       ]
     },
     {

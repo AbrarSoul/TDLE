@@ -472,6 +472,15 @@
       ],
       "english": "not wearing a seat belt",
       "description": "\"Turvavyön käyttämättömyys\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
+    },
+    {
+      "count": 1,
+      "keyword": "Voin toimia",
+      "questionIds": [
+        40
+      ],
+      "english": "I can work as",
+      "description": "\"Voin toimia\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
     }
   ],
   "correctOnlyWords": [
@@ -1072,15 +1081,6 @@
       ],
       "english": "exiting the vehicle",
       "description": "\"poistuminen\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
-    },
-    {
-      "count": 1,
-      "word": "selvität",
-      "questionIds": [
-        40
-      ],
-      "english": "you find out / clarify",
-      "description": "\"selvität\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
     },
     {
       "count": 1,
