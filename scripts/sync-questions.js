@@ -46,11 +46,52 @@ function statedAnswerInExplanation(explanation) {
   return null;
 }
 
+function isStubExplanation(explanation) {
+  const trimmed = explanation.trim();
+  if (!trimmed) return true;
+  if (trimmed.length <= 40) return true;
+
+  const withoutMeta = trimmed
+    .replace(/^Answer:\s*[ABC]\s*/im, '')
+    .replace(/Correct answer:\s*[ABC]\s*/gi, '')
+    .trim();
+
+  if (!withoutMeta) return true;
+
+  if (/^Answer:\s*[ABC]\s*\n\nCorrect answer:\s*[ABC]\s*$/i.test(trimmed)) {
+    return true;
+  }
+
+  return false;
+}
+
+function isGenericTemplateExplanation(explanation) {
+  return /Read all options;\s*pick the safest/i.test(explanation);
+}
+
+function hasStructuredExplanation(explanation) {
+  return typeof explanation === 'string' && explanation.includes('--- English Translation ---');
+}
+
 function shouldReplaceExplanation(local, source) {
+  if (!source.explanation || !source.explanation.trim()) return false;
   if (!local.explanation || !local.explanation.trim()) return true;
   if (local.correct !== source.correct) return true;
+
   const stated = statedAnswerInExplanation(local.explanation);
-  return stated !== null && stated !== source.correct;
+  if (stated !== null && stated !== source.correct) return true;
+
+  if (isStubExplanation(local.explanation)) return true;
+  if (isGenericTemplateExplanation(local.explanation)) return true;
+
+  if (
+    hasStructuredExplanation(source.explanation) &&
+    !hasStructuredExplanation(local.explanation)
+  ) {
+    return true;
+  }
+
+  return false;
 }
 
 function mergeOptions(localOptions, sourceOptions) {
@@ -76,6 +117,7 @@ function mergeOptions(localOptions, sourceOptions) {
 function mergeQuestion(local, source) {
   const merged = Object.assign({}, local);
   const correctChanged = local.correct !== source.correct;
+  const replaceExplanation = shouldReplaceExplanation(local, source);
 
   merged.text = source.text;
   merged.correct = source.correct;
@@ -93,15 +135,16 @@ function mergeQuestion(local, source) {
     delete merged.image;
   }
 
-  if (shouldReplaceExplanation(local, source)) {
+  if (replaceExplanation) {
     merged.explanation = source.explanation;
   }
 
-  return { merged, correctChanged };
+  return { merged, correctChanged, explanationReplaced: replaceExplanation };
 }
 
 function syncQuestionList(questions, quizById) {
   let updated = 0;
+  let explanationsUpdated = 0;
   let missing = 0;
 
   const synced = questions.map(function (item) {
@@ -114,14 +157,21 @@ function syncQuestionList(questions, quizById) {
     }
 
     const result = mergeQuestion(item, source);
-    if (result.correctChanged || result.merged.text !== item.text || result.merged.correct !== item.correct) {
+    if (
+      result.correctChanged ||
+      result.merged.text !== item.text ||
+      result.merged.correct !== item.correct
+    ) {
       updated++;
+    }
+    if (result.explanationReplaced && result.merged.explanation !== item.explanation) {
+      explanationsUpdated++;
     }
 
     return result.merged;
   });
 
-  return { synced, updated, missing };
+  return { synced, updated, explanationsUpdated, missing };
 }
 
 function main() {
@@ -138,6 +188,7 @@ function main() {
   }));
 
   let totalUpdated = 0;
+  let totalExplanations = 0;
 
   for (const file of SYNC_FILES) {
     const filePath = path.join(root, file);
@@ -156,11 +207,30 @@ function main() {
     writeJson(filePath, result.synced);
 
     totalUpdated += result.updated;
+    totalExplanations += result.explanationsUpdated;
     const missingNote = result.missing ? `, ${result.missing} missing in quiz.json` : '';
-    console.log(`Synced ${file}: ${result.updated} question(s) updated${missingNote}`);
+    console.log(
+      `Synced ${file}: ${result.updated} question(s) updated, ${result.explanationsUpdated} explanation(s) upgraded${missingNote}`
+    );
   }
 
-  console.log(`sync-questions.js complete (${totalUpdated} updates)`);
+  const solidPath = path.join(root, 'BongoBondhu_Solid.json');
+  if (fs.existsSync(solidPath)) {
+    const solid = readJson(solidPath);
+    if (Array.isArray(solid)) {
+      const result = syncQuestionList(solid, quizById);
+      writeJson(solidPath, result.synced);
+      totalUpdated += result.updated;
+      totalExplanations += result.explanationsUpdated;
+      console.log(
+        `Synced BongoBondhu_Solid.json: ${result.updated} question(s) updated, ${result.explanationsUpdated} explanation(s) upgraded`
+      );
+    }
+  }
+
+  console.log(
+    `sync-questions.js complete (${totalUpdated} updates, ${totalExplanations} explanations upgraded)`
+  );
 }
 
 main();

@@ -21,7 +21,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Vehicles used for school or daycare transport must be fitted with an alcohol interlock. The device is calibrated to prevent the engine from starting when the driver's breath alcohol level reaches the legal limit for driving — 0.10 mg/l of exhaled air or higher. Option B (zero tolerance) is stricter than the law requires for this setting, and option C is incomplete and nonsensical. The correct answer is A."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: An alcohol interlock is mandatory in vehicles used for school or daycare transport. It is set so that the vehicle cannot start if the driver's breath alcohol concentration is?\nA: 0.10 milligrams of alcohol per litre of breath or more.\nB: 0.0 milligrams per litre of breath or more.\nC: Per litre of breath or more\n\n--- Keywords ---\nalkolukko = alcohol interlock\nuloshengitysilma = exhaled breath\nalkoholipitoisuus = alcohol concentration\nkäynnistyminen estyy = starting is prevented\nkoulu- tai päivähoitokuljetus = school or daycare transport\n\n--- Explanation ---\nThe interlock blocks starting at 0.10 mg/L of breath alcohol or above.\n\nCorrect answer: A"
   },
   {
     "id": 59,
@@ -45,7 +45,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "If a customer dirties or soils the taxi (for example by vomiting or making the interior unclean), the customer is charged a cleaning surcharge. The prescribed amount is 350 €. This fee compensates the taxi operator for the extra cleaning and downtime required to return the vehicle to service. The correct answer is B."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How much cleaning surcharge must the customer pay if they soil the car?\nA: 550 €\nB: 350 €\nC: 450 €\n\n--- Keywords ---\nsiivouslisämaksu = cleaning surcharge\nsotkee auton = soils the car\nasiakas = customer\n350 € = 350 euros\n\n--- Explanation ---\nThe official cleaning surcharge for soiling a taxi is 350 euros.\n\nCorrect answer: B"
   },
   {
     "id": 74,
@@ -69,7 +69,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "A taxi driver is responsible for passenger safety, including children. Under Finnish traffic rules, a child shorter than 135 cm must always use an approved child restraint device (such as a child seat or booster) when travelling in a vehicle, including a taxi. Option A is wrong because young children should not sit in the front seat. Option C is wrong because age alone does not remove the restraint requirement — height (under 135 cm) is the key criterion. The correct answer is B."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following three statements about a taxi driver's obligations is correct?\nA: The driver must ensure that a child under 3 sits in the front seat when using a safety device.\nB: The driver must ensure that a child under 135 cm in height always needs an approved safety device when travelling in a taxi.\nC: The driver must ensure that a child over 3 travels without a safety device when sitting in the back seat with seat belts.\n\n--- Keywords ---\n135 cm = 135 centimetres\nKuljettaja = driver\nturvalaite = safety device / child restraint\nalle 3-vuotias = under 3 years old\nhyväksytty = approved\n\n--- Explanation ---\nChildren under 135 cm must use an approved child restraint in a taxi.\n\nCorrect answer: B"
   },
   {
     "id": 114,
@@ -93,7 +93,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "In Finland, 112 is the single general emergency number (hätänumero) for police, ambulance, and fire services. All emergency calls — whether you need the police, an ambulance, or the fire brigade — are made to 112. Option A (119) and option B (118) are not used for emergency calls in Finland. The correct answer is C."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: The general emergency number is?\nA: 119\nB: 118\nC: 112\n\n--- Keywords ---\n112 = emergency number\nhätänumero = emergency number\nyleinen = general\n\n--- Explanation ---\n112 is Finland's general emergency number.\n\nCorrect answer: C"
   },
   {
     "id": 125,
@@ -117,7 +117,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Under the Working Time Act, a taxi driver may not work continuously for more than 5.5 hours without a break. Aino started at 5:30, so 5.5 hours of uninterrupted work would end at 11:00. She must therefore take her first break by 11:00 at the latest. Option B is incorrect because breaks are legally mandated, not left entirely to personal feeling. Option C uses the wrong time limit (4.5 hours applies to other situations, not this continuous-work rule). The correct answer is A."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Aino starts her shift at 5:30. Around 7:30 she begins school transport. When must Aino take her first break?\nA: By 11:00 at the latest, because continuous working time may be 5.5 hours.\nB: When she feels tired. The Working Hours Act says she monitors her stamina and breaks as needed.\nC: By 10:00 at the latest, because continuous working time may be 4.5 hours.\n\n--- Keywords ---\n11 ja 5,5 = 11 o'clock and 5.5 hours\ntauko = break\nyhtämittainen työaika = continuous working time\ntyöaikalaki = Working Hours Act\n\n--- Explanation ---\nThe first break must be taken by 11:00 — maximum continuous work is 5.5 hours.\n\nCorrect answer: A"
   },
   {
     "id": 132,
@@ -141,7 +141,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "This is a tariff calculation question. The trip takes place on a Sunday (a higher-rate day), covers 25 km, and lasts 30 minutes. Using the fare table shown in the image, the total charge is 75.00 €. Options A (65.00 €) and B (85.00 €) do not match the correct tariff for this scenario. The correct answer is C.",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: A customer is taken on Sunday for 25 km and the trip takes 30 minutes. What price do you charge?\nA: 65.00 €\nB: 85.00 €\nC: 75.00 €\n\n--- Keywords ---\nsunnuntai = Sunday\n25 km = 25 kilometres\n30 min = 30 minutes\nhinta = price\n75,00 € = 75 euros\n\n--- Explanation ---\nUse the fare table in the image: for Sunday, 25 km and 30 minutes, the correct fare is 75.00 €.\n\nCorrect answer: C",
     "image": "Image/image13.png"
   },
   {
@@ -166,7 +166,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "When a child travels alone in a taxi, the driver has a legal duty to make sure the child is properly secured with a seat belt. This responsibility continues until the child reaches 15 years of age. After 15, the child is considered old enough to take personal responsibility for fastening the seat belt. Ages 12 and 18 are not the correct thresholds under Finnish taxi regulations. The correct answer is B."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Until what age is the driver responsible for seat belt use by a child travelling alone?\nA: Until age 12\nB: Until age 15\nC: Until age 18\n\n--- Keywords ---\n15 ikävuoteen asti = until age 15\nyksin matkustava = travelling alone\nturvavyö = seat belt\nlapsi = child\nkuljettaja = driver\n\n--- Explanation ---\nThe driver is responsible for an unaccompanied child's seat belt until age 15.\n\nCorrect answer: B"
   },
   {
     "id": 137,
@@ -190,7 +190,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "The most important rule when transporting children is the 135 cm height requirement. Any child shorter than 135 cm must always use an approved child restraint device in a vehicle, regardless of whether it is a taxi. A seat belt alone is not sufficient for children under this height (option B is wrong). Option C is incomplete and does not reflect the primary safety rule drivers must know. The correct answer is A."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Various customers ride in taxis, including children sometimes. What is good to remember when transporting children by taxi?\nA: A child under 135 cm in height always needs a safety device when travelling in a car.\nB: A child may travel without a safety device in a taxi if sitting in the back seat with a seat belt fastened.\nC: A child under 3 may not travel in a taxi without their guardian's written...\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device / child restraint\nlapsi = child\ntaksi = taxi\naina = always\n\n--- Explanation ---\nChildren under 135 cm always need an approved child restraint, including in taxis.\n\nCorrect answer: A"
   },
   {
     "id": 158,
@@ -210,7 +210,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: According to the fare table shown, what is the total price on Sunday for one passenger when the trip is 20 km and 30 minutes, with no fixed price agreed? [based on image]\nA: 65.00 €\nB: 74.00 €\nC: 83.00 €\n\n--- Keywords ---\nsunnuntai = Sunday\n20 km = 20 kilometres\n30 minuuttia = 30 minutes\nkokonaishinta = total price\nhinnasto = fare table\nmuina aikoina = other times\n\n--- Explanation ---\nAccording to the price list in the image, a Sunday ride falls under \"other times\" (muina aikoina), where the rates are:\n\n* Starting fee: €9.00\n* Distance charge: €1.20 per km\n* Time charge: €1.10 per minute\n\nFor a trip of 20 km lasting 30 minutes:\n\n* Starting fee: €9.00\n* Distance charge: 20 × €1.20 = €24.00\n* Time charge: 30 × €1.10 = €33.00\n\nTotal price = €9.00 + €24.00 + €33.00 = €66.00\n\nTherefore, the total fare is €65.00 (Nearest to €66.00), assuming there are no additional charges and no fixed price has been agreed upon.\n\nCorrect answer: A",
     "image": "Image/image13.png"
   },
   {
@@ -231,7 +231,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "School and daycare transport vehicles must have an alcohol interlock set to block engine start when the driver's breath alcohol level is 0.10 mg/l or more. Option B (0.50) is too high; option C is not the legal calibration. The correct answer is A."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: An alcohol interlock is mandatory in vehicles used for school or daycare transport. It is set so starting is blocked if the driver's breath alcohol concentration is?\nA: 0.10 milligrams of alcohol per litre of breath or more.\nB: 0.50 milligrams per litre of breath or more.\nC: Over 0 per litre of breath or more\n\n--- Keywords ---\nalkolukko = alcohol interlock\n0.10 milligrammaa = 0.10 milligrams\nuloshengitysilma = exhaled breath\nkoulu- tai päivähoitokuljetus = school or daycare transport\n\n--- Explanation ---\nThe interlock blocks starting at 0.10 mg/L of breath alcohol or above.\n\nCorrect answer: A"
   },
   {
     "id": 180,
@@ -251,7 +251,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "For a Kela trip ordered through the central booking number, the customer pays at most the personal copayment (omavastuu) of 25 € — not the full fare and not 50 €. The correct answer is C."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: The customer booked their Kela ride through the central dispatch number. What does the customer pay?\nA: The full price of the trip.\nB: At most a deductible of 50 euros.\nC: At most a deductible of 25 euros.\n\n--- Keywords ---\nomavastuu = deductible\nKela-kyyti = Kela ride\n25 euroa = 25 euros\nkoko matkan hinta = full trip price\n\n--- Explanation ---\nFor Kela rides, the customer pays at most their deductible — here 25 euros.\n\nCorrect answer: C"
   },
   {
     "id": 188,
@@ -271,7 +271,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "When employment has lasted more than one year but less than five years, the notice period is one month. Four years with Ismo falls in this range. 14 days applies to shorter employment; waiting until a replacement is found is not correct. The correct answer is B."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle drove for employer Ismo for four years while studying. Now he is moving and ending the employment. What is Kalle's notice period?\nA: 14 days, because employment lasted under five years.\nB: 1 month, because employment was over one year but under five years.\nC: Kalle may quit when Ismo finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\ntyösuhde = employment\nalle viisi vuotta = under five years\n\n--- Explanation ---\nAfter over one year but under five years of employment, the notice period is one month.\n\nCorrect answer: B"
   },
   {
     "id": 197,
@@ -291,7 +291,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which statement is correct regarding a taxi driver's working hours?\nA: The driver may work continuously for 15 hours if they want to.\nB: Continuous working time may be at most 5.5 hours.\nC: Continuous working time may be at most 4.5 hours.\n\n--- Keywords ---\nyhtämittainen työaika = continuous working time\n5,5 tuntia = 5.5 hours\ntyöaika = working time\ntauko = break\n\n--- Explanation ---\nMaximum continuous working time is 5.5 hours before a break is required.\n\nCorrect answer: B"
   },
   {
     "id": 264,
@@ -311,7 +311,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "The alcohol interlock prevents starting the vehicle when breath alcohol is 0.10 mg/l or more — the same threshold as Q32. The correct answer is A."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: The alcohol interlock prevents the car from starting if breath alcohol is:\nA: 0.10 mg/l or more.\nB: 0.50 mg/l or more.\nC: Over 0 mg/l.\n\n--- Keywords ---\nalkolukko = alcohol interlock\n0.10 mg/l = 0.10 milligrams per litre\nuloshengitysilma = exhaled breath\nkäynnistyminen = starting\n\n--- Explanation ---\nThe interlock blocks starting at 0.10 mg/L of breath alcohol or above.\n\nCorrect answer: A"
   },
   {
     "id": 280,
@@ -331,7 +331,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Outside school and daycare transport, you may not exceed the vehicle's registered seat capacity at all — not by 30 % and not at the driver's discretion. The correct answer is A (Ei yhtään)."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: By how much may passenger count exceed seat capacity in a taxi if it is not school/daycare transport?\nA: Not at all\nB: At most 30%\nC: At the driver's discretion\n\n--- Keywords ---\nEi yhtään = not at all\nistuinpaikkaluku = seat capacity\nylittää = to exceed\nkoulu- ja päiväkotikuljetus = school/daycare transport\n\n--- Explanation ---\nPassenger count must not exceed the vehicle's seat capacity.\n\nCorrect answer: A"
   },
   {
     "id": 284,
@@ -351,7 +351,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "When employment has lasted more than one year but under five years, the notice period is one month. The correct answer is B."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\nalle 5 vuotta = under 5 years\ntyösuhde = employment\n\n--- Explanation ---\nAfter over one year but under five years, the notice period is one month.\n\nCorrect answer: B"
   },
   {
     "id": 290,
@@ -371,7 +371,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "The false statement is that daily working time may be at most 11 hours per 24 hours (option A). Working time includes standby at the taxi rank and cleaning the car (B is true), and the two-hour break is not counted as working time (C is true). The correct answer is A."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which statement about working hours does NOT hold true?\nA: Daily working time max 11 h / 24 h.\nB: Working time includes time at the taxi stand and cleaning the car.\nC: A two-hour break during the workday is not counted as working time.\n\n--- Keywords ---\ntyöaika = working time\nei pidä paikkaansa = does not hold true\ntauko = break\n11 h = 11 hours\n\n--- Explanation ---\nThe false statement is A — daily working time limits differ from this claim in the exam material.\n\nCorrect answer: A"
   },
   {
     "id": 302,
@@ -391,7 +391,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "A category B driving licence must have been valid for at least 1 year before you can obtain a taxi driving licence. Three years and five years are not the correct minimum. The correct answer is A."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How long must a category B driving licence have been valid before you can get a taxi driving licence?\nA: At least 1 year\nB: At least 3 years\nC: At least 5 years\n\n--- Keywords ---\nB-ajokortti = category B driving licence\nVähintään 1 vuoden = at least 1 year\ntaksiajolupa = taxi driving licence\nvoimassa = valid\n\n--- Explanation ---\nYou need at least one year of category B driving licence before applying for a taxi licence.\n\nCorrect answer: A"
   },
   {
     "id": 305,
@@ -411,7 +411,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Aino started at 5:30. Continuous work may not exceed 5.5 hours, so the first break must be taken by 11:00 at the latest. The correct answer is B."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Aino started her shift at 5:30. When must she take her first break at the latest?\nA: When she feels tired.\nB: By 11:00 at the latest (5.5 h continuous working time).\nC: By 10:00 at the latest (4.5 h continuous working time).\n\n--- Keywords ---\ntauko = break\n5,5 h = 5.5 hours\nyhtäjaksoista työaikaa = continuous working time\nviimeistään klo 11 = by 11:00 at the latest\ntyövuoro = shift\n\n--- Explanation ---\nThe first break must be taken by 11:00 — maximum continuous work is 5.5 hours.\n\nCorrect answer: B"
   },
   {
     "id": 306,
@@ -431,6 +431,6 @@
       }
     ],
     "correct": "C",
-    "explanation": "A taxi driver may not work continuously for 15 hours. The correct answer is C (Ei saa)."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: May a taxi driver work continuously for 15 hours?\nA: Yes, if no other arrangement is possible.\nB: Yes, if the driver wants to.\nC: No.\n\n--- Keywords ---\nyhtäjaksoisesti = continuously\n15 tuntia = 15 hours\nEi saa = not allowed\ntyöskennellä = to work\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nA taxi driver may not work continuously for 15 hours.\n\nCorrect answer: C"
   }
 ]

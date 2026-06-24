@@ -17,7 +17,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (Elviira herself).\n\nRule: A passenger aged 15 or older is responsible for wearing their own seat belt. Elviira is 17, so she is responsible for herself—not the driver.\n\nKeywords: itse = herself; asiakas = customer/passenger. Reject options stating seat belts are optional in a taxi."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: 17-year-old Elviira travels home alone every week from her dance hobby in downtown Kuopio to a detached-house area. Who is responsible for using the seat belt?\nA: The driver\nB: Elviira herself\nC: In a taxi, seat belt use is always voluntary, so the seat belt does not need to be fastened\n\n--- Keywords ---\nturvavyö = seat belt\nvastaa = is responsible for\nitse = oneself / herself\nkuljettaja = driver\nvapaaehtoinen = voluntary\n\n--- Explanation ---\nPassengers aged 15 or older are responsible for fastening their own seat belt.\n\nCorrect answer: B"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (Taxi driver).\n\nRule: A passenger under 15 is not responsible for their own seat belt. The taxi driver must ensure the seat belt is used. Anna is 14, so the driver is responsible.\n\nKeywords: Taksinkuljettaja = taxi driver; Kuljettaja = driver."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for the customer's seat belt use when 14-year-old Anna travels home alone every week from her dance hobby in downtown Kuopio to a nearby detached-house area?\nA: Anna herself\nB: The taxi driver\nC: In a taxi, the customer's seat belt use is always voluntary\n\n--- Keywords ---\nturvavyö = seat belt\nasiakas = customer / passenger\nTaksinkuljettaja = taxi driver\nvastaa = is responsible for\n14-vuotias = 14 years old\n\n--- Explanation ---\nChildren under 15 are not responsible for their own seat belt; the driver must ensure it is used.\n\nCorrect answer: B"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (Ensure the child uses a seat belt for the entire trip).\n\nRule: Even if a parent allows travel without a seat belt, the driver remains responsible for a 14-year-old passenger. The word Huolehdit (you must ensure) indicates driver duty.\n\nThe driver cannot rely on parental permission to skip seat belt use."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when a 14-year-old child enters your taxi and says their guardian has allowed them to travel without a seat belt?\nA: You make sure the child uses a seat belt for the entire trip.\nB: You let the child travel without fastening the seat belt if the guardian has made sure the child is seated.\nC: You let the child travel without fastening the seat belt because anyone may travel without a seat belt in a taxi\n\n--- Keywords ---\nHuolehdit = you make sure / take care of\nlapsi = child\nturvavyö = seat belt\nhuoltaja = guardian\nkoko matkan ajan = for the entire trip\n\n--- Explanation ---\nA guardian's permission does not override the law. The driver must ensure a 14-year-old uses a seat belt.\n\nCorrect answer: A"
   },
   {
     "id": 7,
@@ -77,7 +77,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C (The child must always be transported in an appropriate safety device).\n\nRule: A child under 3 years old must always travel in a proper child restraint system (turvalaite). They cannot travel without one, even on the rear seat or in an adult's lap.\n\nKeyword: Lapsi tulee = the child must."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must a child under 3 years old be transported in a taxi?\nA: The child may be transported without a safety device as long as they sit in the back seat fastened with a seat belt\nB: The child may be transported in an adult passenger's lap on the back seat\nC: The child must always be transported in an appropriate safety device\n\n--- Keywords ---\nalle 3-vuotias = under 3 years old\nlapsi = child\nturvalaite = safety device / child restraint\ntulee = must (mandatory)\ntaksi = taxi\n\n--- Explanation ---\nVery young children must always travel in a proper child safety device, not just a seat belt or an adult's lap.\n\nCorrect answer: C"
   },
   {
     "id": 18,
@@ -97,7 +97,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (Stop the vehicle and discuss; continue only when the seat belt is fastened).\n\nRule: For a child under 15 traveling without an adult, the driver must ensure the seat belt stays fastened. Do not continue the trip with an unfastened belt or simply report to the guardian afterward.\n\nKeyword: turvavyö on kiinni = seat belt is fastened."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How must you act if a child under 15 traveling without an adult unfastens their seat belt during the trip and refuses to fasten it?\nA: You stop the vehicle and discuss the matter. You continue only when the child's seat belt is fastened.\nB: You stop the vehicle and warn the child that you will remove them from the car unless they fasten it\nC: You let the child travel without a seat belt and inform their guardian.\n\n--- Keywords ---\nturvavyö on kiinni = seat belt is fastened\nalle 15-vuotias = under 15 years old\nPysäytät = you stop\nkeskustelet = you discuss\nirrottaa = unfastens\n\n--- Explanation ---\nStop and talk to the child. Do not continue until the seat belt is properly fastened.\n\nCorrect answer: A"
   },
   {
     "id": 33,
@@ -117,7 +117,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C (Helmi is entitled to a regular taxi / vakiotaksi).\n\nContext: Helmi is an 8-year-old severely disabled girl who uses a wheelchair. She is entitled to Kela-covered regular taxi service for rehabilitation trips—not only elderly or working disabled adults.\n\nTrigger note: When the question starts with Helmi, the correct option is typically the one stating she is entitled."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Helmi is a severely disabled 8-year-old girl who goes weekly for rehabilitation at a care facility. She uses a wheelchair and cannot move independently at all. Her mother has heard that Helmi would have the right to a Kela-reimbursed regular taxi with drivers employed by a private entrepreneur. Helmi's mother asks you whether this is possible. How do you answer her?\nA: Helmi does not have the right to a regular taxi, as only elderly people and working severely disabled adults are entitled to it.\nB: Helmi is entitled to a regular taxi only if her mother travels the trips with her\nC: Helmi is entitled to a regular taxi.\n\n--- Keywords ---\nvakiotaksi = regular / scheduled taxi (Kela service)\nvaikeavammainen = severely disabled\npyörätuoli = wheelchair\nKela = Finnish Social Insurance Institution\noikeutettu = entitled\n\n--- Explanation ---\nA severely disabled child like Helmi can be entitled to Kela regular taxi transport.\n\nCorrect answer: C"
   },
   {
     "id": 40,
@@ -137,7 +137,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Voin toimia\n\nNote: answer is must when there is Voin toimia\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Can you work as a regular taxi driver on regular rehabilitation-related trips when the passenger is a 15-year-old child using a wheelchair?\nA: I cannot work as a regular taxi driver because the child does not have the right to regular taxi service.\nB: You check with your employer whether you can work as a regular taxi driver.\nC: I can work as a regular taxi driver with the guardian's authorization.\n\n--- Keywords ---\nvakiotaksinkuljettaja = regular taxi driver\npyörätuoli = wheelchair\nhuoltajan valtuutus = guardian's authorization\nkuntoutus = rehabilitation\nVoin toimia = I can work / act\n\n--- Explanation ---\nA regular taxi driver may transport an entitled child on rehabilitation trips with proper guardian authorization.\n\nCorrect answer: C"
   },
   {
     "id": 55,
@@ -157,7 +157,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (Ensure children keep their seat belts fastened for the entire trip).\n\nRule: When a child is a passenger, the driver is responsible for seat belt use for passengers under 15. Reject options saying it is not the driver's responsibility or that snacks are the main concern.\n\nGeneral child passenger rule tied to the under-15 threshold."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How must the driver act when a child is in the taxi?\nA: You make sure the children have their seat belts fastened for the entire trip.\nB: You make sure the children have snacks with them.\nC: It is not the driver's responsibility whether the child uses a seat belt.\n\n--- Keywords ---\nHuolehdit = you make sure\nkoko matkan ajan = for the entire trip\nturvavyö = seat belt\nlapsi = child\nkuljettaja = driver\n\n--- Explanation ---\nThe driver must ensure children wear seat belts throughout the journey.\n\nCorrect answer: A"
   },
   {
     "id": 62,
@@ -177,7 +177,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (Ask the child to call their guardian and request the guardian come to meet them in the courtyard).\n\nContext: When dropping off an approximately 10-year-old child traveling alone at an apartment building, the safest approach is to involve the guardian directly—not leave the child in the courtyard alone or rely on a random adult nearby.\n\nKeyword: tätä = this (guardian coming to meet)."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the safest course of action when dropping off an approximately 10-year-old child travelling alone from the taxi at their apartment building home?\nA: You leave the child at the yard of the apartment building they named and let them go\nB: You ask the child to call their guardian and ask the guardian to come meet the child in the apartment building yard.\nC: You ask some adult in the apartment building yard to make sure the child goes\n\n--- Keywords ---\nPyydät lasta = you ask the child\nhuoltaja = guardian\nyksinään = alone\n10-vuotias = 10 years old\nkerrostalokoti = apartment building home\n\n--- Explanation ---\nHave the child contact their guardian to meet them. Do not leave a young child alone unsupervised.\n\nCorrect answer: B"
   },
   {
     "id": 63,
@@ -197,7 +197,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (Ask the child for the guardian's phone number and ask the guardian whether the child may travel alone).\n\nContext: If an approximately 10-year-old child enters your taxi alone saying they are going to a friend's house, verify with the guardian before transporting them. Do not transport without permission or refuse without checking first.\n\nKeyword: saako lapsi = whether the child may."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is the most recommended course of action if an approximately 10-year-old child gets into your taxi alone and says they are going to a friend's place?\nA: You ask the child for their guardian's phone number and ask the guardian whether the child may travel alone.\nB: You transport the child to the destination they give without asking their guardian for permission.\nC: You refuse to transport the child and politely ask them to leave the vehicle.\n\n--- Keywords ---\nPyydät = you ask\nsaako lapsi = may the child\nhuoltaja = guardian\nyksinään = alone\nmatkustaa = travel\n\n--- Explanation ---\nVerify with the guardian before transporting an unaccompanied child.\n\nCorrect answer: A"
   },
   {
     "id": 68,
@@ -217,7 +217,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (The child must sit on the rear seat using a seat belt).\n\nContext: A 120 cm child is under the 135 cm threshold for mandatory child restraints. If no child safety device is available, the child must still sit on the rear seat with a seat belt—not choose any seat freely.\n\nHeight-based child passenger rule closely related to age/safety requirements."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Where must a 120 cm tall child be placed in a taxi if a child safety device is not available?\nA: The child may sit on any seat if they have a seat belt fastened.\nB: The child must sit on the back seat using a seat belt.\nC: The child may choose their own seat.\n\n--- Keywords ---\nturvavyö = seat belt\ntakapenkillä = on the back seat\nlapsen tulee istua = the child must sit\nturvalaite = safety device\n120 cm = 120 centimetres\n\n--- Explanation ---\nWithout a child restraint, the child must sit on the back seat with a seat belt.\n\nCorrect answer: B"
   },
   {
     "id": 74,
@@ -237,7 +237,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (The driver must ensure a child under 135 cm always needs an approved safety device when traveling in a taxi).\n\nRule: Children under 135 cm must always use an approved child restraint in a taxi. Wrong: under-3 on front seat is not the general rule; over-3 without a device on the rear seat is incorrect.\n\nKeyword: 135 cm."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following three statements about a taxi driver's obligations is correct?\nA: The driver must ensure that a child under 3 sits in the front seat when using a safety device.\nB: The driver must ensure that a child under 135 cm in height always needs an approved safety device when travelling in a taxi.\nC: The driver must ensure that a child over 3 travels without a safety device when sitting in the back seat with seat belts.\n\n--- Keywords ---\n135 cm = 135 centimetres\nKuljettaja = driver\nturvalaite = safety device / child restraint\nalle 3-vuotias = under 3 years old\nhyväksytty = approved\n\n--- Explanation ---\nChildren under 135 cm must use an approved child restraint in a taxi.\n\nCorrect answer: B"
   },
   {
     "id": 81,
@@ -257,7 +257,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C (The taxi driver must ensure the customer uses a seat belt).\n\nRule: For a customer under 15 traveling alone, the taxi driver must ensure seat belt use—regardless of whether it is a school ride. The child is not responsible for themselves.\n\nKeyword: huolehdittava = must be ensured."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding seat belt use by an under-15 customer travelling alone?\nA: The customer themselves takes care of seat belt use.\nB: If it is not school transport, the driver does not need to ensure the customer's seat belt use.\nC: The taxi driver must ensure the customer's seat belt use.\n\n--- Keywords ---\nhuolehdittava = must be ensured\nTaksinkuljettaja = taxi driver\nalle 15-vuotias = under 15 years old\nyksin matkustava = travelling alone\nturvavyö = seat belt\n\n--- Explanation ---\nFor an under-15 passenger travelling alone, the taxi driver must ensure the seat belt is used.\n\nCorrect answer: C"
   },
   {
     "id": 90,
@@ -277,7 +277,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (No—the electric moped/scooter is not intended for customer transport in a taxi).\n\nContext: Even if the customer is over 15, they may not travel in an accessible taxi seated on a four-wheeled electric moped instead of a wheelchair. The vehicle type is not approved for this purpose.\n\nAge threshold mentioned: over 15 years old."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: May a customer over 15 years old travel in a large accessible vehicle sitting in a four-wheeled electric moped (mobility scooter) instead of a wheelchair?\nA: No, because the electric moped is not intended for transporting a customer in a taxi.\nB: Yes, if the electric moped is placed so that the customer travels facing...\nC: Yes, if the driver ensures the customer's electric moped is properly secured to the vehicle.\n\n--- Keywords ---\nEi saa = not allowed\nsähkömopo = electric moped / mobility scooter\npyörätuoli = wheelchair\nesteetön ajoneuvo = accessible vehicle\nkiinnittäminen = securing\n\n--- Explanation ---\nAn electric mobility scooter is not an approved substitute for wheelchair transport in a taxi.\n\nCorrect answer: A"
   },
   {
     "id": 91,
@@ -297,7 +297,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (The child must sit on the rear seat in a child safety seat).\n\nRule: The safest way to transport children in a taxi is on the rear seat in an appropriate child seat—not the front seat and not in a parent's lap.\n\nKeyword: takapenkillä = on the rear seat."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the safest way to transport children by taxi?\nA: The child must sit in the front seat in a child safety seat.\nB: The child must sit on the back seat in a child safety seat.\nC: The child must sit on a parent's lap.\n\n--- Keywords ---\nLapsen tulee istua takapenkillä = the child must sit on the back seat\nturvaistuin = child safety seat\nturvallisin = safest\nlapsi = child\n\n--- Explanation ---\nThe safest place for a child is the back seat in a proper child safety seat.\n\nCorrect answer: B"
   },
   {
     "id": 92,
@@ -317,7 +317,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (The driver is responsible for fastening the safety device).\n\nRule: When a mother brings a child under three with their own child restraint, the taxi driver—not the guardian alone—is responsible for properly securing the child in the device. Customer-owned devices may be used.\n\nKeyword: Kiinnittämisestä = fastening/securing."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A mother with a child under three and her own safety device enters your taxi. Who is responsible for fastening the child appropriately?\nA: The customer's own safety devices may not be used in a taxi.\nB: The driver is responsible for fastening the safety device.\nC: The child's guardian is responsible for fastening the safety device.\n\n--- Keywords ---\nKuljettaja = driver\nturvalaite = safety device\nkiinnittäminen = fastening\nalle kolmevuotias = under three years old\nvastuu = responsibility\n\n--- Explanation ---\nThe taxi driver is responsible for properly securing the child in the safety device.\n\nCorrect answer: B"
   },
   {
     "id": 103,
@@ -337,7 +337,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (The customer).\n\nRule: A passenger who has turned 15 (15 vuotta täyttäneen) is responsible for their own seat belt—not the driver. Reject options saying seat belts are optional in a taxi.\n\nImportant distinction: täyttäneen (has turned/completed 15) → customer responsibility; compare with Q139 for 15-vuotias wording."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Who is responsible for seat belt use by someone who has turned 15?\nA: The customer.\nB: The driver.\nC: In a taxi, seat belt use is always voluntary, so the seat belt does not need to...\n\n--- Keywords ---\nAsiakas = customer\n15 vuotta täyttänyt = has turned 15\nturvavyö = seat belt\nvastaa = is responsible\nvapaaehtoinen = voluntary\n\n--- Explanation ---\nA passenger who has turned 15 is responsible for their own seat belt.\n\nCorrect answer: A"
   },
   {
     "id": 136,
@@ -357,7 +357,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (Until age 15 / 15 ikävuoteen asti).\n\nRule: The driver is responsible for a child traveling alone using a seat belt until the child reaches age 15—not 12 or 18.\n\nNote: Always 15 in this exam material."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Until what age is the driver responsible for seat belt use by a child travelling alone?\nA: Until age 12\nB: Until age 15\nC: Until age 18\n\n--- Keywords ---\n15 ikävuoteen asti = until age 15\nyksin matkustava = travelling alone\nturvavyö = seat belt\nlapsi = child\nkuljettaja = driver\n\n--- Explanation ---\nThe driver is responsible for an unaccompanied child's seat belt until age 15.\n\nCorrect answer: B"
   },
   {
     "id": 137,
@@ -377,7 +377,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (A child under 135 cm always needs a safety device when traveling in a vehicle).\n\nRule: Height-based child restraint requirement—under 135 cm always needs a turvalaite. A rear seat with seat belt alone is not enough; under-3 does not require only a written guardian permission in the way option C suggests.\n\nKeyword: 135 cm."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Various customers ride in taxis, including children sometimes. What is good to remember when transporting children by taxi?\nA: A child under 135 cm in height always needs a safety device when travelling in a car.\nB: A child may travel without a safety device in a taxi if sitting in the back seat with a seat belt fastened.\nC: A child under 3 may not travel in a taxi without their guardian's written...\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device / child restraint\nlapsi = child\ntaksi = taxi\naina = always\n\n--- Explanation ---\nChildren under 135 cm always need an approved child restraint, including in taxis.\n\nCorrect answer: A"
   },
   {
     "id": 139,
@@ -397,7 +397,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (The taxi driver must ensure seat belt use)—per this question set's answer key.\n\nNuance: Wording matters in Finnish. 15-vuotias (15-year-old) traveling alone → answer key selects driver responsibility (huolehdittava). 15 vuotta täyttäneen (has turned 15) → customer responsibility (Q103). Always match the exact age phrasing in the question."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding seat belt use by a 15-year-old customer travelling alone?\nA: The taxi driver must ensure the customer's seat belt use.\nB: The customer themselves takes care of seat belt use.\nC: If it is not school transport, the driver does not need to ensure seat belt use.\n\n--- Keywords ---\nhuolehdittava = must be ensured\nTaksinkuljettaja = taxi driver\n15-vuotias = 15 years old\nyksin matkustava = travelling alone\nturvavyö = seat belt\n\n--- Explanation ---\nIn this question set, a 15-year-old travelling alone still requires the driver to ensure seat belt use. (Compare Q103: if they have turned 15, the customer is responsible.)\n\nCorrect answer: A"
   },
   {
     "id": 162,
@@ -417,7 +417,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (A child under 135 cm always needs a safety device in a taxi).\n\nRule: Same as Q74 — children under 135 cm must use an approved child restraint. A rear seat with seat belt alone is not sufficient.\n\nKeyword: 135 cm."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Here are three statements about a taxi driver's obligations. Which do you think is correct?\nA: A child under 135 cm in height always needs a safety device when travelling in a taxi.\nB: A child may travel without a safety device in a taxi if sitting in the back seat with seat belts.\nC: A child under 3 always sits in the front seat.\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device / child restraint\nlapsi = child\ntaksi = taxi\ntakapenkillä = back seat\n\n--- Explanation ---\nChildren under 135 cm must always use an approved child restraint in a taxi.\n\nCorrect answer: A"
   },
   {
     "id": 165,
@@ -437,7 +437,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (Apologise and suggest ordering a vehicle with a suitable child restraint).\n\nRule: A 3-year-old cannot travel without an appropriate turvalaite. You must not take the trip without proper equipment.\n\nKeyword: turvalaite."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when, arriving at the booking address, you find one passenger is a three-year-old child and your car has no suitable safety device for them?\nA: You apologise that you cannot take them and suggest ordering a vehicle equipped with a safety device.\nB: You welcome them back, but the child must sit without a safety device in the front seat with seat belts.\nC: You welcome them to the taxi, but the child must sit without a safety device\n\n--- Keywords ---\nturvalaite = safety device\nkolmevuotias = three years old\nPahoittelet = you apologise\nturvalaitteella varustettu = equipped with safety device\n\n--- Explanation ---\nYou cannot transport a 3-year-old without a proper restraint. Arrange a suitable vehicle instead.\n\nCorrect answer: A"
   },
   {
     "id": 179,
@@ -457,7 +457,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C (Helmi is entitled to a regular taxi / vakiotaksi).\n\nContext: Same as Q33 — an 8-year-old severely disabled child using a wheelchair is entitled to Kela-covered regular taxi service for rehabilitation trips.\n\nKeyword: oikeus vakiotaksiin."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Helmi is a severely disabled 8-year-old girl in weekly rehabilitation at a nearby care facility. She uses a wheelchair and cannot move independently. Her mother asks if Helmi can get a Kela-reimbursed regular taxi. How do you answer?\nA: Helmi is not entitled — only elderly and working severely disabled adults are.\nB: Helmi is entitled only if her mother travels with her.\nC: Helmi is entitled to a regular taxi\n\n--- Keywords ---\nvakiotaksi = regular / scheduled taxi\nKela = Social Insurance Institution\nvaikeavammainen = severely disabled\noikeutettu = entitled\npyörätuoli = wheelchair\n\n--- Explanation ---\nA severely disabled child like Helmi can be entitled to Kela regular taxi transport.\n\nCorrect answer: C"
   },
   {
     "id": 185,
@@ -477,7 +477,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C (Ensure Elina fastens her seat belt).\n\nRule: Same as Q6 — a 10-year-old traveling alone must use a seat belt. Parental permission does not override the driver duty for under-15 passengers.\n\nKeyword: Huolehdit / turvavyö."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: 10-year-old Elina boards and says she does not want a seat belt — it feels uncomfortable and her mother allowed travel without one. What do you do?\nA: Guardians may decide Elina can travel without a seat belt.\nB: Anyone may travel without a seat belt in a taxi.\nC: You ensure Elina fastens her seat belt. A child travelling alone must always use a seat belt in a taxi.\n\n--- Keywords ---\nturvavyö = seat belt\nHuolehdit = you ensure\nyksin matkustava = travelling alone\nlapsi = child\nhuoltaja = guardian\n\n--- Explanation ---\nA guardian's permission does not override the law. Ensure an unaccompanied child uses a seat belt.\n\nCorrect answer: C"
   },
   {
     "id": 191,
@@ -497,7 +497,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following statements about a taxi driver's obligations is correct?\nA: A child under 135 cm in height always needs a safety device when travelling in a taxi.\nB: A child may travel without a safety device in a taxi if on the back seat with seat belts.\nC: A child under 3 always sits in the front seat.\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device\nlapsi = child\ntaksi = taxi\naina = always\n\n--- Explanation ---\nChildren under 135 cm must always use an approved child restraint in a taxi.\n\nCorrect answer: A"
   },
   {
     "id": 202,
@@ -517,7 +517,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you ensure child passengers are safely secured in the vehicle?\nA: Children do not need seat belts on short trips.\nB: Using a child safety seat is voluntary.\nC: I always use an appropriate child safety seat and ensure seat belts are correctly fastened.\n\n--- Keywords ---\nturvaistuin = child safety seat\nturvavyöt = seat belts\nlapsiasiakkaat = child passengers\nkiinnitetty = secured / fastened\nasianmukainen = appropriate\n\n--- Explanation ---\nAlways use proper child restraints and check that seat belts are correctly fastened.\n\nCorrect answer: C"
   },
   {
     "id": 217,
@@ -537,7 +537,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following taxi driver obligations is correct?\nA: A child under 135 cm in height always needs a safety device.\nB: A child may travel without a safety device on the back seat with seat belts.\nC: A child under 3 always sits in the front seat.\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device\nlapsi = child\naina = always\ntaksi = taxi\n\n--- Explanation ---\nChildren under 135 cm must always use an approved child restraint.\n\nCorrect answer: A"
   },
   {
     "id": 218,
@@ -557,7 +557,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for seat belt use when a 17-year-old travels alone?\nA: The driver\nB: The passenger themselves\nC: Seat belt use is voluntary in a taxi.\n\n--- Keywords ---\nMatkustaja itse = passenger themselves\n17-vuotias = 17 years old\nturvavyö = seat belt\nyksin = alone\nvastaa = is responsible\n\n--- Explanation ---\nA 17-year-old passenger is responsible for their own seat belt.\n\nCorrect answer: B"
   },
   {
     "id": 219,
@@ -577,7 +577,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when a three-year-old child is a customer and your car has no safety device?\nA: You apologise and suggest ordering another vehicle.\nB: You take them but the child sits without a safety device in the front seat with seat belts.\nC: You take them but the child sits without a safety device.\n\n--- Keywords ---\nPahoittelet = you apologise\nturvalaite = safety device\nkolmevuotias = three years old\ntoisen ajoneuvon = another vehicle\n\n--- Explanation ---\nYou cannot transport a 3-year-old without a proper restraint. Arrange another vehicle.\n\nCorrect answer: A"
   },
   {
     "id": 223,
@@ -597,7 +597,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should a child under 3 be transported in a taxi?\nA: The child may travel without a safety device if on the back seat with seat belts.\nB: The child may travel in an adult passenger's lap on the back seat.\nC: The child must always be transported in an appropriate safety device.\n\n--- Keywords ---\nalle 3-vuotias = under 3 years old\nturvalaite = safety device\nlapsi tulee = the child must\ntaksi = taxi\naina = always\n\n--- Explanation ---\nChildren under 3 must always travel in a proper child safety device.\n\nCorrect answer: C"
   },
   {
     "id": 224,
@@ -617,7 +617,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What is correct regarding a child under 135 cm travelling in a taxi?\nA: The child always needs a safety device.\nB: The child may travel without a safety device on the back seat with seat belts.\nC: A child under 3 always sits in the front seat.\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device\nlapsi = child\naina = always\ntaksi = taxi\n\n--- Explanation ---\nChildren under 135 cm always need an approved child restraint in a taxi.\n\nCorrect answer: A"
   },
   {
     "id": 228,
@@ -637,7 +637,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What to do when arriving at a booking address you find a 3-year-old child among passengers and have no suitable safety device?\nA: Apologise and suggest ordering a vehicle equipped with a safety device.\nB: The child must sit without a safety device in the front seat with seat belts.\nC: Take passengers and let the child sit on the back seat without a safety device.\n\n--- Keywords ---\nPahoittele = apologise\nturvalaite = safety device\nkolmevuotias = three years old\nvarustettu ajoneuvo = equipped vehicle\n\n--- Explanation ---\nDo not transport a 3-year-old without a restraint. Apologise and arrange a suitable vehicle.\n\nCorrect answer: A"
   },
   {
     "id": 254,
@@ -657,7 +657,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (Elviira herself).\n\nRule: Same as Q4 — a 17-year-old is responsible for their own seat belt.\n\nKeyword: itse."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: 17-year-old Elviira travels alone. Who is responsible for seat belt use?\nA: The driver\nB: Elviira herself\nC: Seat belt is voluntary in a taxi\n\n--- Keywords ---\nitse = herself\n17-vuotias = 17 years old\nturvavyö = seat belt\nyksin = alone\nvastaa = is responsible\n\n--- Explanation ---\nA 17-year-old is responsible for fastening their own seat belt.\n\nCorrect answer: B"
   },
   {
     "id": 256,
@@ -677,7 +677,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (Apologise and arrange a vehicle with a child restraint).\n\nRule: Cannot transport a 3-year-old without a suitable turvalaite.\n\nKeyword: turvalaite."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: When arriving at a booking address you find a 3-year-old child and have no safety device. What do you do?\nA: You apologise, cannot take the ride → order a car equipped with a safety device.\nB: You take the ride, child in front seat without safety device.\nC: You take the ride, child on back seat without safety device.\n\n--- Keywords ---\nturvalaite = safety device\nkolmevuotias = 3 years old\nPahoittelet = you apologise\nvarustettu auto = equipped car\n\n--- Explanation ---\nDo not transport a 3-year-old without a proper restraint. Arrange another vehicle.\n\nCorrect answer: A"
   },
   {
     "id": 271,
@@ -697,7 +697,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C (Helmi is entitled to vakiotaksi with Kela compensation).\n\nContext: Same as Q33 — disabled 8-year-old wheelchair user entitled to regular taxi service.\n\nKeyword: oikeus vakiotaksiin."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Helmi, 8 years old and physically disabled, uses a wheelchair. Is she entitled to Kela-reimbursed regular taxi?\nA: No, only adults are entitled.\nB: Only if mother travels along.\nC: Yes, Helmi is entitled to regular taxi.\n\n--- Keywords ---\nvakiotaksi = regular taxi\nKela = Social Insurance Institution\noikeutettu = entitled\npyörätuoli = wheelchair\nliikuntavammainen = physically disabled\n\n--- Explanation ---\nA severely disabled child like Helmi can be entitled to Kela regular taxi service.\n\nCorrect answer: C"
   },
   {
     "id": 275,
@@ -717,7 +717,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C (Ensure Elina uses her seat belt).\n\nRule: Same as Q185/Q6 — driver must ensure seat belt use for a 10-year-old, regardless of mother permission.\n\nKeyword: turvavyö."
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: 10-year-old Elina does not want a seat belt and her mother gave permission. What do you do?\nA: Guardians may decide → no seat belt needed.\nB: Anyone may travel without a seat belt in a taxi.\nC: You ensure Elina fastens her seat belt because a child travelling alone always uses a seat belt.\n\n--- Keywords ---\nturvavyö = seat belt\nyksin matkustava = travelling alone\nlapsi = child\nhuoltaja = guardian\nVarmistat = you ensure\n\n--- Explanation ---\nA guardian's permission does not override the law. Ensure an unaccompanied child uses a seat belt.\n\nCorrect answer: C"
   },
   {
     "id": 285,
@@ -737,7 +737,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A (A child under 135 cm always needs a safety device).\n\nRule: Standard 135 cm child restraint rule.\n\nKeyword: 135 cm."
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following statements is correct?\nA: A child under 135 cm always needs a safety device.\nB: A child may travel without a safety device on the back seat.\nC: A child under 3 may not travel without the guardian's written permission.\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device\nlapsi = child\naina = always\n\n--- Explanation ---\nChildren under 135 cm must always use an approved child restraint.\n\nCorrect answer: A"
   },
   {
     "id": 287,
@@ -757,6 +757,6 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B (The customer themselves).\n\nRule: Same as Q103 — a passenger who has turned 15 is responsible for their own seat belt.\n\nKeyword: itse / täyttäneellä."
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for seat belt use by someone who has turned 15?\nA: The driver\nB: The customer themselves\nC: Seat belt is voluntary in a taxi\n\n--- Keywords ---\nAsiakas itse = customer themselves\n15 vuotta täyttänyt = has turned 15\nturvavyö = seat belt\nvastaa = is responsible\n\n--- Explanation ---\nA passenger who has turned 15 is responsible for their own seat belt.\n\nCorrect answer: B"
   }
 ]

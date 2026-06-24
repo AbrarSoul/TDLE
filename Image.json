@@ -17,7 +17,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: A\n\nKeyword: 65,00 €\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: A customer is taken on Sunday for 25 km and the trip takes 30 minutes. What price do you charge?\nA: 65.00 €\nB: 85.00 €\nC: 75.00 €\n\n--- Keywords ---\nsunnuntai = Sunday\n25 km = 25 kilometres\n30 min = 30 minutes\nhinta = price\n75,00 € = 75 euros\n\n--- Explanation ---\nUse the fare table in the image: for Sunday, 25 km and 30 minutes, the correct fare is 75.00 €.\n\nCorrect answer: C",
     "image": "Image/image13.png"
   },
   {
@@ -38,7 +38,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: You see the traffic sign shown (bus lane with TAKSI supplementary plate). May you drive a taxi in this lane?\nA: No, the lane is reserved only for buses.\nB: Yes, the supplementary plate also allows taxis to use the lane.\nC: Only outside rush hours.\n\n--- Keywords ---\nTAKSI-lisäkilpi = TAXI supplementary plate\nlinja-autokaista = bus lane\nliikennemerkki = traffic sign\ntaksi = taxi\n\n--- Explanation ---\nA bus lane with a TAKSI plate may also be used by taxis.\n\nCorrect answer: B",
     "image": "Image/image1.png"
   },
   {
@@ -59,7 +59,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What does the yellow supplementary plate (bus picture) mean in connection with the traffic sign?\nA: The sign does not apply to buses.\nB: The sign applies only to buses or public transport.\nC: The bus stop has been removed from use.\n\n--- Keywords ---\nlisäkilpi = supplementary plate\nlinja-auto = bus\njoukkoliikenne = public transport\nliikennemerkki = traffic sign\n\n--- Explanation ---\nThe bus supplementary plate means the sign applies only to buses/public transport.\n\nCorrect answer: B",
     "image": "Image/image2.png"
   },
   {
@@ -80,7 +80,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Must the taxi light/sign be displayed?\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\ntaksivalaisin = taxi light / roof sign\nPitää aina = must always\nesillä = displayed\npoistettu = removed\n\n--- Explanation ---\nThe taxi sign/light must always be displayed during taxi service.\n\nCorrect answer: B",
     "image": "Image/image3.png"
   },
   {
@@ -101,7 +101,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What does the warning sign shown mean?\nA: Road works.\nB: Bump (uneven road / speed bump).\nC: Slippery road.\n\n--- Keywords ---\ntöyssy = bump / uneven road\nvaroitusmerkki = warning sign\nhidastetöyssy = speed bump\nliukas ajorata = slippery road\n\n--- Explanation ---\nThe warning sign indicates a bump or uneven road ahead (töyssy).\n\nCorrect answer: B",
     "image": "Image/image4.png"
   },
   {
@@ -122,7 +122,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When driving a taxi, may you drive into the area covered by this traffic sign (motor vehicles prohibited)?\nA: Always when I am driving a taxi.\nB: Only if the customer has heavy luggage.\nC: Always when I am picking up or dropping off a customer.\n\n--- Keywords ---\nAina jos noudan = always when I pick up\nliikennemerkki = traffic sign\nmoottorikäyttöisellä ajoneuvolla ajo kielletty = motor vehicles prohibited\nasiakas = customer\n\n--- Explanation ---\nTaxis may enter motor-vehicle-prohibited areas when picking up or dropping off a customer.\n\nCorrect answer: C",
     "image": "Image/image5.png"
   },
   {
@@ -143,7 +143,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What does the traffic sign shown mean (combined cycle path and footway, side by side)?\nA: Cyclists and pedestrians have their own sections separated by a line.\nB: The road is intended only for cyclists.\nC: The road is intended only for pedestrians.\n\n--- Keywords ---\npyörätie = cycle path\njalkakäytävä = footway / sidewalk\nrinnakkain = side by side\nliikennemerkki = traffic sign\nviivalla erotetut = separated by a line\n\n--- Explanation ---\nThe sign shows a combined path with separate marked sections for cyclists and pedestrians.\n\nCorrect answer: A",
     "image": "Image/image6.png"
   },
   {
@@ -164,7 +164,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: The picture was taken inside a taxi on a motorway behind another vehicle. Which of the following is correct about the safe distance?\nA: A sufficient safe distance to the vehicle ahead improves safety and gives time to react.\nB: Keeping a safe distance is unnecessary on a motorway.\nC: The smaller the safe distance, the safer driving is.\n\n--- Keywords ---\nturvaväli = safe distance\nturvallista = safe\nmoottoritie = motorway\nreagoida = to react\nedellä ajava = vehicle ahead\n\n--- Explanation ---\nA proper following distance on the motorway gives you time to react safely.\n\nCorrect answer: A",
     "image": "Image/image7.png"
   },
   {
@@ -185,7 +185,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: When may you drive a taxi on a street marked with this sign (motor vehicle traffic prohibited)?\nA: When you are going to a property along the street.\nB: Taxis have through-traffic rights.\nC: Never.\n\n--- Keywords ---\nmoottoriajoneuvolla ajo kielletty = motor vehicle traffic prohibited\nkiinteistölle = to a property\ntaksi = taxi\nläpiajo-oikeus = through-traffic right\n\n--- Explanation ---\nYou may enter the street when accessing a property along it, not for through traffic.\n\nCorrect answer: A",
     "image": "Image/image8.png"
   },
   {
@@ -206,7 +206,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When driving a taxi, may you drive into the area covered by this traffic sign?\nA: Always when I am driving a taxi.\nB: Only if the customer has heavy luggage.\nC: Always when I am picking up or dropping off a customer.\n\n--- Keywords ---\nAina jos nouden tai tuon = always when I pick up or drop off\nliikennemerkki = traffic sign\nasiakas = customer\nvaikutusalue = affected area\n\n--- Explanation ---\nTaxis may enter restricted areas when picking up or dropping off a customer.\n\nCorrect answer: C",
     "image": "Image/image9.png"
   },
   {
@@ -227,7 +227,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Must the taxi light/sign be displayed? [based on unclear image]\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\ntaksivalaisin = taxi light / roof sign\nPitää aina = must always\nesillä = displayed\n\n--- Explanation ---\nThe taxi sign/light must always be displayed during taxi service.\n\nCorrect answer: B",
     "image": "Image/image10.png"
   },
   {
@@ -248,7 +248,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Must the taxi light/sign be displayed? [based on image/answer]\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\ntaksivalaisin = taxi light\nPitää aina = must always\nesillä = displayed\n\n--- Explanation ---\nThe taxi sign/light must always be on during taxi operations.\n\nCorrect answer: B",
     "image": "Image/image11.png"
   },
   {
@@ -269,7 +269,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: You see the traffic sign shown (bus lane with TAKSI supplementary plate). May you drive a taxi in this lane?\nA: No, the lane is reserved only for buses.\nB: Yes, the supplementary plate also allows taxis to use the lane.\nC: Only outside rush hours.\n\n--- Keywords ---\nlinja-autokaista = bus lane\nTAKSI-lisäkilpi = TAXI supplementary plate\nliikennemerkki = traffic sign\n\n--- Explanation ---\nIn this image version, the lane is for buses only — the TAKSI plate is not shown as allowing taxi use.\n\nCorrect answer: A",
     "image": "Image/image12.png"
   },
   {
@@ -290,7 +290,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: According to the fare table shown, what is the total price on Sunday for one passenger when the trip is 20 km and 30 minutes, with no fixed price agreed? [based on image]\nA: 65.00 €\nB: 74.00 €\nC: 83.00 €\n\n--- Keywords ---\nsunnuntai = Sunday\n20 km = 20 kilometres\n30 minuuttia = 30 minutes\nkokonaishinta = total price\nhinnasto = fare table\nmuina aikoina = other times\n\n--- Explanation ---\nAccording to the price list in the image, a Sunday ride falls under \"other times\" (muina aikoina), where the rates are:\n\n* Starting fee: €9.00\n* Distance charge: €1.20 per km\n* Time charge: €1.10 per minute\n\nFor a trip of 20 km lasting 30 minutes:\n\n* Starting fee: €9.00\n* Distance charge: 20 × €1.20 = €24.00\n* Time charge: 30 × €1.10 = €33.00\n\nTotal price = €9.00 + €24.00 + €33.00 = €66.00\n\nTherefore, the total fare is €65.00 (Nearest to €66.00), assuming there are no additional charges and no fixed price has been agreed upon.\n\nCorrect answer: A",
     "image": "Image/image13.png"
   }
 ]
