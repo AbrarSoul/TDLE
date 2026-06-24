@@ -93,7 +93,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: sinun tulee\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct when a customer refuses to use a seat belt?\nA: You may start driving if the trip is short\nB: You must refuse to transport them.\nC: Responsibility is entirely the customer's, so you may continue driving normally\n\n--- Keywords ---\nsinun tulee = you must\nkieltäytyä kuljettamasta = refuse to transport\nturvavyö = seat belt\nsuostu = agrees / consents\n\n--- Explanation ---\nIf a passenger will not use a seat belt, you must refuse the ride.\n\nCorrect answer: B"
       },
       {
         "id": 4,
@@ -113,7 +113,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: asiakkaan kyytiin\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when you arrive to pick up a customer and notice they are waiting within the area of a no-stopping sign?\nA: You cannot stop, so you leave without the customer and reject the ride.\nB: You stop your car in a permitted place and, if necessary, walk to guide the customer into the taxi.\nC: You take the customer because taxi transport is an exception, so the prohibition sign does not apply\n\n--- Keywords ---\npysähtymiskieltomerkin = no-stopping sign\nvaikutusalueella = within the affected area\nasiakkaan kyytiin = customer into the taxi\nsallittuun paikkaan = permitted place\nkävellen = on foot / by walking\n\n--- Explanation ---\nYou may not stop in a no-stopping zone. Park legally nearby and help the customer board if needed.\n\nCorrect answer: B"
       },
       {
         "id": 5,
@@ -133,7 +133,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: kysyt saunassa ajoneuvo on\nMain keyword: asiakkaalta = the customer\nImportant keyword: Kerrot = you tell\n\nVisually impaired customer — ask how to help before acting.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is the correct way for the driver to act when a visually impaired customer is about to enter the taxi?\nA: You ask the customer how you can best help them and tell them which direction the vehicle is in.\nB: You ask the customer how loudly you should communicate with them.\nC: The driver's duties do not include taking the customer's special needs into account.\n\n--- Keywords ---\nasiakkaalta = from / to the customer\nKerrot = you tell\nnäkövammainen = visually impaired\nauttaa = to help\najoneuvo = vehicle\n\n--- Explanation ---\nAsk how to help and describe where the vehicle is. Do not ignore special needs or just speak louder.\n\nCorrect answer: A"
       },
       {
         "id": 6,
@@ -153,7 +153,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: Tilaat\n\nNote: Tilaat is must when it is available\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is the best way to act if a customer cannot use a seat belt because the belts are too short?\nA: You order another taxi in which it is safer to transport the customer.\nB: You let the customer travel without a seat belt.\nC: You extend the seat belt with an extension strap that you must always carry in the car.\n\n--- Keywords ---\nTilaat = you order\nturvavyö = seat belt\njatkopala = extension strap\nliian lyhyet = too short\ntoisen taksin = another taxi\n\n--- Explanation ---\nIf seat belts cannot be used safely, arrange another suitable taxi.\n\nCorrect answer: A"
       },
       {
         "id": 7,
@@ -193,7 +193,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nKeyword: Sinun tulee saapuu paikalle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What must you do when escorting a customer home who cannot take care of themselves, and the agreed assistant is not there to receive them?\nA: You must always take the customer back to the departure point\nB: You may leave the customer, for example, with the customer's neighbour.\nC: You must wait with the customer until the assistant arrives.\n\n--- Keywords ---\nSinun tulee odottaa = you must wait\navustaja = assistant\nsaapuu paikalle = arrives on site\nei kykene huolehtimaan itsestään = cannot take care of themselves\n\n--- Explanation ---\nDo not leave a vulnerable customer alone. Wait until the assistant arrives.\n\nCorrect answer: C"
       },
       {
         "id": 9,
@@ -253,7 +253,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nMain keyword: herätellä\nImportant keyword: poliisi paikalle\nImportant keyword: Kuljettaja = driver\n\nTry to wake the customer first; call police if needed. Never take payment card without consent.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How should the driver act when, upon arrival, they cannot wake the customer after the trip ends and the ride is unpaid?\nA: Take the customer's payment card from their wallet and charge the ride with contactless payment.\nB: The driver should first try verbally to wake the customer and, if necessary, call the police to the scene.\nC: Write an invoice for the customer and put it in their pocket. Move the customer outside the taxi to wake up and call the police.\n\n--- Keywords ---\nherätellä = to wake someone up\npoliisi paikalle = police to the scene\nKuljettaja = driver\nmaksamatta = unpaid\nperille päästyään = upon arrival\n\n--- Explanation ---\nTry to wake the customer first and call the police if needed. Never take payment without the customer's consent.\n\nCorrect answer: B"
       },
       {
         "id": 12,
@@ -273,7 +273,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: sinun tulee poistua\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What should the taxi driver take into account when picking up a passenger?\nA: You must get out of the car and help the passenger if necessary.\nB: You must assist the passenger if necessary.\nC: Nothing, because the driver's responsibility does not extend outside the taxi.\n\n--- Keywords ---\nsinun tulee poistua = you must get out\nautosta = from the car\navustaa = to assist\nmatkustaja = passenger\n\n--- Explanation ---\nThe driver should get out of the vehicle and assist the passenger when needed.\n\nCorrect answer: A"
       },
       {
         "id": 13,
@@ -333,7 +333,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nMain keyword: Huolehdit\nImportant keyword: turvallisuudesta\n\nIntoxicated customer without address — ensure safety, find destination, police if needed.\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: An intoxicated customer gets into the taxi from a stand and cannot tell their address or destination. How must the driver act?\nA: You refuse to transport them.\nB: You leave the customer at the nearest stop or on the street and continue your shift.\nC: You ensure the customer's safety, try to find out the destination, and if necessary call the police to the scene.\n\n--- Keywords ---\nHuolehdit = you ensure\nturvallisuudesta = safety\nmääränpää = destination\npäihtynyt = intoxicated\npoliisi paikalle = police to the scene\n\n--- Explanation ---\nEnsure safety, find the destination, and call police if needed. Do not abandon the passenger.\n\nCorrect answer: C"
       }
     ],
     "special_needs": [
@@ -435,7 +435,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: 0.10 milligrammaa alkoholia litrassa uloshengitysilmaa tai e...\n\nNote: it is always answer where available\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: An alcohol interlock is mandatory in vehicles used for school or daycare transport. It is set so that the vehicle cannot start if the driver's breath alcohol concentration is?\nA: 0.10 milligrams of alcohol per litre of breath or more.\nB: 0.0 milligrams per litre of breath or more.\nC: Per litre of breath or more\n\n--- Keywords ---\nalkolukko = alcohol interlock\nuloshengitysilma = exhaled breath\nalkoholipitoisuus = alcohol concentration\nkäynnistyminen estyy = starting is prevented\nkoulu- tai päivähoitokuljetus = school or daycare transport\n\n--- Explanation ---\nThe interlock blocks starting at 0.10 mg/L of breath alcohol or above.\n\nCorrect answer: A"
       },
       {
         "id": 21,
@@ -475,7 +475,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nMain keyword: Koekäyttämällä\n\nSame as Q88 — test the lift by using it.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How must you inspect the person lift of an accessible taxi during the pre-departure check?\nA: Not at all\nB: By test-using the lift\nC: By visually inspecting the lift\n\n--- Keywords ---\nKoekäyttämällä = by test-using\nhenkilönostin = person lift\najoonlähtötarkastus = pre-departure inspection\nesteetön taksi = accessible taxi\n\n--- Explanation ---\nSame as Q88: test the lift by operating it, not just a visual check.\n\nCorrect answer: B"
       },
       {
         "id": 23,
@@ -495,7 +495,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nMain keyword: vastuullisen kuljettajan\n\nDriver must behave as a responsible professional in school/daycare transport.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding the taxi driver's conduct in school and daycare transport?\nA: The driver must not talk unnecessarily to children during the trip.\nB: The driver must behave in accordance with the role of a responsible driver.\nC: The driver must not require the passenger to fasten a seat belt.\n\n--- Keywords ---\nvastuullisen kuljettajan = responsible driver\nkäyttäytyä = to behave\nkoulu- ja päivähoitokuljetus = school and daycare transport\nturvavyö = seat belt\n\n--- Explanation ---\nIn school transport, the driver must act professionally and responsibly at all times.\n\nCorrect answer: B"
       },
       {
         "id": 24,
@@ -515,7 +515,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: Taksinkuljettaja\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for carefully securing the wheelchair in the taxi when the customer has a personal assistant with them?\nA: The customer's.\nB: The taxi driver's.\nC: The personal assistant's.\n\n--- Keywords ---\nTaksinkuljettaja = taxi driver\npyörätuoli = wheelchair\nkiinnittäminen = securing / fastening\nhenkilökohtainen avustaja = personal assistant\nvastuulla = responsibility\n\n--- Explanation ---\nSecuring the wheelchair in the taxi is the taxi driver's responsibility.\n\nCorrect answer: B"
       },
       {
         "id": 25,
@@ -535,7 +535,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: asiakan kansaa\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer with a physical disability may have a personal assistant with them. How do you act in this case?\nA: You always speak only with the assistant\nB: You always speak with the customer\nC: You ask for written instructions on how to act\n\n--- Keywords ---\nasiakkaan kanssa = with the customer\navustaja = assistant\nliikuntavammainen = physically disabled\nkeskustelet = you speak / discuss\n\n--- Explanation ---\nAlways address the customer directly, not only their assistant.\n\nCorrect answer: B"
       },
       {
         "id": 26,
@@ -575,7 +575,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nKeyword: Kerrot = you tell\n\nTrigger rule: if option has three kerrot then answer is big option\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: If you have a blind customer, how do you act in the payment situation?\nA: You tell how much money they gave.\nB: You tell how much change you gave them.\nC: You tell how much money they gave and how much change you gave back.\n\n--- Keywords ---\nKerrot = you tell\nsokea = blind\nmaksutilanteessa = in the payment situation\ntakaisin = back / change\nrahaa = money\n\n--- Explanation ---\nTell the blind customer both the amount paid and the change given.\n\nCorrect answer: C"
       },
       {
         "id": 28,
@@ -595,7 +595,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: taksinkuljetteja\nMain keyword: Taksinkuljettaja = taxi driver\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Who must ensure that a customer with limited mobility gets into the taxi and also out of it?\nA: Taxi driver\nB: Customer\nC: Customer's assistant\n\n--- Keywords ---\nTaksinkuljettaja = taxi driver\nliikuntarajoitteinen = person with limited mobility\nvarmistaa = to ensure\navustaja = assistant\n\n--- Explanation ---\nThe taxi driver is responsible for helping the passenger board and exit safely.\n\nCorrect answer: A"
       },
       {
         "id": 29,
@@ -615,7 +615,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nMain keyword: tiedustelet\nImportant keyword: tarvitseeko\n\nAsk if the slow-moving customer needs help — do not grab without asking.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How should you act when you pick up a customer who moves very slowly?\nA: I assist the customer by grabbing their arm without asking if they need help.\nB: You get out of the vehicle and ask whether they need help moving or getting into the car\nC: You order the customer to hurry into the car if there is very heavy traffic at the pickup point\n\n--- Keywords ---\ntiedustelet = you ask / inquire\ntarvitseeko = does ... need\nhitaasti liikkuva = slow-moving\navustan = I assist\nkysymättä = without asking\n\n--- Explanation ---\nAsk first whether the customer needs help. Do not grab or rush them without consent.\n\nCorrect answer: B"
       },
       {
         "id": 30,
@@ -657,7 +657,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nMain keyword: välttämätön\nImportant keyword: handsfree\nImportant keyword: Kuljettaja = driver\n\nDriver may use phone with handsfree only when necessary for the transport.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding the phone hands-free device?\nA: A hands-free device does not need to be used while the vehicle is moving if the call lasts less than...\nB: The driver may talk on the phone using a hands-free device while the vehicle is moving if it is necessary to carry out the transport\nC: If there are no customers in the taxi, the driver may talk on the phone without a hands-free device while the vehicle is moving\n\n--- Keywords ---\nvälttämätön = necessary\nhandsfree = hands-free\nKuljettaja = driver\najoneuvon liikkuessa = while the vehicle is moving\nkuljetus = transport\n\n--- Explanation ---\nWhile driving, phone calls are allowed only with hands-free and only when necessary for the transport.\n\nCorrect answer: B"
       },
       {
         "id": 32,
@@ -859,7 +859,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: Taksiliikenneluvan haltija\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for making sure the transport licence is carried along?\nA: The taxi driver's\nB: The holder of the taxi transport licence\nC: No one, because carrying the licence is not required\n\n--- Keywords ---\nTaksiliikenneluvan haltija = holder of the taxi transport licence\nliikennelupa = transport licence\nvastuu = responsibility\nvarmistaa = to make sure\nTaksinkuljettaja = taxi driver\n\n--- Explanation ---\nThe licence holder — typically the taxi company or permit holder — is responsible for ensuring the licence is available.\n\nCorrect answer: B"
       },
       {
         "id": 42,
@@ -939,7 +939,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nMain keyword: ennakoitava\nMain keyword: Taksinkuljettaja = taxi driver\n\nDriver must anticipate other road users' behaviour.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: In what way must the taxi driver act in traffic to fulfil the road user's duty of anticipation?\nA: As a road user, the taxi driver must anticipate other road users' actions.\nB: As a road user, the taxi driver must use only engine braking in traffic.\nC: As a road user, through their profession the taxi driver must focus only on customer service.\n\n--- Keywords ---\nennakoitava = must anticipate\nTaksinkuljettaja = taxi driver\ntienkäyttäjä = road user\nennakointivelvollisuus = duty of anticipation\nliikenne = traffic\n\n--- Explanation ---\nA professional driver must anticipate what other road users may do.\n\nCorrect answer: A"
       },
       {
         "id": 46,
@@ -1106,7 +1106,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: sinun tulee\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct when a customer refuses to use a seat belt?\nA: You may start driving if the trip is short\nB: You must refuse to transport them.\nC: Responsibility is entirely the customer's, so you may continue driving normally\n\n--- Keywords ---\nsinun tulee = you must\nkieltäytyä kuljettamasta = refuse to transport\nturvavyö = seat belt\nsuostu = agrees / consents\n\n--- Explanation ---\nIf a passenger will not use a seat belt, you must refuse the ride.\n\nCorrect answer: B",
       "section": "assisting_passengers"
     },
     {
@@ -1127,7 +1127,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: asiakkaan kyytiin\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when you arrive to pick up a customer and notice they are waiting within the area of a no-stopping sign?\nA: You cannot stop, so you leave without the customer and reject the ride.\nB: You stop your car in a permitted place and, if necessary, walk to guide the customer into the taxi.\nC: You take the customer because taxi transport is an exception, so the prohibition sign does not apply\n\n--- Keywords ---\npysähtymiskieltomerkin = no-stopping sign\nvaikutusalueella = within the affected area\nasiakkaan kyytiin = customer into the taxi\nsallittuun paikkaan = permitted place\nkävellen = on foot / by walking\n\n--- Explanation ---\nYou may not stop in a no-stopping zone. Park legally nearby and help the customer board if needed.\n\nCorrect answer: B",
       "section": "assisting_passengers"
     },
     {
@@ -1148,7 +1148,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: kysyt saunassa ajoneuvo on\nMain keyword: asiakkaalta = the customer\nImportant keyword: Kerrot = you tell\n\nVisually impaired customer — ask how to help before acting.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is the correct way for the driver to act when a visually impaired customer is about to enter the taxi?\nA: You ask the customer how you can best help them and tell them which direction the vehicle is in.\nB: You ask the customer how loudly you should communicate with them.\nC: The driver's duties do not include taking the customer's special needs into account.\n\n--- Keywords ---\nasiakkaalta = from / to the customer\nKerrot = you tell\nnäkövammainen = visually impaired\nauttaa = to help\najoneuvo = vehicle\n\n--- Explanation ---\nAsk how to help and describe where the vehicle is. Do not ignore special needs or just speak louder.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1169,7 +1169,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: Tilaat\n\nNote: Tilaat is must when it is available\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is the best way to act if a customer cannot use a seat belt because the belts are too short?\nA: You order another taxi in which it is safer to transport the customer.\nB: You let the customer travel without a seat belt.\nC: You extend the seat belt with an extension strap that you must always carry in the car.\n\n--- Keywords ---\nTilaat = you order\nturvavyö = seat belt\njatkopala = extension strap\nliian lyhyet = too short\ntoisen taksin = another taxi\n\n--- Explanation ---\nIf seat belts cannot be used safely, arrange another suitable taxi.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1211,7 +1211,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nKeyword: Sinun tulee saapuu paikalle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What must you do when escorting a customer home who cannot take care of themselves, and the agreed assistant is not there to receive them?\nA: You must always take the customer back to the departure point\nB: You may leave the customer, for example, with the customer's neighbour.\nC: You must wait with the customer until the assistant arrives.\n\n--- Keywords ---\nSinun tulee odottaa = you must wait\navustaja = assistant\nsaapuu paikalle = arrives on site\nei kykene huolehtimaan itsestään = cannot take care of themselves\n\n--- Explanation ---\nDo not leave a vulnerable customer alone. Wait until the assistant arrives.\n\nCorrect answer: C",
       "section": "assisting_passengers"
     },
     {
@@ -1274,7 +1274,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nMain keyword: herätellä\nImportant keyword: poliisi paikalle\nImportant keyword: Kuljettaja = driver\n\nTry to wake the customer first; call police if needed. Never take payment card without consent.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How should the driver act when, upon arrival, they cannot wake the customer after the trip ends and the ride is unpaid?\nA: Take the customer's payment card from their wallet and charge the ride with contactless payment.\nB: The driver should first try verbally to wake the customer and, if necessary, call the police to the scene.\nC: Write an invoice for the customer and put it in their pocket. Move the customer outside the taxi to wake up and call the police.\n\n--- Keywords ---\nherätellä = to wake someone up\npoliisi paikalle = police to the scene\nKuljettaja = driver\nmaksamatta = unpaid\nperille päästyään = upon arrival\n\n--- Explanation ---\nTry to wake the customer first and call the police if needed. Never take payment without the customer's consent.\n\nCorrect answer: B",
       "section": "assisting_passengers"
     },
     {
@@ -1295,7 +1295,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: sinun tulee poistua\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What should the taxi driver take into account when picking up a passenger?\nA: You must get out of the car and help the passenger if necessary.\nB: You must assist the passenger if necessary.\nC: Nothing, because the driver's responsibility does not extend outside the taxi.\n\n--- Keywords ---\nsinun tulee poistua = you must get out\nautosta = from the car\navustaa = to assist\nmatkustaja = passenger\n\n--- Explanation ---\nThe driver should get out of the vehicle and assist the passenger when needed.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1358,7 +1358,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nMain keyword: Huolehdit\nImportant keyword: turvallisuudesta\n\nIntoxicated customer without address — ensure safety, find destination, police if needed.\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: An intoxicated customer gets into the taxi from a stand and cannot tell their address or destination. How must the driver act?\nA: You refuse to transport them.\nB: You leave the customer at the nearest stop or on the street and continue your shift.\nC: You ensure the customer's safety, try to find out the destination, and if necessary call the police to the scene.\n\n--- Keywords ---\nHuolehdit = you ensure\nturvallisuudesta = safety\nmääränpää = destination\npäihtynyt = intoxicated\npoliisi paikalle = police to the scene\n\n--- Explanation ---\nEnsure safety, find the destination, and call police if needed. Do not abandon the passenger.\n\nCorrect answer: C",
       "section": "assisting_passengers"
     },
     {
@@ -1463,7 +1463,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: 0.10 milligrammaa alkoholia litrassa uloshengitysilmaa tai e...\n\nNote: it is always answer where available\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: An alcohol interlock is mandatory in vehicles used for school or daycare transport. It is set so that the vehicle cannot start if the driver's breath alcohol concentration is?\nA: 0.10 milligrams of alcohol per litre of breath or more.\nB: 0.0 milligrams per litre of breath or more.\nC: Per litre of breath or more\n\n--- Keywords ---\nalkolukko = alcohol interlock\nuloshengitysilma = exhaled breath\nalkoholipitoisuus = alcohol concentration\nkäynnistyminen estyy = starting is prevented\nkoulu- tai päivähoitokuljetus = school or daycare transport\n\n--- Explanation ---\nThe interlock blocks starting at 0.10 mg/L of breath alcohol or above.\n\nCorrect answer: A",
       "section": "special_needs"
     },
     {
@@ -1505,7 +1505,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nMain keyword: Koekäyttämällä\n\nSame as Q88 — test the lift by using it.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How must you inspect the person lift of an accessible taxi during the pre-departure check?\nA: Not at all\nB: By test-using the lift\nC: By visually inspecting the lift\n\n--- Keywords ---\nKoekäyttämällä = by test-using\nhenkilönostin = person lift\najoonlähtötarkastus = pre-departure inspection\nesteetön taksi = accessible taxi\n\n--- Explanation ---\nSame as Q88: test the lift by operating it, not just a visual check.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1526,7 +1526,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nMain keyword: vastuullisen kuljettajan\n\nDriver must behave as a responsible professional in school/daycare transport.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding the taxi driver's conduct in school and daycare transport?\nA: The driver must not talk unnecessarily to children during the trip.\nB: The driver must behave in accordance with the role of a responsible driver.\nC: The driver must not require the passenger to fasten a seat belt.\n\n--- Keywords ---\nvastuullisen kuljettajan = responsible driver\nkäyttäytyä = to behave\nkoulu- ja päivähoitokuljetus = school and daycare transport\nturvavyö = seat belt\n\n--- Explanation ---\nIn school transport, the driver must act professionally and responsibly at all times.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1547,7 +1547,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: Taksinkuljettaja\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for carefully securing the wheelchair in the taxi when the customer has a personal assistant with them?\nA: The customer's.\nB: The taxi driver's.\nC: The personal assistant's.\n\n--- Keywords ---\nTaksinkuljettaja = taxi driver\npyörätuoli = wheelchair\nkiinnittäminen = securing / fastening\nhenkilökohtainen avustaja = personal assistant\nvastuulla = responsibility\n\n--- Explanation ---\nSecuring the wheelchair in the taxi is the taxi driver's responsibility.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1568,7 +1568,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: asiakan kansaa\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer with a physical disability may have a personal assistant with them. How do you act in this case?\nA: You always speak only with the assistant\nB: You always speak with the customer\nC: You ask for written instructions on how to act\n\n--- Keywords ---\nasiakkaan kanssa = with the customer\navustaja = assistant\nliikuntavammainen = physically disabled\nkeskustelet = you speak / discuss\n\n--- Explanation ---\nAlways address the customer directly, not only their assistant.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1610,7 +1610,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nKeyword: Kerrot = you tell\n\nTrigger rule: if option has three kerrot then answer is big option\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: If you have a blind customer, how do you act in the payment situation?\nA: You tell how much money they gave.\nB: You tell how much change you gave them.\nC: You tell how much money they gave and how much change you gave back.\n\n--- Keywords ---\nKerrot = you tell\nsokea = blind\nmaksutilanteessa = in the payment situation\ntakaisin = back / change\nrahaa = money\n\n--- Explanation ---\nTell the blind customer both the amount paid and the change given.\n\nCorrect answer: C",
       "section": "special_needs"
     },
     {
@@ -1631,7 +1631,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: taksinkuljetteja\nMain keyword: Taksinkuljettaja = taxi driver\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Who must ensure that a customer with limited mobility gets into the taxi and also out of it?\nA: Taxi driver\nB: Customer\nC: Customer's assistant\n\n--- Keywords ---\nTaksinkuljettaja = taxi driver\nliikuntarajoitteinen = person with limited mobility\nvarmistaa = to ensure\navustaja = assistant\n\n--- Explanation ---\nThe taxi driver is responsible for helping the passenger board and exit safely.\n\nCorrect answer: A",
       "section": "special_needs"
     },
     {
@@ -1652,7 +1652,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nMain keyword: tiedustelet\nImportant keyword: tarvitseeko\n\nAsk if the slow-moving customer needs help — do not grab without asking.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How should you act when you pick up a customer who moves very slowly?\nA: I assist the customer by grabbing their arm without asking if they need help.\nB: You get out of the vehicle and ask whether they need help moving or getting into the car\nC: You order the customer to hurry into the car if there is very heavy traffic at the pickup point\n\n--- Keywords ---\ntiedustelet = you ask / inquire\ntarvitseeko = does ... need\nhitaasti liikkuva = slow-moving\navustan = I assist\nkysymättä = without asking\n\n--- Explanation ---\nAsk first whether the customer needs help. Do not grab or rush them without consent.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1694,7 +1694,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nMain keyword: välttämätön\nImportant keyword: handsfree\nImportant keyword: Kuljettaja = driver\n\nDriver may use phone with handsfree only when necessary for the transport.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding the phone hands-free device?\nA: A hands-free device does not need to be used while the vehicle is moving if the call lasts less than...\nB: The driver may talk on the phone using a hands-free device while the vehicle is moving if it is necessary to carry out the transport\nC: If there are no customers in the taxi, the driver may talk on the phone without a hands-free device while the vehicle is moving\n\n--- Keywords ---\nvälttämätön = necessary\nhandsfree = hands-free\nKuljettaja = driver\najoneuvon liikkuessa = while the vehicle is moving\nkuljetus = transport\n\n--- Explanation ---\nWhile driving, phone calls are allowed only with hands-free and only when necessary for the transport.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {
@@ -1904,7 +1904,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: Taksiliikenneluvan haltija\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for making sure the transport licence is carried along?\nA: The taxi driver's\nB: The holder of the taxi transport licence\nC: No one, because carrying the licence is not required\n\n--- Keywords ---\nTaksiliikenneluvan haltija = holder of the taxi transport licence\nliikennelupa = transport licence\nvastuu = responsibility\nvarmistaa = to make sure\nTaksinkuljettaja = taxi driver\n\n--- Explanation ---\nThe licence holder — typically the taxi company or permit holder — is responsible for ensuring the licence is available.\n\nCorrect answer: B",
       "section": "traffic_safety"
     },
     {
@@ -1988,7 +1988,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nMain keyword: ennakoitava\nMain keyword: Taksinkuljettaja = taxi driver\n\nDriver must anticipate other road users' behaviour.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: In what way must the taxi driver act in traffic to fulfil the road user's duty of anticipation?\nA: As a road user, the taxi driver must anticipate other road users' actions.\nB: As a road user, the taxi driver must use only engine braking in traffic.\nC: As a road user, through their profession the taxi driver must focus only on customer service.\n\n--- Keywords ---\nennakoitava = must anticipate\nTaksinkuljettaja = taxi driver\ntienkäyttäjä = road user\nennakointivelvollisuus = duty of anticipation\nliikenne = traffic\n\n--- Explanation ---\nA professional driver must anticipate what other road users may do.\n\nCorrect answer: A",
       "section": "traffic_safety"
     },
     {

@@ -17,7 +17,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Puhelun soittaminen = making a phone call\nImportant keyword: välttämätön = necessary\n\nThe question is not about casual conversations.\n\nRule: A driver may make a phone call only when it is necessary (välttämätön) for the task or situation.\n\nNecessary call = allowed.\nUnnecessary conversation = not allowed.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is good customer service related to the use of communication devices?\nA: The driver may send messages if the phone is on silent\nB: Making a phone call if it is necessary to carry out the transport\nC: The driver may make personal phone calls if the customer...\n\n--- Keywords ---\nviestimet = communication devices\nasiakaspalvelu = customer service\nPuhelun soittaminen = making a phone call\nvälttämätön = necessary\nkuljetus = transport / ride\n\n--- Explanation ---\nPhone use while driving is allowed only when necessary for the transport, not for personal conversations.\n\nCorrect answer: B"
   },
   {
     "id": 20,
@@ -37,7 +37,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: välttämätön\nImportant keyword: handsfree\nImportant keyword: Kuljettaja = driver\n\nDriver may use phone with handsfree only when necessary for the transport.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding the phone hands-free device?\nA: A hands-free device does not need to be used while the vehicle is moving if the call lasts less than...\nB: The driver may talk on the phone using a hands-free device while the vehicle is moving if it is necessary to carry out the transport\nC: If there are no customers in the taxi, the driver may talk on the phone without a hands-free device while the vehicle is moving\n\n--- Keywords ---\nvälttämätön = necessary\nhandsfree = hands-free\nKuljettaja = driver\najoneuvon liikkuessa = while the vehicle is moving\nkuljetus = transport\n\n--- Explanation ---\nWhile driving, phone calls are allowed only with hands-free and only when necessary for the transport.\n\nCorrect answer: B"
   },
   {
     "id": 21,
@@ -57,7 +57,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nMain keyword: ei saa ylittää\nMain keyword: Kerrot = you tell\n\nSpeed limit must not be exceeded regardless of customer request.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when a customer in your taxi asks you to drive over the speed limit?\nA: You tell the customer that you cannot drive over the speed limit because the set speed limit must not be exceeded.\nB: You tell the customer that you can drive over the speed limit if agreed with the customer that they...\nC: You tell the customer that you cannot drive over the speed limit because under traffic law speeding is allowed only in urgent medical emergencies.\n\n--- Keywords ---\nei saa ylittää = must not be exceeded\nKerrot = you tell\nylinopeus = speeding / over the speed limit\nnopeusrajoitus = speed limit\nasiakas = customer\n\n--- Explanation ---\nThe speed limit cannot be exceeded, even if the customer asks or agrees to it.\n\nCorrect answer: A"
   },
   {
     "id": 44,
@@ -77,7 +77,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Toimitat toimistolle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should you act if, after the ride ends, you notice the customer has left a handbag in the vehicle?\nA: You deliver the handbag to the police lost-and-found within one month.\nB: You may wait for the customer to contact you and keep the handbag in the vehicle.\nC: You deliver the handbag to the dispatch company's office as soon as possible.\n\n--- Keywords ---\nToimitat = you deliver\ntoimistolle = to the office\nkäsilaukku = handbag\nkyydin päätyttyä = after the ride ends\ntilausvälitysyritys = dispatch company\n\n--- Explanation ---\nReturn lost property promptly through the dispatch company, not by keeping it indefinitely in the car.\n\nCorrect answer: C"
   },
   {
     "id": 45,
@@ -97,7 +97,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Kuljettajalla tulee tarpeista\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How can the driver affect the customer's experienced travel comfort during the trip?\nA: The driver must maintain continuous conversation with the customer.\nB: The driver must be unnoticeable and silent for the entire trip.\nC: The driver must have good situational awareness of the customer's needs.\n\n--- Keywords ---\nmatkustusmukavuus = travel comfort\ntilannetaju = situational awareness\nasiakkaan tarpeista = customer's needs\nKuljettaja = driver\nkeskustelu = conversation\n\n--- Explanation ---\nGood service means reading the customer's needs — not forcing conversation or total silence.\n\nCorrect answer: C"
   },
   {
     "id": 47,
@@ -117,7 +117,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: päättää aiheesta\nMain keyword: Kuljettaja = driver\nImportant keyword: Asiakas = customer\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is good customer service?\nA: The driver greets politely and is ready to talk only about route-related matters\nB: The driver greets politely, assesses whether the customer wants to chat, and lets the customer decide the topic.\nC: Greets politely and starts a conversation on a topic they personally like.\n\n--- Keywords ---\npäättää aiheesta = decides the topic\nKuljettaja = driver\nAsiakas = customer\nkohteliaasti = politely\nasiakaspalvelu = customer service\n\n--- Explanation ---\nGreet politely and let the customer choose whether and what to talk about.\n\nCorrect answer: B"
   },
   {
     "id": 58,
@@ -137,7 +137,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Kutsun paikalle poliisin selvittämään asiaa\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when, at payment time, the customer is unwilling to pay for the trip?\nA: I call the police to the scene to investigate the matter.\nB: I call as many other taxi drivers as possible to the scene to investigate\nC: I forcibly take a valuable item from the customer as security for payment.\n\n--- Keywords ---\nKutsun paikalle poliisin = I call the police to the scene\nmaksuhetkellä = at payment time\nhaluton maksamaan = unwilling to pay\nselvittämään asiaa = to investigate the matter\n\n--- Explanation ---\nDo not use force or involve other drivers. Call the police to handle non-payment.\n\nCorrect answer: A"
   },
   {
     "id": 59,
@@ -157,7 +157,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: 350 €\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How much cleaning surcharge must the customer pay if they soil the car?\nA: 550 €\nB: 350 €\nC: 450 €\n\n--- Keywords ---\nsiivouslisämaksu = cleaning surcharge\nsotkee auton = soils the car\nasiakas = customer\n350 € = 350 euros\n\n--- Explanation ---\nThe official cleaning surcharge for soiling a taxi is 350 euros.\n\nCorrect answer: B"
   },
   {
     "id": 71,
@@ -177,7 +177,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Aina asiakasta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When may you stop a taxi in a paid parking space without paying the fee?\nA: Never.\nB: Only when picking up or dropping off a customer with mobility impairments.\nC: Always when picking up or dropping off a customer.\n\n--- Keywords ---\nAina asiakasta = always when [with] a customer\nmaksulliselle pysäköintipaikalle = paid parking space\nkyytiin ottaessasi = when picking up\nkyydistä jättäessäsi = when dropping off\n\n--- Explanation ---\nTaxis may use paid parking without fee when picking up or dropping off any customer.\n\nCorrect answer: C"
   },
   {
     "id": 73,
@@ -197,7 +197,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Pidät asiakkaan tilanteen\nMain keyword: Kerrot = you tell\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What is the correct way to act when a passenger in your taxi is in a hurry and traffic is congested?\nA: You keep the customer informed and tell them about possible delay.\nB: To keep to the schedule, you may drive the rest of the trip over the speed limit.\nC: Because of the customer's hurry, you may break traffic rules to stay on schedule.\n\n--- Keywords ---\nPidät asiakkaan tilanteen tasalla = you keep the customer informed\nKerrot = you tell\nmyöhästymisestä = about being late\nruuhkautunut = congested\n\n--- Explanation ---\nInform the customer about delays. Never speed or break rules because they are in a hurry.\n\nCorrect answer: A"
   },
   {
     "id": 74,
@@ -217,7 +217,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: 135 cm\nMain keyword: Kuljettaja = driver\n\nChild under 135 cm needs an approved child restraint in taxi.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following three statements about a taxi driver's obligations is correct?\nA: The driver must ensure that a child under 3 sits in the front seat when using a safety device.\nB: The driver must ensure that a child under 135 cm in height always needs an approved safety device when travelling in a taxi.\nC: The driver must ensure that a child over 3 travels without a safety device when sitting in the back seat with seat belts.\n\n--- Keywords ---\n135 cm = 135 centimetres\nKuljettaja = driver\nturvalaite = safety device / child restraint\nalle 3-vuotias = under 3 years old\nhyväksytty = approved\n\n--- Explanation ---\nChildren under 135 cm must use an approved child restraint in a taxi.\n\nCorrect answer: B"
   },
   {
     "id": 83,
@@ -237,7 +237,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: pakollista\n\nNote: When there is 3 Kuitin in the start of answer, solution is the sentence end with pakollista\n\nProviding a receipt (kuitti) to the customer is mandatory.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding taxi service?\nA: Offering a receipt to the customer is optional.\nB: Offering a receipt to the customer is mandatory.\nC: Offering a receipt to the customer is a paid extra service.\n\n--- Keywords ---\npakollista = mandatory\nkuitti = receipt\ntarjoaminen = offering\ntaksipalvelu = taxi service\nvaihtoehtoinen = optional\n\n--- Explanation ---\nProviding a receipt to the customer is mandatory, not optional.\n\nCorrect answer: B"
   },
   {
     "id": 87,
@@ -257,7 +257,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: löytötavaratoimistoon\n\nReturn forgotten item promptly to customer or police lost-property office.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should you act if, after the ride ends, you notice the customer has left a handbag in the vehicle? (see 44)\nA: You may wait for the customer to contact you and keep the handbag in the vehicle.\nB: You deliver the handbag to the dispatch company's office as soon as possible.\nC: You deliver the handbag without delay to the customer or to the police lost-property office.\n\n--- Keywords ---\nlöytötavaratoimistoon = lost-property office\nkäsilaukku = handbag\nviipymättä = without delay\nToimitat = you deliver\nkyydin päätyttyä = after the ride ends\n\n--- Explanation ---\nReturn forgotten items promptly to the customer or the police lost-property office.\n\nCorrect answer: C"
   },
   {
     "id": 100,
@@ -277,7 +277,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Laillinen\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: In which of the following situations may the driver refuse a ride?\nA: The ride is headed to another traffic area.\nB: Legal working time would be exceeded.\nC: The customer is going to another municipality's area.\n\n--- Keywords ---\nLaillinen työaika = legal working time\nkieltäytyä kyydistä = refuse a ride\nylittyisi = would be exceeded\nkuljettaja = driver\n\n--- Explanation ---\nA driver may refuse a ride if accepting it would exceed legal working hours.\n\nCorrect answer: B"
   },
   {
     "id": 102,

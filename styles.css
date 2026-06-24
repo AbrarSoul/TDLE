@@ -1230,22 +1230,24 @@ body.lightbox-open {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem 0.875rem;
+  padding: 0.5rem 1rem;
   border-radius: var(--radius-sm);
-  border: 1.5px solid var(--border);
+  border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text-muted);
   font-family: inherit;
   font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background var(--transition), border-color var(--transition), color var(--transition);
+  box-shadow: var(--shadow-sm);
+  transition: background var(--transition), border-color var(--transition), color var(--transition), box-shadow var(--transition);
 }
 
 .btn-explanation-toggle:hover {
   background: var(--bg);
   color: var(--text);
   border-color: var(--border-hover);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
 }
 
 .explanation-area.explanation-correct .btn-explanation-toggle {
@@ -1259,50 +1261,100 @@ body.lightbox-open {
 }
 
 .explanation-toggle-icon {
-  font-size: 1rem;
-  line-height: 1;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  position: relative;
+  opacity: 0.75;
+}
+
+.explanation-toggle-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.35rem;
+  height: 0.35rem;
+  margin: -0.175rem 0 0 -0.175rem;
+  border-radius: 50%;
+  background: currentColor;
 }
 
 .explanation-box {
   margin-top: 0.75rem;
-  padding: 1rem 1.125rem;
-  border-radius: var(--radius-sm);
-  border: 1.5px solid var(--border);
-  background: var(--bg);
+  padding: 0;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
   animation: fadeIn 0.3s ease;
 }
 
 .explanation-area.explanation-correct .explanation-box {
-  background: var(--success-bg);
   border-color: var(--success-border);
 }
 
 .explanation-area.explanation-incorrect .explanation-box {
-  background: #fffbeb;
   border-color: #fde68a;
 }
 
 .explanation-header {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.875rem 1.125rem;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, #fafbfc 0%, var(--surface) 100%);
+}
+
+.explanation-area.explanation-correct .explanation-header {
+  background: linear-gradient(180deg, #f0fdf4 0%, #f7fef9 100%);
+  border-bottom-color: var(--success-border);
+}
+
+.explanation-area.explanation-incorrect .explanation-header {
+  background: linear-gradient(180deg, #fffbeb 0%, #fffef5 100%);
+  border-bottom-color: #fde68a;
 }
 
 .explanation-header strong {
   font-size: 0.8125rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 
 .explanation-area.explanation-correct .explanation-header strong {
-  color: #15803d;
+  color: #166534;
 }
 
 .explanation-area.explanation-incorrect .explanation-header strong {
-  color: #b45309;
+  color: #92400e;
+}
+
+.explanation-answer-badge {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.625rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: white;
+  background: var(--success);
+  box-shadow: 0 1px 2px rgba(22, 101, 52, 0.2);
+}
+
+.explanation-area.explanation-incorrect .explanation-answer-badge {
+  background: #d97706;
+  box-shadow: 0 1px 2px rgba(146, 64, 14, 0.2);
 }
 
 .explanation-icon {
@@ -1311,7 +1363,228 @@ body.lightbox-open {
 }
 
 .explanation-area .explanation-header {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+.explanation-content {
+  padding: 1rem 1.125rem 1.125rem;
+  font-size: 0.9375rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.explanation-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.explanation-section {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fafbfc;
+  overflow: hidden;
+}
+
+.explanation-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 0.875rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.explanation-section-icon {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 4px;
+  background: var(--primary-light);
+  position: relative;
+}
+
+.explanation-section-icon::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  background: var(--primary);
+  opacity: 0.85;
+}
+
+.explanation-section-icon.icon-translation {
+  background: #ede9fe;
+}
+
+.explanation-section-icon.icon-translation::after {
+  background: #7c3aed;
+}
+
+.explanation-section-icon.icon-keywords {
+  background: #e0f2fe;
+}
+
+.explanation-section-icon.icon-keywords::after {
+  background: #0284c7;
+}
+
+.explanation-section-icon.icon-summary {
+  background: var(--success-bg);
+}
+
+.explanation-section-icon.icon-summary::after {
+  background: var(--success);
+}
+
+.explanation-section-title {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.explanation-section-body {
+  padding: 0.875rem;
+}
+
+.explanation-question {
+  margin: 0 0 0.75rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.explanation-options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.explanation-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  padding: 0.625rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.explanation-option.is-correct {
+  border-color: var(--success-border);
+  background: var(--success-bg);
+}
+
+.explanation-option-letter {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+}
+
+.explanation-option.is-correct .explanation-option-letter {
+  color: white;
+  background: var(--success);
+  border-color: var(--success);
+}
+
+.explanation-option-text {
+  flex: 1;
+  padding-top: 0.1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.explanation-option-tag {
+  flex-shrink: 0;
+  align-self: center;
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #166534;
+  background: #dcfce7;
+}
+
+.explanation-keywords {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.5rem;
+}
+
+.explanation-keyword {
+  margin: 0;
+  padding: 0.5rem 0.625rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.explanation-keyword-term {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.explanation-keyword-def {
+  margin: 0.125rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.explanation-summary {
+  margin: 0;
+  padding: 0.75rem 0.875rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--success);
+  background: var(--surface);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text);
+  white-space: pre-line;
+}
+
+.explanation-area.explanation-incorrect .explanation-summary {
+  border-left-color: #d97706;
+}
+
+.explanation-plain,
+.explanation-plain-line {
+  margin: 0 0 0.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.explanation-plain-line:last-child {
+  margin-bottom: 0;
+}
+
+.explanation-plain-block .explanation-plain-line strong {
+  font-weight: 700;
+  color: var(--text);
 }
 
 .explanation-text {

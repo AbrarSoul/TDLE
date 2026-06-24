@@ -496,8 +496,8 @@
         "text": "Sinun tulee kieltäytyä kuljettamasta häntä, mikäli hän ei käytä turvavyötä."
       }
     ],
-    "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Sinun tulee turvavyötä\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+    "correct": "B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the best course of action if a passenger refuses to fasten a seat belt citing a health reason?\nA: You must force the customer to use a seat belt.\nB: You must ask them to present a medical certificate regarding the reason.\nC: You must refuse to transport them if they do not use a seat belt.\n\n--- Keywords ---\nlääkäritodistus = medical certificate\nterveydelliseen syyhyn = for a health reason\nturvavyö = seat belt\n\n--- Explanation ---\nIf a passenger claims a health exemption, ask them to present a medical certificate for the reason.\n\nCorrect answer: B"
   },
   {
     "id": 65,

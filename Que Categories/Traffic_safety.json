@@ -17,7 +17,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: ajovalo = headlight\nMain keyword: jotta muut = so that others\n\nThe question is about using the headlight when the vehicle is stopped. The phrase \"jotta muut\" indicates the purpose: so that other road users can see your stopped vehicle.\n\nLogic:\nStopped vehicle → turn on the headlight → other road users can see the vehicle.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Why must you turn on your headlights when stopped on a motorway in the dark?\nA: So that other road users can see your stopped vehicle\nB: You can better detect wild animals moving on the road\nC: Parking or low-beam lights consume less power than low-beam lights\n\n--- Keywords ---\npimeässä = in the dark\nmoottoritie = motorway / highway\npysähdyksessä = when stopped\najovalo = headlight / driving light\njotta muut = so that others\ntienkäyttäjät = road users\n\n--- Explanation ---\nWhen you stop on a motorway at night, headlights make your vehicle visible to others and reduce the risk of a collision.\n\nCorrect answer: A"
   },
   {
     "id": 2,
@@ -37,7 +37,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: 112 = emergency number\nMain keyword: Hätäkeskus = Emergency Response Center\nImportant keyword: sijainti = location\n\nDo not confuse:\nHätäkeskus = Emergency Response Center\nHätäpuhelu = Emergency call\n\nThe question refers to calling 112. When an emergency call is made, the Emergency Response Center can automatically determine the caller's location (sijainti).\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Why is it advisable to use the 112 Suomi mobile app to call for help at the scene of an accident?\nA: The emergency call goes through faster that way\nB: The emergency response center automatically receives information about the accident location through it\nC: Calling through it is cheaper\n\n--- Keywords ---\navun hälyttäminen = alerting / calling for help\nonnettomuus = accident\n112 Suomi = 112 Finland (official emergency app)\nHätäkeskus = Emergency Response Center\nHätäpuhelu = emergency call\nsijainti = location\n\n--- Explanation ---\nThe 112 Suomi app can automatically send your location to the emergency center, which helps responders find the accident quickly.\n\nCorrect answer: B"
   },
   {
     "id": 3,
@@ -57,7 +57,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: Liikenteen valvojan = Traffic Controller / Traffic Supervisor\nImportant keyword: ristiriitoista = conflicting\n\nThe question describes a situation where traffic signals and instructions are conflicting.\n\nRule: When there is a conflict between traffic lights and a traffic controller's instructions, you must follow the traffic controller.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Whose instructions must you follow when there are conflicting traffic directions on the route due to a traffic accident?\nA: Traficom's\nB: The road work contractor's\nC: The traffic controller's\n\n--- Keywords ---\nristiriitoista = conflicting\nliikenneopastus = traffic guidance / directions\nliikenteen valvoja = traffic controller\nliikenneonnettomuus = traffic accident\nnoudattaa = to follow / comply with\n\n--- Explanation ---\nWhen traffic signals and instructions conflict, you must follow the traffic controller on site.\n\nCorrect answer: C"
   },
   {
     "id": 22,
@@ -77,7 +77,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Poliisi\n\nNote: if question end with noudattaa then answer is always Pollisi\n\nPolice have authority (määräysvalta) when traffic instructions conflict.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: There are exceptional traffic arrangements due to an accident. At the same time you receive conflicting instructions from three parties who do not know about each other. Which of the following has authority — whose instructions must you follow?\nA: The Finnish Transport Infrastructure Agency (Liikennevirasto).\nB: The police.\nC: Your employer.\n\n--- Keywords ---\nPoliisi = police\nmääräysvalta = authority / command\nnoudattaa = to follow\nristiriitaisia = conflicting\ntoimintaohjeita = operating instructions\n\n--- Explanation ---\nWhen official instructions conflict, the police have the highest authority on the road.\n\nCorrect answer: B"
   },
   {
     "id": 50,
@@ -97,7 +97,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Taksiliikenneluvan haltija\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for making sure the transport licence is carried along?\nA: The taxi driver's\nB: The holder of the taxi transport licence\nC: No one, because carrying the licence is not required\n\n--- Keywords ---\nTaksiliikenneluvan haltija = holder of the taxi transport licence\nliikennelupa = transport licence\nvastuu = responsibility\nvarmistaa = to make sure\nTaksinkuljettaja = taxi driver\n\n--- Explanation ---\nThe licence holder — typically the taxi company or permit holder — is responsible for ensuring the licence is available.\n\nCorrect answer: B"
   },
   {
     "id": 56,
@@ -117,7 +117,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Aina jos noudan\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When driving a taxi, may you drive into the area covered by this traffic sign?\nA: Always when I am driving a taxi.\nB: Only if the customer has heavy luggage.\nC: Always when I am picking up or dropping off a customer.\n\n--- Keywords ---\nAina jos noudan = always when I pick up\nliikennemerkki = traffic sign\nasiakas = customer\nnoudan tai tuon = pick up or drop off\n\n--- Explanation ---\nTaxis may enter restricted areas when picking up or dropping off a customer.\n\nCorrect answer: C"
   },
   {
     "id": 82,
@@ -137,7 +137,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: aina käyttää turvavyötä\nMain keyword: Kuljettaja = driver\n\nReverse question: driver must ALWAYS wear seat belt. Pick aina, reject ei tarvitse.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: In which situation does the driver not need to use a seat belt?\nA: The driver does not need to use a seat belt at night when a customer is in the taxi.\nB: The driver must always use a seat belt when driving.\nC: The driver does not need to use a seat belt when driving school transport.\n\n--- Keywords ---\naina käyttää turvavyötä = must always use a seat belt\nKuljettaja = driver\nei tarvitse = does not need to\nturvavyö = seat belt\n\n--- Explanation ---\nThe driver must always wear a seat belt. Options saying 'does not need to' are wrong.\n\nCorrect answer: B"
   },
   {
     "id": 84,
@@ -157,7 +157,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nMain keyword: ennakoitava\nMain keyword: Taksinkuljettaja = taxi driver\n\nDriver must anticipate other road users' behaviour.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: In what way must the taxi driver act in traffic to fulfil the road user's duty of anticipation?\nA: As a road user, the taxi driver must anticipate other road users' actions.\nB: As a road user, the taxi driver must use only engine braking in traffic.\nC: As a road user, through their profession the taxi driver must focus only on customer service.\n\n--- Keywords ---\nennakoitava = must anticipate\nTaksinkuljettaja = taxi driver\ntienkäyttäjä = road user\nennakointivelvollisuus = duty of anticipation\nliikenne = traffic\n\n--- Explanation ---\nA professional driver must anticipate what other road users may do.\n\nCorrect answer: A"
   },
   {
     "id": 94,
@@ -177,7 +177,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Silloin sopimus\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When may taxi traffic be driven without the taxi light/sign?\nA: On all trips.\nB: Always when the trip starts somewhere other than a taxi stand area.\nC: When it is a contract trip for which a written contract has been made.\n\n--- Keywords ---\ntaksivalaisin = taxi light / roof sign\nsopimusajo = contract trip\nkirjallinen sopimus = written contract\ntaksiliikenne = taxi traffic\n\n--- Explanation ---\nThe taxi sign may be off only on pre-arranged contract trips with a written agreement.\n\nCorrect answer: C"
   },
   {
     "id": 95,
@@ -197,7 +197,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Soitat hatanumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: You are taking a customer home from hospital. Suddenly you notice a car that has run off the road. You are startled and intend to stop, but the customer in the back seat demands that you take them home immediately.\nA: You take the customer home and return to the scene afterwards.\nB: You call the general emergency number.\nC: You stop at the scene and call the emergency number.\n\n--- Keywords ---\nSoitat hätänumeroon = you call the emergency number\ntapahtumapaikalle = to the scene\nulosajanut auto = car that ran off the road\nPysähdyt = you stop\n112 = emergency number\n\n--- Explanation ---\nStop at the accident scene and call emergency services. Do not ignore a road accident.\n\nCorrect answer: C"
   },
   {
     "id": 96,
@@ -217,7 +217,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: ei yahtaan\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: By how much may the number of persons in a taxi exceed the vehicle's seat capacity at most, if it is not school and daycare transport?\nA: Not at all.\nB: The excess may be at most 60%.\nC: According to the driver's own judgment, they may decide how much to exceed.\n\n--- Keywords ---\nEi yhtään = not at all\nistuinpaikkaluku = seat capacity\nhenkilömäärä = number of persons\nylittää = to exceed\nkoulu- ja päivähoitokuljetus = school and daycare transport\n\n--- Explanation ---\nPassenger count must not exceed the vehicle's seat capacity (except special school transport rules).\n\nCorrect answer: A"
   },
   {
     "id": 97,
@@ -237,7 +237,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Viisi vuotta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How long is a taxi driver's driving licence valid at most?\nA: Five years\nB: Fifteen years\nC: Indefinitely\n\n--- Keywords ---\nViisi vuotta = five years\najolupa = driving licence (taxi)\nvoimassa = valid\nenintään = at most\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nA taxi driver's licence is valid for a maximum of five years.\n\nCorrect answer: A"
   },
   {
     "id": 98,
@@ -257,7 +257,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Viestintävirasto Traficom\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who issues the taxi driver's driving licence?\nA: ELY-centre transport\nB: Finnish Transport and Communications Agency Traficom\nC: Police\n\n--- Keywords ---\nViestintävirasto Traficom = Finnish Transport and Communications Agency\najoluvan myöntää = issues the driving licence\ntaksinkuljettaja = taxi driver\nPoliisi = police\n\n--- Explanation ---\nTraficom (Finnish Transport and Communications Agency) issues the taxi driver's licence.\n\nCorrect answer: B"
   },
   {
     "id": 99,
@@ -277,7 +277,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Kyllä, sillä Manner-Suomen alueella\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Aulis obtained his taxi driver's licence three years ago. His licence base is Vantaa. However, he is moving to Jyväskylä and has already found a new employer in his new city. May Aulis start working for this Jyväskylä employer?\nA: No, because the taxi driver's licence is valid for only two years.\nB: Yes, but after successfully completing Jyväskylä local knowledge and applying to Traficom to extend the licence area.\nC: Yes, because the taxi driver's licence is valid throughout mainland Finland.\n\n--- Keywords ---\nManner-Suomen alueella = throughout mainland Finland\najolupa = driving licence\nTraficom = Finnish Transport and Communications Agency\npaikallistuntemus = local knowledge\ntyönantaja = employer\n\n--- Explanation ---\nA valid taxi licence applies throughout mainland Finland; Aulis may work in Jyväskylä.\n\nCorrect answer: C"
   },
   {
     "id": 101,

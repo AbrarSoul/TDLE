@@ -17,7 +17,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Elviira itse = Elviira herself\n\nRule: A person aged 15 or older is responsible for using their own seat belt.\n\nIn the question, Elviira is 17 years old, so she is responsible for herself.\n\nLook for words such as:\nitse = self\nasiakas = customer/passenger\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: 17-year-old Elviira travels home alone every week from her dance hobby in downtown Kuopio to a detached-house area. Who is responsible for using the seat belt?\nA: The driver\nB: Elviira herself\nC: In a taxi, seat belt use is always voluntary, so the seat belt does not need to be fastened\n\n--- Keywords ---\nturvavyö = seat belt\nvastaa = is responsible for\nitse = oneself / herself\nkuljettaja = driver\nvapaaehtoinen = voluntary\n\n--- Explanation ---\nPassengers aged 15 or older are responsible for fastening their own seat belt.\n\nCorrect answer: B"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Taksinkuljettaja = Taxi driver\n\nRule: A person under 15 years old is not responsible for their own seat belt. The responsibility belongs to the driver.\n\nIn the question, the child is 14 years old, so the responsibility belongs to the taxi driver.\n\nLook for:\nTaksinkuljettaja = Taxi driver\nKuljettaja = Driver\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for the customer's seat belt use when 14-year-old Anna travels home alone every week from her dance hobby in downtown Kuopio to a nearby detached-house area?\nA: Anna herself\nB: The taxi driver\nC: In a taxi, the customer's seat belt use is always voluntary\n\n--- Keywords ---\nturvavyö = seat belt\nasiakas = customer / passenger\nTaksinkuljettaja = taxi driver\nvastaa = is responsible for\n14-vuotias = 14 years old\n\n--- Explanation ---\nChildren under 15 are not responsible for their own seat belt; the driver must ensure it is used.\n\nCorrect answer: B"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Huolehdit = make sure / take care of\n\nAgain, the child is 14 years old, so the responsibility belongs to the driver.\n\nEven if the words Taksinkuljettaja or Kuljettaja are not shown, the word \"Huolehdit\" indicates that you (the driver) must make sure the child is using the seat belt properly.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when a 14-year-old child enters your taxi and says their guardian has allowed them to travel without a seat belt?\nA: You make sure the child uses a seat belt for the entire trip.\nB: You let the child travel without fastening the seat belt if the guardian has made sure the child is seated.\nC: You let the child travel without fastening the seat belt because anyone may travel without a seat belt in a taxi\n\n--- Keywords ---\nHuolehdit = you make sure / take care of\nlapsi = child\nturvavyö = seat belt\nhuoltaja = guardian\nkoko matkan ajan = for the entire trip\n\n--- Explanation ---\nA guardian's permission does not override the law. The driver must ensure a 14-year-old uses a seat belt.\n\nCorrect answer: A"
   },
   {
     "id": 7,
@@ -77,7 +77,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: 3-vuotias (3 years old)\n\nA 3-year-old child is a very young passenger, so this is a strict safety requirement.\n\nMain keyword: Lapsi tulee = The child must\n\nThe word tulee indicates a mandatory requirement (must), not something optional.\n\nRule: A child of this age must be transported using an appropriate child safety device.\n\nImportant keyword: turvalaitteessa = safety device / child restraint system\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must a child under 3 years old be transported in a taxi?\nA: The child may be transported without a safety device as long as they sit in the back seat fastened with a seat belt\nB: The child may be transported in an adult passenger's lap on the back seat\nC: The child must always be transported in an appropriate safety device\n\n--- Keywords ---\nalle 3-vuotias = under 3 years old\nlapsi = child\nturvalaite = safety device / child restraint\ntulee = must (mandatory)\ntaksi = taxi\n\n--- Explanation ---\nVery young children must always travel in a proper child safety device, not just a seat belt or an adult's lap.\n\nCorrect answer: C"
   },
   {
     "id": 12,
@@ -97,7 +97,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nMain keyword: määränpäähän\nMain keyword: Taksinkuljettaja = taxi driver\nImportant keyword: Asiakas = customer\n\nDriver must ensure customer reaches the correct destination. Reject Poikkeuslupaa.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: The customer is a person who cannot communicate with the driver. What is required of the driver?\nA: The taxi driver is required to ensure the customer reaches the correct destination\nB: The taxi driver is required to speak the same language as the customers\nC: The taxi driver is required to have a special permit to carry out the transport\n\n--- Keywords ---\nmääränpäähän = to the destination\nTaksinkuljettaja = taxi driver\nAsiakas = customer\nkommunikoimaan = to communicate\nedellytetään = is required\n\n--- Explanation ---\nEven if communication is difficult, the driver must still get the customer to the correct destination.\n\nCorrect answer: A"
   },
   {
     "id": 13,
@@ -117,7 +117,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nMain keyword: estetään\nImportant keyword: alkoholia\nImportant keyword: Kuljettaja = driver\n\nAlkolukko prevents the vehicle from moving if the driver has consumed alcohol.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Why is an alcohol interlock required as mandatory equipment in municipal school and daycare transport?\nA: It prevents the vehicle from moving if the driver has consumed alcohol.\nB: It is intended only as the employer's monitoring tool for the driver's alcohol use\nC: With it, the police check the driver's fitness to drive during traffic enforcement\n\n--- Keywords ---\nalkolukko = alcohol interlock\nestetään = is prevented\nalkoholia = alcohol\nKuljettaja = driver\nkoulu- ja päivähoitokuljetus = school and daycare transport\n\n--- Explanation ---\nAn alcohol interlock stops the vehicle from starting if the driver has alcohol in their breath.\n\nCorrect answer: A"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: Koulu- ja päivähoitokuljetuksissa\nImportant keyword: alkolukko\n\nSchool/daycare transport must always use a vehicle with alkolukko installed.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must an alcohol interlock be used in school and daycare transport?\nA: In exceptional cases, the taxi licence holder has the right not to use the alcohol interlock\nB: If the vehicle does not start, the driver may switch to a vehicle that does not have one\nC: In school and daycare transport, a vehicle with an installed alcohol interlock must always be used\n\n--- Keywords ---\nalkolukko = alcohol interlock\nKoulu- ja päivähoitokuljetuksissa = in school and daycare transport\naina = always\nasennettu = installed\najoneuvo = vehicle\n\n--- Explanation ---\nSchool and daycare transport must always use a vehicle equipped with an alcohol interlock.\n\nCorrect answer: C"
   },
   {
     "id": 15,
@@ -157,7 +157,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: vastuullisen kuljettajan\n\nDriver must behave as a responsible professional in school/daycare transport.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding the taxi driver's conduct in school and daycare transport?\nA: The driver must not talk unnecessarily to children during the trip.\nB: The driver must behave in accordance with the role of a responsible driver.\nC: The driver must not require the passenger to fasten a seat belt.\n\n--- Keywords ---\nvastuullisen kuljettajan = responsible driver\nkäyttäytyä = to behave\nkoulu- ja päivähoitokuljetus = school and daycare transport\nturvavyö = seat belt\n\n--- Explanation ---\nIn school transport, the driver must act professionally and responsibly at all times.\n\nCorrect answer: B"
   },
   {
     "id": 16,
@@ -177,7 +177,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Työnantajan\n\nEmployer is responsible for ordering the driver's criminal record check.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for obtaining the criminal record extract for the driver of school and daycare transport?\nA: The driver's\nB: The employer's\nC: The school or daycare's\n\n--- Keywords ---\nTyönantajan = employer's\nrikostaustatote = criminal record extract (certificate)\nvastuulla = responsibility\nkuljettaja = driver\n\n--- Explanation ---\nThe employer must order the driver's criminal record check for school and daycare transport.\n\nCorrect answer: B"
   },
   {
     "id": 17,
@@ -197,7 +197,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Koulu- ja päivähoitokuljetuksissa\n\nNote: if question has alkolukko answer is always Koulu- ja päivähoitokuljetuksissa\n\nAlkolukko is required in school and daycare transport.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: In which of the following transports must the vehicle have an alcohol interlock?\nA: In transport ordered by the Social Insurance Institution (Kela)\nB: In school and daycare transport\nC: In healthcare transport ordered under the Disability Services Act\n\n--- Keywords ---\nalkolukko = alcohol interlock\nKoulu- ja päivähoitokuljetuksissa = in school and daycare transport\najoneuvo = vehicle\nKansaneläkelaitos = Social Insurance Institution (Kela)\n\n--- Explanation ---\nAn alcohol interlock is mandatory specifically in school and daycare transport.\n\nCorrect answer: B"
   },
   {
     "id": 18,
@@ -217,7 +217,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nMain keyword: turvavyö on kiinni\n\nStop and discuss; continue only when the child's seat belt is fastened.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How must you act if a child under 15 traveling without an adult unfastens their seat belt during the trip and refuses to fasten it?\nA: You stop the vehicle and discuss the matter. You continue only when the child's seat belt is fastened.\nB: You stop the vehicle and warn the child that you will remove them from the car unless they fasten it\nC: You let the child travel without a seat belt and inform their guardian.\n\n--- Keywords ---\nturvavyö on kiinni = seat belt is fastened\nalle 15-vuotias = under 15 years old\nPysäytät = you stop\nkeskustelet = you discuss\nirrottaa = unfastens\n\n--- Explanation ---\nStop and talk to the child. Do not continue until the seat belt is properly fastened.\n\nCorrect answer: A"
   },
   {
     "id": 23,
@@ -237,7 +237,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: kysyä asiakkaalta\nMain keyword: Taksinkuljettaja = taxi driver\n\nAsk the visually impaired customer how to help before assisting.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the driver take a visually impaired customer into account?\nA: When serving a visually impaired person, it is good for the driver to speak somewhat louder.\nB: The taxi driver must always guide the customer by the shoulder and help them into the car by gently pushing.\nC: It is good for the taxi driver to ask the customer how they can be helped before starting to assist the customer.\n\n--- Keywords ---\nkysyä asiakkaalta = to ask the customer\nnäkövammainen = visually impaired\nTaksinkuljettaja = taxi driver\nauttaa = to help\nennen kuin = before\n\n--- Explanation ---\nAlways ask the visually impaired customer how they want to be helped before assisting them.\n\nCorrect answer: C"
   },
   {
     "id": 24,
@@ -257,7 +257,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: pelätä\nMain keyword: Asiakas = customer\nImportant keyword: näkövamma = visually impaired\n\nBlind customer may not know what happens during the ride and may fear. Pick pelätä, not ei pelkää.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What special considerations must you take into account when transporting a visually impaired customer?\nA: You require that the visually impaired customer has an assistant with them.\nB: A visually impaired customer may not be aware of what happens during the transport, so they may be afraid in the taxi.\nC: A visually impaired customer may not be aware of what happens during the transport, so they are not afraid in the taxi.\n\n--- Keywords ---\npelätä = to be afraid\nAsiakas = customer\nnäkövammainen = visually impaired\nkuljetuksen aikana = during the transport\ntiedosta = be aware of\n\n--- Explanation ---\nA blind customer may not know what is happening during the ride and may feel anxious or afraid.\n\nCorrect answer: B"
   },
   {
     "id": 25,
@@ -277,7 +277,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: tiedustelet\nImportant keyword: tarvitseeko\n\nAsk if the slow-moving customer needs help — do not grab without asking.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How should you act when you pick up a customer who moves very slowly?\nA: I assist the customer by grabbing their arm without asking if they need help.\nB: You get out of the vehicle and ask whether they need help moving or getting into the car\nC: You order the customer to hurry into the car if there is very heavy traffic at the pickup point\n\n--- Keywords ---\ntiedustelet = you ask / inquire\ntarvitseeko = does ... need\nhitaasti liikkuva = slow-moving\navustan = I assist\nkysymättä = without asking\n\n--- Explanation ---\nAsk first whether the customer needs help. Do not grab or rush them without consent.\n\nCorrect answer: B"
   },
   {
     "id": 26,
@@ -297,7 +297,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Nouset autosta ja kerrot asiakkaan jalkatilassa\n\nVisually impaired customer — ask how to help before acting.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when a visually impaired customer has a guide dog?\nA: You get out of the car and tell them their taxi has arrived and that the guide dog's place is in the footwell by the customer\nB: You get out of the car and tell the customer their taxi has arrived and show attention to the guide dog by petting it\nC: You wait in the vehicle for the customer to arrive, open the door from inside, and make room on the back seat for their guide dog.\n\n--- Keywords ---\nopaskoira = guide dog\nNouset autosta = you get out of the car\njalkatila = footwell\nnäkövammainen = visually impaired\nkerrot = you tell\n\n--- Explanation ---\nAnnounce your arrival, explain where the dog should go, and do not distract or pet the guide dog.\n\nCorrect answer: A"
   },
   {
     "id": 27,
@@ -317,7 +317,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: tulee käyttää turvavyötä\n\nSchool transport requires seat belts. Reject options with ei tarvitse.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What is required regarding seat belt use in school transport?\nA: Students on the back seat do not need to use seat belts\nB: The driver does not need to use a seat belt\nC: Seat belts must be used in transport\n\n--- Keywords ---\ntulee käyttää turvavyötä = seat belts must be used\nkoulukuljetus = school transport\nturvavyö = seat belt\nei tarvitse = does not need to\n\n--- Explanation ---\nIn school transport, everyone must use seat belts. Options saying 'does not need to' are wrong.\n\nCorrect answer: C"
   },
   {
     "id": 28,
@@ -337,7 +337,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: asiakan kansaa\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer with a physical disability may have a personal assistant with them. How do you act in this case?\nA: You always speak only with the assistant\nB: You always speak with the customer\nC: You ask for written instructions on how to act\n\n--- Keywords ---\nasiakkaan kanssa = with the customer\navustaja = assistant\nliikuntavammainen = physically disabled\nkeskustelet = you speak / discuss\n\n--- Explanation ---\nAlways address the customer directly, not only their assistant.\n\nCorrect answer: B"
   },
   {
     "id": 29,
@@ -357,7 +357,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: asiakkaan kanssa\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when a customer with limited mobility has an assistant with them?\nA: You primarily try to discuss transport-related matters with the customer\nB: You primarily try to discuss transport-related matters with the assistant\nC: You always ask the assistant for written instructions on how to assist the customer during transport.\n\n--- Keywords ---\nasiakkaan kanssa = with the customer\nensisijaisesti = primarily\nliikuntarajoitteinen = person with limited mobility\navustaja = assistant\nkuljetukseen liittyvistä = related to the transport\n\n--- Explanation ---\nDiscuss the ride with the customer first. The assistant supports, but the customer is the passenger.\n\nCorrect answer: A"
   },
   {
     "id": 30,
@@ -377,7 +377,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: huolehtii\nMain keyword: Kuljettaja = driver\n\nNote: if there is 3 kuljettaja at beginning then answer is with huolehtii\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the taxi driver act when a physically disabled customer has luggage for the cargo area and also has an assistant?\nA: The driver assists the customer and the assistant's task is to take care of loading and unloading luggage.\nB: The driver waits in the car because the assistant's job is to help the customer into the vehicle and take care of the luggage.\nC: The driver assists the customer into the vehicle and takes care of loading and unloading luggage.\n\n--- Keywords ---\nhuolehtii = takes care of\nKuljettaja = driver\nmatkatavarat = luggage\nliikuntavammainen = physically disabled\navustaja = assistant\n\n--- Explanation ---\nThe driver helps the customer into the vehicle and handles the luggage, even if an assistant is present.\n\nCorrect answer: C"
   },
   {
     "id": 32,
@@ -397,7 +397,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: 0.10 milligrammaa alkoholia litrassa uloshengitysilmaa tai e...\n\nNote: it is always answer where available\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: An alcohol interlock is mandatory in vehicles used for school or daycare transport. It is set so that the vehicle cannot start if the driver's breath alcohol concentration is?\nA: 0.10 milligrams of alcohol per litre of breath or more.\nB: 0.0 milligrams per litre of breath or more.\nC: Per litre of breath or more\n\n--- Keywords ---\nalkolukko = alcohol interlock\nuloshengitysilma = exhaled breath\nalkoholipitoisuus = alcohol concentration\nkäynnistyminen estyy = starting is prevented\nkoulu- tai päivähoitokuljetus = school or daycare transport\n\n--- Explanation ---\nThe interlock blocks starting at 0.10 mg/L of breath alcohol or above.\n\nCorrect answer: A"
   },
   {
     "id": 33,
@@ -417,7 +417,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Helmi on oikeutettu vakiotaksiin\n\nNote: small option is the answer when question start with Helmi\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Helmi is a severely disabled 8-year-old girl who goes weekly for rehabilitation at a care facility. She uses a wheelchair and cannot move independently at all. Her mother has heard that Helmi would have the right to a Kela-reimbursed regular taxi with drivers employed by a private entrepreneur. Helmi's mother asks you whether this is possible. How do you answer her?\nA: Helmi does not have the right to a regular taxi, as only elderly people and working severely disabled adults are entitled to it.\nB: Helmi is entitled to a regular taxi only if her mother travels the trips with her\nC: Helmi is entitled to a regular taxi.\n\n--- Keywords ---\nvakiotaksi = regular / scheduled taxi (Kela service)\nvaikeavammainen = severely disabled\npyörätuoli = wheelchair\nKela = Finnish Social Insurance Institution\noikeutettu = entitled\n\n--- Explanation ---\nA severely disabled child like Helmi can be entitled to Kela regular taxi transport.\n\nCorrect answer: C"
   },
   {
     "id": 34,
@@ -437,7 +437,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Neuvon palvelunumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you advise a customer who asks you about the right to regular taxi service for Kela-reimbursed taxi trips?\nA: I advise the customer to call any available taxi.\nB: I advise the customer to take a taxi at a taxi stand.\nC: I advise the customer to call Kela's service number.\n\n--- Keywords ---\nNeuvon = I advise\npalvelunumeroon = to the service number\nvakiotaksioikeus = right to regular taxi\nKela-korvattava = Kela-reimbursed\nasiakas = customer\n\n--- Explanation ---\nQuestions about Kela taxi rights should be directed to Kela's official service number.\n\nCorrect answer: C"
   },
   {
     "id": 35,
@@ -457,7 +457,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Enintään omavastuun.\n\nTrigger rule: if question has KELA-kyydista answer is Enintaan\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What portion of a Kela ride does the customer pay to the driver?\nA: The full price of the trip.\nB: At most the deductible (own contribution).\nC: The portion exceeding the deductible.\n\n--- Keywords ---\nomavastuu = deductible / own contribution\nEnintään = at most\nKELA-kyyti = Kela ride\nmaksaa = pays\nkuljettaja = driver\n\n--- Explanation ---\nFor Kela rides, the customer pays at most their own deductible, not the full fare.\n\nCorrect answer: B"
   },
   {
     "id": 36,
@@ -477,7 +477,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Neuvon palvelunumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer wants a Kela-reimbursed ride, but you do not drive Kela-reimbursed rides. How do you direct the customer?\nA: You take the customer, drive them to the destination, and ask them to apply for...\nB: I advise the customer to call their local dispatch company's service number.\nC: I urge the driver who drives Kela rides to contact the customer.\n\n--- Keywords ---\nNeuvon = I advise\npalvelunumeroon = to the service number\nkelakorvattava kyyti = Kela-reimbursed ride\ntilausvälitysyritys = dispatch company\nohjaat = you direct / guide\n\n--- Explanation ---\nIf you do not provide Kela rides, refer the customer to the local dispatch service number.\n\nCorrect answer: B"
   },
   {
     "id": 37,
@@ -497,7 +497,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Taksinkuljettaja\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for carefully securing the wheelchair in the taxi when the customer has a personal assistant with them?\nA: The customer's.\nB: The taxi driver's.\nC: The personal assistant's.\n\n--- Keywords ---\nTaksinkuljettaja = taxi driver\npyörätuoli = wheelchair\nkiinnittäminen = securing / fastening\nhenkilökohtainen avustaja = personal assistant\nvastuulla = responsibility\n\n--- Explanation ---\nSecuring the wheelchair in the taxi is the taxi driver's responsibility.\n\nCorrect answer: B"
   },
   {
     "id": 38,
@@ -517,7 +517,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Asiakkaan ei käyttää ajoneuvon turvavyötä\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following statements about wheelchair use and securing is true?\nA: An electric wheelchair does not need to be secured to the vehicle.\nB: The customer does not need to use the vehicle's seat belt while sitting in the wheelchair during the trip.\nC: The wheelchair must be secured so that it prevents only lateral movement.\n\n--- Keywords ---\npyörätuoli = wheelchair\nkiinnittää = to secure / fasten\nturvavyö = seat belt\nsähköpyörätuoli = electric wheelchair\nsivusuuntainen liike = lateral movement\n\n--- Explanation ---\nThis question tests wheelchair safety rules. The correct option reflects the applicable securing requirement in the source material.\n\nCorrect answer: B"
   },
   {
     "id": 39,
@@ -537,7 +537,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nMain keyword: rungosta\nMain keyword: pyörätuoli = wheelchair\n\nNote: answer is must when there is rungosta\n\nWheelchair must be secured from the frame (rungosta).\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following statements about wheelchair use and securing is true?\nA: The wheelchair must be secured from its frame.\nB: A wheelchair intended specifically for indoor use does not need to be secured during the trip,\nC: The customer decides whether the wheelchair is secured.\n\n--- Keywords ---\nrungosta = from the frame\npyörätuoli = wheelchair\nkiinnittää = to secure\najon aikana = during the trip\nasiakas = customer\n\n--- Explanation ---\nA wheelchair must be secured from the frame, not left unsecured or left to the customer's choice alone.\n\nCorrect answer: A"
   },
   {
     "id": 40,
@@ -557,7 +557,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Voin toimia\n\nNote: answer is must when there is Voin toimia\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Can you work as a regular taxi driver on regular rehabilitation-related trips when the passenger is a 15-year-old child using a wheelchair?\nA: I cannot work as a regular taxi driver because the child does not have the right to regular taxi service.\nB: You check with your employer whether you can work as a regular taxi driver.\nC: I can work as a regular taxi driver with the guardian's authorization.\n\n--- Keywords ---\nvakiotaksinkuljettaja = regular taxi driver\npyörätuoli = wheelchair\nhuoltajan valtuutus = guardian's authorization\nkuntoutus = rehabilitation\nVoin toimia = I can work / act\n\n--- Explanation ---\nA regular taxi driver may transport an entitled child on rehabilitation trips with proper guardian authorization.\n\nCorrect answer: C"
   },
   {
     "id": 42,
@@ -577,7 +577,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Totean häntä\nMain keyword: itse = self / themselves\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when you are picking up a customer and they want to transfer from their wheelchair to the taxi's front seat by themselves?\nA: You tell the customer that they may not move from the wheelchair into the vehicle without the driver's help\nB: You tell the customer that they have the right to move from the wheelchair into the vehicle by themselves and assist them if necessary\nC: You tell the customer that a customer arriving in a wheelchair may not sit in the front seat of the vehicle\n\n--- Keywords ---\nitse = by themselves / independently\npyörätuoli = wheelchair\nTotean = I state / tell\navustan = I assist\noikeus = right\n\n--- Explanation ---\nRespect the customer's autonomy. They may transfer independently, and you help only if needed.\n\nCorrect answer: B"
   },
   {
     "id": 46,
@@ -597,7 +597,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Annat asiakkaan\nMain keyword: itse = self / themselves\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How should you act when a customer in a wheelchair wants to transfer out of the wheelchair by themselves?\nA: The customer can never transfer without the driver's help.\nB: You let the customer transfer by themselves and assist if necessary.\nC: If the passenger wants to transfer into the vehicle by themselves, you may go wait in the driver's seat.\n\n--- Keywords ---\nitse = by themselves\nAnnat = you let / allow\npyörätuoli = wheelchair\navustat = you assist\ntarvittaessa = if necessary\n\n--- Explanation ---\nAllow independent transfer and offer help only when the customer needs it.\n\nCorrect answer: B"
   },
   {
     "id": 48,
@@ -617,7 +617,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: varmistaa vaatteet\nMain keyword: Kuljettaja = driver\n\nNote: Answer is must when there is vaatteet\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the driver act when a customer in a wheelchair has clothes caught in a way that makes sitting uncomfortable and asks for help fixing them?\nA: It is not the driver's task to straighten the customer's clothes or otherwise...\nB: The driver may only ask the customer to straighten their own clothes, because the driver may not adjust the customer's clothes even if the customer asks.\nC: The driver's task is to make sure the customer is comfortable and, if necessary,...\n\n--- Keywords ---\nvarmistaa = to make sure\nvaatteet = clothes\nKuljettaja = driver\nmukava = comfortable\npyytää apua = asks for help\n\n--- Explanation ---\nThe driver should help ensure the customer is comfortable, including adjusting clothes when asked.\n\nCorrect answer: C"
   },
   {
     "id": 49,
@@ -637,7 +637,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Soitan työnantajalle ja kerron tilanteesta\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do in school transport when you notice you are late and conditions are such that you know you will not be able to pick up all the children?\nA: Option 1\nB: I call my employer and report the situation\nC: Option 3\n\n--- Keywords ---\nSoitan työnantajalle = I call my employer\nkerron tilanteesta = I report the situation\nkoulukuljetus = school transport\nmyöhässä = late\nlapsia hakemaan = to pick up the children\n\n--- Explanation ---\nIf you cannot complete the school pickup route on time, inform your employer immediately.\n\nCorrect answer: B"
   },
   {
     "id": 53,
@@ -657,7 +657,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Valitettavasti\n\nNote: Answer is must when there is Valitettavasti\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Your passenger has limited mobility and is planning a party tonight for which they need two bottles of wine. The customer asks you to pick up two bottles from Alko because moving is difficult for them. What do you answer?\nA: Unfortunately, the law prohibits me from buying alcohol for customers.\nB: Of course I can get them. But do not be surprised if the Alko salesperson comes to check the car to see who the drinks are for. I must tell staff I am not buying alcohol for myself but for a customer waiting in the taxi.\nC: Of course I can get them, but you must give me a written authorization authorizing me to buy the drinks for you.\n\n--- Keywords ---\nValitettavasti = unfortunately\nalkoholia = alcohol\nlaki kieltää = the law prohibits\nliikuntarajoitteinen = person with limited mobility\nAlko = Finnish state alcohol retail store\n\n--- Explanation ---\nA taxi driver may not buy alcohol on behalf of a customer. The law forbids it.\n\nCorrect answer: A"
   },
   {
     "id": 54,
@@ -677,7 +677,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: Kysy asiakkaalta\nMain keyword: kysyä = to ask\n\nNote: suunnassa is always answer if it is in any options\n\nBest practice: ask the blind customer how to help and indicate direction.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following is the best way to act when meeting a visually impaired customer?\nA: Speak somewhat louder than normal speaking voice.\nB: Take the customer by the shoulder and help them into the car by gently pushing.\nC: Ask the customer how you can best help them and tell them in which direction...\n\n--- Keywords ---\nKysyä asiakkaalta = to ask the customer\nnäkövammainen = visually impaired\nkysyä = to ask\nsuunnassa = direction\nauttaa = to help\n\n--- Explanation ---\nAsk how to help and indicate where the vehicle is. Do not grab or shout.\n\nCorrect answer: C"
   },
   {
     "id": 55,
@@ -697,7 +697,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Huolehdit, koko matkan ajan\nMain keyword: turvavyö = seat belt\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How must the driver act when a child is in the taxi?\nA: You make sure the children have their seat belts fastened for the entire trip.\nB: You make sure the children have snacks with them.\nC: It is not the driver's responsibility whether the child uses a seat belt.\n\n--- Keywords ---\nHuolehdit = you make sure\nkoko matkan ajan = for the entire trip\nturvavyö = seat belt\nlapsi = child\nkuljettaja = driver\n\n--- Explanation ---\nThe driver must ensure children wear seat belts throughout the journey.\n\nCorrect answer: A"
   },
   {
     "id": 62,
@@ -717,7 +717,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Pyydät lasta tätä\n\nNote: tätä is the key word\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the safest course of action when dropping off an approximately 10-year-old child travelling alone from the taxi at their apartment building home?\nA: You leave the child at the yard of the apartment building they named and let them go\nB: You ask the child to call their guardian and ask the guardian to come meet the child in the apartment building yard.\nC: You ask some adult in the apartment building yard to make sure the child goes\n\n--- Keywords ---\nPyydät lasta = you ask the child\nhuoltaja = guardian\nyksinään = alone\n10-vuotias = 10 years old\nkerrostalokoti = apartment building home\n\n--- Explanation ---\nHave the child contact their guardian to meet them. Do not leave a young child alone unsupervised.\n\nCorrect answer: B"
   },
   {
     "id": 63,
@@ -737,7 +737,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Pyydät saako lapsi\n\nPhone use — only when välttämätön and with handsfree while driving.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is the most recommended course of action if an approximately 10-year-old child gets into your taxi alone and says they are going to a friend's place?\nA: You ask the child for their guardian's phone number and ask the guardian whether the child may travel alone.\nB: You transport the child to the destination they give without asking their guardian for permission.\nC: You refuse to transport the child and politely ask them to leave the vehicle.\n\n--- Keywords ---\nPyydät = you ask\nsaako lapsi = may the child\nhuoltaja = guardian\nyksinään = alone\nmatkustaa = travel\n\n--- Explanation ---\nVerify with the guardian before transporting an unaccompanied child.\n\nCorrect answer: A"
   },
   {
     "id": 65,
@@ -757,7 +757,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: taksinkuljetteja\nMain keyword: Taksinkuljettaja = taxi driver\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Who must ensure that a customer with limited mobility gets into the taxi and also out of it?\nA: Taxi driver\nB: Customer\nC: Customer's assistant\n\n--- Keywords ---\nTaksinkuljettaja = taxi driver\nliikuntarajoitteinen = person with limited mobility\nvarmistaa = to ensure\navustaja = assistant\n\n--- Explanation ---\nThe taxi driver is responsible for helping the passenger board and exit safely.\n\nCorrect answer: A"
   },
   {
     "id": 67,
@@ -777,7 +777,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Koiralla on tunnistevaljaat\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you recognize that a dog accompanying a customer is a working dog?\nA: The dog is off leash.\nB: The dog has a reflector.\nC: The dog has identification harness.\n\n--- Keywords ---\ntunnistevaljaat = identification harness\ntyökoira = working dog\nkoira = dog\nasiakas = customer\n\n--- Explanation ---\nA working dog is identified by its special identification harness.\n\nCorrect answer: C"
   },
   {
     "id": 68,
@@ -797,7 +797,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: turvavyötä = seat belt\n\nTrigger rule: if answer start with lapsen then answer is only lapsen tulee istua\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Where must a 120 cm tall child be placed in a taxi if a child safety device is not available?\nA: The child may sit on any seat if they have a seat belt fastened.\nB: The child must sit on the back seat using a seat belt.\nC: The child may choose their own seat.\n\n--- Keywords ---\nturvavyö = seat belt\ntakapenkillä = on the back seat\nlapsen tulee istua = the child must sit\nturvalaite = safety device\n120 cm = 120 centimetres\n\n--- Explanation ---\nWithout a child restraint, the child must sit on the back seat with a seat belt.\n\nCorrect answer: B"
   },
   {
     "id": 70,
@@ -817,7 +817,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Pimeällä tulisi pitää\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What must you take into account with a deaf customer before setting off?\nA: In the dark, interior lights should be kept on during communication situations.\nB: In the dark, you must speak louder to customers than in daylight.\nC: Communication in the dark is impossible, so it should not be attempted at all.\n\n--- Keywords ---\nPimeällä = in the dark\nsisävalot = interior lights\nkuuro = deaf\nkommunikointi = communication\nhuomioon = into account\n\n--- Explanation ---\nDeaf customers may need to lip-read; keep interior lights on in the dark.\n\nCorrect answer: A"
   },
   {
     "id": 75,
@@ -837,7 +837,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: rungosta\nMain keyword: pyörätuoli = wheelchair\n\nNote: rungosta in option will be anwer always\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must a wheelchair be secured when the passenger sits in the wheelchair for the entire trip?\nA: The wheelchair is secured with the car's seat belt and its brakes are applied.\nB: The method of securing the wheelchair is for the customer to decide.\nC: The wheelchair is secured from the frame at four different points and the chair's brakes are applied.\n\n--- Keywords ---\nrungosta = from the frame\npyörätuoli = wheelchair\nkiinnittää = to secure\njarrut = brakes\nneljästä eri pisteestä = at four different points\n\n--- Explanation ---\nSecure the wheelchair from the frame at four points and apply the wheelchair brakes.\n\nCorrect answer: C"
   },
   {
     "id": 76,
@@ -857,7 +857,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Sinun tulee puuttua\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What must you do if you observe bullying between pupils during school transport?\nA: You must remove the bullies from the car and report the matter to the pupils' parents.\nB: You must not intervene in the bullying situation at all, but you must report it to the school.\nC: You must intervene, discuss with those involved, and report the matter to the school.\n\n--- Keywords ---\nSinun tulee puuttua = you must intervene\nkiusaaminen = bullying\nkoulukuljetus = school transport\noppilaitokseen = to the school\nkeskustella = to discuss\n\n--- Explanation ---\nIntervene in bullying, talk to those involved, and report it to the school.\n\nCorrect answer: C"
   },
   {
     "id": 78,
@@ -877,7 +877,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Takapenkillä etupenkin takana kuljettajan vieressä\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Where must the customer sit in the car for safety?\nA: In the front seat next to the driver.\nB: On the back seat next to the driver.\nC: On the back seat behind the front seat, next to the driver.\n\n--- Keywords ---\nTakapenkillä etupenkin takana = on the back seat behind the front seat\nturvallisuuden vuoksi = for safety\nkuljettajan vieressä = next to the driver\nasiakas = customer\n\n--- Explanation ---\nFor safety, the customer should sit on the rear seat behind the front passenger seat.\n\nCorrect answer: C"
   },
   {
     "id": 79,
@@ -897,7 +897,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Kerrot = you tell\n\nTrigger rule: if option has three kerrot then answer is big option\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: If you have a blind customer, how do you act in the payment situation?\nA: You tell how much money they gave.\nB: You tell how much change you gave them.\nC: You tell how much money they gave and how much change you gave back.\n\n--- Keywords ---\nKerrot = you tell\nsokea = blind\nmaksutilanteessa = in the payment situation\ntakaisin = back / change\nrahaa = money\n\n--- Explanation ---\nTell the blind customer both the amount paid and the change given.\n\nCorrect answer: C"
   },
   {
     "id": 81,
@@ -917,7 +917,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: huolehdittava\nMain keyword: Taksinkuljettaja = taxi driver\n\nUnder-15 passenger travelling alone — driver must ensure seat belt use.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding seat belt use by an under-15 customer travelling alone?\nA: The customer themselves takes care of seat belt use.\nB: If it is not school transport, the driver does not need to ensure the customer's seat belt use.\nC: The taxi driver must ensure the customer's seat belt use.\n\n--- Keywords ---\nhuolehdittava = must be ensured\nTaksinkuljettaja = taxi driver\nalle 15-vuotias = under 15 years old\nyksin matkustava = travelling alone\nturvavyö = seat belt\n\n--- Explanation ---\nFor an under-15 passenger travelling alone, the taxi driver must ensure the seat belt is used.\n\nCorrect answer: C"
   },
   {
     "id": 88,
@@ -937,7 +937,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Koekäyttämällä\n\nInspect the person lift by test-using it before departure.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How must you inspect the person lift of an accessible taxi during the pre-departure check?\nA: Not at all\nB: By test-using it\nC: By visually inspecting the lift\n\n--- Keywords ---\nKoekäyttämällä = by test-using\nhenkilönostin = person lift\najoonlähtötarkastus = pre-departure inspection\nesteetön taksi = accessible taxi\ntarkastaa = to inspect\n\n--- Explanation ---\nThe person lift must be checked by actually test-using it before departure.\n\nCorrect answer: B"
   },
   {
     "id": 89,
@@ -957,7 +957,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Koekäyttämällä\n\nSame as Q88 — test the lift by using it.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How must you inspect the person lift of an accessible taxi during the pre-departure check?\nA: Not at all\nB: By test-using the lift\nC: By visually inspecting the lift\n\n--- Keywords ---\nKoekäyttämällä = by test-using\nhenkilönostin = person lift\najoonlähtötarkastus = pre-departure inspection\nesteetön taksi = accessible taxi\n\n--- Explanation ---\nSame as Q88: test the lift by operating it, not just a visual check.\n\nCorrect answer: B"
   },
   {
     "id": 90,
@@ -977,7 +977,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Ei saa, koska sähkömopoa\n\nWheelchair transport — securing, customer autonomy, and driver assistance rules.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: May a customer over 15 years old travel in a large accessible vehicle sitting in a four-wheeled electric moped (mobility scooter) instead of a wheelchair?\nA: No, because the electric moped is not intended for transporting a customer in a taxi.\nB: Yes, if the electric moped is placed so that the customer travels facing...\nC: Yes, if the driver ensures the customer's electric moped is properly secured to the vehicle.\n\n--- Keywords ---\nEi saa = not allowed\nsähkömopo = electric moped / mobility scooter\npyörätuoli = wheelchair\nesteetön ajoneuvo = accessible vehicle\nkiinnittäminen = securing\n\n--- Explanation ---\nAn electric mobility scooter is not an approved substitute for wheelchair transport in a taxi.\n\nCorrect answer: A"
   },
   {
     "id": 91,
@@ -997,7 +997,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Lapsen tulee istua takapenkillä\n\nNote: answer is must when there is takapenkillä\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the safest way to transport children by taxi?\nA: The child must sit in the front seat in a child safety seat.\nB: The child must sit on the back seat in a child safety seat.\nC: The child must sit on a parent's lap.\n\n--- Keywords ---\nLapsen tulee istua takapenkillä = the child must sit on the back seat\nturvaistuin = child safety seat\nturvallisin = safest\nlapsi = child\n\n--- Explanation ---\nThe safest place for a child is the back seat in a proper child safety seat.\n\nCorrect answer: B"
   },
   {
     "id": 92,
@@ -1017,7 +1017,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Kuljettaja Kiinnittämisestä\n\nChild restraint rules — young/small children need approved safety devices.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A mother with a child under three and her own safety device enters your taxi. Who is responsible for fastening the child appropriately?\nA: The customer's own safety devices may not be used in a taxi.\nB: The driver is responsible for fastening the safety device.\nC: The child's guardian is responsible for fastening the safety device.\n\n--- Keywords ---\nKuljettaja = driver\nturvalaite = safety device\nkiinnittäminen = fastening\nalle kolmevuotias = under three years old\nvastuu = responsibility\n\n--- Explanation ---\nThe taxi driver is responsible for properly securing the child in the safety device.\n\nCorrect answer: B"
   },
   {
     "id": 93,
@@ -1037,7 +1037,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Suosittelemalla etuistuimelle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How can you improve communication with a hearing-impaired passenger?\nA: Not at all.\nB: By recommending the customer sit in the front seat.\nC: By recommending the customer sit on the back seat.\n\n--- Keywords ---\nSuosittelemalla etuistuimelle = by recommending the front seat\nkuulovammainen = hearing-impaired\nkommunikointi = communication\nmatkustaja = passenger\n\n--- Explanation ---\nA hearing-impaired passenger can lip-read more easily from the front seat.\n\nCorrect answer: B"
   },
   {
     "id": 103,

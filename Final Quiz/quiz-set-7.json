@@ -53,7 +53,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nKeyword: Rauhoittelet ystavallisesti\n\nNote: Answer is must when there is Rauhoittelet\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must you act if a customer travelling in your taxi behaves aggressively?\nA: You order them by shouting to behave calmly.\nB: You act as if you do not notice their aggressiveness.\nC: You calm them by speaking to them calmly and kindly.\n\n--- Keywords ---\nRauhoittelet = you calm\nystävällisesti = kindly / friendly\naggressiivisesti = aggressively\nrauhallisesti = calmly\n\n--- Explanation ---\nRespond calmly and kindly. Do not shout or ignore dangerous behaviour.\n\nCorrect answer: C"
       },
       {
         "id": 2,
@@ -93,7 +93,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: pysähtymään = to stop\n\nThe customer wants the taxi to stop somewhere.\n\nSeveral options mention safety, so focus on the main keywords:\nturvallinen = safe\ntoisen = another\n\nThe first option emphasizes safety twice, including a negative condition.\n\nLogic: If the requested stopping place is not safe, the driver should stop at another safe location nearby.\n\nRule: Safety always comes first.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A customer asks you to stop on a busy road so they can get out of the ride. Which of the following statements about the situation is correct?\nA: If the place is not safe for stopping, you find another place, because you are responsible for the customer's safe exit from the vehicle.\nB: Even if the place is not safe for stopping, you may stop because the customer has the right to choose the stopping place.\nC: The customer has an obligation to pay any possible fine if they have...\n\n--- Keywords ---\npysähtymään = to stop\nturvallinen = safe\ntoisen paikan = another place\nvastuullasi = your responsibility\nvilkkaasti liikennöity = busy / heavily trafficked\n\n--- Explanation ---\nThe driver must not stop in an unsafe place. If the requested spot is unsafe, choose a nearby safe location.\n\nCorrect answer: A"
       },
       {
         "id": 4,
@@ -113,7 +113,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nMain keyword: poliisille\nImportant keyword: poliisiasemalle\n\nVery intoxicated customer — contact police or take to nearest police station.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: If a customer is very intoxicated, what do you do?\nA: You call the police or take them to the nearest police station.\nB: You keep them in the car and wait for them to sober up.\nC: You leave them out of the car.\n\n--- Keywords ---\npoliisille = to the police\npoliisiasemalle = police station\nhurmalaassa / humalassa = intoxicated\nerittäin humalassa = very intoxicated\n\n--- Explanation ---\nA severely intoxicated person needs police help or transport to a police station — not abandonment.\n\nCorrect answer: A"
       },
       {
         "id": 5,
@@ -193,7 +193,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nKeyword: Sinun tulee saapuu paikalle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What must you do when escorting a customer home who cannot take care of themselves, and the agreed assistant is not there to receive them?\nA: You must always take the customer back to the departure point\nB: You may leave the customer, for example, with the customer's neighbour.\nC: You must wait with the customer until the assistant arrives.\n\n--- Keywords ---\nSinun tulee odottaa = you must wait\navustaja = assistant\nsaapuu paikalle = arrives on site\nei kykene huolehtimaan itsestään = cannot take care of themselves\n\n--- Explanation ---\nDo not leave a vulnerable customer alone. Wait until the assistant arrives.\n\nCorrect answer: C"
       },
       {
         "id": 9,
@@ -273,7 +273,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: kielletty\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What is the correct way to act when a customer asks you to stop in a place where stopping is prohibited?\nA: The customer can always decide the stopping place.\nB: You cannot stop in a place where stopping is prohibited.\nC: Stopping rules may be deviated from for a justified reason.\n\n--- Keywords ---\nkielletty = prohibited / forbidden\npysähtyminen = stopping\npysähtymispaikka = stopping place\nasiakas = customer\n\n--- Explanation ---\nStopping where it is forbidden is not allowed, even if the customer requests it.\n\nCorrect answer: B"
       },
       {
         "id": 13,
@@ -292,8 +292,8 @@
             "text": "Sinun tulee kieltäytyä kuljettamasta häntä, mikäli hän ei käytä turvavyötä."
           }
         ],
-        "correct": "C",
-        "explanation": "Answer: C\n\nKeyword: Sinun tulee turvavyötä\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+        "correct": "B",
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the best course of action if a passenger refuses to fasten a seat belt citing a health reason?\nA: You must force the customer to use a seat belt.\nB: You must ask them to present a medical certificate regarding the reason.\nC: You must refuse to transport them if they do not use a seat belt.\n\n--- Keywords ---\nlääkäritodistus = medical certificate\nterveydelliseen syyhyn = for a health reason\nturvavyö = seat belt\n\n--- Explanation ---\nIf a passenger claims a health exemption, ask them to present a medical certificate for the reason.\n\nCorrect answer: B"
       },
       {
         "id": 14,
@@ -313,7 +313,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: sinun tulee poistua\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What should the taxi driver take into account when picking up a passenger?\nA: You must get out of the car and help the passenger if necessary.\nB: You must assist the passenger if necessary.\nC: Nothing, because the driver's responsibility does not extend outside the taxi.\n\n--- Keywords ---\nsinun tulee poistua = you must get out\nautosta = from the car\navustaa = to assist\nmatkustaja = passenger\n\n--- Explanation ---\nThe driver should get out of the vehicle and assist the passenger when needed.\n\nCorrect answer: A"
       },
       {
         "id": 15,
@@ -333,7 +333,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: Tilaat\n\nNote: Tilaat is must when it is available\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is the best way to act if a customer cannot use a seat belt because the belts are too short?\nA: You order another taxi in which it is safer to transport the customer.\nB: You let the customer travel without a seat belt.\nC: You extend the seat belt with an extension strap that you must always carry in the car.\n\n--- Keywords ---\nTilaat = you order\nturvavyö = seat belt\njatkopala = extension strap\nliian lyhyet = too short\ntoisen taksin = another taxi\n\n--- Explanation ---\nIf seat belts cannot be used safely, arrange another suitable taxi.\n\nCorrect answer: A"
       }
     ],
     "special_needs": [
@@ -355,7 +355,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: Neuvon palvelunumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer wants a Kela-reimbursed ride, but you do not drive Kela-reimbursed rides. How do you direct the customer?\nA: You take the customer, drive them to the destination, and ask them to apply for...\nB: I advise the customer to call their local dispatch company's service number.\nC: I urge the driver who drives Kela rides to contact the customer.\n\n--- Keywords ---\nNeuvon = I advise\npalvelunumeroon = to the service number\nkelakorvattava kyyti = Kela-reimbursed ride\ntilausvälitysyritys = dispatch company\nohjaat = you direct / guide\n\n--- Explanation ---\nIf you do not provide Kela rides, refer the customer to the local dispatch service number.\n\nCorrect answer: B"
       },
       {
         "id": 17,
@@ -375,7 +375,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nMain keyword: määränpäähän\nMain keyword: Taksinkuljettaja = taxi driver\nImportant keyword: Asiakas = customer\n\nDriver must ensure customer reaches the correct destination. Reject Poikkeuslupaa.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: The customer is a person who cannot communicate with the driver. What is required of the driver?\nA: The taxi driver is required to ensure the customer reaches the correct destination\nB: The taxi driver is required to speak the same language as the customers\nC: The taxi driver is required to have a special permit to carry out the transport\n\n--- Keywords ---\nmääränpäähän = to the destination\nTaksinkuljettaja = taxi driver\nAsiakas = customer\nkommunikoimaan = to communicate\nedellytetään = is required\n\n--- Explanation ---\nEven if communication is difficult, the driver must still get the customer to the correct destination.\n\nCorrect answer: A"
       },
       {
         "id": 18,
@@ -415,7 +415,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nMain keyword: rungosta\nMain keyword: pyörätuoli = wheelchair\n\nNote: answer is must when there is rungosta\n\nWheelchair must be secured from the frame (rungosta).\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following statements about wheelchair use and securing is true?\nA: The wheelchair must be secured from its frame.\nB: A wheelchair intended specifically for indoor use does not need to be secured during the trip,\nC: The customer decides whether the wheelchair is secured.\n\n--- Keywords ---\nrungosta = from the frame\npyörätuoli = wheelchair\nkiinnittää = to secure\najon aikana = during the trip\nasiakas = customer\n\n--- Explanation ---\nA wheelchair must be secured from the frame, not left unsecured or left to the customer's choice alone.\n\nCorrect answer: A"
       },
       {
         "id": 20,
@@ -435,7 +435,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nMain keyword: turvavyö on kiinni\n\nStop and discuss; continue only when the child's seat belt is fastened.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How must you act if a child under 15 traveling without an adult unfastens their seat belt during the trip and refuses to fasten it?\nA: You stop the vehicle and discuss the matter. You continue only when the child's seat belt is fastened.\nB: You stop the vehicle and warn the child that you will remove them from the car unless they fasten it\nC: You let the child travel without a seat belt and inform their guardian.\n\n--- Keywords ---\nturvavyö on kiinni = seat belt is fastened\nalle 15-vuotias = under 15 years old\nPysäytät = you stop\nkeskustelet = you discuss\nirrottaa = unfastens\n\n--- Explanation ---\nStop and talk to the child. Do not continue until the seat belt is properly fastened.\n\nCorrect answer: A"
       },
       {
         "id": 21,
@@ -475,7 +475,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: Pyydät lasta tätä\n\nNote: tätä is the key word\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the safest course of action when dropping off an approximately 10-year-old child travelling alone from the taxi at their apartment building home?\nA: You leave the child at the yard of the apartment building they named and let them go\nB: You ask the child to call their guardian and ask the guardian to come meet the child in the apartment building yard.\nC: You ask some adult in the apartment building yard to make sure the child goes\n\n--- Keywords ---\nPyydät lasta = you ask the child\nhuoltaja = guardian\nyksinään = alone\n10-vuotias = 10 years old\nkerrostalokoti = apartment building home\n\n--- Explanation ---\nHave the child contact their guardian to meet them. Do not leave a young child alone unsupervised.\n\nCorrect answer: B"
       },
       {
         "id": 23,
@@ -515,7 +515,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nKeyword: huolehtii\nMain keyword: Kuljettaja = driver\n\nNote: if there is 3 kuljettaja at beginning then answer is with huolehtii\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the taxi driver act when a physically disabled customer has luggage for the cargo area and also has an assistant?\nA: The driver assists the customer and the assistant's task is to take care of loading and unloading luggage.\nB: The driver waits in the car because the assistant's job is to help the customer into the vehicle and take care of the luggage.\nC: The driver assists the customer into the vehicle and takes care of loading and unloading luggage.\n\n--- Keywords ---\nhuolehtii = takes care of\nKuljettaja = driver\nmatkatavarat = luggage\nliikuntavammainen = physically disabled\navustaja = assistant\n\n--- Explanation ---\nThe driver helps the customer into the vehicle and handles the luggage, even if an assistant is present.\n\nCorrect answer: C"
       },
       {
         "id": 25,
@@ -535,7 +535,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nMain keyword: tulee käyttää turvavyötä\n\nSchool transport requires seat belts. Reject options with ei tarvitse.\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What is required regarding seat belt use in school transport?\nA: Students on the back seat do not need to use seat belts\nB: The driver does not need to use a seat belt\nC: Seat belts must be used in transport\n\n--- Keywords ---\ntulee käyttää turvavyötä = seat belts must be used\nkoulukuljetus = school transport\nturvavyö = seat belt\nei tarvitse = does not need to\n\n--- Explanation ---\nIn school transport, everyone must use seat belts. Options saying 'does not need to' are wrong.\n\nCorrect answer: C"
       },
       {
         "id": 26,
@@ -657,7 +657,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: päättää aiheesta\nMain keyword: Kuljettaja = driver\nImportant keyword: Asiakas = customer\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is good customer service?\nA: The driver greets politely and is ready to talk only about route-related matters\nB: The driver greets politely, assesses whether the customer wants to chat, and lets the customer decide the topic.\nC: Greets politely and starts a conversation on a topic they personally like.\n\n--- Keywords ---\npäättää aiheesta = decides the topic\nKuljettaja = driver\nAsiakas = customer\nkohteliaasti = politely\nasiakaspalvelu = customer service\n\n--- Explanation ---\nGreet politely and let the customer choose whether and what to talk about.\n\nCorrect answer: B"
       },
       {
         "id": 32,
@@ -778,7 +778,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nMain keyword: Puhelun soittaminen = making a phone call\nImportant keyword: välttämätön = necessary\n\nThe question is not about casual conversations.\n\nRule: A driver may make a phone call only when it is necessary (välttämätön) for the task or situation.\n\nNecessary call = allowed.\nUnnecessary conversation = not allowed.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is good customer service related to the use of communication devices?\nA: The driver may send messages if the phone is on silent\nB: Making a phone call if it is necessary to carry out the transport\nC: The driver may make personal phone calls if the customer...\n\n--- Keywords ---\nviestimet = communication devices\nasiakaspalvelu = customer service\nPuhelun soittaminen = making a phone call\nvälttämätön = necessary\nkuljetus = transport / ride\n\n--- Explanation ---\nPhone use while driving is allowed only when necessary for the transport, not for personal conversations.\n\nCorrect answer: B"
       },
       {
         "id": 38,
@@ -798,7 +798,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nMain keyword: 135 cm\nMain keyword: Kuljettaja = driver\n\nChild under 135 cm needs an approved child restraint in taxi.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following three statements about a taxi driver's obligations is correct?\nA: The driver must ensure that a child under 3 sits in the front seat when using a safety device.\nB: The driver must ensure that a child under 135 cm in height always needs an approved safety device when travelling in a taxi.\nC: The driver must ensure that a child over 3 travels without a safety device when sitting in the back seat with seat belts.\n\n--- Keywords ---\n135 cm = 135 centimetres\nKuljettaja = driver\nturvalaite = safety device / child restraint\nalle 3-vuotias = under 3 years old\nhyväksytty = approved\n\n--- Explanation ---\nChildren under 135 cm must use an approved child restraint in a taxi.\n\nCorrect answer: B"
       },
       {
         "id": 39,
@@ -1067,7 +1067,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nKeyword: Rauhoittelet ystavallisesti\n\nNote: Answer is must when there is Rauhoittelet\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must you act if a customer travelling in your taxi behaves aggressively?\nA: You order them by shouting to behave calmly.\nB: You act as if you do not notice their aggressiveness.\nC: You calm them by speaking to them calmly and kindly.\n\n--- Keywords ---\nRauhoittelet = you calm\nystävällisesti = kindly / friendly\naggressiivisesti = aggressively\nrauhallisesti = calmly\n\n--- Explanation ---\nRespond calmly and kindly. Do not shout or ignore dangerous behaviour.\n\nCorrect answer: C",
       "section": "assisting_passengers"
     },
     {
@@ -1109,7 +1109,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: pysähtymään = to stop\n\nThe customer wants the taxi to stop somewhere.\n\nSeveral options mention safety, so focus on the main keywords:\nturvallinen = safe\ntoisen = another\n\nThe first option emphasizes safety twice, including a negative condition.\n\nLogic: If the requested stopping place is not safe, the driver should stop at another safe location nearby.\n\nRule: Safety always comes first.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A customer asks you to stop on a busy road so they can get out of the ride. Which of the following statements about the situation is correct?\nA: If the place is not safe for stopping, you find another place, because you are responsible for the customer's safe exit from the vehicle.\nB: Even if the place is not safe for stopping, you may stop because the customer has the right to choose the stopping place.\nC: The customer has an obligation to pay any possible fine if they have...\n\n--- Keywords ---\npysähtymään = to stop\nturvallinen = safe\ntoisen paikan = another place\nvastuullasi = your responsibility\nvilkkaasti liikennöity = busy / heavily trafficked\n\n--- Explanation ---\nThe driver must not stop in an unsafe place. If the requested spot is unsafe, choose a nearby safe location.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1130,7 +1130,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nMain keyword: poliisille\nImportant keyword: poliisiasemalle\n\nVery intoxicated customer — contact police or take to nearest police station.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: If a customer is very intoxicated, what do you do?\nA: You call the police or take them to the nearest police station.\nB: You keep them in the car and wait for them to sober up.\nC: You leave them out of the car.\n\n--- Keywords ---\npoliisille = to the police\npoliisiasemalle = police station\nhurmalaassa / humalassa = intoxicated\nerittäin humalassa = very intoxicated\n\n--- Explanation ---\nA severely intoxicated person needs police help or transport to a police station — not abandonment.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1214,7 +1214,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nKeyword: Sinun tulee saapuu paikalle\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What must you do when escorting a customer home who cannot take care of themselves, and the agreed assistant is not there to receive them?\nA: You must always take the customer back to the departure point\nB: You may leave the customer, for example, with the customer's neighbour.\nC: You must wait with the customer until the assistant arrives.\n\n--- Keywords ---\nSinun tulee odottaa = you must wait\navustaja = assistant\nsaapuu paikalle = arrives on site\nei kykene huolehtimaan itsestään = cannot take care of themselves\n\n--- Explanation ---\nDo not leave a vulnerable customer alone. Wait until the assistant arrives.\n\nCorrect answer: C",
       "section": "assisting_passengers"
     },
     {
@@ -1298,7 +1298,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: kielletty\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What is the correct way to act when a customer asks you to stop in a place where stopping is prohibited?\nA: The customer can always decide the stopping place.\nB: You cannot stop in a place where stopping is prohibited.\nC: Stopping rules may be deviated from for a justified reason.\n\n--- Keywords ---\nkielletty = prohibited / forbidden\npysähtyminen = stopping\npysähtymispaikka = stopping place\nasiakas = customer\n\n--- Explanation ---\nStopping where it is forbidden is not allowed, even if the customer requests it.\n\nCorrect answer: B",
       "section": "assisting_passengers"
     },
     {
@@ -1318,8 +1318,8 @@
           "text": "Sinun tulee kieltäytyä kuljettamasta häntä, mikäli hän ei käytä turvavyötä."
         }
       ],
-      "correct": "C",
-      "explanation": "Answer: C\n\nKeyword: Sinun tulee turvavyötä\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C",
+      "correct": "B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the best course of action if a passenger refuses to fasten a seat belt citing a health reason?\nA: You must force the customer to use a seat belt.\nB: You must ask them to present a medical certificate regarding the reason.\nC: You must refuse to transport them if they do not use a seat belt.\n\n--- Keywords ---\nlääkäritodistus = medical certificate\nterveydelliseen syyhyn = for a health reason\nturvavyö = seat belt\n\n--- Explanation ---\nIf a passenger claims a health exemption, ask them to present a medical certificate for the reason.\n\nCorrect answer: B",
       "section": "assisting_passengers"
     },
     {
@@ -1340,7 +1340,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: sinun tulee poistua\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What should the taxi driver take into account when picking up a passenger?\nA: You must get out of the car and help the passenger if necessary.\nB: You must assist the passenger if necessary.\nC: Nothing, because the driver's responsibility does not extend outside the taxi.\n\n--- Keywords ---\nsinun tulee poistua = you must get out\nautosta = from the car\navustaa = to assist\nmatkustaja = passenger\n\n--- Explanation ---\nThe driver should get out of the vehicle and assist the passenger when needed.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1361,7 +1361,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: Tilaat\n\nNote: Tilaat is must when it is available\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is the best way to act if a customer cannot use a seat belt because the belts are too short?\nA: You order another taxi in which it is safer to transport the customer.\nB: You let the customer travel without a seat belt.\nC: You extend the seat belt with an extension strap that you must always carry in the car.\n\n--- Keywords ---\nTilaat = you order\nturvavyö = seat belt\njatkopala = extension strap\nliian lyhyet = too short\ntoisen taksin = another taxi\n\n--- Explanation ---\nIf seat belts cannot be used safely, arrange another suitable taxi.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1382,7 +1382,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: Neuvon palvelunumeroon\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer wants a Kela-reimbursed ride, but you do not drive Kela-reimbursed rides. How do you direct the customer?\nA: You take the customer, drive them to the destination, and ask them to apply for...\nB: I advise the customer to call their local dispatch company's service number.\nC: I urge the driver who drives Kela rides to contact the customer.\n\n--- Keywords ---\nNeuvon = I advise\npalvelunumeroon = to the service number\nkelakorvattava kyyti = Kela-reimbursed ride\ntilausvälitysyritys = dispatch company\nohjaat = you direct / guide\n\n--- Explanation ---\nIf you do not provide Kela rides, refer the customer to the local dispatch service number.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1403,7 +1403,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nMain keyword: määränpäähän\nMain keyword: Taksinkuljettaja = taxi driver\nImportant keyword: Asiakas = customer\n\nDriver must ensure customer reaches the correct destination. Reject Poikkeuslupaa.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: The customer is a person who cannot communicate with the driver. What is required of the driver?\nA: The taxi driver is required to ensure the customer reaches the correct destination\nB: The taxi driver is required to speak the same language as the customers\nC: The taxi driver is required to have a special permit to carry out the transport\n\n--- Keywords ---\nmääränpäähän = to the destination\nTaksinkuljettaja = taxi driver\nAsiakas = customer\nkommunikoimaan = to communicate\nedellytetään = is required\n\n--- Explanation ---\nEven if communication is difficult, the driver must still get the customer to the correct destination.\n\nCorrect answer: A",
       "section": "special_needs"
     },
     {
@@ -1445,7 +1445,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nMain keyword: rungosta\nMain keyword: pyörätuoli = wheelchair\n\nNote: answer is must when there is rungosta\n\nWheelchair must be secured from the frame (rungosta).\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following statements about wheelchair use and securing is true?\nA: The wheelchair must be secured from its frame.\nB: A wheelchair intended specifically for indoor use does not need to be secured during the trip,\nC: The customer decides whether the wheelchair is secured.\n\n--- Keywords ---\nrungosta = from the frame\npyörätuoli = wheelchair\nkiinnittää = to secure\najon aikana = during the trip\nasiakas = customer\n\n--- Explanation ---\nA wheelchair must be secured from the frame, not left unsecured or left to the customer's choice alone.\n\nCorrect answer: A",
       "section": "special_needs"
     },
     {
@@ -1466,7 +1466,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nMain keyword: turvavyö on kiinni\n\nStop and discuss; continue only when the child's seat belt is fastened.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How must you act if a child under 15 traveling without an adult unfastens their seat belt during the trip and refuses to fasten it?\nA: You stop the vehicle and discuss the matter. You continue only when the child's seat belt is fastened.\nB: You stop the vehicle and warn the child that you will remove them from the car unless they fasten it\nC: You let the child travel without a seat belt and inform their guardian.\n\n--- Keywords ---\nturvavyö on kiinni = seat belt is fastened\nalle 15-vuotias = under 15 years old\nPysäytät = you stop\nkeskustelet = you discuss\nirrottaa = unfastens\n\n--- Explanation ---\nStop and talk to the child. Do not continue until the seat belt is properly fastened.\n\nCorrect answer: A",
       "section": "special_needs"
     },
     {
@@ -1508,7 +1508,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: Pyydät lasta tätä\n\nNote: tätä is the key word\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is the safest course of action when dropping off an approximately 10-year-old child travelling alone from the taxi at their apartment building home?\nA: You leave the child at the yard of the apartment building they named and let them go\nB: You ask the child to call their guardian and ask the guardian to come meet the child in the apartment building yard.\nC: You ask some adult in the apartment building yard to make sure the child goes\n\n--- Keywords ---\nPyydät lasta = you ask the child\nhuoltaja = guardian\nyksinään = alone\n10-vuotias = 10 years old\nkerrostalokoti = apartment building home\n\n--- Explanation ---\nHave the child contact their guardian to meet them. Do not leave a young child alone unsupervised.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1550,7 +1550,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nKeyword: huolehtii\nMain keyword: Kuljettaja = driver\n\nNote: if there is 3 kuljettaja at beginning then answer is with huolehtii\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the taxi driver act when a physically disabled customer has luggage for the cargo area and also has an assistant?\nA: The driver assists the customer and the assistant's task is to take care of loading and unloading luggage.\nB: The driver waits in the car because the assistant's job is to help the customer into the vehicle and take care of the luggage.\nC: The driver assists the customer into the vehicle and takes care of loading and unloading luggage.\n\n--- Keywords ---\nhuolehtii = takes care of\nKuljettaja = driver\nmatkatavarat = luggage\nliikuntavammainen = physically disabled\navustaja = assistant\n\n--- Explanation ---\nThe driver helps the customer into the vehicle and handles the luggage, even if an assistant is present.\n\nCorrect answer: C",
       "section": "special_needs"
     },
     {
@@ -1571,7 +1571,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nMain keyword: tulee käyttää turvavyötä\n\nSchool transport requires seat belts. Reject options with ei tarvitse.\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What is required regarding seat belt use in school transport?\nA: Students on the back seat do not need to use seat belts\nB: The driver does not need to use a seat belt\nC: Seat belts must be used in transport\n\n--- Keywords ---\ntulee käyttää turvavyötä = seat belts must be used\nkoulukuljetus = school transport\nturvavyö = seat belt\nei tarvitse = does not need to\n\n--- Explanation ---\nIn school transport, everyone must use seat belts. Options saying 'does not need to' are wrong.\n\nCorrect answer: C",
       "section": "special_needs"
     },
     {
@@ -1697,7 +1697,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: päättää aiheesta\nMain keyword: Kuljettaja = driver\nImportant keyword: Asiakas = customer\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is good customer service?\nA: The driver greets politely and is ready to talk only about route-related matters\nB: The driver greets politely, assesses whether the customer wants to chat, and lets the customer decide the topic.\nC: Greets politely and starts a conversation on a topic they personally like.\n\n--- Keywords ---\npäättää aiheesta = decides the topic\nKuljettaja = driver\nAsiakas = customer\nkohteliaasti = politely\nasiakaspalvelu = customer service\n\n--- Explanation ---\nGreet politely and let the customer choose whether and what to talk about.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {
@@ -1824,7 +1824,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nMain keyword: Puhelun soittaminen = making a phone call\nImportant keyword: välttämätön = necessary\n\nThe question is not about casual conversations.\n\nRule: A driver may make a phone call only when it is necessary (välttämätön) for the task or situation.\n\nNecessary call = allowed.\nUnnecessary conversation = not allowed.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is good customer service related to the use of communication devices?\nA: The driver may send messages if the phone is on silent\nB: Making a phone call if it is necessary to carry out the transport\nC: The driver may make personal phone calls if the customer...\n\n--- Keywords ---\nviestimet = communication devices\nasiakaspalvelu = customer service\nPuhelun soittaminen = making a phone call\nvälttämätön = necessary\nkuljetus = transport / ride\n\n--- Explanation ---\nPhone use while driving is allowed only when necessary for the transport, not for personal conversations.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {
@@ -1845,7 +1845,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nMain keyword: 135 cm\nMain keyword: Kuljettaja = driver\n\nChild under 135 cm needs an approved child restraint in taxi.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following three statements about a taxi driver's obligations is correct?\nA: The driver must ensure that a child under 3 sits in the front seat when using a safety device.\nB: The driver must ensure that a child under 135 cm in height always needs an approved safety device when travelling in a taxi.\nC: The driver must ensure that a child over 3 travels without a safety device when sitting in the back seat with seat belts.\n\n--- Keywords ---\n135 cm = 135 centimetres\nKuljettaja = driver\nturvalaite = safety device / child restraint\nalle 3-vuotias = under 3 years old\nhyväksytty = approved\n\n--- Explanation ---\nChildren under 135 cm must use an approved child restraint in a taxi.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {

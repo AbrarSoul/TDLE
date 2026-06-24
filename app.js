@@ -1039,11 +1039,14 @@
       '<div class="options" role="radiogroup" aria-label="Answer options for question ' + q.id + '"></div>' +
       '<div class="explanation-area hidden">' +
       '<button class="btn btn-explanation-toggle" type="button" aria-expanded="false">' +
-      '<span class="explanation-toggle-icon" aria-hidden="true">💡</span> Show explanation' +
+      '<span class="explanation-toggle-icon" aria-hidden="true"></span> Show explanation' +
       '</button>' +
       '<div class="explanation-box hidden">' +
-      '<div class="explanation-header"><strong class="explanation-title">Explanation</strong></div>' +
-      '<p class="explanation-text"></p>' +
+      '<div class="explanation-header">' +
+      '<strong class="explanation-title">Explanation</strong>' +
+      '<span class="explanation-answer-badge hidden" aria-label="Correct answer"></span>' +
+      '</div>' +
+      '<div class="explanation-content"></div>' +
       '</div>' +
       '</div>';
 
@@ -1217,14 +1220,18 @@
     const explanationArea = card.querySelector('.explanation-area');
     const explanationToggle = card.querySelector('.btn-explanation-toggle');
     const explanationBox = card.querySelector('.explanation-box');
-    const explanationText = card.querySelector('.explanation-text');
+    const explanationContent = card.querySelector('.explanation-content');
     const explanationTitle = card.querySelector('.explanation-title');
+    const explanationBadge = card.querySelector('.explanation-answer-badge');
 
     explanationArea.classList.remove('hidden');
     explanationArea.classList.remove('explanation-correct', 'explanation-incorrect');
     explanationArea.classList.add(isCorrect ? 'explanation-correct' : 'explanation-incorrect');
-    explanationTitle.textContent = isCorrect ? 'Correct — Explanation' : 'Explanation';
-    explanationText.innerHTML = formatExplanation(q.explanation);
+    explanationTitle.textContent = isCorrect ? 'Correct answer' : 'Learn more';
+    explanationBadge.textContent = q.correct;
+    explanationBadge.classList.remove('hidden');
+    explanationBadge.setAttribute('aria-label', 'Correct answer: ' + q.correct);
+    explanationContent.innerHTML = formatExplanation(q.explanation, q.correct);
     collapseExplanation(card);
 
     explanationToggle.onclick = () => toggleExplanation(card);
@@ -1236,7 +1243,7 @@
     explanationBox.classList.add('hidden');
     explanationToggle.setAttribute('aria-expanded', 'false');
     explanationToggle.innerHTML =
-      '<span class="explanation-toggle-icon" aria-hidden="true">💡</span> Show explanation';
+      '<span class="explanation-toggle-icon" aria-hidden="true"></span> Show explanation';
   }
 
   function toggleExplanation(card) {
@@ -1250,7 +1257,7 @@
       explanationBox.classList.remove('hidden');
       explanationToggle.setAttribute('aria-expanded', 'true');
       explanationToggle.innerHTML =
-        '<span class="explanation-toggle-icon" aria-hidden="true">💡</span> Hide explanation';
+        '<span class="explanation-toggle-icon" aria-hidden="true"></span> Hide explanation';
     }
   }
 
@@ -1589,9 +1596,178 @@
       .join('<br>');
   }
 
+  function isMetaExplanationLine(line) {
+    return /^(Answer|Correct answer)\s*:/i.test(line.trim());
+  }
+
+  function parseExplanationSections(text) {
+    const sections = [];
+    let current = null;
+
+    text.split('\n').forEach(function (line) {
+      const sectionMatch = line.trim().match(/^---\s*(.+?)\s*---$/);
+      if (sectionMatch) {
+        if (current) sections.push(current);
+        current = { title: sectionMatch[1], lines: [] };
+        return;
+      }
+      if (!current || !line.trim() || isMetaExplanationLine(line)) return;
+      current.lines.push(line.trim());
+    });
+
+    if (current) sections.push(current);
+    return sections;
+  }
+
+  function renderTranslationSection(lines, correctLetter) {
+    let questionHtml = '';
+    const options = [];
+
+    lines.forEach(function (line) {
+      const questionMatch = line.match(/^Question:\s*(.+)$/i);
+      const optionMatch = line.match(/^([ABC]):\s*(.+)$/i);
+      if (questionMatch) {
+        questionHtml =
+          '<p class="explanation-question">' + escapeHtml(questionMatch[1]) + '</p>';
+      } else if (optionMatch) {
+        options.push({
+          letter: optionMatch[1].toUpperCase(),
+          text: optionMatch[2],
+        });
+      }
+    });
+
+    let optionsHtml = '';
+    if (options.length) {
+      optionsHtml =
+        '<ul class="explanation-options">' +
+        options
+          .map(function (opt) {
+            const isCorrect = correctLetter && opt.letter === correctLetter;
+            return (
+              '<li class="explanation-option' +
+              (isCorrect ? ' is-correct' : '') +
+              '">' +
+              '<span class="explanation-option-letter">' +
+              escapeHtml(opt.letter) +
+              '</span>' +
+              '<span class="explanation-option-text">' +
+              escapeHtml(opt.text) +
+              '</span>' +
+              (isCorrect ? '<span class="explanation-option-tag">Correct</span>' : '') +
+              '</li>'
+            );
+          })
+          .join('') +
+        '</ul>';
+    }
+
+    return questionHtml + optionsHtml;
+  }
+
+  function renderKeywordsSection(lines) {
+    const items = lines
+      .map(function (line) {
+        const eqIndex = line.indexOf('=');
+        if (eqIndex === -1) return null;
+        return {
+          term: line.slice(0, eqIndex).trim(),
+          definition: line.slice(eqIndex + 1).trim(),
+        };
+      })
+      .filter(Boolean);
+
+    if (!items.length) {
+      return '<p class="explanation-plain">' + escapeHtml(lines.join(' ')) + '</p>';
+    }
+
+    return (
+      '<dl class="explanation-keywords">' +
+      items
+        .map(function (item) {
+          return (
+            '<div class="explanation-keyword">' +
+            '<dt class="explanation-keyword-term">' +
+            escapeHtml(item.term) +
+            '</dt>' +
+            '<dd class="explanation-keyword-def">' +
+            escapeHtml(item.definition) +
+            '</dd>' +
+            '</div>'
+          );
+        })
+        .join('') +
+      '</dl>'
+    );
+  }
+
+  function renderExplanationSection(lines) {
+    const body = lines.join('\n').trim();
+    if (!body) return '';
+    return '<p class="explanation-summary">' + escapeHtml(body) + '</p>';
+  }
+
+  function sectionIconClass(title) {
+    const normalized = title.toLowerCase();
+    if (normalized.indexOf('translation') !== -1) return 'icon-translation';
+    if (normalized.indexOf('keyword') !== -1) return 'icon-keywords';
+    if (normalized.indexOf('explanation') !== -1) return 'icon-summary';
+    return 'icon-default';
+  }
+
+  function renderExplanationSectionBlock(section, correctLetter) {
+    const title = section.title;
+    const normalized = title.toLowerCase();
+    let bodyHtml = '';
+
+    if (normalized.indexOf('translation') !== -1) {
+      bodyHtml = renderTranslationSection(section.lines, correctLetter);
+    } else if (normalized.indexOf('keyword') !== -1) {
+      bodyHtml = renderKeywordsSection(section.lines);
+    } else if (normalized.indexOf('explanation') !== -1) {
+      bodyHtml = renderExplanationSection(section.lines);
+    } else {
+      bodyHtml =
+        '<p class="explanation-plain">' + escapeHtml(section.lines.join('\n')) + '</p>';
+    }
+
+    if (!bodyHtml) return '';
+
+    return (
+      '<section class="explanation-section">' +
+      '<header class="explanation-section-header">' +
+      '<span class="explanation-section-icon ' +
+      sectionIconClass(title) +
+      '" aria-hidden="true"></span>' +
+      '<h4 class="explanation-section-title">' +
+      escapeHtml(title) +
+      '</h4>' +
+      '</header>' +
+      '<div class="explanation-section-body">' +
+      bodyHtml +
+      '</div>' +
+      '</section>'
+    );
+  }
+
+  function formatExplanationStructured(text, correctLetter) {
+    const sections = parseExplanationSections(text);
+    if (!sections.length) return null;
+
+    return (
+      '<div class="explanation-panels">' +
+      sections.map(function (section) {
+        return renderExplanationSectionBlock(section, correctLetter);
+      }).join('') +
+      '</div>'
+    );
+  }
+
   function isBoldExplanationLine(line) {
     const trimmed = line.trim();
     if (/^(Answer|Correct answer)\s*:/i.test(trimmed)) return true;
+    if (/^--- .+ ---$/.test(trimmed)) return true;
+    if (/^(Question|[ABC])\s*:/i.test(trimmed)) return true;
     if (/^(Keyword|Main keyword|Important keyword|Secondary Keyword)\s*:/i.test(trimmed)) {
       return true;
     }
@@ -1601,17 +1777,34 @@
     return false;
   }
 
-  function formatExplanation(text) {
-    return text
-      .split('\n')
-      .map(function (line) {
-        if (isBoldExplanationLine(line)) {
-          return '<strong>' + escapeHtml(line) + '</strong>';
-        }
-        const escaped = escapeHtml(line);
-        return escaped.replace(/&quot;([^&]+)&quot;/g, '<strong>&quot;$1&quot;</strong>');
-      })
-      .join('\n');
+  function formatExplanationPlain(text) {
+    return (
+      '<div class="explanation-plain-block">' +
+      text
+        .split('\n')
+        .map(function (line) {
+          if (isMetaExplanationLine(line)) return '';
+          if (isBoldExplanationLine(line)) {
+            return '<p class="explanation-plain-line"><strong>' + escapeHtml(line) + '</strong></p>';
+          }
+          if (!line.trim()) return '';
+          const escaped = escapeHtml(line);
+          return (
+            '<p class="explanation-plain-line">' +
+            escaped.replace(/&quot;([^&]+)&quot;/g, '<strong>&quot;$1&quot;</strong>') +
+            '</p>'
+          );
+        })
+        .join('') +
+      '</div>'
+    );
+  }
+
+  function formatExplanation(text, correctLetter) {
+    if (!text) return '';
+    const structured = formatExplanationStructured(text, correctLetter);
+    if (structured) return structured;
+    return formatExplanationPlain(text);
   }
 
   init();
