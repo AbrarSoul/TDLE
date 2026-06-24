@@ -4897,8 +4897,8 @@ window.EXAM_SETS_DATA = [
               "text": "Kalle voi lopettaa työnsä, sitten kun Ismo löytää itselleen uuden kuljettajan"
             }
           ],
-          "correct": "B",
-          "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle drove for employer Ismo for four years while studying. Now he is moving and ending the employment. What is Kalle's notice period?\nA: 14 days, because employment lasted under five years.\nB: 1 month, because employment was over one year but under five years.\nC: Kalle may quit when Ismo finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\ntyösuhde = employment\nalle viisi vuotta = under five years\n\n--- Explanation ---\nAfter over one year but under five years of employment, the notice period is one month.\n\nCorrect answer: B"
+          "correct": "A",
+          "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Kalle drove for employer Ismo for four years while studying. Now he is moving and ending the employment. What is Kalle's notice period?\nA: 14 days, because employment lasted under five years.\nB: 1 month, because employment was over one year but under five years.\nC: Kalle may quit when Ismo finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n14 päivää = 14 days\ntyösuhde = employment\nalle viisi vuotta = under five years\nneljä vuotta = four years\n\n--- Explanation ---\nKalle's employment has lasted four years, which is under five years. For a taxi driver, the notice period when employment has lasted less than five years is 14 days. An employee cannot wait until the employer finds a replacement before ending the employment.\n\nCorrect answer: A"
         },
         {
           "id": 34,
@@ -5936,8 +5936,8 @@ window.EXAM_SETS_DATA = [
             "text": "Kalle voi lopettaa työnsä, sitten kun Ismo löytää itselleen uuden kuljettajan"
           }
         ],
-        "correct": "B",
-        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle drove for employer Ismo for four years while studying. Now he is moving and ending the employment. What is Kalle's notice period?\nA: 14 days, because employment lasted under five years.\nB: 1 month, because employment was over one year but under five years.\nC: Kalle may quit when Ismo finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\ntyösuhde = employment\nalle viisi vuotta = under five years\n\n--- Explanation ---\nAfter over one year but under five years of employment, the notice period is one month.\n\nCorrect answer: B",
+        "correct": "A",
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Kalle drove for employer Ismo for four years while studying. Now he is moving and ending the employment. What is Kalle's notice period?\nA: 14 days, because employment lasted under five years.\nB: 1 month, because employment was over one year but under five years.\nC: Kalle may quit when Ismo finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n14 päivää = 14 days\ntyösuhde = employment\nalle viisi vuotta = under five years\nneljä vuotta = four years\n\n--- Explanation ---\nKalle's employment has lasted four years, which is under five years. For a taxi driver, the notice period when employment has lasted less than five years is 14 days. An employee cannot wait until the employer finds a replacement before ending the employment.\n\nCorrect answer: A",
         "section": "customer_service"
       },
       {
@@ -9384,8 +9384,8 @@ window.EXAM_SETS_DATA = [
               "text": "Kunnes työnantaja löytää uuden kuljettajan"
             }
           ],
-          "correct": "B",
-          "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\nalle 5 vuotta = under 5 years\ntyösuhde = employment\n\n--- Explanation ---\nAfter over one year but under five years, the notice period is one month.\n\nCorrect answer: B"
+          "correct": "A",
+          "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n14 päivää = 14 days\nalle 5 vuotta = under 5 years\ntyösuhde = employment\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nFor a taxi driver, the notice period is 14 days when employment has lasted less than five years. Since Kalle's employment is under five years, his notice period is 14 days—not one month (which applies after five years) and not tied to finding a replacement driver.\n\nCorrect answer: A"
         },
         {
           "id": 48,
@@ -10435,8 +10435,8 @@ window.EXAM_SETS_DATA = [
             "text": "Kunnes työnantaja löytää uuden kuljettajan"
           }
         ],
-        "correct": "B",
-        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\nalle 5 vuotta = under 5 years\ntyösuhde = employment\n\n--- Explanation ---\nAfter over one year but under five years, the notice period is one month.\n\nCorrect answer: B",
+        "correct": "A",
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n14 päivää = 14 days\nalle 5 vuotta = under 5 years\ntyösuhde = employment\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nFor a taxi driver, the notice period is 14 days when employment has lasted less than five years. Since Kalle's employment is under five years, his notice period is 14 days—not one month (which applies after five years) and not tied to finding a replacement driver.\n\nCorrect answer: A",
         "section": "traffic_safety"
       },
       {
@@ -15152,7 +15152,7 @@ window.EXAM_SETS_DATA = [
             }
           ],
           "correct": "C",
-          "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should you primarily act if a pupil on school transport does not fasten their seat belt despite your request?\nA: You must refuse to transport the pupil and remove them from the car.\nB: You must let them travel without a seat belt and contact the school or parents afterwards.\nC: You must talk with the pupil and only start driving once they have fastened their seat belt.\n\n--- Keywords ---\nkoulukuljetus = school transport\noppilas = pupil / student\nturvavyö = seat belt\nkehotus = request / urging\nensisijaisesti = primarily\nkiinnittää = to fasten\n\n--- Explanation ---\nIf a pupil does not fasten their seat belt despite being asked, you should discuss the matter with them and only begin driving once the belt is fastened — you must not drive without it or remove the pupil from the vehicle as the first step.\n\nCorrect answer: C"
+          "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should you primarily act if a pupil on school transport does not fasten their seat belt despite your request?\nA: You must refuse to transport the pupil and remove them from the car.\nB: You must let them travel without a seat belt and contact the school or parents afterwards.\nC: You must talk with the pupil and only start driving once they have fastened their seat belt.\n\n--- Keywords ---\nkoulukuljetus = school transport\noppilas = pupil / student\nturvavyö = seat belt\nkehotus = request / urging\nensisijaisesti = primarily\nkiinnittää = to fasten\n\n--- Explanation ---\nDiscuss with the pupil and only start driving once the seat belt is fastened.\n\nCorrect answer: C"
         },
         {
           "id": 21,
@@ -16179,7 +16179,7 @@ window.EXAM_SETS_DATA = [
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should you primarily act if a pupil on school transport does not fasten their seat belt despite your request?\nA: You must refuse to transport the pupil and remove them from the car.\nB: You must let them travel without a seat belt and contact the school or parents afterwards.\nC: You must talk with the pupil and only start driving once they have fastened their seat belt.\n\n--- Keywords ---\nkoulukuljetus = school transport\noppilas = pupil / student\nturvavyö = seat belt\nkehotus = request / urging\nensisijaisesti = primarily\nkiinnittää = to fasten\n\n--- Explanation ---\nIf a pupil does not fasten their seat belt despite being asked, you should discuss the matter with them and only begin driving once the belt is fastened — you must not drive without it or remove the pupil from the vehicle as the first step.\n\nCorrect answer: C",
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should you primarily act if a pupil on school transport does not fasten their seat belt despite your request?\nA: You must refuse to transport the pupil and remove them from the car.\nB: You must let them travel without a seat belt and contact the school or parents afterwards.\nC: You must talk with the pupil and only start driving once they have fastened their seat belt.\n\n--- Keywords ---\nkoulukuljetus = school transport\noppilas = pupil / student\nturvavyö = seat belt\nkehotus = request / urging\nensisijaisesti = primarily\nkiinnittää = to fasten\n\n--- Explanation ---\nDiscuss with the pupil and only start driving once the seat belt is fastened.\n\nCorrect answer: C",
         "section": "special_needs"
       },
       {

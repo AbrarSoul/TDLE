@@ -979,8 +979,8 @@
             "text": "Kunnes työnantaja löytää uuden kuljettajan"
           }
         ],
-        "correct": "B",
-        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\nalle 5 vuotta = under 5 years\ntyösuhde = employment\n\n--- Explanation ---\nAfter over one year but under five years, the notice period is one month.\n\nCorrect answer: B"
+        "correct": "A",
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n14 päivää = 14 days\nalle 5 vuotta = under 5 years\ntyösuhde = employment\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nFor a taxi driver, the notice period is 14 days when employment has lasted less than five years. Since Kalle's employment is under five years, his notice period is 14 days—not one month (which applies after five years) and not tied to finding a replacement driver.\n\nCorrect answer: A"
       },
       {
         "id": 48,
@@ -2030,8 +2030,8 @@
           "text": "Kunnes työnantaja löytää uuden kuljettajan"
         }
       ],
-      "correct": "B",
-      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\nalle 5 vuotta = under 5 years\ntyösuhde = employment\n\n--- Explanation ---\nAfter over one year but under five years, the notice period is one month.\n\nCorrect answer: B",
+      "correct": "A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n14 päivää = 14 days\nalle 5 vuotta = under 5 years\ntyösuhde = employment\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nFor a taxi driver, the notice period is 14 days when employment has lasted less than five years. Since Kalle's employment is under five years, his notice period is 14 days—not one month (which applies after five years) and not tied to finding a replacement driver.\n\nCorrect answer: A",
       "section": "traffic_safety"
     },
     {

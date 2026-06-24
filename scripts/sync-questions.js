@@ -91,6 +91,14 @@ function shouldReplaceExplanation(local, source) {
     return true;
   }
 
+  if (
+    hasStructuredExplanation(source.explanation) &&
+    hasStructuredExplanation(local.explanation) &&
+    local.explanation !== source.explanation
+  ) {
+    return true;
+  }
+
   return false;
 }
 

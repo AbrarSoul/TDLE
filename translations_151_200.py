@@ -595,11 +595,12 @@ TRANSLATIONS_151_200 = {
         },
         "keywords": [
             "irtisanomisaika = notice period",
-            "1 kuukausi = 1 month",
+            "14 päivää = 14 days",
             "työsuhde = employment",
             "alle viisi vuotta = under five years",
+            "neljä vuotta = four years",
         ],
-        "simple": "After over one year but under five years of employment, the notice period is one month.",
+        "simple": "Kalle's employment has lasted four years, which is under five years. For a taxi driver, the notice period when employment has lasted less than five years is 14 days.",
     },
     189: {
         "question": "When must a taxi have an alcohol interlock?",

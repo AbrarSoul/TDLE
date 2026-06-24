@@ -342,9 +342,10 @@
   const examQuestionArea = $('examQuestionArea');
   const examQuizProgress = $('examQuizProgress');
   const examTimer = $('examTimer');
+  const examQuizNav = $('examQuizNav');
   const examPrevBtn = $('examPrevBtn');
   const examNextBtn = $('examNextBtn');
-  const examQuestionMap = $('examQuestionMap');
+  const examQuestionNumbers = $('examQuestionNumbers');
   const examPassBadge = $('examPassBadge');
   const examSectionBreakdown = $('examSectionBreakdown');
   const imageLightbox = $('imageLightbox');
@@ -738,21 +739,7 @@
     $('restartBtn').addEventListener('click', onResultsPrimaryAction);
     $('backToIntroBtn').addEventListener('click', showIntro);
     finishBtn.addEventListener('click', showResults);
-    examPrevBtn.addEventListener('click', function () {
-      goToExamQuestion(examQuestionIndex - 1);
-    });
-    examNextBtn.addEventListener('click', function () {
-      const q = activeQuestions[examQuestionIndex];
-      const isLast = examQuestionIndex >= activeQuestions.length - 1;
-
-      if (isLast && q && answered[q.id]) {
-        showResults();
-        return;
-      }
-
-      if (!q || !answered[q.id]) return;
-      goToExamQuestion(examQuestionIndex + 1);
-    });
+    examQuizNav.addEventListener('click', onExamQuizNavClick);
     questionSearch.addEventListener('input', onSearchInput);
     clearSearchBtn.addEventListener('click', clearSearch);
     keywordSearch.addEventListener('input', onKeywordSearchInput);
@@ -1128,6 +1115,30 @@
     renderExamQuestion();
   }
 
+  function onExamQuizNavClick(event) {
+    const actionBtn = event.target.closest('[data-nav-action]');
+    if (!actionBtn || actionBtn.disabled) return;
+
+    const action = actionBtn.dataset.navAction;
+    if (action === 'prev') {
+      goToExamQuestion(examQuestionIndex - 1);
+      return;
+    }
+
+    if (action === 'next') {
+      const q = activeQuestions[examQuestionIndex];
+      const isLast = examQuestionIndex >= activeQuestions.length - 1;
+
+      if (isLast && q && answered[q.id]) {
+        showResults();
+        return;
+      }
+
+      if (!q || !answered[q.id]) return;
+      goToExamQuestion(examQuestionIndex + 1);
+    }
+  }
+
   function updateExamNavButtons() {
     const total = activeQuestions.length;
     const q = activeQuestions[examQuestionIndex];
@@ -1137,10 +1148,10 @@
     examPrevBtn.disabled = examQuestionIndex === 0;
 
     if (isLast && currentAnswered) {
-      examNextBtn.textContent = 'Esittää ›';
+      examNextBtn.textContent = 'Esittää';
       examNextBtn.disabled = false;
     } else {
-      examNextBtn.textContent = 'Seuraava ›';
+      examNextBtn.textContent = 'Seuraava';
       examNextBtn.disabled = !currentAnswered;
     }
   }
@@ -1148,8 +1159,9 @@
   function renderExamQuestionNav() {
     const maxAccessible = getExamAccessibleMaxIndex();
 
-    examQuestionMap.innerHTML = '';
-    activeQuestions.forEach(function (q, i) {
+    examQuestionNumbers.innerHTML = '';
+
+    activeQuestions.forEach(function (question, i) {
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'exam-quiz-nav-box';
@@ -1170,12 +1182,12 @@
         });
       }
 
-      examQuestionMap.appendChild(btn);
+      examQuestionNumbers.appendChild(btn);
     });
 
     updateExamNavButtons();
 
-    const current = examQuestionMap.querySelector('.is-current');
+    const current = examQuestionNumbers.querySelector('.is-current');
     if (current) {
       current.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
     }

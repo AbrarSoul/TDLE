@@ -520,11 +520,12 @@ TRANSLATIONS_251_300 = {
         },
         "keywords": [
             "irtisanomisaika = notice period",
-            "1 kuukausi = 1 month",
+            "14 päivää = 14 days",
             "alle 5 vuotta = under 5 years",
             "työsuhde = employment",
+            "taksinkuljettaja = taxi driver",
         ],
-        "simple": "After over one year but under five years, the notice period is one month.",
+        "simple": "For a taxi driver, the notice period is 14 days when employment has lasted less than five years.",
     },
     285: {
         "question": "Which of the following statements is correct?",

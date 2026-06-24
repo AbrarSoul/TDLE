@@ -236,9 +236,27 @@
       </main>
       <footer class="exam-overlay-footer">
         <nav class="exam-quiz-nav" id="examQuizNav" aria-label="Exam question navigation">
-          <button class="exam-quiz-nav-btn" id="examPrevBtn" type="button" disabled>‹ Edellinen</button>
-          <div class="exam-quiz-nav-map" id="examQuestionMap"></div>
-          <button class="exam-quiz-nav-btn exam-quiz-nav-btn-next" id="examNextBtn" type="button" disabled>Seuraava ›</button>
+          <div class="exam-quiz-nav-strip">
+            <button
+              type="button"
+              class="exam-quiz-nav-box exam-quiz-nav-box-action exam-quiz-nav-box-prev"
+              id="examPrevBtn"
+              data-nav-action="prev"
+              disabled
+            >
+              Edellinen
+            </button>
+            <div class="exam-quiz-nav-numbers" id="examQuestionNumbers"></div>
+            <button
+              type="button"
+              class="exam-quiz-nav-box exam-quiz-nav-box-action exam-quiz-nav-box-next"
+              id="examNextBtn"
+              data-nav-action="next"
+              disabled
+            >
+              Seuraava
+            </button>
+          </div>
         </nav>
       </footer>
     </div>
