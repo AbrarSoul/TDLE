@@ -297,7 +297,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Kuljettajan tulee reitti\n\nNote: answer is the option end with reitti always\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How must the driver choose the route to the destination if the passenger leaves the choice to the driver and the fare is based on trip length or time?\nA: The driver does not need to choose a route, because the customer must know the route.\nB: The driver must choose the most advantageous appropriate route for the passenger.\nC: The driver may choose any route they want.\n\n--- Keywords ---\nKuljettajan tulee = the driver must\nreitti = route\ntarkoituksenmukainen = appropriate / sensible\nedullisin = most advantageous\nmatkan pituus = trip length\n\n--- Explanation ---\nWhen fare depends on distance or time, the driver must choose the most suitable economical route for the passenger.\n\nCorrect answer: B"
   },
   {
     "id": 111,
@@ -317,7 +317,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Kerrot asiakkaalle\nMain keyword: Valitettavasti = unfortunately\n\nNote: Kerrot asiakkaalle is always anwer where it is avialable\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer boards at a taxi stand and gives an address unfamiliar to you. How do you act?\nA: You enter the address in the navigator and follow its directions.\nB: You tell the customer the address is unfortunately unfamiliar and ask for more details about it.\nC: You start driving in the direction where you suspect the address is.\n\n--- Keywords ---\nKerrot asiakkaalle = you tell the customer\nValitettavasti = unfortunately\ntiedustelet = you inquire / ask\nnavigaattori = navigator\nosoite = address\n\n--- Explanation ---\nBe honest if you do not know the address and ask the customer for more information.\n\nCorrect answer: B"
   },
   {
     "id": 112,
@@ -337,7 +337,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: määränpäähänsä\nMain keyword: Kuljettaja = driver\nImportant keyword: Asiakas = customer\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What does the required sufficient language skill for a taxi driver mean?\nA: It means the driver must have passed the citizenship language test.\nB: It means the driver can communicate with the customer so that the customer reaches the correct destination safely.\nC: It means the driver can chat fluently with the customer about daily events.\n\n--- Keywords ---\nmääränpäähänsä = their destination\nKuljettaja = driver\nkielitaito = language skill\nkommunikoimaan = to communicate\nturvallisesti = safely\n\n--- Explanation ---\nLanguage skill means enough communication to get the customer safely to the right destination.\n\nCorrect answer: B"
   },
   {
     "id": 115,
@@ -357,7 +357,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Kerrot asiakkaalle reittia\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A hurried CEO from a large company jumps into your taxi and shouts that they are in a terrible hurry — an important meeting starts in 15 minutes. It is afternoon rush hour and the trip is too long to make it in time. You explain this; the customer demands speeding and offers to pay any fines. How do you act?\nA: You say the deal sounds fair and drive toward the destination as fast as possible.\nB: You tell the customer you cannot speed, but you do your best to get them there safely via the fastest possible route.\nC: You tell the customer you cannot take them at all and call the police because they incited you to commit a crime.\n\n--- Keywords ---\nKerrot asiakkaalle = you tell the customer\nylinopeus = speeding\nreittiä = route\nturvallisesti = safely\nkiire = hurry\n\n--- Explanation ---\nNever speed for a customer. Drive the fastest legal route and explain you cannot exceed limits.\n\nCorrect answer: B"
   },
   {
     "id": 123,
@@ -377,7 +377,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Annan asiakkaan olla rauhassa kyydissä ja ainoastaan pyydän...\n\nProcedure question — choose the safest and most responsible action.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What do you do when a customer boards and says they do not want to talk?\nA: The driver must show the customer they have poor interaction and...\nB: The driver tries to converse throughout the trip because the taxi driver maintains the conversation.\nC: I let the customer be at peace during the ride and only ask route-related...\n\n--- Keywords ---\nAnnan asiakkaan olla rauhassa = I let the customer be at peace\nkeskustella = to talk / converse\nreittiin liittyviä = related to the route\nasiakas = customer\n\n--- Explanation ---\nRespect the customer's wish for quiet. Only ask what is needed for the route.\n\nCorrect answer: C"
   },
   {
     "id": 127,
@@ -397,7 +397,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Asiakkaalla on matkansa käteisellä ja yleisimmillä maksukorteilla\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: With which payment methods may a customer pay for a taxi trip if they come from a taxi stand without a prior booking?\nA: It is the driver's task to decide the payment method.\nB: The customer has the right to pay with cash and the most common payment cards.\nC: The customer may pay only with cash.\n\n--- Keywords ---\nkäteisellä = with cash\nmaksukortit = payment cards\nmaksuväline = payment method\ntaksiasema = taxi stand\noikeus = right\n\n--- Explanation ---\nCustomers may pay with cash and common payment cards — not cash only.\n\nCorrect answer: B"
   },
   {
     "id": 131,
@@ -417,7 +417,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Kerrot asiakkaalle tasalla\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What can you do as a taxi driver when a passenger is in a hurry and traffic is congested?\nA: I do not care, because I cannot do anything about it.\nB: You tell the customer the situation and keep them informed.\nC: You drive over the speed limit if the customer pays the fines.\n\n--- Keywords ---\nKerrot asiakkaalle = you tell the customer\najan tasalla = informed / up to date\nruuhka = congestion / rush\nkiire = hurry\n\n--- Explanation ---\nKeep the customer informed about delays. Never speed even if they are in a hurry.\n\nCorrect answer: B"
   },
   {
     "id": 132,
@@ -437,7 +437,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: A\n\nKeyword: 65,00 €\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: A customer is taken on Sunday for 25 km and the trip takes 30 minutes. What price do you charge?\nA: 65.00 €\nB: 85.00 €\nC: 75.00 €\n\n--- Keywords ---\nsunnuntai = Sunday\n25 km = 25 kilometres\n30 min = 30 minutes\nhinta = price\n75,00 € = 75 euros\n\n--- Explanation ---\nUse the fare table in the image: for Sunday, 25 km and 30 minutes, the correct fare is 75.00 €.\n\nCorrect answer: C",
     "image": "Image/image13.png"
   },
   {
@@ -458,7 +458,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: ei saa\n\nNote: always same\n\nPhone use — only when välttämätön and with handsfree while driving.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: May a taxi driver use a phone during driving while holding it in hand?\nA: Yes\nB: No\nC: Yes, if there is no customer in the taxi.\n\n--- Keywords ---\nei saa = not allowed\npuhelin = phone\nkädessä = in hand\najon aikana = during driving\n\n--- Explanation ---\nHolding a phone while driving is not allowed, even without a passenger.\n\nCorrect answer: B"
   },
   {
     "id": 141,
@@ -478,7 +478,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: pakollista\n\nReceipt is mandatory (pakollista), not voluntary (vapaaehtoista).\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding taxi service?\nA: Offering a receipt to the customer is a paid extra service.\nB: Offering a receipt to the customer is voluntary.\nC: Offering a receipt to the customer is mandatory.\n\n--- Keywords ---\npakollista = mandatory\nkuitti = receipt\nvapaaehtoista = voluntary\ntaksipalvelu = taxi service\n\n--- Explanation ---\nProviding a receipt is mandatory, not optional or a paid extra.\n\nCorrect answer: C"
   },
   {
     "id": 143,
@@ -498,7 +498,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: valituksen\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Does the customer have the right to complain about poor service during a taxi trip?\nA: When choosing a taxi, the customer commits to a certain service and has no right to complain.\nB: Customers must always be treated politely and properly, so service quality can be complained about.\nC: Taxi driver conduct in customer service is not regulated, so service cannot be complained about.\n\n--- Keywords ---\nvalituksen = complaint\nasiakaspalvelu = customer service\nkohteliaasti = politely\noikeus = right\n\n--- Explanation ---\nCustomers may complain about poor service. Drivers must behave politely and professionally.\n\nCorrect answer: B"
   },
   {
     "id": 145,
@@ -518,7 +518,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: reitin valinnassa\nMain keyword: Asiakas = customer\n\nPick the legally correct, safest, and most professional option.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is correct when there are several routes to the customer's destination?\nA: The customer may choose the route, but the driver must advise on the most appropriate choice.\nB: The driver must always follow the navigator's route.\nC: The driver always chooses the cheapest route.\n\n--- Keywords ---\nreitin valinnassa = in choosing the route\nAsiakas = customer\ntarkoituksenmukaisin = most appropriate\nneuvoa = to advise\nnavigaattori = navigator\n\n--- Explanation ---\nThe customer may choose, but the driver should advise on the most suitable route.\n\nCorrect answer: A"
   },
   {
     "id": 158,
@@ -538,7 +538,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: According to the fare table shown, what is the total price on Sunday for one passenger when the trip is 20 km and 30 minutes, with no fixed price agreed? [based on image]\nA: 65.00 €\nB: 74.00 €\nC: 83.00 €\n\n--- Keywords ---\nsunnuntai = Sunday\n20 km = 20 kilometres\n30 minuuttia = 30 minutes\nkokonaishinta = total price\nhinnasto = fare table\nmuina aikoina = other times\n\n--- Explanation ---\nAccording to the price list in the image, a Sunday ride falls under \"other times\" (muina aikoina), where the rates are:\n\n* Starting fee: €9.00\n* Distance charge: €1.20 per km\n* Time charge: €1.10 per minute\n\nFor a trip of 20 km lasting 30 minutes:\n\n* Starting fee: €9.00\n* Distance charge: 20 × €1.20 = €24.00\n* Time charge: 30 × €1.10 = €33.00\n\nTotal price = €9.00 + €24.00 + €33.00 = €66.00\n\nTherefore, the total fare is €65.00 (Nearest to €66.00), assuming there are no additional charges and no fixed price has been agreed upon.\n\nCorrect answer: A",
     "image": "Image/image13.png"
   },
   {
@@ -559,7 +559,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when a customer asks you to drive over the speed limit?\nA: You may speed if the customer agrees to pay speeding fines.\nB: You tell the customer you cannot speed, but do your best to get them there safely via the fastest route.\nC: You may speed if the customer has a justified reason for it\n\n--- Keywords ---\nylinopeus = speeding\nKerrot asiakkaalle = you tell the customer\nturvallisesti = safely\nnopein mahdollinen reitti = fastest possible route\n\n--- Explanation ---\nNever speed for a customer. Drive the fastest legal route and explain you cannot exceed limits.\n\nCorrect answer: B"
   },
   {
     "id": 164,
@@ -579,7 +579,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following statements is true?\nA: If the driver must make a call while the car is moving, they do not need to use a hands-free device.\nB: If there are no customers in the taxi, the driver may watch TV on an integrated screen while driving.\nC: The driver may make a call during driving using hands-free if it is necessary to carry out the transport.\n\n--- Keywords ---\nhandsfree = hands-free\nvälttämätön = necessary\nkuljetus = transport\najon aikana = during driving\npuhelu = phone call\n\n--- Explanation ---\nPhone calls while driving are allowed only with hands-free and only when necessary for the transport.\n\nCorrect answer: C"
   },
   {
     "id": 183,
@@ -599,7 +599,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Driver Reinikainen has a bad day and is rude to a customer who complains. Does the customer have the right to complain about the service?\nA: Yes, because customers must always be treated politely and properly.\nB: No, because the customer buys transport to a destination, not cheerful service.\nC: No, because that is Reinikainen's way and he cannot be criticised for it.\n\n--- Keywords ---\nvalitus = complaint\nkohteliaasti = politely\nasiallisesti = properly\nasiakaspalvelu = customer service\noikeus = right\n\n--- Explanation ---\nCustomers may complain about poor service. Politeness is always required.\n\nCorrect answer: A"
   },
   {
     "id": 184,
@@ -619,7 +619,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is good customer service?\nA: The driver greets politely, gauges whether the customer wants to chat, and lets them choose the topic.\nB: The driver greets politely and agrees to discuss only route-related matters.\nC: The driver greets politely and starts a conversation on a topic they like.\n\n--- Keywords ---\npäättää aiheesta = decides the topic\nkohteliaasti = politely\nasiakaspalvelu = customer service\nkeskustella = to converse\n\n--- Explanation ---\nGreet politely and let the customer decide whether and what to talk about.\n\nCorrect answer: A"
   },
   {
     "id": 187,
@@ -639,7 +639,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: The driver significantly affects passenger comfort. What is expected of you?\nA: Maintaining continuous conversation.\nB: Good situational awareness — some customers want silence, others want company.\nC: Being unnoticeable and silent.\n\n--- Keywords ---\nmatkustusmukavuus = travel comfort\npelisilmä = situational awareness\nkeskustelu = conversation\nasiakas = customer\n\n--- Explanation ---\nRead the customer's mood — some want to talk, others prefer quiet.\n\nCorrect answer: B"
   },
   {
     "id": 188,
@@ -659,7 +659,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle drove for employer Ismo for four years while studying. Now he is moving and ending the employment. What is Kalle's notice period?\nA: 14 days, because employment lasted under five years.\nB: 1 month, because employment was over one year but under five years.\nC: Kalle may quit when Ismo finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\ntyösuhde = employment\nalle viisi vuotta = under five years\n\n--- Explanation ---\nAfter over one year but under five years of employment, the notice period is one month.\n\nCorrect answer: B"
   },
   {
     "id": 190,
@@ -679,7 +679,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When must a receipt be offered for a taxi ride?\nA: If the ride was booked via an app\nB: If the taxi fare is a fixed rate\nC: A receipt must be given for the ride\n\n--- Keywords ---\nkuitti = receipt\ntaksikyyti = taxi ride\nannettava = must be given\ntarjota = to offer\n\n--- Explanation ---\nA receipt must always be provided for a taxi ride.\n\nCorrect answer: C"
   },
   {
     "id": 191,
@@ -699,7 +699,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following statements about a taxi driver's obligations is correct?\nA: A child under 135 cm in height always needs a safety device when travelling in a taxi.\nB: A child may travel without a safety device in a taxi if on the back seat with seat belts.\nC: A child under 3 always sits in the front seat.\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device\nlapsi = child\ntaksi = taxi\naina = always\n\n--- Explanation ---\nChildren under 135 cm must always use an approved child restraint in a taxi.\n\nCorrect answer: A"
   },
   {
     "id": 192,
@@ -719,7 +719,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following is good customer service regarding use of communication devices?\nA: The driver may send messages if the phone is on silent.\nB: The driver does not use communication devices during driving.\nC: The driver may use communication devices only when stopped.\n\n--- Keywords ---\nviestimet = communication devices\npysähtyneenä = when stopped\najon aikana = during driving\nasiakaspalvelu = customer service\n\n--- Explanation ---\nCommunication devices may be used only when the vehicle is stopped.\n\nCorrect answer: C"
   },
   {
     "id": 193,
@@ -739,7 +739,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when a customer has difficulty paying with cash?\nA: You suggest they get money from a nearby ATM.\nB: You suggest they pay with a common payment card.\nC: The trip is cancelled if the customer has no cash.\n\n--- Keywords ---\nmaksukortti = payment card\nkäteinen = cash\nEhdotat = you suggest\nmaksaminen = payment\n\n--- Explanation ---\nOffer card payment as an alternative when cash is a problem.\n\nCorrect answer: B"
   },
   {
     "id": 194,
@@ -759,7 +759,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What does sufficient language skill mean for a taxi driver?\nA: The driver can chat fluently with the customer about daily events.\nB: The driver can serve the customer and perform job tasks in the required language.\nC: The driver must converse with the customer in at least one foreign language.\n\n--- Keywords ---\nkielitaito = language skill\npalvella = to serve\ntyötehtävät = job tasks\nriittävä = sufficient\n\n--- Explanation ---\nSufficient language skill means enough to serve customers and do the job — not fluent small talk or a foreign language requirement.\n\nCorrect answer: B"
   },
   {
     "id": 196,
@@ -779,7 +779,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When must a receipt be offered for a taxi ride?\nA: If the ride was booked via an app.\nB: If the taxi fare is fixed.\nC: A receipt must always be given for the ride.\n\n--- Keywords ---\nkuitti = receipt\naina = always\ntaksikyyti = taxi ride\nannettava = must be given\n\n--- Explanation ---\nA receipt must always be provided — not only for app bookings or fixed fares.\n\nCorrect answer: C"
   },
   {
     "id": 199,
@@ -799,7 +799,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do when you notice a customer has left belongings in the taxi?\nA: You try to return the item to the customer as far as possible.\nB: You take the item to the lost-property office.\nC: You keep the item in the taxi until the customer contacts you.\n\n--- Keywords ---\npalauttaa = to return\ntavara = item / belongings\nlöytötavaratoimisto = lost-property office\nasiakas = customer\n\n--- Explanation ---\nTry to return forgotten items to the customer first.\n\nCorrect answer: A"
   },
   {
     "id": 201,
@@ -819,7 +819,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct when the driver uses communication devices during driving?\nA: The driver may use communication devices while driving if it is necessary.\nB: The driver may use communication devices while driving using a hands-free device.\nC: The driver may not use communication devices while driving.\n\n--- Keywords ---\nhandsfree-laitetta = hands-free device\nviestimet = communication devices\najon aikana = during driving\nvälttämätön = necessary\nkuljettaja = driver\n\n--- Explanation ---\nWhile driving, communication devices may be used only with hands-free equipment.\n\nCorrect answer: B"
   },
   {
     "id": 203,
@@ -839,7 +839,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you handle a situation if your customer cannot pay for the trip?\nA: Drive the customer home and ask them to pay later.\nB: Ask the customer to leave the car without paying.\nC: Resolve the situation calmly and, where possible, report non-payment to the employer or authorities.\n\n--- Keywords ---\nmaksamaton matka = unpaid trip\nrauhallisesti = calmly\ntyönantaja = employer\nviranomaiset = authorities\nselvittää = to resolve\n\n--- Explanation ---\nStay calm and report non-payment to your employer or authorities — do not just let them go unpaid.\n\nCorrect answer: C"
   },
   {
     "id": 205,
@@ -859,7 +859,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do if a customer wants you to speed to make an urgent appointment?\nA: You agree if the customer is in a hurry.\nB: You politely refuse and explain that speed limits must be followed for safety and by law.\nC: You accelerate a little but try to avoid too much speeding.\n\n--- Keywords ---\nylinopeus = speeding\nnopeusrajoitus = speed limit\nkieltäydyt = you refuse\nturvallisuus = safety\nkiire = hurry\n\n--- Explanation ---\nPolitely refuse to speed. Speed limits apply regardless of the customer's hurry.\n\nCorrect answer: B"
   },
   {
     "id": 214,
@@ -879,7 +879,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must a taxi driver act if a customer gives an address unfamiliar to the driver?\nA: You start driving in the direction where you suspect the address is.\nB: You enter the address in the navigator and follow its directions.\nC: You tell the customer the address is unfortunately unfamiliar and ask for more details.\n\n--- Keywords ---\nValitettavasti = unfortunately\ntiedustelen = I inquire\nnavigaattori = navigator\nosoite = address\nennestään tuttu = previously familiar\n\n--- Explanation ---\nBe honest about an unknown address and ask the customer for more information.\n\nCorrect answer: C"
   },
   {
     "id": 217,
@@ -899,7 +899,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following taxi driver obligations is correct?\nA: A child under 135 cm in height always needs a safety device.\nB: A child may travel without a safety device on the back seat with seat belts.\nC: A child under 3 always sits in the front seat.\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device\nlapsi = child\naina = always\ntaksi = taxi\n\n--- Explanation ---\nChildren under 135 cm must always use an approved child restraint.\n\nCorrect answer: A"
   },
   {
     "id": 245,
@@ -919,7 +919,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What should be done if a customer leaves valuables in the taxi?\nA: Keep items in the car and wait for the customer to contact you.\nB: Report the find to employer or police and deliver items to storage.\nC: Sell the items and keep the money.\n\n--- Keywords ---\narvotavarat = valuables\nlöytötavara = lost property\npoliisi = police\ntyönantaja = employer\nIlmoitat = you report\n\n--- Explanation ---\nReport found valuables to employer or police and store them properly.\n\nCorrect answer: B"
   },
   {
     "id": 247,
@@ -939,7 +939,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What should be done if a customer asks you to wait a moment at the destination?\nA: Continue driving and leave the customer waiting.\nB: Stay in the car and keep doors locked while waiting.\nC: Leave the car with the engine running.\n\n--- Keywords ---\nodottamaan = to wait\nmääränpää = destination\nlukittuna = locked\nPysyt autossa = stay in the car\n\n--- Explanation ---\nStay in the vehicle with doors locked while waiting for the customer.\n\nCorrect answer: B"
   },
   {
     "id": 249,
@@ -959,7 +959,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How to act if the taxi payment terminal does not work and the customer has no cash?\nA: Drive to the destination and agree payment method later.\nB: Apologise and suggest using the nearest ATM.\nC: Refuse to transport the customer.\n\n--- Keywords ---\nmaksupääte = payment terminal\nkäteistä = cash\npankkiautomaatti = ATM\nPahoittelet = you apologise\nehdotat = you suggest\n\n--- Explanation ---\nApologise and suggest the nearest ATM or another payment option.\n\nCorrect answer: B"
   },
   {
     "id": 250,
@@ -979,7 +979,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How to act if a customer needs special help with luggage?\nA: Ask the customer to handle their own belongings.\nB: Help the customer carry and place luggage in the vehicle.\nC: Transport the customer without luggage if it is too heavy.\n\n--- Keywords ---\nmatkatavarat = luggage\nAutat = you help\nerityisapua = special help\nsijoittamisessa = placing\najoneuvoon = into the vehicle\n\n--- Explanation ---\nAssist customers who need help with carrying and loading their luggage.\n\nCorrect answer: B"
   },
   {
     "id": 253,
@@ -999,7 +999,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What is good use of communication devices in customer service?\nA: The driver may send messages if the phone is on silent.\nB: Making a phone call if it is necessary to carry out the transport.\nC: The driver may make personal calls with the customer.\n\n--- Keywords ---\nvälttämätön = necessary\nviestimet = communication devices\nPuhelun soittaminen = making a phone call\nkuljetus = transport\nasiakaspalvelu = customer service\n\n--- Explanation ---\nPhone use is allowed only when necessary for the transport, not for personal chat.\n\nCorrect answer: B"
   },
   {
     "id": 260,
@@ -1019,7 +1019,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: You are on a ride with a customer and the phone rings, but you have no hands-free device. What do you do?\nA: You answer normally and apologise.\nB: You stop by the roadside and write down necessary information.\nC: You do not answer, apologise to the customer for the disturbance, and call back after the trip.\n\n--- Keywords ---\nenkä vastaa = I do not answer\nhandsfree = hands-free\nmatkan jälkeen = after the trip\npahoittelet = you apologise\nhäiriö = disturbance\n\n--- Explanation ---\nWithout hands-free, do not answer while driving. Apologise and return the call after the ride.\n\nCorrect answer: C"
   },
   {
     "id": 278,
@@ -1039,7 +1039,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: A customer forgot a handbag in the car. What do you do?\nA: Take it home and wait for the customer to call.\nB: Deliver to dispatch office within a week.\nC: Deliver immediately to the customer or police lost-property office.\n\n--- Keywords ---\nkäsilaukku = handbag\nlöytötavaratoimisto = lost-property office\nToimitat = you deliver\nviipymättä = immediately\n\n--- Explanation ---\nReturn forgotten items promptly to the customer or police lost-property office.\n\nCorrect answer: C"
   },
   {
     "id": 279,
@@ -1059,7 +1059,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How can the driver affect the customer's travel comfort?\nA: Maintain continuous conversation.\nB: Good situational awareness: sometimes the customer does not want to chat, sometimes they do.\nC: Be unnoticeable and silent.\n\n--- Keywords ---\nmatkustusmukavuus = travel comfort\npelisilmä = situational awareness\nkeskustelu = conversation\nasiakas = customer\n\n--- Explanation ---\nRead the customer's mood — some want conversation, others prefer quiet.\n\nCorrect answer: B"
   },
   {
     "id": 285,
@@ -1079,7 +1079,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following statements is correct?\nA: A child under 135 cm always needs a safety device.\nB: A child may travel without a safety device on the back seat.\nC: A child under 3 may not travel without the guardian's written permission.\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device\nlapsi = child\naina = always\n\n--- Explanation ---\nChildren under 135 cm must always use an approved child restraint.\n\nCorrect answer: A"
   },
   {
     "id": 286,
@@ -1099,7 +1099,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: If the passenger leaves route choice to the driver (fare based on time/distance), which is correct?\nA: The driver does not need to choose a route.\nB: The driver may choose any route.\nC: The driver must choose the most advantageous and appropriate route for the customer.\n\n--- Keywords ---\nreitti = route\nedullisin = most advantageous\ntarkoituksenmukainen = appropriate\nmatkan hinta = trip price\n\n--- Explanation ---\nWhen fare depends on distance or time, choose the most suitable economical route for the passenger.\n\nCorrect answer: C"
   },
   {
     "id": 294,
@@ -1119,7 +1119,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer wants an address you do not know. How do you act?\nA: Start driving in the direction you guess the address is.\nB: Enter the address in the navigator and follow instructions.\nC: Tell the customer you do not know the address and ask for more details.\n\n--- Keywords ---\nnavigaattori = navigator\nosoite = address\nlisätietoja = more details\ntunne = know\n\n--- Explanation ---\nUse the navigator with the address the customer provides.\n\nCorrect answer: B"
   },
   {
     "id": 295,
@@ -1139,7 +1139,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What does sufficient language skill required of a taxi driver mean?\nA: Able to chat with the customer about daily events.\nB: Must have passed the citizenship language test.\nC: Able to communicate so the customer reaches their destination safely.\n\n--- Keywords ---\nkielitaito = language skill\nmääränpäähänsä = their destination\nturvallisesti = safely\nkommunikoida = to communicate\n\n--- Explanation ---\nLanguage skill means enough communication to get the customer safely to the destination.\n\nCorrect answer: C"
   },
   {
     "id": 297,
@@ -1159,7 +1159,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A customer urges you to speed and offers to pay fines. How do you act?\nA: You say you cannot speed but take them safely via the fastest route.\nB: You accept and drive faster.\nC: You refuse entirely and call the police.\n\n--- Keywords ---\nylinopeus = speeding\nturvallisesti = safely\nnopeinta reittiä = fastest route\nsakot = fines\n\n--- Explanation ---\nNever speed for a customer. Drive the fastest legal route and explain you cannot exceed limits.\n\nCorrect answer: A"
   },
   {
     "id": 303,
@@ -1179,7 +1179,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What do you do if a customer says they do not want to talk?\nA: You let the customer be at peace and speak only about route-related matters.\nB: You show that you cannot interact.\nC: You try to converse throughout the entire trip.\n\n--- Keywords ---\nAnnat asiakkaan olla rauhassa = let the customer be at peace\nreittiin liittyvistä = related to the route\nkeskustella = to talk / converse\nasiakas = customer\n\n--- Explanation ---\nRespect the customer's wish for quiet. Only discuss what is needed for the route.\n\nCorrect answer: A"
   },
   {
     "id": 307,
@@ -1199,7 +1199,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: With which payment methods may a customer pay for a taxi trip taken from a taxi stand?\nA: Cash only.\nB: The driver decides.\nC: Cash and the most common payment cards.\n\n--- Keywords ---\nkäteisellä = with cash\nmaksukortit = payment cards\nmaksuväline = payment method\ntaksiasema = taxi stand\noikeus = right\n\n--- Explanation ---\nCustomers may pay with cash and common payment cards — not cash only.\n\nCorrect answer: C"
   },
   {
     "id": 309,
@@ -1219,6 +1219,6 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When must a receipt be given to the customer for a taxi trip?\nA: If the ride was booked via an app.\nB: If the fare is fixed.\nC: A receipt must always be given for the ride.\n\n--- Keywords ---\nkuitti = receipt\naina = always\ntaksimatka = taxi trip\nannettava = must be given\nasiakas = customer\n\n--- Explanation ---\nA receipt must always be provided for a taxi ride.\n\nCorrect answer: C"
   }
 ]

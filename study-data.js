@@ -554,11 +554,11 @@ window.STUDY_DATA = {
         },
         {
           "letter": "C",
-          "text": "Kuljettajan tehtävä on varmistaa, että asiakkaalla on mukava olla ja tarvittaessa"
+          "text": "Kuljettajan tehtävä on varmistaa, että asiakkaalla on mukava olla ja tarvittaessa auttaa oikaisemaan asiakkaan vaatteet."
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the driver act when a customer in a wheelchair has clothes caught in a way that makes sitting uncomfortable and asks for help fixing them?\nA: It is not the driver's task to straighten the customer's clothes or otherwise...\nB: The driver may only ask the customer to straighten their own clothes, because the driver may not adjust the customer's clothes even if the customer asks.\nC: The driver's task is to make sure the customer is comfortable and, if necessary,...\n\n--- Keywords ---\nvarmistaa = to make sure\nvaatteet = clothes\nKuljettaja = driver\nmukava = comfortable\npyytää apua = asks for help\n\n--- Explanation ---\nThe driver should help ensure the customer is comfortable, including adjusting clothes when asked.\n\nCorrect answer: C"
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the driver act when a customer in a wheelchair has clothes caught in a way that makes sitting uncomfortable and asks for help fixing them?\nA: It is not the driver's task to straighten the customer's clothes or otherwise...\nB: The driver may only ask the customer to straighten their own clothes, because the driver may not adjust the customer's clothes even if the customer asks.\nC: The driver's task is to make sure that the customer is comfortable and, if necessary, help adjust the customer's clothing.\n\n--- Keywords ---\nvarmistaa = to make sure\nvaatteet = clothes\nKuljettaja = driver\nmukava = comfortable\npyytää apua = asks for help\n\n--- Explanation ---\nThe driver should help ensure the customer is comfortable, including adjusting clothes when asked.\n\nCorrect answer: C"
     },
     {
       "id": 49,
@@ -3197,11 +3197,11 @@ window.STUDY_DATA = {
         },
         {
           "letter": "C",
-          "text": "Kuljettajan tehtävä on varmistaa, että asiakkaalla on mukava olla ja tarvittaessa"
+          "text": "Kuljettajan tehtävä on varmistaa, että asiakkaalla on mukava olla ja tarvittaessa auttaa oikaisemaan asiakkaan vaatteet."
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the driver act when a customer in a wheelchair has clothes caught in a way that makes sitting uncomfortable and asks for help fixing them?\nA: It is not the driver's task to straighten the customer's clothes or otherwise...\nB: The driver may only ask the customer to straighten their own clothes, because the driver may not adjust the customer's clothes even if the customer asks.\nC: The driver's task is to make sure the customer is comfortable and, if necessary,...\n\n--- Keywords ---\nvarmistaa = to make sure\nvaatteet = clothes\nKuljettaja = driver\nmukava = comfortable\npyytää apua = asks for help\n\n--- Explanation ---\nThe driver should help ensure the customer is comfortable, including adjusting clothes when asked.\n\nCorrect answer: C"
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must the driver act when a customer in a wheelchair has clothes caught in a way that makes sitting uncomfortable and asks for help fixing them?\nA: It is not the driver's task to straighten the customer's clothes or otherwise...\nB: The driver may only ask the customer to straighten their own clothes, because the driver may not adjust the customer's clothes even if the customer asks.\nC: The driver's task is to make sure that the customer is comfortable and, if necessary, help adjust the customer's clothing.\n\n--- Keywords ---\nvarmistaa = to make sure\nvaatteet = clothes\nKuljettaja = driver\nmukava = comfortable\npyytää apua = asks for help\n\n--- Explanation ---\nThe driver should help ensure the customer is comfortable, including adjusting clothes when asked.\n\nCorrect answer: C"
     },
     {
       "id": 51,
@@ -5936,44 +5936,35 @@ window.STUDY_KEYWORDS = {
   ],
   "partial": [
     {
+      "keyword": "aina käyttää turvavyötä",
+      "english": "must always use a seat belt",
+      "description": "Kuljettaja = driver\n\nei tarvitse = does not need to\n\nturvavyö = seat belt\n\n--- Explanation ---\n\nThe driver must always wear a seat belt. Options saying 'does not need to' are wrong.",
+      "questionIds": [
+        82,
+        140
+      ]
+    },
+    {
       "keyword": "asiakkaan kanssa",
       "english": "with the customer",
-      "description": "Exception is 21 (3 kerrot), 45 (asiakkan tarpeista).. baki shob jaygay \"asiakkaan kanssa\" dekha matro ans",
+      "description": "avustaja = assistant\n\nliikuntavammainen = physically disabled\n\nkeskustelet = you speak / discuss\n\n--- Explanation ---\n\nAlways address the customer directly, not only their assistant.",
       "questionIds": [
         28,
-        29,
-        77,
-        112
+        29
       ]
     },
     {
-      "keyword": "asiakkaan kyytiin",
-      "english": "pick up customer",
-      "description": "\"asiakkaan kyytiin\" 2 jaygay ase.. jei question er option e eta last e thakbe oita e answer",
-      "questionIds": [
-        51
-      ]
-    },
-    {
-      "keyword": "Ei saa",
-      "english": "ofcourse not",
-      "description": "jokhn \"Ei saa\" eka thakbe, or agey pore keu nai.. tokhn etai answer",
+      "keyword": "ei saa",
+      "english": "not allowed",
+      "description": "puhelin = phone\n\nkädessä = in hand\n\najon aikana = during driving\n\n--- Explanation ---\n\nHolding a phone while driving is not allowed, even without a passenger.",
       "questionIds": [
         133
       ]
     },
     {
-      "keyword": "häntä",
-      "english": "her/him",
-      "description": "only jodi kono option er last e thake",
-      "questionIds": [
-        42
-      ]
-    },
-    {
       "keyword": "Huolehdit",
-      "english": "Take care / Help",
-      "description": "In 55, Huolehdit duibar ase. Jei option e \"huolehdit\" er sathe \"koko matkan ajan\" ase oita ans",
+      "english": "you make sure / take care of",
+      "description": "lapsi = child\n\nturvavyö = seat belt\n\nhuoltaja = guardian\n\nkoko matkan ajan = for the entire trip\n\n--- Explanation ---\n\nA guardian's permission does not override the law. The driver must ensure a 14-year-old uses a seat belt.",
       "questionIds": [
         6,
         31,
@@ -5983,85 +5974,116 @@ window.STUDY_KEYWORDS = {
       ]
     },
     {
-      "keyword": "Missä tilanteessa",
-      "english": "In what situation",
-      "description": "question er shuru te ei keyword thakle positive option ta ans hobe",
+      "keyword": "itse",
+      "english": "by themselves / independently",
+      "description": "pyörätuoli = wheelchair\n\nTotean = I state / tell\n\navustan = I assist\n\noikeus = right\n\n--- Explanation ---\n\nRespect the customer's autonomy. They may transfer independently, and you help only if needed.",
       "questionIds": [
-        82
+        42
       ]
     },
     {
-      "keyword": "Missä tilanteissa",
-      "english": "In what situation",
-      "description": "question er shuru te ei keyword thakle positive option ta ans hobe",
+      "keyword": "koskeeko",
+      "english": "does it apply",
+      "description": "taksiyrittäjä = taxi entrepreneur\n\nlaatuvaatimukset = quality requirements\n\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\n\nQuality requirements apply to every taxi driver, including entrepreneurs who drive.",
       "questionIds": [
-        140
+        129
       ]
     },
     {
-      "keyword": "sairaalasta",
-      "english": "hospital",
-      "description": "question er last e \"sairaalasta\" thakle \"kuljettaja\" hobe ans",
+      "keyword": "Kuljettaja",
+      "english": "driver",
+      "description": "sairaalaasta = from a hospital\n\npaarit = stretcher\n\nturvavyöt = safety belts\n\nvastuussa = responsible\n\n--- Explanation ---\n\nWhen transporting a patient on a stretcher from hospital, the driver is responsible for restraints.",
       "questionIds": [
         86
       ]
     },
     {
-      "keyword": "Silloin",
-      "english": "then",
-      "description": "\"Sillion\" jokhn shobar first e thakbe tokhn eta ans",
+      "keyword": "Laatuvaatimukset",
+      "english": "quality requirements",
+      "description": "taksinkuljettaja = taxi driver\n\njokainen = every\n\ntaksiluvan haltija = taxi licence holder\n\n--- Explanation ---\n\nQuality requirements apply to every taxi driver, not only licence holders or large firms.",
       "questionIds": [
-        94
+        128
       ]
     },
     {
-      "keyword": "soitat",
-      "english": "you call",
-      "description": "95 e \"soitat\" ase duibar.. ekta option e \"soitat\" and \"hätänumeroon\" duita e ase.. ar duita e BB word.. so etai ans",
+      "keyword": "määränpäähänsä",
+      "english": "their destination",
+      "description": "Kuljettaja = driver\n\nkielitaito = language skill\n\nkommunikoimaan = to communicate\n\nturvallisesti = safely\n\n--- Explanation ---\n\nLanguage skill means enough communication to get the customer safely to the right destination.",
+      "questionIds": [
+        112
+      ]
+    },
+    {
+      "keyword": "poliisille",
+      "english": "to the police",
+      "description": "poliisiasemalle = police station\n\nhurmalaassa / humalassa = intoxicated\n\nerittäin humalassa = very intoxicated\n\n--- Explanation ---\n\nA severely intoxicated person needs police help or transport to a police station — not abandonment.",
       "questionIds": [
         80
       ]
     },
     {
-      "keyword": "Takapenkillä, takana",
-      "english": "In the back seat, behind",
-      "description": "jekhane \"Takapenkillä\" ar \"takana\" eksathe thake shekhane etai answer",
+      "keyword": "pysähtymiskieltomerkin",
+      "english": "no-stopping sign",
+      "description": "vaikutusalueella = within the affected area\n\nasiakkaan kyytiin = customer into the taxi\n\nsallittuun paikkaan = permitted place\n\nkävellen = on foot / by walking\n\n--- Explanation ---\n\nYou may not stop in a no-stopping zone. Park legally nearby and help the customer board if needed.",
+      "questionIds": [
+        51
+      ]
+    },
+    {
+      "keyword": "Sinun tulee odottaa",
+      "english": "you must wait",
+      "description": "avustaja = assistant\n\nsaapuu paikalle = arrives on site\n\nei kykene huolehtimaan itsestään = cannot take care of themselves\n\n--- Explanation ---\n\nDo not leave a vulnerable customer alone. Wait until the assistant arrives.",
+      "questionIds": [
+        77
+      ]
+    },
+    {
+      "keyword": "Soitat hätänumeroon",
+      "english": "you call the emergency number",
+      "description": "tapahtumapaikalle = to the scene\n\nulosajanut auto = car that ran off the road\n\nPysähdyt = you stop\n\n112 = emergency number\n\n--- Explanation ---\n\nStop at the accident scene and call emergency services. Do not ignore a road accident.",
+      "questionIds": [
+        95
+      ]
+    },
+    {
+      "keyword": "Takapenkillä etupenkin takana",
+      "english": "on the back seat behind the front seat",
+      "description": "turvallisuuden vuoksi = for safety\n\nkuljettajan vieressä = next to the driver\n\nasiakas = customer\n\n--- Explanation ---\n\nFor safety, the customer should sit on the rear seat behind the front passenger seat.",
       "questionIds": [
         78
       ]
     },
     {
       "keyword": "Taksinkuljettaja",
-      "english": "Taxi driver",
-      "description": "except age related matters",
+      "english": "taxi driver",
+      "description": "pyörätuoli = wheelchair\n\nkiinnittäminen = securing / fastening\n\nhenkilökohtainen avustaja = personal assistant\n\nvastuulla = responsibility\n\n--- Explanation ---\n\nSecuring the wheelchair in the taxi is the taxi driver's responsibility.",
       "questionIds": [
         37,
         65
       ]
     },
     {
-      "keyword": "Taksinkuljettajaa",
-      "english": "Taxi driver",
-      "description": "Exception 58.. \"Taksinkuljettajaa\" is not ans there",
+      "keyword": "taksivalaisin",
+      "english": "taxi light / roof sign",
+      "description": "sopimusajo = contract trip\n\nkirjallinen sopimus = written contract\n\ntaksiliikenne = taxi traffic\n\n--- Explanation ---\n\nThe taxi sign may be off only on pre-arranged contract trips with a written agreement.",
       "questionIds": [
-        128,
-        129
-      ]
-    },
-    {
-      "keyword": "työtä, järjestää",
-      "english": "work, arrange",
-      "description": "question e 15-tuinta thakle",
-      "questionIds": [
-        126
+        94
       ]
     },
     {
       "keyword": "varmistaa",
-      "english": "ensure",
-      "description": "only option e thakle",
+      "english": "to make sure",
+      "description": "vaatteet = clothes\n\nKuljettaja = driver\n\nmukava = comfortable\n\npyytää apua = asks for help\n\n--- Explanation ---\n\nThe driver should help ensure the customer is comfortable, including adjusting clothes when asked.",
       "questionIds": [
         48
+      ]
+    },
+    {
+      "keyword": "yhtäjaksoisesti",
+      "english": "continuously",
+      "description": "15 tuntia = 15 hours\n\ntarkoituksenmukaisesti = appropriately\n\ntyönantaja = employer\n\n--- Explanation ---\n\nExtended 15-hour work is allowed only when work cannot be arranged otherwise appropriately.",
+      "questionIds": [
+        126
       ]
     }
   ],

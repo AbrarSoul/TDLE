@@ -297,7 +297,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: 14 if question has alle viisi vuotta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How long is a taxi driver's notice period when the employment has lasted less than five years?\nA: 7 days\nB: 14 days\nC: 1 month\n\n--- Keywords ---\nirtisanomisaika = notice period\nalle viisi vuotta = less than five years\n14 päivää = 14 days\ntyösuhde = employment relationship\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nWhen employment has lasted under five years, the notice period is 14 days.\n\nCorrect answer: B"
   },
   {
     "id": 104,
@@ -317,7 +317,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Kyllä koskee.\n\nTrigger rule: if question has koskeeko answer is kylla koskee\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Does the Working Hours Act apply to a taxi driver?\nA: It does not apply in any situation.\nB: Yes, it applies.\nC: It does not apply if agreed with the employer.\n\n--- Keywords ---\nKyllä koskee = yes, it applies\ntyöaikalaki = Working Hours Act\ntaksinkuljettaja = taxi driver\nkoskeeko = does it apply\n\n--- Explanation ---\nThe Working Hours Act applies to taxi drivers. It cannot be waived by agreement.\n\nCorrect answer: B"
   },
   {
     "id": 105,
@@ -337,7 +337,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Kaikissa kuljetuksissa\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: In which of the following situations must the driver's name be displayed in the taxi?\nA: Only in school and daycare transport.\nB: Only in pre-booked transport.\nC: In all transport.\n\n--- Keywords ---\nKaikissa kuljetuksissa = in all transport\nkuljettajan nimi = driver's name\nkoulu- ja päivähoitokuljetus = school and daycare transport\nennakkotilaus = pre-booking\n\n--- Explanation ---\nThe driver's name must be displayed in all taxi transport, not only school or pre-booked rides.\n\nCorrect answer: C"
   },
   {
     "id": 106,
@@ -357,7 +357,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: manner-soumessa\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: In which area is a taxi driver's licence valid?\nA: In mainland Finland.\nB: In the driver's main municipality of residence.\nC: In the European Union area.\n\n--- Keywords ---\nManner-Suomessa = in mainland Finland\najolupa = driving licence\nvoimassa = valid\nasuinkunta = municipality of residence\n\n--- Explanation ---\nA taxi driver's licence is valid throughout mainland Finland.\n\nCorrect answer: A"
   },
   {
     "id": 107,
@@ -377,7 +377,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: törkeään\nMain keyword: Kuljettaja = driver\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following is grounds for revoking a taxi driver's licence?\nA: Taxi drivers and entrepreneurs in the area recommend revocation.\nB: The driver has not worked as a taxi driver in the last three years.\nC: The driver has committed a serious endangerment of traffic safety.\n\n--- Keywords ---\ntörkeään = serious\nKuljettaja = driver\najoluvan peruuttaminen = revocation of driving licence\nliikenneturvallisuus = traffic safety\n\n--- Explanation ---\nSerious traffic safety offences can be grounds for revoking a taxi licence.\n\nCorrect answer: C"
   },
   {
     "id": 108,
@@ -397,7 +397,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Tyoaikaa on myos\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following statements about the driver's working hours is NOT true?\nA: Working time also includes a two-hour break during the driver's workday.\nB: A taxi driver's daily working time may be at most 11 hours in 24 hours\nC: Working time includes, in addition to actual driving, time at the taxi stand and cleaning the car.\n\n--- Keywords ---\nTyöaikaa = working time\nkahden tunnin tauko = two-hour break\nvuorokautinen työaika = daily working time\nei pidä paikkaansa = is not true\n\n--- Explanation ---\nA two-hour break is not counted as working time. The incorrect statement is option A.\n\nCorrect answer: A"
   },
   {
     "id": 109,
@@ -417,7 +417,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: tulee olla alkolukko\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following statements is incorrect?\nA: The driver must always carry their taxi driver's licence.\nB: The vehicle must be registered for licensed transport.\nC: Every taxi must have an alcohol interlock.\n\n--- Keywords ---\nalkolukko = alcohol interlock\ntulee olla = must have\najolupa = driving licence\nvirheellinen = incorrect\nluvanvarainen liikenne = licensed transport\n\n--- Explanation ---\nNot every taxi needs an alcohol interlock — only school/daycare transport requires it.\n\nCorrect answer: C"
   },
   {
     "id": 110,
@@ -437,7 +437,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Kuljettajalla\n\nNote: Kuljettajalla is always answer where it is available\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for the roadworthiness of the taxi used during a shift?\nA: The vehicle inspector.\nB: The driver.\nC: The taxi inspector.\n\n--- Keywords ---\nKuljettajalla = the driver\nliikennekelpoisuus = roadworthiness\nvastuu = responsibility\ntyövuoro = shift\n\n--- Explanation ---\nThe driver is responsible for ensuring the taxi is roadworthy during their shift.\n\nCorrect answer: B"
   },
   {
     "id": 113,
@@ -457,7 +457,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Taukojen pidetty ajankohta\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Every employed taxi driver must keep a driving log. What is recorded in the log, among other things?\nA: Breaks and food consumed during them.\nB: Food consumed during the shift.\nC: The times when breaks were taken.\n\n--- Keywords ---\nTaukojen pidetty ajankohta = times when breaks were taken\najopäiväkirja = driving log / work diary\ntauko = break\ntyövuoro = shift\n\n--- Explanation ---\nThe driving log records when breaks were taken, not what was eaten.\n\nCorrect answer: C"
   },
   {
     "id": 114,
@@ -477,7 +477,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nMain keyword: 112\n\n112 is the general emergency number (hätänumero) in Finland.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: The general emergency number is?\nA: 119\nB: 118\nC: 112\n\n--- Keywords ---\n112 = emergency number\nhätänumero = emergency number\nyleinen = general\n\n--- Explanation ---\n112 is Finland's general emergency number.\n\nCorrect answer: C"
   },
   {
     "id": 116,
@@ -497,7 +497,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Pyrkiä\n\nNote: Pyrkiä is always anwer anywhere\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: In anticipatory driving, the most important thing is?\nA: Skill to act correctly in a danger situation to avoid an accident.\nB: Aiming to drive so that you do not end up in a danger or accident situation.\nC: Knowing how to act correctly when an accident happens.\n\n--- Keywords ---\nPyrkiä = to aim / strive\nennakoiva ajotapa = anticipatory driving\nvaaratilanne = danger situation\nonnettomuus = accident\n\n--- Explanation ---\nAnticipatory driving means avoiding dangerous situations before they happen.\n\nCorrect answer: B"
   },
   {
     "id": 117,
@@ -517,7 +517,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Hengitysteiden avaaminen\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: You are driving on a busy main road toward a taxi stand. Suddenly you see a cyclist far ahead sway, fall, and lie motionless in the middle of the road. What is your first first-aid measure?\nA: Moving the cyclist to a safer place.\nB: Opening the airways.\nC: Examining the cyclist for possible fractures and bleeding.\n\n--- Keywords ---\nHengitysteiden avaaminen = opening the airways\nensiapu = first aid\npolkupyöräilijä = cyclist\nliikkumaton = motionless\n\n--- Explanation ---\nFirst aid priority: open the airways before moving the person or checking injuries.\n\nCorrect answer: B"
   },
   {
     "id": 118,
@@ -537,7 +537,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Turvavyön käyttämättömyys\n\nSeat belt responsibility — under 15 = driver, 15+ = itse. Reject vapaaehtoista.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following increases the taxi driver's injury risk in traffic the most?\nA: Poor technical condition of the vehicle.\nB: Aggressively behaving customers.\nC: Not using a seat belt.\n\n--- Keywords ---\nTurvavyön käyttämättömyys = not using a seat belt\nloukkaantumisriski = injury risk\nliikenne = traffic\nkuljettaja = driver\n\n--- Explanation ---\nNot wearing a seat belt is the greatest injury risk factor for the driver.\n\nCorrect answer: C"
   },
   {
     "id": 119,
@@ -557,7 +557,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Viiden vuoden ajan\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How long may someone who has committed drunk driving not apply for a taxi driving licence?\nA: For three years.\nB: For one year.\nC: For five years.\n\n--- Keywords ---\nViiden vuoden ajan = for five years\nrattijuopumus = drunk driving\ntaksiajolupa = taxi driving licence\nhakea = to apply\n\n--- Explanation ---\nAfter drunk driving, you cannot apply for a taxi licence for five years.\n\nCorrect answer: C"
   },
   {
     "id": 120,
@@ -577,7 +577,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Lääkärin\n\nNote: Answer is must when there is Lääkärin\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A person applying for a taxi driver's licence must meet certain health requirements. How is meeting health requirements demonstrated?\nA: Health status does not need to be proven in any way.\nB: By a doctor's examination and certificate obtained when applying for the taxi driver's licence.\nC: By a self-written report on health status.\n\n--- Keywords ---\nLääkärin = doctor's\nterveysvaatimukset = health requirements\ntodistus = certificate\ntarkastus = examination\najolupa = driving licence\n\n--- Explanation ---\nHealth requirements are proven with a medical examination and doctor's certificate.\n\nCorrect answer: B"
   },
   {
     "id": 121,
@@ -597,7 +597,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: Poliisi\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who can revoke a taxi driver's licence?\nA: The local taxi association.\nB: The police.\nC: The Transport and Communications Agency.\n\n--- Keywords ---\nPoliisi = police\nperuuttaa = revoke\najolupa = driving licence\nTraficom = Transport and Communications Agency\n\n--- Explanation ---\nThe police can revoke a taxi driver's licence.\n\nCorrect answer: B"
   },
   {
     "id": 122,
@@ -617,7 +617,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Vähintään yhden vuoden ajan\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How long must a category B driving licence have been held before a taxi driver's licence can be granted?\nA: For at least three years.\nB: For at least five years.\nC: For at least one year.\n\n--- Keywords ---\nVähintään yhden vuoden ajan = for at least one year\nB-luokan ajooikeus = category B driving licence\nmyöntää = grant / issue\najolupa = driving licence\n\n--- Explanation ---\nYou need at least one year of category B driving licence before getting a taxi licence.\n\nCorrect answer: C"
   },
   {
     "id": 124,
@@ -637,7 +637,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Liikenne- ja viestintävirasto\n\nNote: if question has myöntää then answer is always Liikenne ja Trafficom\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which authority issues the taxi driver's licence?\nA: TE Office (employment office).\nB: Police.\nC: Transport and Communications Agency.\n\n--- Keywords ---\nLiikenne- ja viestintävirasto = Transport and Communications Agency (Traficom)\nmyöntää = issues\najolupa = driving licence\nPoliisi = police\n\n--- Explanation ---\nTraficom (Transport and Communications Agency) issues the taxi driver's licence.\n\nCorrect answer: C"
   },
   {
     "id": 125,
@@ -657,7 +657,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: 11 ja 5 5\n\nNote: always same 11 ja 5.5\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Aino starts her shift at 5:30. Around 7:30 she begins school transport. When must Aino take her first break?\nA: By 11:00 at the latest, because continuous working time may be 5.5 hours.\nB: When she feels tired. The Working Hours Act says she monitors her stamina and breaks as needed.\nC: By 10:00 at the latest, because continuous working time may be 4.5 hours.\n\n--- Keywords ---\n11 ja 5,5 = 11 o'clock and 5.5 hours\ntauko = break\nyhtämittainen työaika = continuous working time\ntyöaikalaki = Working Hours Act\n\n--- Explanation ---\nThe first break must be taken by 11:00 — maximum continuous work is 5.5 hours.\n\nCorrect answer: A"
   },
   {
     "id": 126,
@@ -677,7 +677,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: työtä yarish !\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: May a taxi driver work continuously for 15 hours?\nA: Yes, if the work cannot otherwise be arranged appropriately.\nB: Yes, if the employer belongs to the taxi entrepreneurs' association.\nC: Yes, if the driver wants to.\n\n--- Keywords ---\nyhtäjaksoisesti = continuously\n15 tuntia = 15 hours\ntarkoituksenmukaisesti = appropriately\ntyönantaja = employer\n\n--- Explanation ---\nExtended 15-hour work is allowed only when work cannot be arranged otherwise appropriately.\n\nCorrect answer: A"
   },
   {
     "id": 128,
@@ -697,7 +697,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: Question start with Laissa and answer end with taksinkuljettajaa\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: The Act on Transport Services lists various quality requirements. Which of the following is correct?\nA: Quality requirements apply only to entrepreneurs with more than two permanent employees.\nB: Quality requirements apply only to the taxi licence holder.\nC: Quality requirements apply to every taxi driver.\n\n--- Keywords ---\nLaatuvaatimukset = quality requirements\ntaksinkuljettaja = taxi driver\njokainen = every\ntaksiluvan haltija = taxi licence holder\n\n--- Explanation ---\nQuality requirements apply to every taxi driver, not only licence holders or large firms.\n\nCorrect answer: C"
   },
   {
     "id": 129,
@@ -717,7 +717,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nKeyword: taksiluvan haltijaa\n\nNote: Question starts with koskeeko\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Does the Act on Transport Services (quality requirements) apply to a taxi entrepreneur?\nA: Quality requirements apply only to the taxi licence holder.\nB: Quality requirements apply to every taxi driver.\nC: Quality requirements apply only to entrepreneurs with more than two employees.\n\n--- Keywords ---\nkoskeeko = does it apply\ntaksiyrittäjä = taxi entrepreneur\nlaatuvaatimukset = quality requirements\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nQuality requirements apply to every taxi driver, including entrepreneurs who drive.\n\nCorrect answer: B"
   },
   {
     "id": 130,
@@ -737,7 +737,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: alle vouden B-loukan\n\nNote: B-loukan is always answer if it is available in option\n\nSchool/daycare transport — alkolukko and employer duties apply.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following can prevent granting a taxi driver's licence?\nA: Unemployment lasting over three years.\nB: Not completing upper secondary education.\nC: Category B driving licence valid for less than one year.\n\n--- Keywords ---\nB-luokan ajo-oikeus = category B driving licence\nalle vuoden = less than one year\neste = obstacle / barrier\najoluvan myöntäminen = granting of driving licence\n\n--- Explanation ---\nA B licence held less than one year is a barrier to getting a taxi licence.\n\nCorrect answer: C"
   },
   {
     "id": 134,
@@ -757,7 +757,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nKeyword: Turvavälin turvallista\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Why is it important to keep a safe distance to the vehicle ahead?\nA: Keeping a safe distance to the vehicle ahead is safe.\nB: Keeping a safe distance is unnecessary.\nC: Keeping a safe distance to the vehicle ahead is meaningless.\n\n--- Keywords ---\nturvaväli = safe distance\nturvallista = safe\nedellä ajoneuvoon = to the vehicle ahead\nliikenne = traffic\n\n--- Explanation ---\nA safe following distance gives time to react and prevents rear-end collisions.\n\nCorrect answer: A"
   },
   {
     "id": 135,
@@ -777,7 +777,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nKeyword: 1 kuukausi\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How long is a taxi driver's notice period when employment has lasted over five years?\nA: 7 days.\nB: 14 days.\nC: 1 month.\n\n--- Keywords ---\n1 kuukausi = 1 month\nyli viisi vuotta = over five years\nirtisanomisaika = notice period\ntyösuhde = employment\n\n--- Explanation ---\nAfter more than five years of employment, the notice period is one month.\n\nCorrect answer: C"
   },
   {
     "id": 138,
@@ -797,7 +797,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nMain keyword: Pitää aina\n\nTaxi sign/light rules — always on unless specified otherwise in the question context.\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: 30 Minute Picture 30 min\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\nPitää aina = must always\ntaksivalaisin = taxi light / roof sign\n30 min = 30 minutes\nesillä = displayed / visible\n\n--- Explanation ---\nBased on the image context, the taxi sign/light must always be displayed.\n\nCorrect answer: B"
   },
   {
     "id": 140,
@@ -817,7 +817,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nMain keyword: aina käyttää turvavyötä\nMain keyword: Kuljettaja = driver\n\nReverse question: driver always wears seat belt — no exemption.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: In which situations does the driver not need to use a seat belt?\nA: The driver must always use a seat belt when driving.\nB: The driver does not need to use a seat belt at night when a customer is in the taxi.\nC: The driver does not need to use a seat belt when driving school transport.\n\n--- Keywords ---\naina käyttää turvavyötä = must always use a seat belt\nKuljettaja = driver\nei tarvitse = does not need to\nturvavyö = seat belt\n\n--- Explanation ---\nThere is no exemption: the driver must always wear a seat belt.\n\nCorrect answer: A"
   },
   {
     "id": 142,
@@ -837,7 +837,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nMain keyword: ennakoitava\nMain keyword: Taksinkuljettaja = taxi driver\n\nDriver must anticipate other road users as part of duty of care.\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: In what way must the taxi driver act in traffic to fulfil the road user's duty of anticipation?\nA: As a road user, the taxi driver must anticipate other road users' actions.\nB: As a road user, through their profession the taxi driver must focus only on customer service.\nC: As a road user, the taxi driver must use only engine braking in traffic.\n\n--- Keywords ---\nennakoitava = must anticipate\nTaksinkuljettaja = taxi driver\ntienkäyttäjä = road user\nennakointivelvollisuus = duty of anticipation\n\n--- Explanation ---\nProfessional driving requires anticipating what other road users may do.\n\nCorrect answer: A"
   },
   {
     "id": 146,
@@ -857,7 +857,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: You see the traffic sign shown (bus lane with TAKSI supplementary plate). May you drive a taxi in this lane?\nA: No, the lane is reserved only for buses.\nB: Yes, the supplementary plate also allows taxis to use the lane.\nC: Only outside rush hours.\n\n--- Keywords ---\nTAKSI-lisäkilpi = TAXI supplementary plate\nlinja-autokaista = bus lane\nliikennemerkki = traffic sign\ntaksi = taxi\n\n--- Explanation ---\nA bus lane with a TAKSI plate may also be used by taxis.\n\nCorrect answer: B",
     "image": "Image/image1.png"
   },
   {
@@ -878,7 +878,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What does the yellow supplementary plate (bus picture) mean in connection with the traffic sign?\nA: The sign does not apply to buses.\nB: The sign applies only to buses or public transport.\nC: The bus stop has been removed from use.\n\n--- Keywords ---\nlisäkilpi = supplementary plate\nlinja-auto = bus\njoukkoliikenne = public transport\nliikennemerkki = traffic sign\n\n--- Explanation ---\nThe bus supplementary plate means the sign applies only to buses/public transport.\n\nCorrect answer: B",
     "image": "Image/image2.png"
   },
   {
@@ -899,7 +899,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Must the taxi light/sign be displayed?\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\ntaksivalaisin = taxi light / roof sign\nPitää aina = must always\nesillä = displayed\npoistettu = removed\n\n--- Explanation ---\nThe taxi sign/light must always be displayed during taxi service.\n\nCorrect answer: B",
     "image": "Image/image3.png"
   },
   {
@@ -920,7 +920,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What does the warning sign shown mean?\nA: Road works.\nB: Bump (uneven road / speed bump).\nC: Slippery road.\n\n--- Keywords ---\ntöyssy = bump / uneven road\nvaroitusmerkki = warning sign\nhidastetöyssy = speed bump\nliukas ajorata = slippery road\n\n--- Explanation ---\nThe warning sign indicates a bump or uneven road ahead (töyssy).\n\nCorrect answer: B",
     "image": "Image/image4.png"
   },
   {
@@ -941,7 +941,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When driving a taxi, may you drive into the area covered by this traffic sign (motor vehicles prohibited)?\nA: Always when I am driving a taxi.\nB: Only if the customer has heavy luggage.\nC: Always when I am picking up or dropping off a customer.\n\n--- Keywords ---\nAina jos noudan = always when I pick up\nliikennemerkki = traffic sign\nmoottorikäyttöisellä ajoneuvolla ajo kielletty = motor vehicles prohibited\nasiakas = customer\n\n--- Explanation ---\nTaxis may enter motor-vehicle-prohibited areas when picking up or dropping off a customer.\n\nCorrect answer: C",
     "image": "Image/image5.png"
   },
   {
@@ -962,7 +962,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What does the traffic sign shown mean (combined cycle path and footway, side by side)?\nA: Cyclists and pedestrians have their own sections separated by a line.\nB: The road is intended only for cyclists.\nC: The road is intended only for pedestrians.\n\n--- Keywords ---\npyörätie = cycle path\njalkakäytävä = footway / sidewalk\nrinnakkain = side by side\nliikennemerkki = traffic sign\nviivalla erotetut = separated by a line\n\n--- Explanation ---\nThe sign shows a combined path with separate marked sections for cyclists and pedestrians.\n\nCorrect answer: A",
     "image": "Image/image6.png"
   },
   {
@@ -983,7 +983,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: The picture was taken inside a taxi on a motorway behind another vehicle. Which of the following is correct about the safe distance?\nA: A sufficient safe distance to the vehicle ahead improves safety and gives time to react.\nB: Keeping a safe distance is unnecessary on a motorway.\nC: The smaller the safe distance, the safer driving is.\n\n--- Keywords ---\nturvaväli = safe distance\nturvallista = safe\nmoottoritie = motorway\nreagoida = to react\nedellä ajava = vehicle ahead\n\n--- Explanation ---\nA proper following distance on the motorway gives you time to react safely.\n\nCorrect answer: A",
     "image": "Image/image7.png"
   },
   {
@@ -1004,7 +1004,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: When may you drive a taxi on a street marked with this sign (motor vehicle traffic prohibited)?\nA: When you are going to a property along the street.\nB: Taxis have through-traffic rights.\nC: Never.\n\n--- Keywords ---\nmoottoriajoneuvolla ajo kielletty = motor vehicle traffic prohibited\nkiinteistölle = to a property\ntaksi = taxi\nläpiajo-oikeus = through-traffic right\n\n--- Explanation ---\nYou may enter the street when accessing a property along it, not for through traffic.\n\nCorrect answer: A",
     "image": "Image/image8.png"
   },
   {
@@ -1025,7 +1025,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When driving a taxi, may you drive into the area covered by this traffic sign?\nA: Always when I am driving a taxi.\nB: Only if the customer has heavy luggage.\nC: Always when I am picking up or dropping off a customer.\n\n--- Keywords ---\nAina jos nouden tai tuon = always when I pick up or drop off\nliikennemerkki = traffic sign\nasiakas = customer\nvaikutusalue = affected area\n\n--- Explanation ---\nTaxis may enter restricted areas when picking up or dropping off a customer.\n\nCorrect answer: C",
     "image": "Image/image9.png"
   },
   {
@@ -1046,7 +1046,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Must the taxi light/sign be displayed? [based on unclear image]\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\ntaksivalaisin = taxi light / roof sign\nPitää aina = must always\nesillä = displayed\n\n--- Explanation ---\nThe taxi sign/light must always be displayed during taxi service.\n\nCorrect answer: B",
     "image": "Image/image10.png"
   },
   {
@@ -1067,7 +1067,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B",
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Must the taxi light/sign be displayed? [based on image/answer]\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\ntaksivalaisin = taxi light\nPitää aina = must always\nesillä = displayed\n\n--- Explanation ---\nThe taxi sign/light must always be on during taxi operations.\n\nCorrect answer: B",
     "image": "Image/image11.png"
   },
   {
@@ -1088,7 +1088,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A",
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: You see the traffic sign shown (bus lane with TAKSI supplementary plate). May you drive a taxi in this lane?\nA: No, the lane is reserved only for buses.\nB: Yes, the supplementary plate also allows taxis to use the lane.\nC: Only outside rush hours.\n\n--- Keywords ---\nlinja-autokaista = bus lane\nTAKSI-lisäkilpi = TAXI supplementary plate\nliikennemerkki = traffic sign\n\n--- Explanation ---\nIn this image version, the lane is for buses only — the TAKSI plate is not shown as allowing taxi use.\n\nCorrect answer: A",
     "image": "Image/image12.png"
   },
   {
@@ -1109,7 +1109,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following options is correct?\nA: The taxi licence holder may in exceptional cases waive the driver's alcohol interlock obligation.\nB: Alcohol must not be consumed before a shift, because alcohol always causes fatigue and impairs driving ability.\nC: If the vehicle won't start after a breath test, the driver may always switch to a vehicle without an alcohol interlock.\n\n--- Keywords ---\nalkoholi = alcohol\najovuoro = driving shift\nalkolukko = alcohol interlock\najokyky = driving ability\nväsymys = fatigue\n\n--- Explanation ---\nDo not drink alcohol before a shift — it impairs driving even if you feel fine.\n\nCorrect answer: B"
   },
   {
     "id": 181,
@@ -1129,7 +1129,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: You are taking a familiar customer to the local cinema when they have a seizure. You know they have epilepsy. What is your first first-aid measure?\nA: Hold the customer tightly so they do not hurt themselves during convulsions.\nB: Ensure they do not hit their head but do not restrain convulsions; when convulsions lessen, turn them on their side.\nC: Continue driving normally because your schedule is tight and you assume the seizure will pass.\n\n--- Keywords ---\nkouristuskohtaus = seizure / convulsion\nkylkiasento = side position\nkolhi päätään = hit their head\nepilepsia = epilepsy\nensiapu = first aid\n\n--- Explanation ---\nProtect the head, do not restrain convulsions, and place the person on their side when the seizure eases.\n\nCorrect answer: B"
   },
   {
     "id": 189,
@@ -1149,7 +1149,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: When must a taxi have an alcohol interlock?\nA: Always when carrying out municipal school and daycare transport.\nB: Always when picking up a customer without prior booking.\nC: Only if the driver's licence has a special alcohol interlock condition.\n\n--- Keywords ---\nalkolukko = alcohol interlock\nkoulu- ja päivähoitokuljetus = school and daycare transport\nkunnan tilaama = municipal ordered\naina = always\n\n--- Explanation ---\nAn alcohol interlock is mandatory for municipal school and daycare transport.\n\nCorrect answer: A"
   },
   {
     "id": 195,
@@ -1169,7 +1169,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which statement is correct when the driver uses alcohol before a shift?\nA: Alcohol may be consumed if it does not affect driving ability.\nB: Alcohol always causes fatigue and impairs driving, so it must not be consumed before a shift.\nC: The driver may switch to a vehicle without an alcohol interlock.\n\n--- Keywords ---\nalkoholi = alcohol\ntyövuoro = shift\najokyky = driving ability\nväsymys = fatigue\nalkolukko = alcohol interlock\n\n--- Explanation ---\nDo not drink before a shift. Alcohol impairs driving regardless of how you feel.\n\nCorrect answer: B"
   },
   {
     "id": 197,
@@ -1189,7 +1189,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which statement is correct regarding a taxi driver's working hours?\nA: The driver may work continuously for 15 hours if they want to.\nB: Continuous working time may be at most 5.5 hours.\nC: Continuous working time may be at most 4.5 hours.\n\n--- Keywords ---\nyhtämittainen työaika = continuous working time\n5,5 tuntia = 5.5 hours\ntyöaika = working time\ntauko = break\n\n--- Explanation ---\nMaximum continuous working time is 5.5 hours before a break is required.\n\nCorrect answer: B"
   },
   {
     "id": 198,
@@ -1209,7 +1209,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is correct in exceptional traffic arrangements?\nA: Always follow the traffic controller's instructions.\nB: Follow police instructions if no traffic controller is present.\nC: Follow your own judgment if no instructions are available.\n\n--- Keywords ---\npoliisi = police\nliikenteenohjaaja = traffic controller\npoikkeusjärjestely = exceptional arrangement\nnoudattaa = to follow\n\n--- Explanation ---\nFollow the traffic controller when present; otherwise follow police instructions.\n\nCorrect answer: B"
   },
   {
     "id": 200,
@@ -1229,7 +1229,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when a tyre punctures during driving?\nA: Continue driving slowly.\nB: Stop in a safe place and change the tyre.\nC: Call roadside assistance and wait for help.\n\n--- Keywords ---\nrengas puhkeaa = tyre punctures\nturvalliseen paikkaan = safe place\nvaihdat renkaan = change the tyre\nPysähdyt = you stop\n\n--- Explanation ---\nStop safely and change the tyre. Do not continue on a flat tyre.\n\nCorrect answer: B"
   },
   {
     "id": 211,
@@ -1249,7 +1249,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you ensure the vehicle's condition before a shift starts?\nA: You only ensure there is enough fuel.\nB: You only check tyre pressures.\nC: You check overall condition: tyres, lights, brakes, and other safety factors.\n\n--- Keywords ---\nyleiskunto = overall condition\nrenkaat = tyres\njarrut = brakes\nvalot = lights\nturvallisuustekijät = safety factors\n\n--- Explanation ---\nPre-shift check must cover tyres, lights, brakes, and overall safety — not just fuel.\n\nCorrect answer: C"
   },
   {
     "id": 216,
@@ -1269,7 +1269,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: There are exceptional traffic arrangements due to an accident. Who has authority?\nA: Transport Infrastructure Agency\nB: Police\nC: Employer\n\n--- Keywords ---\nPoliisi = police\nmääräysvalta = authority\npoikkeusjärjestely = exceptional arrangement\nonnettomuus = accident\n\n--- Explanation ---\nIn exceptional traffic situations, the police have authority on the road.\n\nCorrect answer: B"
   },
   {
     "id": 238,
@@ -1289,7 +1289,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How do you check the vehicle before a shift to ensure safety?\nA: You check tyre pressures, brake function, and light condition.\nB: You only check fuel level.\nC: You ensure the vehicle is washed.\n\n--- Keywords ---\nrenkaiden ilmanpaineet = tyre pressures\njarrut = brakes\nvalot = lights\najovuoro = shift\nturvallisuus = safety\n\n--- Explanation ---\nPre-shift checks must include tyres, brakes, and lights — not just fuel or cleanliness.\n\nCorrect answer: A"
   },
   {
     "id": 241,
@@ -1309,7 +1309,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How often must the vehicle's first-aid supplies be checked?\nA: Only during annual service.\nB: Regularly, at least once a month.\nC: Only when they are used.\n\n--- Keywords ---\nensiapuvälineet = first-aid supplies\nsäännöllisesti = regularly\nkerran kuukaudessa = once a month\ntarkistaa = to check\n\n--- Explanation ---\nFirst-aid supplies should be checked regularly — at least monthly.\n\nCorrect answer: B"
   },
   {
     "id": 243,
@@ -1329,7 +1329,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do if a dashboard warning light comes on during driving?\nA: Continue driving if the vehicle seems to work normally.\nB: Stop in a safe place and check the cause of the warning.\nC: Ignore the warning if you are unsure what it means.\n\n--- Keywords ---\nvaroitusvalo = warning light\nmittaristo = dashboard\nPysäytät = you stop\nturvalliseen paikkaan = safe place\ntarkistat = you check\n\n--- Explanation ---\nStop safely and investigate a dashboard warning — do not ignore it.\n\nCorrect answer: B"
   },
   {
     "id": 251,
@@ -1349,7 +1349,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How can a taxi driver improve driving safety in winter?\nA: By always using summer tyres.\nB: By ensuring the vehicle has winter tyres and driving more slowly.\nC: By parking the vehicle indoors.\n\n--- Keywords ---\ntalvirenkaat = winter tyres\najoturvallisuus = driving safety\ntalvella = in winter\nhitaammin = more slowly\nkesärenkaat = summer tyres\n\n--- Explanation ---\nIn winter, use winter tyres and reduce speed for safer driving.\n\nCorrect answer: B"
   },
   {
     "id": 252,
@@ -1369,7 +1369,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Due to an accident there are exceptional arrangements and you receive conflicting instructions from three parties. Whose instructions do you follow?\nA: Transport Infrastructure Agency\nB: Police\nC: Employer\n\n--- Keywords ---\nPoliisi = police\nristiriitaisia ohjeita = conflicting instructions\npoikkeusjärjestelyt = exceptional arrangements\nmääräysvalta = authority\n\n--- Explanation ---\nWhen instructions conflict, follow the police.\n\nCorrect answer: B"
   },
   {
     "id": 280,
@@ -1389,7 +1389,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: By how much may passenger count exceed seat capacity in a taxi if it is not school/daycare transport?\nA: Not at all\nB: At most 30%\nC: At the driver's discretion\n\n--- Keywords ---\nEi yhtään = not at all\nistuinpaikkaluku = seat capacity\nylittää = to exceed\nkoulu- ja päiväkotikuljetus = school/daycare transport\n\n--- Explanation ---\nPassenger count must not exceed the vehicle's seat capacity.\n\nCorrect answer: A"
   },
   {
     "id": 281,
@@ -1409,7 +1409,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who issues the taxi driver's driving licence?\nA: ELY-centre\nB: Transport and Communications Agency (Traficom)\nC: Police\n\n--- Keywords ---\nTraficom = Transport and Communications Agency\najolupa = driving licence\nmyöntää = issues\nPoliisi = police\n\n--- Explanation ---\nTraficom issues the taxi driver's licence.\n\nCorrect answer: B"
   },
   {
     "id": 282,
@@ -1429,7 +1429,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Aulis got his taxi licence in Vantaa but is moving to Jyväskylä. Can he start working there?\nA: No, the licence is valid only 2 years.\nB: Yes, but only after a local knowledge test and applying for licence area extension.\nC: Yes, the licence is valid throughout mainland Finland.\n\n--- Keywords ---\npaikallistuntemus = local knowledge\nluvan laajennus = licence extension\nJyväskylä = Jyväskylä\najolupa = driving licence\nManner-Suomi = mainland Finland\n\n--- Explanation ---\nMoving to a new area requires passing local knowledge and extending the licence area with Traficom.\n\nCorrect answer: B"
   },
   {
     "id": 283,
@@ -1449,7 +1449,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: In which situation may the driver refuse a ride?\nA: If the ride goes to another traffic area.\nB: If legal working time would be exceeded.\nC: If the customer goes to another municipality.\n\n--- Keywords ---\nlaillinen työaika = legal working time\nkieltäytyä kyydistä = refuse a ride\nylittyisi = would be exceeded\n\n--- Explanation ---\nA driver may refuse a ride if it would exceed legal working hours.\n\nCorrect answer: B"
   },
   {
     "id": 284,
@@ -1469,7 +1469,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle's employment has lasted over one year but under 5 years. What is his notice period?\nA: 14 days\nB: 1 month\nC: Until the employer finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\nalle 5 vuotta = under 5 years\ntyösuhde = employment\n\n--- Explanation ---\nAfter over one year but under five years, the notice period is one month.\n\nCorrect answer: B"
   },
   {
     "id": 288,
@@ -1489,7 +1489,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: In which situations must the driver's name be displayed in the taxi?\nA: Only on pre-booked trips.\nB: In all transport.\nC: Only in school and daycare transport.\n\n--- Keywords ---\nKaikissa kuljetuksissa = in all transport\nkuljettajan nimi = driver's name\nesillä = displayed\ntaksi = taxi\n\n--- Explanation ---\nThe driver's name must be displayed in all taxi transport.\n\nCorrect answer: B"
   },
   {
     "id": 289,
@@ -1509,7 +1509,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What is grounds for revoking a driving licence?\nA: The driver has not worked for three years.\nB: Local taxi entrepreneurs recommend revocation.\nC: The driver has committed serious endangerment of traffic safety.\n\n--- Keywords ---\ntörkeään = serious\najoluvan peruuttaminen = revocation of licence\nliikenneturvallisuus = traffic safety\nperuste = grounds\n\n--- Explanation ---\nSerious traffic safety offences can be grounds for revoking a taxi licence.\n\nCorrect answer: C"
   },
   {
     "id": 290,
@@ -1529,7 +1529,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which statement about working hours does NOT hold true?\nA: Daily working time max 11 h / 24 h.\nB: Working time includes time at the taxi stand and cleaning the car.\nC: A two-hour break during the workday is not counted as working time.\n\n--- Keywords ---\ntyöaika = working time\nei pidä paikkaansa = does not hold true\ntauko = break\n11 h = 11 hours\n\n--- Explanation ---\nThe false statement is A — daily working time limits differ from this claim in the exam material.\n\nCorrect answer: A"
   },
   {
     "id": 291,
@@ -1549,7 +1549,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which statement is incorrect?\nA: The vehicle must be registered for licensed transport.\nB: The driver must always carry the driving licence.\nC: Every taxi must have an alcohol interlock.\n\n--- Keywords ---\nalkolukko = alcohol interlock\nvirheellinen = incorrect\najolupa = driving licence\nluvanvarainen liikenne = licensed transport\n\n--- Explanation ---\nNot every taxi needs an alcohol interlock — only school/daycare transport requires it.\n\nCorrect answer: C"
   },
   {
     "id": 293,
@@ -1569,7 +1569,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Who is responsible for the roadworthiness of the taxi used during a shift?\nA: The driver's.\nB: The taxi inspector's.\nC: The vehicle inspector's.\n\n--- Keywords ---\nKuljettajan = driver's\nliikennekelpoisuus = roadworthiness\ntyövuoro = shift\nvastuulla = responsibility\n\n--- Explanation ---\nThe driver is responsible for the taxi's roadworthiness during their shift.\n\nCorrect answer: A"
   },
   {
     "id": 296,
@@ -1589,7 +1589,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: What is recorded in the driver's logbook?\nA: Start of shift and breaks.\nB: Breaks and food consumed during them.\nC: Brief report of problems at work.\n\n--- Keywords ---\najopäiväkirja = driving logbook\ntauot = breaks\ntyövuoron aloitus = start of shift\nmerkitään = is recorded\n\n--- Explanation ---\nThe logbook records shift start and break times.\n\nCorrect answer: A"
   },
   {
     "id": 298,
@@ -1609,7 +1609,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: The main goal of anticipatory driving is?\nA: Knowing how to act when an accident happens.\nB: Being ready in danger situations.\nC: Aiming to drive so you do not end up in danger or accident situations.\n\n--- Keywords ---\nPyrkiä = to aim\nennakoiva ajotapa = anticipatory driving\nvaaratilanne = danger situation\nonnettomuus = accident\n\n--- Explanation ---\nAnticipatory driving means avoiding dangerous situations before they happen.\n\nCorrect answer: C"
   },
   {
     "id": 299,
@@ -1629,7 +1629,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A cyclist falls ahead and lies motionless on the road. What is the first first-aid measure?\nA: Opening the airways.\nB: Checking for fractures.\nC: Moving to a safer place.\n\n--- Keywords ---\nHengitysteiden avaaminen = opening the airways\nensiapu = first aid\npolkupyöräilijä = cyclist\nliikkumaton = motionless\n\n--- Explanation ---\nFirst aid priority: open the airways before moving the person or checking injuries.\n\nCorrect answer: A"
   },
   {
     "id": 300,
@@ -1649,7 +1649,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How are health requirements demonstrated for someone applying to be a taxi driver?\nA: With a medical certificate.\nB: With a self-written report.\nC: No demonstration required.\n\n--- Keywords ---\nLääkärintodistus = medical certificate\nterveysvaatimukset = health requirements\ntaksinkuljettaja = taxi driver\nhakeva = applying\n\n--- Explanation ---\nHealth requirements are proven with a doctor's medical certificate.\n\nCorrect answer: A"
   },
   {
     "id": 301,
@@ -1669,7 +1669,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Who can revoke a taxi driver's driving licence?\nA: Police\nB: Local taxi association\nC: Transport and Communications Agency (Traficom)\n\n--- Keywords ---\nPoliisi = police\nperuuttaa = revoke\najolupa = driving licence\nTraficom = Transport and Communications Agency\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nThe police can revoke a taxi driver's licence.\n\nCorrect answer: A"
   },
   {
     "id": 302,
@@ -1689,7 +1689,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How long must a category B driving licence have been valid before you can get a taxi driving licence?\nA: At least 1 year\nB: At least 3 years\nC: At least 5 years\n\n--- Keywords ---\nB-ajokortti = category B driving licence\nVähintään 1 vuoden = at least 1 year\ntaksiajolupa = taxi driving licence\nvoimassa = valid\n\n--- Explanation ---\nYou need at least one year of category B driving licence before applying for a taxi licence.\n\nCorrect answer: A"
   },
   {
     "id": 304,
@@ -1709,7 +1709,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who issues the taxi driver's driving licence?\nA: Police\nB: Transport and Communications Agency (Traficom)\nC: TE Office (employment office)\n\n--- Keywords ---\nTraficom = Transport and Communications Agency\nmyöntää = issues\najolupa = driving licence\nPoliisi = police\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nTraficom (Transport and Communications Agency) issues the taxi driver's licence.\n\nCorrect answer: B"
   },
   {
     "id": 305,
@@ -1729,7 +1729,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Aino started her shift at 5:30. When must she take her first break at the latest?\nA: When she feels tired.\nB: By 11:00 at the latest (5.5 h continuous working time).\nC: By 10:00 at the latest (4.5 h continuous working time).\n\n--- Keywords ---\ntauko = break\n5,5 h = 5.5 hours\nyhtäjaksoista työaikaa = continuous working time\nviimeistään klo 11 = by 11:00 at the latest\ntyövuoro = shift\n\n--- Explanation ---\nThe first break must be taken by 11:00 — maximum continuous work is 5.5 hours.\n\nCorrect answer: B"
   },
   {
     "id": 306,
@@ -1749,7 +1749,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: May a taxi driver work continuously for 15 hours?\nA: Yes, if no other arrangement is possible.\nB: Yes, if the driver wants to.\nC: No.\n\n--- Keywords ---\nyhtäjaksoisesti = continuously\n15 tuntia = 15 hours\nEi saa = not allowed\ntyöskennellä = to work\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nA taxi driver may not work continuously for 15 hours.\n\nCorrect answer: C"
   },
   {
     "id": 308,
@@ -1769,6 +1769,6 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: The law sets quality requirements for taxis. Who do they apply to?\nA: Only the licence holder.\nB: Every taxi driver.\nC: Only entrepreneurs with more than 2 employees.\n\n--- Keywords ---\nlaatuvaatimukset = quality requirements\njokaista taksinkuljettajaa = every taxi driver\nluvanhaltija = licence holder\nkoskevat = apply to\n\n--- Explanation ---\nQuality requirements apply to every taxi driver, not only licence holders or large firms.\n\nCorrect answer: B"
   }
 ]

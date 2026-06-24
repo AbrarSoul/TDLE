@@ -760,7 +760,7 @@ TRANSLATIONS = {
         "options": {
             "A": "It is not the driver's task to straighten the customer's clothes or otherwise...",
             "B": "The driver may only ask the customer to straighten their own clothes, because the driver may not adjust the customer's clothes even if the customer asks.",
-            "C": "The driver's task is to make sure the customer is comfortable and, if necessary,...",
+            "C": "The driver's task is to make sure that the customer is comfortable and, if necessary, help adjust the customer's clothing.",
         },
         "keywords": [
             "varmistaa = to make sure",

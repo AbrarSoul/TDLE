@@ -133,7 +133,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you ensure pets travel safely in the vehicle?\nA: Pets may sit freely inside the car.\nB: Pets travel in the driver's lap.\nC: Pets travel in their own carrier or secured with seat belts on the back seat.\n\n--- Keywords ---\nlemmikkieläimet = pets\nhäkki = carrier / cage\nturvavyöt = seat belts\ntakaistuin = back seat\nkiinnitetty = secured\n\n--- Explanation ---\nPets must travel in a carrier or be properly secured — not loose or on the driver's lap.\n\nCorrect answer: C"
       },
       {
         "id": 6,
@@ -153,7 +153,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you act if a customer asks you to stop in a dangerous area?\nA: You stop immediately because the customer asks.\nB: You refuse to stop and drive the customer to the destination.\nC: You explain the danger and find a safe parking place nearby.\n\n--- Keywords ---\nvaarallisella alueella = in a dangerous area\nturvallinen pysäköintipaikka = safe parking place\npysäyttää = to stop\nselität = you explain\n\n--- Explanation ---\nExplain the risk and stop at a nearby safe location instead of a dangerous spot.\n\nCorrect answer: C"
       },
       {
         "id": 7,
@@ -173,7 +173,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when a customer wants to get out on a motorway shoulder?\nA: The customer may get out on the motorway if they ask you to stop.\nB: You find the first safe place where the customer can get out.\nC: You may park briefly on the motorway shoulder with hazard lights on.\n\n--- Keywords ---\nmoottoritie = motorway\nturvallinen paikka = safe place\njäädä pois = to get out\npysähtyminen = stopping\n\n--- Explanation ---\nNever drop off on the motorway itself. Find the first safe exit or stopping place.\n\nCorrect answer: B"
       },
       {
         "id": 8,
@@ -193,7 +193,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is a safety factor when transporting pets in a car?\nA: Pets may travel in a taxi without special measures.\nB: Pets must be placed in the boot or in a travel crate or carrier designed for them.\nC: Pets may sit in the passenger's lap.\n\n--- Keywords ---\nlemmikkieläimet = pets\nmatkustuskori = travel crate\nhäkki = carrier\ntakakontti = boot\nturvallisuus = safety\n\n--- Explanation ---\nSecure pets in a crate or the boot — not loose or on a passenger's lap.\n\nCorrect answer: B"
       },
       {
         "id": 9,
@@ -273,7 +273,7 @@
           }
         ],
         "correct": "A",
-        "explanation": ""
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A customer who has drunk alcohol staggers toward their front door in -30°C frost. What do you do?\nA: You ensure the customer gets inside through the front door.\nB: The customer is no longer your responsibility after leaving the car.\nC: You breath-test and take to police if over 0.5 ‰.\n\n--- Keywords ---\npakkasessa = in frost / freezing weather\nvarmistat = you ensure\nsisälle = inside\nkotiovesta = front door\nvastuu = responsibility\n\n--- Explanation ---\nIn extreme cold, ensure the customer gets safely indoors before you leave.\n\nCorrect answer: A"
       },
       {
         "id": 13,
@@ -313,7 +313,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is a safety factor when transporting pets in a car?\nA: Pets may travel in a taxi without special measures.\nB: Pets must be placed in the boot or in a travel crate or carrier designed for them.\nC: Pets may sit in the passenger's lap.\n\n--- Keywords ---\nlemmikkieläimet = pets\nmatkustuskori = travel crate\nhäkki = carrier\ntakakontti = boot / trunk\nturvallisuus = safety\n\n--- Explanation ---\nPets need a crate or secure placement in the boot — not free roaming or on laps.\n\nCorrect answer: B"
       },
       {
         "id": 15,
@@ -333,7 +333,7 @@
           }
         ],
         "correct": "A",
-        "explanation": ""
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: On a -30°C February night you pick up a tired customer from the airport who has had a few drinks. At destination they stagger toward their front door. How do you act?\nA: You make sure the customer gets inside through the front door. Then you may continue.\nB: Once they leave the taxi they are no longer your responsibility, so you may drive on.\nC: You breath-test them before letting them out. If over 0.5%, take them to a police sobering station.\n\n--- Keywords ---\nvarmistat = you make sure\nkotiovesta sisään = inside through the front door\npakkasta = freezing weather\nvastuu = responsibility\nasiakas = customer\n\n--- Explanation ---\nIn extreme cold, ensure the customer gets safely indoors before you leave.\n\nCorrect answer: A"
       }
     ],
     "special_needs": [
@@ -355,7 +355,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following applies to school and daycare transport?\nA: Picking up and dropping off pupils inside.\nB: Checking homework.\nC: Ensuring seat belts and traffic guidance.\n\n--- Keywords ---\nturvavyö = seat belt\nliikenneopastus = traffic guidance\nkoulu- ja päiväkotikuljetus = school and daycare transport\nvarmistaminen = ensuring\n\n--- Explanation ---\nSchool transport duties include seat belt checks and traffic safety guidance.\n\nCorrect answer: C"
       },
       {
         "id": 17,
@@ -375,7 +375,7 @@
           }
         ],
         "correct": "B",
-        "explanation": ""
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What is good to remember about a guide dog (visually impaired customer)?\nA: You should always pet the guide dog.\nB: The guide dog sits in the customer's footwell or luggage area.\nC: The guide dog always sits on the back seat.\n\n--- Keywords ---\nopaskoira = guide dog\njalkatila = footwell\nmatkatavaratila = luggage area\nnäkövammainen = visually impaired\n\n--- Explanation ---\nThe guide dog stays in the footwell or luggage area. Do not pet or distract it.\n\nCorrect answer: B"
       },
       {
         "id": 18,
@@ -395,7 +395,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Why is an alcohol interlock required in school and daycare transport?\nA: It prevents the vehicle from moving if the driver has consumed alcohol.\nB: It is only the employer's monitoring tool for the driver's alcohol use.\nC: Police check the driver's fitness to drive with it during enforcement.\n\n--- Keywords ---\nalkolukko = alcohol interlock\nestää = prevents\nkoulu- ja päivähoitokuljetus = school and daycare transport\nalkoholia = alcohol\n\n--- Explanation ---\nThe interlock prevents the vehicle from starting if the driver has consumed alcohol.\n\nCorrect answer: A"
       },
       {
         "id": 19,
@@ -415,7 +415,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must a taxi driver act if a customer needs wheelchair transport but the taxi has no wheelchair securing equipment?\nA: You may transport without securing if the trip is short.\nB: You may take the customer but they must hold on firmly during the trip.\nC: You refuse transport and advise ordering a properly equipped taxi.\n\n--- Keywords ---\nKieltäydyt = you refuse\nkiinnityslaitteet = securing equipment\npyörätuolikuljetus = wheelchair transport\nasianmukaisesti varustettu = properly equipped\n\n--- Explanation ---\nRefuse the ride and direct the customer to a taxi with proper wheelchair securing equipment.\n\nCorrect answer: C"
       },
       {
         "id": 20,
@@ -435,7 +435,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nMain keyword: 135 cm\n\nChild under 135 cm always needs a child restraint device.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Various customers ride in taxis, including children sometimes. What is good to remember when transporting children by taxi?\nA: A child under 135 cm in height always needs a safety device when travelling in a car.\nB: A child may travel without a safety device in a taxi if sitting in the back seat with a seat belt fastened.\nC: A child under 3 may not travel in a taxi without their guardian's written...\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device / child restraint\nlapsi = child\ntaksi = taxi\naina = always\n\n--- Explanation ---\nChildren under 135 cm always need an approved child restraint, including in taxis.\n\nCorrect answer: A"
       },
       {
         "id": 21,
@@ -515,7 +515,7 @@
           }
         ],
         "correct": "B",
-        "explanation": ""
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which is the best way to act when your customer is an elderly assisted person dropped off at a care facility?\nA: The driver's responsibility ends when the customer has exited the car\nB: The taxi driver must ensure the customer reaches care staff if needed.\nC: The taxi driver must always also remove the customer's outdoor clothing.\n\n--- Keywords ---\nhoitolaitos = care facility\nhoitohenkilökunta = care staff\nTaksinkuljettaja = taxi driver\nhuolehtii = takes care of\n\n--- Explanation ---\nEnsure the customer is handed over to care staff — responsibility does not end in the yard.\n\nCorrect answer: B"
       },
       {
         "id": 25,
@@ -575,7 +575,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nMain keyword: huolehdittava\nMain keyword: Taksinkuljettaja = taxi driver\n\nIn this question set, pick huolehdittava for 15-vuotias solo passenger. If täyttäneen (turned 15), pick itse/Asiakas instead (see Q103).\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding seat belt use by a 15-year-old customer travelling alone?\nA: The taxi driver must ensure the customer's seat belt use.\nB: The customer themselves takes care of seat belt use.\nC: If it is not school transport, the driver does not need to ensure seat belt use.\n\n--- Keywords ---\nhuolehdittava = must be ensured\nTaksinkuljettaja = taxi driver\n15-vuotias = 15 years old\nyksin matkustava = travelling alone\nturvavyö = seat belt\n\n--- Explanation ---\nIn this question set, a 15-year-old travelling alone still requires the driver to ensure seat belt use. (Compare Q103: if they have turned 15, the customer is responsible.)\n\nCorrect answer: A"
       },
       {
         "id": 28,
@@ -657,7 +657,7 @@
           }
         ],
         "correct": "A",
-        "explanation": ""
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A customer urges you to speed and offers to pay fines. How do you act?\nA: You say you cannot speed but take them safely via the fastest route.\nB: You accept and drive faster.\nC: You refuse entirely and call the police.\n\n--- Keywords ---\nylinopeus = speeding\nturvallisesti = safely\nnopeinta reittiä = fastest route\nsakot = fines\n\n--- Explanation ---\nNever speed for a customer. Drive the fastest legal route and explain you cannot exceed limits.\n\nCorrect answer: A"
       },
       {
         "id": 32,
@@ -697,7 +697,7 @@
           }
         ],
         "correct": "B",
-        "explanation": ""
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle drove for employer Ismo for four years while studying. Now he is moving and ending the employment. What is Kalle's notice period?\nA: 14 days, because employment lasted under five years.\nB: 1 month, because employment was over one year but under five years.\nC: Kalle may quit when Ismo finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\ntyösuhde = employment\nalle viisi vuotta = under five years\n\n--- Explanation ---\nAfter over one year but under five years of employment, the notice period is one month.\n\nCorrect answer: B"
       },
       {
         "id": 34,
@@ -717,7 +717,7 @@
           }
         ],
         "correct": "B",
-        "explanation": ""
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: The driver significantly affects passenger comfort. What is expected of you?\nA: Maintaining continuous conversation.\nB: Good situational awareness — some customers want silence, others want company.\nC: Being unnoticeable and silent.\n\n--- Keywords ---\nmatkustusmukavuus = travel comfort\npelisilmä = situational awareness\nkeskustelu = conversation\nasiakas = customer\n\n--- Explanation ---\nRead the customer's mood — some want to talk, others prefer quiet.\n\nCorrect answer: B"
       },
       {
         "id": 35,
@@ -737,7 +737,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What should be done if a customer leaves valuables in the taxi?\nA: Keep items in the car and wait for the customer to contact you.\nB: Report the find to employer or police and deliver items to storage.\nC: Sell the items and keep the money.\n\n--- Keywords ---\narvotavarat = valuables\nlöytötavara = lost property\npoliisi = police\ntyönantaja = employer\nIlmoitat = you report\n\n--- Explanation ---\nReport found valuables to employer or police and store them properly.\n\nCorrect answer: B"
       },
       {
         "id": 36,
@@ -757,7 +757,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When must a receipt be offered for a taxi ride?\nA: If the ride was booked via an app.\nB: If the taxi fare is fixed.\nC: A receipt must always be given for the ride.\n\n--- Keywords ---\nkuitti = receipt\naina = always\ntaksikyyti = taxi ride\nannettava = must be given\n\n--- Explanation ---\nA receipt must always be provided — not only for app bookings or fixed fares.\n\nCorrect answer: C"
       },
       {
         "id": 37,
@@ -797,7 +797,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you handle a situation if your customer cannot pay for the trip?\nA: Drive the customer home and ask them to pay later.\nB: Ask the customer to leave the car without paying.\nC: Resolve the situation calmly and, where possible, report non-payment to the employer or authorities.\n\n--- Keywords ---\nmaksamaton matka = unpaid trip\nrauhallisesti = calmly\ntyönantaja = employer\nviranomaiset = authorities\nselvittää = to resolve\n\n--- Explanation ---\nStay calm and report non-payment to your employer or authorities — do not just let them go unpaid.\n\nCorrect answer: C"
       },
       {
         "id": 39,
@@ -817,7 +817,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: Kerrot asiakkaalle\nMain keyword: Valitettavasti = unfortunately\n\nNote: Kerrot asiakkaalle is always anwer where it is avialable\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer boards at a taxi stand and gives an address unfamiliar to you. How do you act?\nA: You enter the address in the navigator and follow its directions.\nB: You tell the customer the address is unfortunately unfamiliar and ask for more details about it.\nC: You start driving in the direction where you suspect the address is.\n\n--- Keywords ---\nKerrot asiakkaalle = you tell the customer\nValitettavasti = unfortunately\ntiedustelet = you inquire / ask\nnavigaattori = navigator\nosoite = address\n\n--- Explanation ---\nBe honest if you do not know the address and ask the customer for more information.\n\nCorrect answer: B"
       },
       {
         "id": 40,
@@ -837,7 +837,7 @@
           }
         ],
         "correct": "B",
-        "explanation": ""
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer wants an address you do not know. How do you act?\nA: Start driving in the direction you guess the address is.\nB: Enter the address in the navigator and follow instructions.\nC: Tell the customer you do not know the address and ask for more details.\n\n--- Keywords ---\nnavigaattori = navigator\nosoite = address\nlisätietoja = more details\ntunne = know\n\n--- Explanation ---\nUse the navigator with the address the customer provides.\n\nCorrect answer: B"
       }
     ],
     "traffic_safety": [
@@ -879,7 +879,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nCorrect answer: B",
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Must the taxi light/sign be displayed? [based on image/answer]\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\ntaksivalaisin = taxi light\nPitää aina = must always\nesillä = displayed\n\n--- Explanation ---\nThe taxi sign/light must always be on during taxi operations.\n\nCorrect answer: B",
         "image": "Image/image11.png"
       },
       {
@@ -900,7 +900,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nCorrect answer: C",
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When driving a taxi, may you drive into the area covered by this traffic sign?\nA: Always when I am driving a taxi.\nB: Only if the customer has heavy luggage.\nC: Always when I am picking up or dropping off a customer.\n\n--- Keywords ---\nAina jos nouden tai tuon = always when I pick up or drop off\nliikennemerkki = traffic sign\nasiakas = customer\nvaikutusalue = affected area\n\n--- Explanation ---\nTaxis may enter restricted areas when picking up or dropping off a customer.\n\nCorrect answer: C",
         "image": "Image/image9.png"
       },
       {
@@ -921,7 +921,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nKeyword: Poliisi\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who can revoke a taxi driver's licence?\nA: The local taxi association.\nB: The police.\nC: The Transport and Communications Agency.\n\n--- Keywords ---\nPoliisi = police\nperuuttaa = revoke\najolupa = driving licence\nTraficom = Transport and Communications Agency\n\n--- Explanation ---\nThe police can revoke a taxi driver's licence.\n\nCorrect answer: B"
       },
       {
         "id": 45,
@@ -941,7 +941,7 @@
           }
         ],
         "correct": "B",
-        "explanation": "Answer: B\n\nCorrect answer: B"
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How often must the vehicle's first-aid supplies be checked?\nA: Only during annual service.\nB: Regularly, at least once a month.\nC: Only when they are used.\n\n--- Keywords ---\nensiapuvälineet = first-aid supplies\nsäännöllisesti = regularly\nkerran kuukaudessa = once a month\ntarkistaa = to check\n\n--- Explanation ---\nFirst-aid supplies should be checked regularly — at least monthly.\n\nCorrect answer: B"
       },
       {
         "id": 46,
@@ -961,7 +961,7 @@
           }
         ],
         "correct": "C",
-        "explanation": "Answer: C\n\nKeyword: törkeään\nMain keyword: Kuljettaja = driver\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C"
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following is grounds for revoking a taxi driver's licence?\nA: Taxi drivers and entrepreneurs in the area recommend revocation.\nB: The driver has not worked as a taxi driver in the last three years.\nC: The driver has committed a serious endangerment of traffic safety.\n\n--- Keywords ---\ntörkeään = serious\nKuljettaja = driver\najoluvan peruuttaminen = revocation of driving licence\nliikenneturvallisuus = traffic safety\n\n--- Explanation ---\nSerious traffic safety offences can be grounds for revoking a taxi licence.\n\nCorrect answer: C"
       },
       {
         "id": 47,
@@ -981,7 +981,7 @@
           }
         ],
         "correct": "B",
-        "explanation": ""
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who issues the taxi driver's driving licence?\nA: Police\nB: Transport and Communications Agency (Traficom)\nC: TE Office (employment office)\n\n--- Keywords ---\nTraficom = Transport and Communications Agency\nmyöntää = issues\najolupa = driving licence\nPoliisi = police\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nTraficom (Transport and Communications Agency) issues the taxi driver's licence.\n\nCorrect answer: B"
       },
       {
         "id": 48,
@@ -1001,7 +1001,7 @@
           }
         ],
         "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: Turvavälin turvallista\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A"
+        "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Why is it important to keep a safe distance to the vehicle ahead?\nA: Keeping a safe distance to the vehicle ahead is safe.\nB: Keeping a safe distance is unnecessary.\nC: Keeping a safe distance to the vehicle ahead is meaningless.\n\n--- Keywords ---\nturvaväli = safe distance\nturvallista = safe\nedellä ajoneuvoon = to the vehicle ahead\nliikenne = traffic\n\n--- Explanation ---\nA safe following distance gives time to react and prevents rear-end collisions.\n\nCorrect answer: A"
       },
       {
         "id": 49,
@@ -1021,7 +1021,7 @@
           }
         ],
         "correct": "B",
-        "explanation": ""
+        "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: The law sets quality requirements for taxis. Who do they apply to?\nA: Only the licence holder.\nB: Every taxi driver.\nC: Only entrepreneurs with more than 2 employees.\n\n--- Keywords ---\nlaatuvaatimukset = quality requirements\njokaista taksinkuljettajaa = every taxi driver\nluvanhaltija = licence holder\nkoskevat = apply to\n\n--- Explanation ---\nQuality requirements apply to every taxi driver, not only licence holders or large firms.\n\nCorrect answer: B"
       },
       {
         "id": 50,
@@ -1041,7 +1041,7 @@
           }
         ],
         "correct": "C",
-        "explanation": ""
+        "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: May a taxi driver work continuously for 15 hours?\nA: Yes, if no other arrangement is possible.\nB: Yes, if the driver wants to.\nC: No.\n\n--- Keywords ---\nyhtäjaksoisesti = continuously\n15 tuntia = 15 hours\nEi saa = not allowed\ntyöskennellä = to work\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nA taxi driver may not work continuously for 15 hours.\n\nCorrect answer: C"
       }
     ]
   },
@@ -1148,7 +1148,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you ensure pets travel safely in the vehicle?\nA: Pets may sit freely inside the car.\nB: Pets travel in the driver's lap.\nC: Pets travel in their own carrier or secured with seat belts on the back seat.\n\n--- Keywords ---\nlemmikkieläimet = pets\nhäkki = carrier / cage\nturvavyöt = seat belts\ntakaistuin = back seat\nkiinnitetty = secured\n\n--- Explanation ---\nPets must travel in a carrier or be properly secured — not loose or on the driver's lap.\n\nCorrect answer: C",
       "section": "assisting_passengers"
     },
     {
@@ -1169,7 +1169,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you act if a customer asks you to stop in a dangerous area?\nA: You stop immediately because the customer asks.\nB: You refuse to stop and drive the customer to the destination.\nC: You explain the danger and find a safe parking place nearby.\n\n--- Keywords ---\nvaarallisella alueella = in a dangerous area\nturvallinen pysäköintipaikka = safe parking place\npysäyttää = to stop\nselität = you explain\n\n--- Explanation ---\nExplain the risk and stop at a nearby safe location instead of a dangerous spot.\n\nCorrect answer: C",
       "section": "assisting_passengers"
     },
     {
@@ -1190,7 +1190,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when a customer wants to get out on a motorway shoulder?\nA: The customer may get out on the motorway if they ask you to stop.\nB: You find the first safe place where the customer can get out.\nC: You may park briefly on the motorway shoulder with hazard lights on.\n\n--- Keywords ---\nmoottoritie = motorway\nturvallinen paikka = safe place\njäädä pois = to get out\npysähtyminen = stopping\n\n--- Explanation ---\nNever drop off on the motorway itself. Find the first safe exit or stopping place.\n\nCorrect answer: B",
       "section": "assisting_passengers"
     },
     {
@@ -1211,7 +1211,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is a safety factor when transporting pets in a car?\nA: Pets may travel in a taxi without special measures.\nB: Pets must be placed in the boot or in a travel crate or carrier designed for them.\nC: Pets may sit in the passenger's lap.\n\n--- Keywords ---\nlemmikkieläimet = pets\nmatkustuskori = travel crate\nhäkki = carrier\ntakakontti = boot\nturvallisuus = safety\n\n--- Explanation ---\nSecure pets in a crate or the boot — not loose or on a passenger's lap.\n\nCorrect answer: B",
       "section": "assisting_passengers"
     },
     {
@@ -1295,7 +1295,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A customer who has drunk alcohol staggers toward their front door in -30°C frost. What do you do?\nA: You ensure the customer gets inside through the front door.\nB: The customer is no longer your responsibility after leaving the car.\nC: You breath-test and take to police if over 0.5 ‰.\n\n--- Keywords ---\npakkasessa = in frost / freezing weather\nvarmistat = you ensure\nsisälle = inside\nkotiovesta = front door\nvastuu = responsibility\n\n--- Explanation ---\nIn extreme cold, ensure the customer gets safely indoors before you leave.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1337,7 +1337,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is a safety factor when transporting pets in a car?\nA: Pets may travel in a taxi without special measures.\nB: Pets must be placed in the boot or in a travel crate or carrier designed for them.\nC: Pets may sit in the passenger's lap.\n\n--- Keywords ---\nlemmikkieläimet = pets\nmatkustuskori = travel crate\nhäkki = carrier\ntakakontti = boot / trunk\nturvallisuus = safety\n\n--- Explanation ---\nPets need a crate or secure placement in the boot — not free roaming or on laps.\n\nCorrect answer: B",
       "section": "assisting_passengers"
     },
     {
@@ -1358,7 +1358,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: On a -30°C February night you pick up a tired customer from the airport who has had a few drinks. At destination they stagger toward their front door. How do you act?\nA: You make sure the customer gets inside through the front door. Then you may continue.\nB: Once they leave the taxi they are no longer your responsibility, so you may drive on.\nC: You breath-test them before letting them out. If over 0.5%, take them to a police sobering station.\n\n--- Keywords ---\nvarmistat = you make sure\nkotiovesta sisään = inside through the front door\npakkasta = freezing weather\nvastuu = responsibility\nasiakas = customer\n\n--- Explanation ---\nIn extreme cold, ensure the customer gets safely indoors before you leave.\n\nCorrect answer: A",
       "section": "assisting_passengers"
     },
     {
@@ -1379,7 +1379,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following applies to school and daycare transport?\nA: Picking up and dropping off pupils inside.\nB: Checking homework.\nC: Ensuring seat belts and traffic guidance.\n\n--- Keywords ---\nturvavyö = seat belt\nliikenneopastus = traffic guidance\nkoulu- ja päiväkotikuljetus = school and daycare transport\nvarmistaminen = ensuring\n\n--- Explanation ---\nSchool transport duties include seat belt checks and traffic safety guidance.\n\nCorrect answer: C",
       "section": "special_needs"
     },
     {
@@ -1400,7 +1400,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What is good to remember about a guide dog (visually impaired customer)?\nA: You should always pet the guide dog.\nB: The guide dog sits in the customer's footwell or luggage area.\nC: The guide dog always sits on the back seat.\n\n--- Keywords ---\nopaskoira = guide dog\njalkatila = footwell\nmatkatavaratila = luggage area\nnäkövammainen = visually impaired\n\n--- Explanation ---\nThe guide dog stays in the footwell or luggage area. Do not pet or distract it.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1421,7 +1421,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Why is an alcohol interlock required in school and daycare transport?\nA: It prevents the vehicle from moving if the driver has consumed alcohol.\nB: It is only the employer's monitoring tool for the driver's alcohol use.\nC: Police check the driver's fitness to drive with it during enforcement.\n\n--- Keywords ---\nalkolukko = alcohol interlock\nestää = prevents\nkoulu- ja päivähoitokuljetus = school and daycare transport\nalkoholia = alcohol\n\n--- Explanation ---\nThe interlock prevents the vehicle from starting if the driver has consumed alcohol.\n\nCorrect answer: A",
       "section": "special_needs"
     },
     {
@@ -1442,7 +1442,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How must a taxi driver act if a customer needs wheelchair transport but the taxi has no wheelchair securing equipment?\nA: You may transport without securing if the trip is short.\nB: You may take the customer but they must hold on firmly during the trip.\nC: You refuse transport and advise ordering a properly equipped taxi.\n\n--- Keywords ---\nKieltäydyt = you refuse\nkiinnityslaitteet = securing equipment\npyörätuolikuljetus = wheelchair transport\nasianmukaisesti varustettu = properly equipped\n\n--- Explanation ---\nRefuse the ride and direct the customer to a taxi with proper wheelchair securing equipment.\n\nCorrect answer: C",
       "section": "special_needs"
     },
     {
@@ -1463,7 +1463,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nMain keyword: 135 cm\n\nChild under 135 cm always needs a child restraint device.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Various customers ride in taxis, including children sometimes. What is good to remember when transporting children by taxi?\nA: A child under 135 cm in height always needs a safety device when travelling in a car.\nB: A child may travel without a safety device in a taxi if sitting in the back seat with a seat belt fastened.\nC: A child under 3 may not travel in a taxi without their guardian's written...\n\n--- Keywords ---\n135 cm = 135 centimetres\nturvalaite = safety device / child restraint\nlapsi = child\ntaksi = taxi\naina = always\n\n--- Explanation ---\nChildren under 135 cm always need an approved child restraint, including in taxis.\n\nCorrect answer: A",
       "section": "special_needs"
     },
     {
@@ -1547,7 +1547,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which is the best way to act when your customer is an elderly assisted person dropped off at a care facility?\nA: The driver's responsibility ends when the customer has exited the car\nB: The taxi driver must ensure the customer reaches care staff if needed.\nC: The taxi driver must always also remove the customer's outdoor clothing.\n\n--- Keywords ---\nhoitolaitos = care facility\nhoitohenkilökunta = care staff\nTaksinkuljettaja = taxi driver\nhuolehtii = takes care of\n\n--- Explanation ---\nEnsure the customer is handed over to care staff — responsibility does not end in the yard.\n\nCorrect answer: B",
       "section": "special_needs"
     },
     {
@@ -1610,7 +1610,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nMain keyword: huolehdittava\nMain keyword: Taksinkuljettaja = taxi driver\n\nIn this question set, pick huolehdittava for 15-vuotias solo passenger. If täyttäneen (turned 15), pick itse/Asiakas instead (see Q103).\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Which of the following is correct regarding seat belt use by a 15-year-old customer travelling alone?\nA: The taxi driver must ensure the customer's seat belt use.\nB: The customer themselves takes care of seat belt use.\nC: If it is not school transport, the driver does not need to ensure seat belt use.\n\n--- Keywords ---\nhuolehdittava = must be ensured\nTaksinkuljettaja = taxi driver\n15-vuotias = 15 years old\nyksin matkustava = travelling alone\nturvavyö = seat belt\n\n--- Explanation ---\nIn this question set, a 15-year-old travelling alone still requires the driver to ensure seat belt use. (Compare Q103: if they have turned 15, the customer is responsible.)\n\nCorrect answer: A",
       "section": "special_needs"
     },
     {
@@ -1694,7 +1694,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A customer urges you to speed and offers to pay fines. How do you act?\nA: You say you cannot speed but take them safely via the fastest route.\nB: You accept and drive faster.\nC: You refuse entirely and call the police.\n\n--- Keywords ---\nylinopeus = speeding\nturvallisesti = safely\nnopeinta reittiä = fastest route\nsakot = fines\n\n--- Explanation ---\nNever speed for a customer. Drive the fastest legal route and explain you cannot exceed limits.\n\nCorrect answer: A",
       "section": "customer_service"
     },
     {
@@ -1736,7 +1736,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Kalle drove for employer Ismo for four years while studying. Now he is moving and ending the employment. What is Kalle's notice period?\nA: 14 days, because employment lasted under five years.\nB: 1 month, because employment was over one year but under five years.\nC: Kalle may quit when Ismo finds a new driver\n\n--- Keywords ---\nirtisanomisaika = notice period\n1 kuukausi = 1 month\ntyösuhde = employment\nalle viisi vuotta = under five years\n\n--- Explanation ---\nAfter over one year but under five years of employment, the notice period is one month.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {
@@ -1757,7 +1757,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: The driver significantly affects passenger comfort. What is expected of you?\nA: Maintaining continuous conversation.\nB: Good situational awareness — some customers want silence, others want company.\nC: Being unnoticeable and silent.\n\n--- Keywords ---\nmatkustusmukavuus = travel comfort\npelisilmä = situational awareness\nkeskustelu = conversation\nasiakas = customer\n\n--- Explanation ---\nRead the customer's mood — some want to talk, others prefer quiet.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {
@@ -1778,7 +1778,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What should be done if a customer leaves valuables in the taxi?\nA: Keep items in the car and wait for the customer to contact you.\nB: Report the find to employer or police and deliver items to storage.\nC: Sell the items and keep the money.\n\n--- Keywords ---\narvotavarat = valuables\nlöytötavara = lost property\npoliisi = police\ntyönantaja = employer\nIlmoitat = you report\n\n--- Explanation ---\nReport found valuables to employer or police and store them properly.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {
@@ -1799,7 +1799,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When must a receipt be offered for a taxi ride?\nA: If the ride was booked via an app.\nB: If the taxi fare is fixed.\nC: A receipt must always be given for the ride.\n\n--- Keywords ---\nkuitti = receipt\naina = always\ntaksikyyti = taxi ride\nannettava = must be given\n\n--- Explanation ---\nA receipt must always be provided — not only for app bookings or fixed fares.\n\nCorrect answer: C",
       "section": "customer_service"
     },
     {
@@ -1841,7 +1841,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you handle a situation if your customer cannot pay for the trip?\nA: Drive the customer home and ask them to pay later.\nB: Ask the customer to leave the car without paying.\nC: Resolve the situation calmly and, where possible, report non-payment to the employer or authorities.\n\n--- Keywords ---\nmaksamaton matka = unpaid trip\nrauhallisesti = calmly\ntyönantaja = employer\nviranomaiset = authorities\nselvittää = to resolve\n\n--- Explanation ---\nStay calm and report non-payment to your employer or authorities — do not just let them go unpaid.\n\nCorrect answer: C",
       "section": "customer_service"
     },
     {
@@ -1862,7 +1862,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: Kerrot asiakkaalle\nMain keyword: Valitettavasti = unfortunately\n\nNote: Kerrot asiakkaalle is always anwer where it is avialable\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer boards at a taxi stand and gives an address unfamiliar to you. How do you act?\nA: You enter the address in the navigator and follow its directions.\nB: You tell the customer the address is unfortunately unfamiliar and ask for more details about it.\nC: You start driving in the direction where you suspect the address is.\n\n--- Keywords ---\nKerrot asiakkaalle = you tell the customer\nValitettavasti = unfortunately\ntiedustelet = you inquire / ask\nnavigaattori = navigator\nosoite = address\n\n--- Explanation ---\nBe honest if you do not know the address and ask the customer for more information.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {
@@ -1883,7 +1883,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer wants an address you do not know. How do you act?\nA: Start driving in the direction you guess the address is.\nB: Enter the address in the navigator and follow instructions.\nC: Tell the customer you do not know the address and ask for more details.\n\n--- Keywords ---\nnavigaattori = navigator\nosoite = address\nlisätietoja = more details\ntunne = know\n\n--- Explanation ---\nUse the navigator with the address the customer provides.\n\nCorrect answer: B",
       "section": "customer_service"
     },
     {
@@ -1925,7 +1925,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Must the taxi light/sign be displayed? [based on image/answer]\nA: Only when the taxi light has been removed.\nB: Always.\nC: Never.\n\n--- Keywords ---\ntaksivalaisin = taxi light\nPitää aina = must always\nesillä = displayed\n\n--- Explanation ---\nThe taxi sign/light must always be on during taxi operations.\n\nCorrect answer: B",
       "image": "Image/image11.png",
       "section": "traffic_safety"
     },
@@ -1947,7 +1947,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When driving a taxi, may you drive into the area covered by this traffic sign?\nA: Always when I am driving a taxi.\nB: Only if the customer has heavy luggage.\nC: Always when I am picking up or dropping off a customer.\n\n--- Keywords ---\nAina jos nouden tai tuon = always when I pick up or drop off\nliikennemerkki = traffic sign\nasiakas = customer\nvaikutusalue = affected area\n\n--- Explanation ---\nTaxis may enter restricted areas when picking up or dropping off a customer.\n\nCorrect answer: C",
       "image": "Image/image9.png",
       "section": "traffic_safety"
     },
@@ -1969,7 +1969,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nKeyword: Poliisi\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who can revoke a taxi driver's licence?\nA: The local taxi association.\nB: The police.\nC: The Transport and Communications Agency.\n\n--- Keywords ---\nPoliisi = police\nperuuttaa = revoke\najolupa = driving licence\nTraficom = Transport and Communications Agency\n\n--- Explanation ---\nThe police can revoke a taxi driver's licence.\n\nCorrect answer: B",
       "section": "traffic_safety"
     },
     {
@@ -1990,7 +1990,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "Answer: B\n\nCorrect answer: B",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How often must the vehicle's first-aid supplies be checked?\nA: Only during annual service.\nB: Regularly, at least once a month.\nC: Only when they are used.\n\n--- Keywords ---\nensiapuvälineet = first-aid supplies\nsäännöllisesti = regularly\nkerran kuukaudessa = once a month\ntarkistaa = to check\n\n--- Explanation ---\nFirst-aid supplies should be checked regularly — at least monthly.\n\nCorrect answer: B",
       "section": "traffic_safety"
     },
     {
@@ -2011,7 +2011,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\nKeyword: törkeään\nMain keyword: Kuljettaja = driver\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Which of the following is grounds for revoking a taxi driver's licence?\nA: Taxi drivers and entrepreneurs in the area recommend revocation.\nB: The driver has not worked as a taxi driver in the last three years.\nC: The driver has committed a serious endangerment of traffic safety.\n\n--- Keywords ---\ntörkeään = serious\nKuljettaja = driver\najoluvan peruuttaminen = revocation of driving licence\nliikenneturvallisuus = traffic safety\n\n--- Explanation ---\nSerious traffic safety offences can be grounds for revoking a taxi licence.\n\nCorrect answer: C",
       "section": "traffic_safety"
     },
     {
@@ -2032,7 +2032,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who issues the taxi driver's driving licence?\nA: Police\nB: Transport and Communications Agency (Traficom)\nC: TE Office (employment office)\n\n--- Keywords ---\nTraficom = Transport and Communications Agency\nmyöntää = issues\najolupa = driving licence\nPoliisi = police\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nTraficom (Transport and Communications Agency) issues the taxi driver's licence.\n\nCorrect answer: B",
       "section": "traffic_safety"
     },
     {
@@ -2053,7 +2053,7 @@
         }
       ],
       "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: Turvavälin turvallista\n\nRead all options; pick the safest, most professional, and legally required answer.\n\nCorrect answer: A",
+      "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: Why is it important to keep a safe distance to the vehicle ahead?\nA: Keeping a safe distance to the vehicle ahead is safe.\nB: Keeping a safe distance is unnecessary.\nC: Keeping a safe distance to the vehicle ahead is meaningless.\n\n--- Keywords ---\nturvaväli = safe distance\nturvallista = safe\nedellä ajoneuvoon = to the vehicle ahead\nliikenne = traffic\n\n--- Explanation ---\nA safe following distance gives time to react and prevents rear-end collisions.\n\nCorrect answer: A",
       "section": "traffic_safety"
     },
     {
@@ -2074,7 +2074,7 @@
         }
       ],
       "correct": "B",
-      "explanation": "",
+      "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: The law sets quality requirements for taxis. Who do they apply to?\nA: Only the licence holder.\nB: Every taxi driver.\nC: Only entrepreneurs with more than 2 employees.\n\n--- Keywords ---\nlaatuvaatimukset = quality requirements\njokaista taksinkuljettajaa = every taxi driver\nluvanhaltija = licence holder\nkoskevat = apply to\n\n--- Explanation ---\nQuality requirements apply to every taxi driver, not only licence holders or large firms.\n\nCorrect answer: B",
       "section": "traffic_safety"
     },
     {
@@ -2095,7 +2095,7 @@
         }
       ],
       "correct": "C",
-      "explanation": "",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: May a taxi driver work continuously for 15 hours?\nA: Yes, if no other arrangement is possible.\nB: Yes, if the driver wants to.\nC: No.\n\n--- Keywords ---\nyhtäjaksoisesti = continuously\n15 tuntia = 15 hours\nEi saa = not allowed\ntyöskennellä = to work\ntaksinkuljettaja = taxi driver\n\n--- Explanation ---\nA taxi driver may not work continuously for 15 hours.\n\nCorrect answer: C",
       "section": "traffic_safety"
     }
   ]

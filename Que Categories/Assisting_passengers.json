@@ -417,7 +417,7 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: Your hurried customer Mr Möttönen asks you to stop in a very busy place so he can get out. Which statement about the situation is correct?\nA: Mr Möttönen has the right to choose the stopping place because he pays for the ride.\nB: Mr Möttönen must pay any possible fine if he asked to stop in a prohibited place.\nC: Safe entry and exit is always the driver's responsibility, so if the stop is unsafe you find a better place.\n\n--- Keywords ---\npysähtymispaikka = stopping place\nturvallinen = safe\nkuljettajan vastuu = driver's responsibility\nvilkkaasti liikennöity = busy traffic\netsit paremman paikan = you find a better place\n\n--- Explanation ---\nThe driver must ensure safe exit. If the requested spot is unsafe, choose a safer nearby location.\n\nCorrect answer: C"
   },
   {
     "id": 186,
@@ -437,7 +437,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: On a -30°C February night you pick up a tired customer from the airport who has had a few drinks. At destination they stagger toward their front door. How do you act?\nA: You make sure the customer gets inside through the front door. Then you may continue.\nB: Once they leave the taxi they are no longer your responsibility, so you may drive on.\nC: You breath-test them before letting them out. If over 0.5%, take them to a police sobering station.\n\n--- Keywords ---\nvarmistat = you make sure\nkotiovesta sisään = inside through the front door\npakkasta = freezing weather\nvastuu = responsibility\nasiakas = customer\n\n--- Explanation ---\nIn extreme cold, ensure the customer gets safely indoors before you leave.\n\nCorrect answer: A"
   },
   {
     "id": 204,
@@ -457,7 +457,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you ensure pets travel safely in the vehicle?\nA: Pets may sit freely inside the car.\nB: Pets travel in the driver's lap.\nC: Pets travel in their own carrier or secured with seat belts on the back seat.\n\n--- Keywords ---\nlemmikkieläimet = pets\nhäkki = carrier / cage\nturvavyöt = seat belts\ntakaistuin = back seat\nkiinnitetty = secured\n\n--- Explanation ---\nPets must travel in a carrier or be properly secured — not loose or on the driver's lap.\n\nCorrect answer: C"
   },
   {
     "id": 206,
@@ -477,7 +477,7 @@
       }
     ],
     "correct": "C",
-    "explanation": "Answer: C\n\nCorrect answer: C"
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How do you act if a customer asks you to stop in a dangerous area?\nA: You stop immediately because the customer asks.\nB: You refuse to stop and drive the customer to the destination.\nC: You explain the danger and find a safe parking place nearby.\n\n--- Keywords ---\nvaarallisella alueella = in a dangerous area\nturvallinen pysäköintipaikka = safe parking place\npysäyttää = to stop\nselität = you explain\n\n--- Explanation ---\nExplain the risk and stop at a nearby safe location instead of a dangerous spot.\n\nCorrect answer: C"
   },
   {
     "id": 209,
@@ -497,7 +497,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do if a customer needs help with luggage and you are in a hurry for the next booking?\nA: You ask the customer to carry their own luggage.\nB: You help with luggage and inform the next customer of a possible delay.\nC: You leave luggage outside a safe place and continue driving.\n\n--- Keywords ---\nmatkatavarat = luggage\nviive = delay\navustat = you assist\nseuraava tilaus = next booking\nilmoitat = you inform\n\n--- Explanation ---\nStill help with luggage and notify the next customer if you may be late.\n\nCorrect answer: B"
   },
   {
     "id": 212,
@@ -517,7 +517,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when a customer wants to get out on a motorway shoulder?\nA: The customer may get out on the motorway if they ask you to stop.\nB: You find the first safe place where the customer can get out.\nC: You may park briefly on the motorway shoulder with hazard lights on.\n\n--- Keywords ---\nmoottoritie = motorway\nturvallinen paikka = safe place\njäädä pois = to get out\npysähtyminen = stopping\n\n--- Explanation ---\nNever drop off on the motorway itself. Find the first safe exit or stopping place.\n\nCorrect answer: B"
   },
   {
     "id": 213,
@@ -537,7 +537,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is a safety factor when transporting pets in a car?\nA: Pets may travel in a taxi without special measures.\nB: Pets must be placed in the boot or in a travel crate or carrier designed for them.\nC: Pets may sit in the passenger's lap.\n\n--- Keywords ---\nlemmikkieläimet = pets\nmatkustuskori = travel crate\nhäkki = carrier\ntakakontti = boot / trunk\nturvallisuus = safety\n\n--- Explanation ---\nPets need a crate or secure placement in the boot — not free roaming or on laps.\n\nCorrect answer: B"
   },
   {
     "id": 221,
@@ -557,7 +557,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do if a customer is aggressive?\nA: Continue driving and hope the customer calms down.\nB: Stop in a safe place and ask the customer to leave.\nC: Call the police and wait for them to arrive.\n\n--- Keywords ---\naggressiivinen = aggressive\nturvalliseen paikkaan = safe place\nPysähdyt = you stop\npoistumaan = to leave\n\n--- Explanation ---\nStop safely and ask an aggressive passenger to leave the vehicle.\n\nCorrect answer: B"
   },
   {
     "id": 229,
@@ -577,7 +577,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How do you ensure the passenger exits safely in a busy area?\nA: Stop in a legal and safe place.\nB: Let the customer get out anywhere.\nC: Stop only if the customer demands it.\n\n--- Keywords ---\nPysähdy = stop\nlaillisessa = legal\nturvallisessa paikassa = safe place\nvilkas alue = busy area\n\n--- Explanation ---\nAlways stop in a legal, safe place for passenger exit — not anywhere the customer wants.\n\nCorrect answer: A"
   },
   {
     "id": 235,
@@ -597,7 +597,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do when a customer wants to get out on a motorway shoulder?\nA: The customer may get out on the motorway if they ask you to stop.\nB: You find the first safe place where the customer can get out.\nC: You may park briefly on the motorway shoulder with hazard lights on.\n\n--- Keywords ---\nmoottoritie = motorway\nturvallinen paikka = safe place\njäädä pois = get out\nhätävilkut = hazard lights\n\n--- Explanation ---\nFind a safe place off the motorway for drop-off — never on the shoulder itself.\n\nCorrect answer: B"
   },
   {
     "id": 236,
@@ -617,7 +617,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Which of the following is a safety factor when transporting pets in a car?\nA: Pets may travel in a taxi without special measures.\nB: Pets must be placed in the boot or in a travel crate or carrier designed for them.\nC: Pets may sit in the passenger's lap.\n\n--- Keywords ---\nlemmikkieläimet = pets\nmatkustuskori = travel crate\nhäkki = carrier\ntakakontti = boot\nturvallisuus = safety\n\n--- Explanation ---\nSecure pets in a crate or the boot — not loose or on a passenger's lap.\n\nCorrect answer: B"
   },
   {
     "id": 240,
@@ -637,7 +637,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What do you do if a customer behaves aggressively and threateningly during the trip?\nA: Continue driving and try to calm the customer.\nB: Stop the vehicle in a safe place and ask the customer to leave.\nC: Ignore the behaviour and drive quickly to the destination.\n\n--- Keywords ---\naggressiivisesti = aggressively\nuhkaavasti = threateningly\nturvalliseen paikkaan = safe place\nPysäytät = you stop\npoistumaan = to leave\n\n--- Explanation ---\nStop in a safe place and ask a threatening passenger to leave the vehicle.\n\nCorrect answer: B"
   },
   {
     "id": 242,
@@ -657,7 +657,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: What is the correct procedure if a customer wants to open windows during the trip?\nA: You always refuse to open windows.\nB: You allow windows to be opened if it does not affect other passengers' comfort and safety.\nC: You open windows automatically without the customer's request.\n\n--- Keywords ---\nikkunat = windows\nmukavuus = comfort\nturvallisuus = safety\nSallit = you allow\nmatkustajat = passengers\n\n--- Explanation ---\nAllow window opening when it does not harm comfort or safety of others.\n\nCorrect answer: B"
   },
   {
     "id": 244,
@@ -677,7 +677,7 @@
       }
     ],
     "correct": "B",
-    "explanation": "Answer: B\n\nCorrect answer: B"
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: How to act if a customer needs help fastening a seat belt?\nA: Tell the customer they must fasten the seat belt themselves.\nB: Help the customer fasten the seat belt and ensure it is correctly attached.\nC: Leave the seat belt unfastened if the customer cannot do it themselves.\n\n--- Keywords ---\nturvavyö = seat belt\nAutat = you help\nkiinnittämään = fastening\nvarmistat = you ensure\noikein = correctly\n\n--- Explanation ---\nHelp passengers fasten seat belts correctly when they need assistance.\n\nCorrect answer: B"
   },
   {
     "id": 246,
@@ -697,7 +697,7 @@
       }
     ],
     "correct": "A",
-    "explanation": "Answer: A\n\nCorrect answer: A"
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: How can a taxi driver promote customer safety at night?\nA: By using routes that are well lit and safe.\nB: By driving faster so the customer arrives sooner.\nC: By keeping the car doors open while driving.\n\n--- Keywords ---\nyöaikaan = at night\nvalaistuja = well lit\nturvallisia reittejä = safe routes\nturvallisuus = safety\nasiakkaat = customers\n\n--- Explanation ---\nAt night, choose well-lit, safe routes — do not speed or drive with doors open.\n\nCorrect answer: A"
   },
   {
     "id": 270,
@@ -717,7 +717,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: A customer is dropped off at a care facility. Which is correct?\nA: Responsibility ends when the customer has exited the car.\nB: The driver must ensure the customer reaches care staff if needed.\nC: The driver must always remove the customer's outdoor clothing.\n\n--- Keywords ---\nhoitolaitos = care facility\nhoitohenkilökunta = care staff\nhuolehdittava = must ensure\nvastuu = responsibility\n\n--- Explanation ---\nEnsure the customer is handed over to care staff — do not leave them alone in the yard.\n\nCorrect answer: B"
   },
   {
     "id": 273,
@@ -737,7 +737,7 @@
       }
     ],
     "correct": "B",
-    "explanation": ""
+    "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Your customer has a seizure in the taxi (you know they have epilepsy). What is the first first-aid measure?\nA: Hold the customer tightly.\nB: Ensure they do not hit their head, do not restrain convulsions. When the seizure eases, turn them on their side.\nC: Continue driving normally.\n\n--- Keywords ---\nkouristuskohtaus = seizure\nkylkiasento = side position\nepilepsia = epilepsy\nensiapu = first aid\npäätään = head\n\n--- Explanation ---\nProtect the head, do not restrain convulsions, place on side when the seizure eases.\n\nCorrect answer: B"
   },
   {
     "id": 277,
@@ -757,7 +757,7 @@
       }
     ],
     "correct": "A",
-    "explanation": ""
+    "explanation": "Answer: A\n\n--- English Translation ---\nQuestion: A customer who has drunk alcohol staggers toward their front door in -30°C frost. What do you do?\nA: You ensure the customer gets inside through the front door.\nB: The customer is no longer your responsibility after leaving the car.\nC: You breath-test and take to police if over 0.5 ‰.\n\n--- Keywords ---\npakkasessa = in frost / freezing weather\nvarmistat = you ensure\nsisälle = inside\nkotiovesta = front door\nvastuu = responsibility\n\n--- Explanation ---\nIn extreme cold, ensure the customer gets safely indoors before you leave.\n\nCorrect answer: A"
   },
   {
     "id": 292,
@@ -777,6 +777,6 @@
       }
     ],
     "correct": "C",
-    "explanation": ""
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: What do you do if a customer asks to stop/wait where stopping is prohibited?\nA: The customer has the right to choose the place.\nB: The driver may deviate from rules for a reason.\nC: Wait in a place where stopping is allowed.\n\n--- Keywords ---\npysähtyminen kielletty = stopping prohibited\nsallittua = allowed\nodottamaan = to wait\npaikka = place\n\n--- Explanation ---\nDo not stop where prohibited. Wait in a legal stopping place nearby.\n\nCorrect answer: C"
   }
 ]
