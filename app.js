@@ -5,7 +5,7 @@
   const examPrepData = window.EXAM_PREP_DATA || {};
   const examSetsRaw = window.EXAM_SETS_DATA || [];
 
-  const QUESTION_BANK_END = allQuestions.length || 309;
+  const QUESTION_BANK_END = allQuestions.length || 310;
 
   const PRACTICE_SETS = [
     {
@@ -188,7 +188,111 @@
     };
   });
 
-  const ALL_SETS = PRACTICE_SETS.concat(STUDY_SETS, EXAM_PREP_SETS, EXAM_SETS);
+  const RECOVERY_QUIZ_SETS = [
+    {
+      id: 'recovery-1',
+      title: 'Quiz 1',
+      rangeStart: 1,
+      rangeEnd: 50,
+      kind: 'recovery-quiz',
+      intro: {
+        lead:
+          'Practice questions {rangeStart}–{rangeEnd} ({count} total). Answer one at a time — any question you get wrong will come back in a recovery round until you answer every one correctly.',
+        features: [
+          '{count} questions from the main question bank',
+          'Instant green / red feedback with explanations and translations',
+          'Wrong answers become your next recovery quiz until all are mastered',
+        ],
+      },
+    },
+    {
+      id: 'recovery-2',
+      title: 'Quiz 2',
+      rangeStart: 51,
+      rangeEnd: 100,
+      kind: 'recovery-quiz',
+      intro: {
+        lead:
+          'Practice questions {rangeStart}–{rangeEnd} ({count} total). Answer one at a time — any question you get wrong will come back in a recovery round until you answer every one correctly.',
+        features: [
+          '{count} questions from the main question bank',
+          'Instant green / red feedback with explanations and translations',
+          'Wrong answers become your next recovery quiz until all are mastered',
+        ],
+      },
+    },
+    {
+      id: 'recovery-3',
+      title: 'Quiz 3',
+      rangeStart: 101,
+      rangeEnd: 150,
+      kind: 'recovery-quiz',
+      intro: {
+        lead:
+          'Practice questions {rangeStart}–{rangeEnd} ({count} total). Answer one at a time — any question you get wrong will come back in a recovery round until you answer every one correctly.',
+        features: [
+          '{count} questions from the main question bank',
+          'Instant green / red feedback with explanations and translations',
+          'Wrong answers become your next recovery quiz until all are mastered',
+        ],
+      },
+    },
+    {
+      id: 'recovery-4',
+      title: 'Quiz 4',
+      rangeStart: 151,
+      rangeEnd: 200,
+      kind: 'recovery-quiz',
+      intro: {
+        lead:
+          'Practice questions {rangeStart}–{rangeEnd} ({count} total). Answer one at a time — any question you get wrong will come back in a recovery round until you answer every one correctly.',
+        features: [
+          '{count} questions from the main question bank',
+          'Instant green / red feedback with explanations and translations',
+          'Wrong answers become your next recovery quiz until all are mastered',
+        ],
+      },
+    },
+    {
+      id: 'recovery-5',
+      title: 'Quiz 5',
+      rangeStart: 201,
+      rangeEnd: 250,
+      kind: 'recovery-quiz',
+      intro: {
+        lead:
+          'Practice questions {rangeStart}–{rangeEnd} ({count} total). Answer one at a time — any question you get wrong will come back in a recovery round until you answer every one correctly.',
+        features: [
+          '{count} questions from the main question bank',
+          'Instant green / red feedback with explanations and translations',
+          'Wrong answers become your next recovery quiz until all are mastered',
+        ],
+      },
+    },
+    {
+      id: 'recovery-6',
+      title: 'Quiz 6',
+      rangeStart: 251,
+      rangeEnd: 310,
+      kind: 'recovery-quiz',
+      intro: {
+        lead:
+          'Practice questions {rangeStart}–{rangeEnd} ({count} total). Answer one at a time — any question you get wrong will come back in a recovery round until you answer every one correctly.',
+        features: [
+          '{count} questions from the main question bank',
+          'Instant green / red feedback with explanations and translations',
+          'Wrong answers become your next recovery quiz until all are mastered',
+        ],
+      },
+    },
+  ];
+
+  const ALL_SETS = PRACTICE_SETS.concat(
+    STUDY_SETS,
+    EXAM_PREP_SETS,
+    EXAM_SETS,
+    RECOVERY_QUIZ_SETS
+  );
 
   let selectedSet = null;
   let activeQuestions = [];
@@ -203,6 +307,9 @@
   let examAdvanceTimer = null;
   let examTimerInterval = null;
   let examDeadline = null;
+  let recoveryRound = 1;
+  let recoveryFullQuestions = [];
+  let resultsPrimaryAction = 'restart';
 
   const EXAM_DURATION_MS = 45 * 60 * 1000;
 
@@ -230,6 +337,7 @@
   const studyNav = $('studyNav');
   const examPrepNav = $('examPrepNav');
   const examNav = $('examNav');
+  const recoveryNav = $('recoveryNav');
   const questionsList = $('questionsList');
   const examQuestionArea = $('examQuestionArea');
   const examQuizProgress = $('examQuizProgress');
@@ -257,6 +365,18 @@
     return Boolean(q.explanation && q.explanation.trim());
   }
 
+  function isExamQuizMode() {
+    return selectedSet && selectedSet.kind === 'exam-quiz';
+  }
+
+  function isRecoveryQuizMode() {
+    return selectedSet && selectedSet.kind === 'recovery-quiz';
+  }
+
+  function usesExamOverlay() {
+    return isExamQuizMode() || isRecoveryQuizMode();
+  }
+
   function getQuestionsForSet(set) {
     if (set.kind === 'study') {
       return studyData[set.dataKey] || [];
@@ -270,6 +390,9 @@
       });
       return examSet ? examSet.questions : [];
     }
+    if (set.kind === 'recovery-quiz') {
+      return allQuestions.filter((q) => q.id >= set.rangeStart && q.id <= set.rangeEnd);
+    }
     return allQuestions.filter((q) => q.id >= set.rangeStart && q.id <= set.rangeEnd);
   }
 
@@ -277,12 +400,16 @@
     if (set.kind === 'study' || set.kind === 'exam' || set.kind === 'exam-quiz') {
       return count + ' question' + (count === 1 ? '' : 's');
     }
+    if (set.kind === 'recovery-quiz') {
+      return 'Questions ' + set.rangeStart + '–' + set.rangeEnd;
+    }
     return 'Questions ' + set.rangeStart + '–' + set.rangeEnd;
   }
 
   function getModeLabel(set) {
     if (set.kind === 'study') return 'Study';
     if (set.kind === 'exam-quiz') return 'Exam';
+    if (set.kind === 'recovery-quiz') return 'Recovery Quiz';
     if (set.kind === 'exam') return 'Exam Preparation';
     return 'Question Bank';
   }
@@ -290,6 +417,7 @@
   function getNavItemClass(set) {
     if (set.kind === 'study') return ' quiz-nav-item-study';
     if (set.kind === 'exam-quiz') return ' quiz-nav-item-exam-quiz';
+    if (set.kind === 'recovery-quiz') return ' quiz-nav-item-recovery';
     if (set.kind === 'exam') return ' quiz-nav-item-exam';
     return '';
   }
@@ -569,6 +697,7 @@
     study: 'sidebarSectionStudy',
     exam: 'sidebarSectionExamPrep',
     'exam-quiz': 'sidebarSectionExam',
+    'recovery-quiz': 'sidebarSectionRecovery',
   };
 
   function scrollPageToTop() {
@@ -606,7 +735,7 @@
     renderQuizNav();
     initSidebarSections();
     $('startBtn').addEventListener('click', beginQuiz);
-    $('restartBtn').addEventListener('click', beginQuiz);
+    $('restartBtn').addEventListener('click', onResultsPrimaryAction);
     $('backToIntroBtn').addEventListener('click', showIntro);
     finishBtn.addEventListener('click', showResults);
     examPrevBtn.addEventListener('click', function () {
@@ -692,6 +821,7 @@
     studyNav.innerHTML = '';
     examPrepNav.innerHTML = '';
     examNav.innerHTML = '';
+    recoveryNav.innerHTML = '';
 
     PRACTICE_SETS.forEach((set, index) => {
       practiceNav.appendChild(createNavItem(set, index + 1));
@@ -707,6 +837,10 @@
 
     EXAM_SETS.forEach((set, index) => {
       examNav.appendChild(createNavItem(set, index + 1));
+    });
+
+    RECOVERY_QUIZ_SETS.forEach((set, index) => {
+      recoveryNav.appendChild(createNavItem(set, index + 1));
     });
   }
 
@@ -740,7 +874,7 @@
   }
 
   function updateNavActive() {
-    [practiceNav, studyNav, examPrepNav, examNav].forEach((nav) => {
+    [practiceNav, studyNav, examPrepNav, examNav, recoveryNav].forEach((nav) => {
       nav.querySelectorAll('.quiz-nav-item').forEach((btn) => {
         btn.classList.toggle('active', selectedSet && btn.dataset.setId === selectedSet.id);
       });
@@ -757,6 +891,7 @@
   function enterExamMode() {
     document.body.classList.add('exam-mode-active');
     examOverlay.classList.remove('hidden');
+    examOverlay.classList.toggle('is-recovery', selectedSet && selectedSet.kind === 'recovery-quiz');
   }
 
   function exitExamMode() {
@@ -822,6 +957,9 @@
     score = 0;
     answered = {};
     searchQuery = '';
+    recoveryRound = 1;
+    recoveryFullQuestions = [];
+    resultsPrimaryAction = 'restart';
 
     updateNavActive();
     openSidebarSectionForSet(selectedSet);
@@ -882,12 +1020,35 @@
     $('introLead').textContent = formatIntroText(lead, introVars);
     renderIntroFeatures(intro.features, introVars);
     $('startBtn').textContent =
-      selectedSet.kind === 'exam-quiz' ? 'Start Exam' : 'Start ' + selectedSet.title;
+      selectedSet.kind === 'exam-quiz'
+        ? 'Start Exam'
+        : selectedSet.kind === 'recovery-quiz'
+          ? 'Start Recovery Quiz'
+          : 'Start ' + selectedSet.title;
+  }
+
+  function getWrongQuestions() {
+    return activeQuestions.filter(function (q) {
+      const record = answered[q.id];
+      return !record || !record.correct;
+    });
+  }
+
+  function onResultsPrimaryAction() {
+    if (selectedSet && selectedSet.kind === 'recovery-quiz' && resultsPrimaryAction === 'recovery-continue') {
+      beginRecoveryRound();
+      return;
+    }
+    beginQuiz();
   }
 
   function beginQuiz() {
     if (selectedSet && selectedSet.kind === 'exam-quiz') {
       beginExamQuiz();
+      return;
+    }
+    if (selectedSet && selectedSet.kind === 'recovery-quiz') {
+      beginRecoveryQuiz();
       return;
     }
 
@@ -922,6 +1083,41 @@
     hideAllScreens();
     enterExamMode();
     startExamTimer();
+    renderExamQuestion();
+  }
+
+  function beginRecoveryQuiz() {
+    clearExamAdvanceTimer();
+    recoveryRound = 1;
+    recoveryFullQuestions = getQuestionsForSet(selectedSet).slice();
+    activeQuestions = recoveryFullQuestions.slice();
+    score = 0;
+    answered = {};
+    examQuestionIndex = 0;
+    resultsPrimaryAction = 'restart';
+
+    hideAllScreens();
+    enterExamMode();
+    renderExamQuestion();
+  }
+
+  function beginRecoveryRound() {
+    const wrongQuestions = getWrongQuestions();
+    if (!wrongQuestions.length) {
+      beginRecoveryQuiz();
+      return;
+    }
+
+    clearExamAdvanceTimer();
+    recoveryRound++;
+    activeQuestions = wrongQuestions;
+    score = 0;
+    answered = {};
+    examQuestionIndex = 0;
+    resultsPrimaryAction = 'restart';
+
+    hideAllScreens();
+    enterExamMode();
     renderExamQuestion();
   }
 
@@ -991,11 +1187,23 @@
 
     const total = activeQuestions.length;
     const currentNum = examQuestionIndex + 1;
-    examQuizProgress.textContent = currentNum + ' / ' + total;
+    const isRecovery = selectedSet && selectedSet.kind === 'recovery-quiz';
+
+    if (isRecovery) {
+      const roundLabel =
+        recoveryRound > 1 ? 'Recovery round ' + recoveryRound + ' · ' : '';
+      examQuizProgress.textContent = roundLabel + currentNum + ' / ' + total;
+    } else {
+      examQuizProgress.textContent = currentNum + ' / ' + total;
+    }
 
     examQuestionArea.innerHTML = '';
     const card = buildQuestionCard(q, function (letter) {
-      selectExamAnswer(q, letter, card);
+      if (isRecoveryQuizMode()) {
+        selectRecoveryAnswer(q, letter, card);
+      } else {
+        selectExamAnswer(q, letter, card);
+      }
     });
     examQuestionArea.appendChild(card);
     renderExamQuestionNav();
@@ -1008,7 +1216,7 @@
     card.dataset.questionId = q.id;
 
     const record = answered[q.id];
-    const isExamQuiz = selectedSet && selectedSet.kind === 'exam-quiz';
+    const isExamQuiz = isExamQuizMode();
 
     const questionLabelMarkup = isExamQuiz
       ? ''
@@ -1089,7 +1297,7 @@
       optionsContainer.appendChild(btn);
     });
 
-    if (record && hasExplanation(q) && selectedSet.kind !== 'exam-quiz') {
+    if (record && hasExplanation(q) && !isExamQuizMode()) {
       setupExplanationControls(card, q, record.correct);
     }
 
@@ -1105,6 +1313,32 @@
       }
     });
     liveScore.textContent = score;
+  }
+
+  function selectRecoveryAnswer(q, letter, card) {
+    if (answered[q.id]) return;
+
+    const isCorrect = letter === q.correct;
+    answered[q.id] = { selected: letter, correct: isCorrect };
+    recalculateExamScore();
+
+    const optionsContainer = card.querySelector('.options');
+    optionsContainer.querySelectorAll('.option').forEach(function (btn) {
+      btn.classList.add('locked');
+      btn.disabled = true;
+      const l = btn.dataset.letter;
+      if (l === letter) {
+        btn.classList.add(isCorrect ? 'correct' : 'incorrect');
+      } else if (l === q.correct) {
+        btn.classList.add('reveal-correct');
+      }
+    });
+
+    showToast(isCorrect, q.correct);
+    if (hasExplanation(q)) {
+      setupExplanationControls(card, q, isCorrect);
+    }
+    renderExamQuestionNav();
   }
 
   function selectExamAnswer(q, letter, card) {
@@ -1452,8 +1686,8 @@
 
   function showResults() {
     clearExamAdvanceTimer();
-    const wasExamQuiz = selectedSet && selectedSet.kind === 'exam-quiz';
-    if (wasExamQuiz) {
+    const wasOverlayQuiz = usesExamOverlay();
+    if (wasOverlayQuiz) {
       exitExamMode();
     }
     hideAllScreens();
@@ -1468,8 +1702,18 @@
     const wrong = total - correct;
     const pct = total ? Math.round((correct / total) * 100) : 0;
     const isExamQuiz = selectedSet.kind === 'exam-quiz';
+    const isRecoveryQuiz = selectedSet.kind === 'recovery-quiz';
+    const wrongQuestions = isRecoveryQuiz ? getWrongQuestions() : [];
+    const allRecoveryMastered = isRecoveryQuiz && wrongQuestions.length === 0;
 
-    if (bestScores[selectedSet.id] === undefined || correct > bestScores[selectedSet.id]) {
+    if (isRecoveryQuiz) {
+      if (allRecoveryMastered) {
+        const fullTotal = recoveryFullQuestions.length || getQuestionsForSet(selectedSet).length;
+        bestScores[selectedSet.id] = fullTotal;
+        renderQuizNav();
+        updateNavActive();
+      }
+    } else if (bestScores[selectedSet.id] === undefined || correct > bestScores[selectedSet.id]) {
       bestScores[selectedSet.id] = correct;
       renderQuizNav();
       updateNavActive();
@@ -1484,11 +1728,58 @@
 
     const icon = $('resultsIcon');
     const msg = $('resultsMessage');
+    const restartBtn = $('restartBtn');
     icon.className = 'results-icon';
 
     examPassBadge.classList.add('hidden');
     examSectionBreakdown.classList.add('hidden');
     examSectionBreakdown.innerHTML = '';
+
+    if (isRecoveryQuiz) {
+      if (allRecoveryMastered && recoveryRound > 1) {
+        resultsPrimaryAction = 'restart';
+        restartBtn.textContent = 'Try Again';
+        icon.classList.add('excellent');
+        icon.textContent = '🏆';
+        msg.textContent =
+          'Perfect! You mastered all ' +
+          recoveryFullQuestions.length +
+          ' questions after ' +
+          recoveryRound +
+          ' round' +
+          (recoveryRound === 1 ? '' : 's') +
+          '.';
+      } else if (allRecoveryMastered) {
+        resultsPrimaryAction = 'restart';
+        restartBtn.textContent = 'Try Again';
+        icon.classList.add('excellent');
+        icon.textContent = '🏆';
+        msg.textContent =
+          'Perfect score! You answered every question correctly on the first try.';
+      } else {
+        resultsPrimaryAction = 'recovery-continue';
+        restartBtn.textContent =
+          'Continue Recovery (' +
+          wrongQuestions.length +
+          ' question' +
+          (wrongQuestions.length === 1 ? '' : 's') +
+          ')';
+        icon.classList.add('fair');
+        icon.textContent = '📚';
+        msg.textContent =
+          'You got ' +
+          wrong +
+          ' wrong. Those ' +
+          wrongQuestions.length +
+          ' question' +
+          (wrongQuestions.length === 1 ? '' : 's') +
+          ' will appear again in a recovery round — keep going until you get them all right.';
+      }
+      return;
+    }
+
+    resultsPrimaryAction = 'restart';
+    restartBtn.textContent = 'Try Again';
 
     if (isExamQuiz) {
       const examResults = computeExamResults();

@@ -243,20 +243,31 @@ body.lightbox-open {
 
 #studyNav,
 #examPrepNav,
-#examNav {
+#examNav,
+#recoveryNav {
   max-height: none;
   overflow: visible;
 }
 
 .quiz-nav-item-study .quiz-nav-info strong,
 .quiz-nav-item-exam .quiz-nav-info strong,
-.quiz-nav-item-exam-quiz .quiz-nav-info strong {
+.quiz-nav-item-exam-quiz .quiz-nav-info strong,
+.quiz-nav-item-recovery .quiz-nav-info strong {
   font-size: 0.875rem;
 }
 
 .quiz-nav-item-exam-quiz.active {
   background: #fff7ed;
   border-color: #fed7aa;
+}
+
+.quiz-nav-item-recovery.active {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+}
+
+.exam-overlay.is-recovery .exam-timer {
+  display: none;
 }
 
 .quiz-nav-item {

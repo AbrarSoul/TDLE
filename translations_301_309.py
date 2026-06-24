@@ -1,4 +1,4 @@
-"""English translations for quiz questions 301-309."""
+"""English translations for quiz questions 301-310."""
 
 TRANSLATIONS_301_309 = {
     301: {
@@ -141,5 +141,22 @@ TRANSLATIONS_301_309 = {
             "asiakas = customer",
         ],
         "simple": "A receipt must always be provided for a taxi ride.",
+    },
+    310: {
+        "question": "How should you primarily act if a pupil on school transport does not fasten their seat belt despite your request?",
+        "options": {
+            "A": "You must refuse to transport the pupil and remove them from the car.",
+            "B": "You must let them travel without a seat belt and contact the school or parents afterwards.",
+            "C": "You must talk with the pupil and only start driving once they have fastened their seat belt.",
+        },
+        "keywords": [
+            "koulukuljetus = school transport",
+            "oppilas = pupil / student",
+            "turvavyö = seat belt",
+            "kehotus = request / urging",
+            "ensisijaisesti = primarily",
+            "kiinnittää = to fasten",
+        ],
+        "simple": "Discuss with the pupil and only start driving once the seat belt is fastened.",
     },
 }

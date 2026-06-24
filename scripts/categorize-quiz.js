@@ -259,6 +259,7 @@ const BY_ID = {
   303: 'customer_service',
   307: 'customer_service',
   309: 'customer_service',
+  310: 'special_needs',
 
   // Factors affecting transport and traffic safety (88)
   1: 'traffic_safety',

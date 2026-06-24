@@ -39,7 +39,7 @@ def load_translations(start: int, end: int) -> dict:
     if start <= 300 and end >= 251:
         from translations_251_300 import TRANSLATIONS_251_300
         translations.update(TRANSLATIONS_251_300)
-    if start <= 309 and end >= 301:
+    if start <= 310 and end >= 301:
         from translations_301_309 import TRANSLATIONS_301_309
         translations.update(TRANSLATIONS_301_309)
     return translations

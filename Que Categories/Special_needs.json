@@ -2418,5 +2418,25 @@
     ],
     "correct": "B",
     "explanation": "Answer: B\n\n--- English Translation ---\nQuestion: Who is responsible for seat belt use by someone who has turned 15?\nA: The driver\nB: The customer themselves\nC: Seat belt is voluntary in a taxi\n\n--- Keywords ---\nAsiakas itse = customer themselves\n15 vuotta täyttänyt = has turned 15\nturvavyö = seat belt\nvastaa = is responsible\n\n--- Explanation ---\nA passenger who has turned 15 is responsible for their own seat belt.\n\nCorrect answer: B"
+  },
+  {
+    "id": 310,
+    "text": "Kuinka sinun tulee ensisijaisesti toimia, jos koulukuljetuksessa oleva oppilas ei kehotuksestasi huolimatta kiinnitä turvavyötä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tulee kieltäytyä kuljettamasta oppilasta ja poistaa hänet autosta."
+      },
+      {
+        "letter": "B",
+        "text": "Tulee antaa hänen matkustaa ilman turvavyötä ja ottaa jälkeenpäin yhteyttä kouluun tai vanhempiin."
+      },
+      {
+        "letter": "C",
+        "text": "Tulee keskustella oppilaan kanssa ja lähteä ajamaan vasta sitten, kun hän on kiinnittänyt turvavyön."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should you primarily act if a pupil on school transport does not fasten their seat belt despite your request?\nA: You must refuse to transport the pupil and remove them from the car.\nB: You must let them travel without a seat belt and contact the school or parents afterwards.\nC: You must talk with the pupil and only start driving once they have fastened their seat belt.\n\n--- Keywords ---\nkoulukuljetus = school transport\noppilas = pupil / student\nturvavyö = seat belt\nkehotus = request / urging\nensisijaisesti = primarily\nkiinnittää = to fasten\n\n--- Explanation ---\nIf a pupil does not fasten their seat belt despite being asked, you should discuss the matter with them and only begin driving once the belt is fastened — you must not drive without it or remove the pupil from the vehicle as the first step.\n\nCorrect answer: C"
   }
 ]

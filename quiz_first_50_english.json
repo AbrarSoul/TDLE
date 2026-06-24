@@ -6192,5 +6192,25 @@
     ],
     "correct": "C",
     "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: When must a receipt be given to the customer for a taxi trip?\nA: If the ride was booked via an app.\nB: If the fare is fixed.\nC: A receipt must always be given for the ride.\n\n--- Keywords ---\nkuitti = receipt\naina = always\ntaksimatka = taxi trip\nannettava = must be given\nasiakas = customer\n\n--- Explanation ---\nA receipt must always be provided for a taxi ride.\n\nCorrect answer: C"
+  },
+  {
+    "id": 310,
+    "text": "Kuinka sinun tulee ensisijaisesti toimia, jos koulukuljetuksessa oleva oppilas ei kehotuksestasi huolimatta kiinnitä turvavyötä?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tulee kieltäytyä kuljettamasta oppilasta ja poistaa hänet autosta."
+      },
+      {
+        "letter": "B",
+        "text": "Tulee antaa hänen matkustaa ilman turvavyötä ja ottaa jälkeenpäin yhteyttä kouluun tai vanhempiin."
+      },
+      {
+        "letter": "C",
+        "text": "Tulee keskustella oppilaan kanssa ja lähteä ajamaan vasta sitten, kun hän on kiinnittänyt turvavyön."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: How should you primarily act if a pupil on school transport does not fasten their seat belt despite your request?\nA: You must refuse to transport the pupil and remove them from the car.\nB: You must let them travel without a seat belt and contact the school or parents afterwards.\nC: You must talk with the pupil and only start driving once they have fastened their seat belt.\n\n--- Keywords ---\nkoulukuljetus = school transport\noppilas = pupil / student\nturvavyö = seat belt\nkehotus = request / urging\nensisijaisesti = primarily\nkiinnittää = to fasten\n\n--- Explanation ---\nDiscuss with the pupil and only start driving once the seat belt is fastened.\n\nCorrect answer: C"
   }
 ]

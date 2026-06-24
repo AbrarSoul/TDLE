@@ -1,6 +1,6 @@
 # BongoBondhu — Correct-Only Keywords
 
-Keywords and phrases found in **correct answer options only** across `quiz.json` (309 questions).
+Keywords and phrases found in **correct answer options only** across `quiz.json` (310 questions).
 
 ## Criteria
 
