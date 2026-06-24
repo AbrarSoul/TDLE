@@ -631,12 +631,11 @@
       "description": "\"tiedustelet\" is a BongoBondhu keyword, it means this is a very high-confidence keyword. If this keyword found in any answer option in any question, just without any doubt pick that option as the answer of that question."
     },
     {
-      "count": 4,
+      "count": 3,
       "word": "traficom",
       "questionIds": [
         98,
         281,
-        301,
         304
       ],
       "english": "Traficom (Finnish Transport and Communications Agency)",

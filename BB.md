@@ -106,7 +106,7 @@ Words (5+ characters) that appear in 2+ correct answers only:
 | 4 | `pisteestä` | 75, 167, 227, 258 |
 | 4 | `suorittamiseksi` | 8, 20, 164, 253 |
 | 4 | `tiedustelet` | 25, 111, 174, 177 |
-| 4 | `traficom` | 98, 281, 301, 304 |
+| 3 | `traficom` | 98, 281, 304 |
 | 4 | `varustetun` | 165, 228, 237, 256 |
 | 3 | `annettava` | 190, 196, 309 |
 | 3 | `jalkatilassa` | 26, 168, 261 |
@@ -163,14 +163,14 @@ Distinctive phrases that appear in 3+ correct answers only:
 | 4 | `turvalaitteen matkustaessaan` | 74, 137, 162, 191 |
 | 4 | `kuljetuksen suorittamiseksi` | 8, 20, 164, 253 |
 | 4 | `asiakkaalta miten häntä voi` | 23, 43, 54, 176 |
-| 4 | `viestintävirasto traficom` | 98, 281, 301, 304 |
+| 3 | `viestintävirasto traficom` | 98, 281, 304 |
 | 4 | `on huolehdittava` | 81, 139, 255, 270 |
 | 4 | `ja tiedustelet` | 25, 111, 174, 177 |
 | 4 | `ajoneuvoon ja` | 30, 42, 170, 208 |
 | 3 | `pituinen lapsi tarvitsee aina turvalaitteen matkustaessaan` | 137, 162, 191 |
 | 3 | `jos kuljettaja on nauttinut alkoholia` | 13, 215, 225 |
 | 3 | `turvalaitteen matkustaessaan taksissa` | 74, 162, 191 |
-| 3 | `liikenne ja viestintävirasto traficom` | 281, 301, 304 |
+| 2 | `liikenne ja viestintävirasto traficom` | 281, 304 |
 | 3 | `että asiakkaalla on mukava olla ja` | 48, 182, 274 |
 | 3 | `taksinkuljettajan on huolehdittava` | 81, 139, 255 |
 | 3 | `kysyä asiakkaalta miten häntä voi` | 23, 54, 176 |

@@ -9263,8 +9263,8 @@ window.EXAM_SETS_DATA = [
               "text": "Ei kukaan, koska luvan mukana pitämistä ei vaadita"
             }
           ],
-          "correct": "A",
-          "explanation": "Answer: A\n\nKeyword: Taksinkuljettajan\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: A"
+          "correct": "B",
+          "explanation": "Answer: B\n\nKeyword: Taksiliikenneluvan haltija\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: B"
         },
         {
           "id": 42,
@@ -10308,8 +10308,8 @@ window.EXAM_SETS_DATA = [
             "text": "Ei kukaan, koska luvan mukana pitämistä ei vaadita"
           }
         ],
-        "correct": "A",
-        "explanation": "Answer: A\n\nKeyword: Taksinkuljettajan\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: A",
+        "correct": "B",
+        "explanation": "Answer: B\n\nKeyword: Taksiliikenneluvan haltija\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: B",
         "section": "traffic_safety"
       },
       {
@@ -15675,7 +15675,7 @@ window.EXAM_SETS_DATA = [
               "text": "Liikenne- ja viestintävirasto (Traficom)"
             }
           ],
-          "correct": "C",
+          "correct": "A",
           "explanation": ""
         },
         {
@@ -16724,7 +16724,7 @@ window.EXAM_SETS_DATA = [
             "text": "Liikenne- ja viestintävirasto (Traficom)"
           }
         ],
-        "correct": "C",
+        "correct": "A",
         "explanation": "",
         "section": "traffic_safety"
       },

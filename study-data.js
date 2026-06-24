@@ -2982,26 +2982,6 @@ window.STUDY_DATA = {
       "explanation": ""
     },
     {
-      "id": 301,
-      "text": "Kuka voi peruuttaa taksinkuljettajan ajoluvan?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Poliisi"
-        },
-        {
-          "letter": "B",
-          "text": "Taksin paikallisyhdistys"
-        },
-        {
-          "letter": "C",
-          "text": "Liikenne- ja viestintävirasto (Traficom)"
-        }
-      ],
-      "correct": "C",
-      "explanation": ""
-    },
-    {
       "id": 304,
       "text": "Kuka myöntää taksinkuljettajan ajoluvan?",
       "options": [
@@ -5829,7 +5809,6 @@ window.STUDY_KEYWORDS = {
       "questionIds": [
         98,
         281,
-        301,
         304
       ]
     },

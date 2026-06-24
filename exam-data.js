@@ -4525,8 +4525,8 @@ window.EXAM_PREP_DATA = {
           "text": "Ei kukaan, koska luvan mukana pitämistä ei vaadita"
         }
       ],
-      "correct": "A",
-      "explanation": "Answer: A\n\nKeyword: Taksinkuljettajan\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: A"
+      "correct": "B",
+      "explanation": "Answer: B\n\nKeyword: Taksiliikenneluvan haltija\n\nResponsibility question — check who is legally responsible.\n\nCorrect answer: B"
     },
     {
       "id": 56,
@@ -6097,7 +6097,7 @@ window.EXAM_PREP_DATA = {
           "text": "Liikenne- ja viestintävirasto (Traficom)"
         }
       ],
-      "correct": "C",
+      "correct": "A",
       "explanation": ""
     },
     {
