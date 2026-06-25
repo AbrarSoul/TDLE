@@ -1148,7 +1148,7 @@
     examPrevBtn.disabled = examQuestionIndex === 0;
 
     if (isLast && currentAnswered) {
-      examNextBtn.textContent = 'Esittää';
+      examNextBtn.textContent = 'Siirry palautteeseen';
       examNextBtn.disabled = false;
     } else {
       examNextBtn.textContent = 'Seuraava';

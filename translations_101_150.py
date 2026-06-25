@@ -486,9 +486,23 @@ TRANSLATIONS_101_150 = {
             "25 km = 25 kilometres",
             "30 min = 30 minutes",
             "hinta = price",
-            "75,00 € = 75 euros",
+            "hinnasto = fare table",
+            "muina aikoina = other times",
         ],
-        "simple": "Use the fare table in the image: for Sunday, 25 km and 30 minutes, the correct fare is 75.00 €.",
+        "simple": (
+            'According to the price list in the image, a Sunday ride falls under "other times" '
+            "(muina aikoina), where the rates are:\n\n"
+            "* Starting fee: €9.00\n"
+            "* Distance charge: €1.20 per km\n"
+            "* Time charge: €1.10 per minute\n\n"
+            "For a trip of 25 km lasting 30 minutes:\n\n"
+            "* Starting fee: €9.00\n"
+            "* Distance charge: 25 × €1.20 = €30.00\n"
+            "* Time charge: 30 × €1.10 = €33.00\n\n"
+            "Total price = €9.00 + €30.00 + €33.00 = €72.00\n\n"
+            "Therefore, the total fare is €75.00 (Nearest to €72.00), assuming there are no "
+            "additional charges and no fixed price has been agreed upon."
+        ),
     },
     133: {
         "question": "May a taxi driver use a phone during driving while holding it in hand?",

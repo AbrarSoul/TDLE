@@ -3662,7 +3662,7 @@ window.EXAM_PREP_DATA = {
         }
       ],
       "correct": "C",
-      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: A customer is taken on Sunday for 25 km and the trip takes 30 minutes. What price do you charge?\nA: 65.00 €\nB: 85.00 €\nC: 75.00 €\n\n--- Keywords ---\nsunnuntai = Sunday\n25 km = 25 kilometres\n30 min = 30 minutes\nhinta = price\n75,00 € = 75 euros\n\n--- Explanation ---\nUse the fare table in the image: for Sunday, 25 km and 30 minutes, the correct fare is 75.00 €.\n\nCorrect answer: C",
+      "explanation": "Answer: C\n\n--- English Translation ---\nQuestion: A customer is taken on Sunday for 25 km and the trip takes 30 minutes. What price do you charge?\nA: 65.00 €\nB: 85.00 €\nC: 75.00 €\n\n--- Keywords ---\nsunnuntai = Sunday\n25 km = 25 kilometres\n30 min = 30 minutes\nhinta = price\nhinnasto = fare table\nmuina aikoina = other times\n\n--- Explanation ---\nAccording to the price list in the image, a Sunday ride falls under \"other times\" (muina aikoina), where the rates are:\n\n* Starting fee: €9.00\n* Distance charge: €1.20 per km\n* Time charge: €1.10 per minute\n\nFor a trip of 25 km lasting 30 minutes:\n\n* Starting fee: €9.00\n* Distance charge: 25 × €1.20 = €30.00\n* Time charge: 30 × €1.10 = €33.00\n\nTotal price = €9.00 + €30.00 + €33.00 = €72.00\n\nTherefore, the total fare is €75.00 (Nearest to €72.00), assuming there are no additional charges and no fixed price has been agreed upon.\n\nCorrect answer: C",
       "image": "Image/image13.png"
     },
     {
